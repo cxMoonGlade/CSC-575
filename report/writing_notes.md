@@ -1,3 +1,15 @@
+# Introduction argument revision — 2026-11-16
+
+Applied nature-writing (manuscript / research / introduction / zh-to-en / generic ISMIR course report), followed by academic-language-audit. The general-to-specific structure now moves from the working recognizer to the observed quality-error contrast, then explains the controlled study. The research question is unchanged.
+
+The previous Introduction defined thirds and vocabulary reduction, then jumped from errors concentrated in one seventh-chord recording to varying third strength. The revision gives those variables separate experimental roles: adding the seventh changes the input while preserving the major/minor target; third amplitude controls the intended quality cue. The ideal score prediction supplies a baseline for checking audio features and sequence decisions. The observed decoder difference motivates calibration; it does not establish that a seventh or a weak third caused the recording's errors.
+
+The Introduction and README project description were revised together. All other report prose, measured results, methods, plans, figures, tables, original indicators and bibliography were retained. The three existing overview citations still support the pipeline description; their documented reading scope is in overview_sources.md. This pass did not re-read the cited papers or perform new experiments.
+
+The four-page PDF was rebuilt with the existing template and all four rendered pages inspected. No overfull boxes or unresolved references appeared. The staged bibliography matches the previous build exactly (19 entries).
+
+---
+
 # Publication pass — 2026-11-16
 
 The four-page report, tables, figures and bibliography are unchanged from the reviewed revision below. For publication, the README now explains data preparation and how to open the players. Dataset and overview reading notes clarify their historical scope. The [publication reviews](../docs/research/publication_2026-11-16/report_review.md) record both writing skills and the clean build; current hashes are in `evidence_checks.json`.

@@ -7,9 +7,11 @@ Christopher Xu | Solo project | November 16, 2026
 
 ## Project description
 
-The program takes guitar audio and produces a playable timeline with twelve major and twelve minor chords, plus a no-chord label (`N`). Our research question is: **How does an added seventh affect major/minor recognition as third strength varies?** The third distinguishes a major triad from its minor counterpart: C major contains E, whereas C minor contains E♭. Here, *third strength* means its amplitude relative to fixed root and fifth components. Adding B♭ produces C7 or Cm7, while preserving the target quality under major/minor evaluation.
+The program takes guitar audio and produces a playable timeline with twelve major and twelve minor chords, plus a no-chord label (`N`). Comparisons of spectral features and note representations improved root accuracy, but exposed a difference in major/minor errors. Long STFT and projection have nearly equal raw error durations for chords with the correct root but wrong quality; the gap widens after shared decoding and is concentrated in one seventh-chord recording. A shared switch penalty need not have the same effect on different feature scores.
 
-Initial experiments compare long-window chroma, note-profile NNLS and direct projection on guitar recordings. Long STFT and projection have nearly equal raw same-root quality-error durations, but the shared decoder reduces them by different amounts. The remaining difference is concentrated in a seventh-chord recording. These observations motivate a paired study of seventh-tone presence and third strength, with separate checks of template scores and decoding.
+Seventh chords provide a controllable case. Adding B♭ to C major or C minor produces C7 or Cm7 while preserving the major/minor target. The third, E or E♭, distinguishes the two qualities. With our triad templates, adding only a seventh component to ideal pitch-class inputs reduces the magnitude of a nonzero same-root score gap through L2 normalization, without reversing its sign. Varying third amplitude tests the added tone across stronger and weaker evidence for quality.
+
+Our research question is: **How does an added seventh affect major/minor recognition as third strength varies?** Here, *third strength* means amplitude relative to fixed root and fifth components. Comparisons of ideal inputs, paired audio and calibrated decoding will trace how the added tone affects scores and final labels.
 
 ## Data and tools
 

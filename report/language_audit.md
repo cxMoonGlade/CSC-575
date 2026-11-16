@@ -1,3 +1,31 @@
+# Academic language audit — Introduction argument, 2026-11-16
+
+## 一、整体观察
+
+实际阅读当前报告全文、README 项目描述及方法/计划，并对照上一版 Introduction。修改范围为 Introduction 和 README 的 Project description；其余章节用于上下文核对。先按 nature-writing 重组推理，再检查措辞。原稿的问题是变量选择的理由缺失：raw/decoded 差异支持检查表示与解码，却未直接说明为何改变三音幅度。新版保留研究问题，补充保持目标标签的七音干预、三音作为大小调线索，以及理想模板分差预期。
+
+背景沿用三篇 overview 及 overview_sources.md 的既有核对范围，本轮未重新阅读全文或核验所有外部引文。新增桥梁依据报告式 (2) 和既定实验参数，不引入新的文献机制结论。
+
+## 二、逐条定位
+
+位置按上一版 Introduction 自编号段落；暂存稿注明为本轮候选文本。
+
+| 具体位置及原文 | 问题类型 | 具体依据及对理解或论证的影响 | 修改优先级：高／中／低 | 是否可能属于正常学术表达及原因 | 建议：保留／核实／精简／改写 | 建议修改版本 |
+|---|---|---|---|---|---|---|
+| P2：“Vocabulary reduction and annotation ambiguity therefore affect error interpretation.” | 缺少实验选择依据 | 概括没有说明标签归约如何帮助控制实验；annotation ambiguity 也不是当前操控因素 | 中 | 是，概括正常，但没有推进当前问题 | 改写 | “Seventh chords provide a controllable case: adding B♭ to C major or C minor produces C7 or Cm7 while preserving the target label under major/minor evaluation.” |
+| P3：“The added decoded errors were concentrated in a seventh-chord recording, motivating a closer look at feature evidence and temporal decisions.” | 观察到问题之间的跳跃 | 该观察支持检查分数与解码，不能独立推出七音或弱三音是原因 | 高 | 是，谨慎措辞合理，但不足以补齐理由 | 改写 | 先给出 raw/decoded 对比和共享惩罚的解释，再用下一段介绍控制变量及式 (2) 的预期。 |
+| P4：“Here, third strength means amplitude relative to fixed root and fifth components; pitch remains unchanged.” | 定义没有解释变量作用 | 定义准确，但读者仍不知道为何改变此幅度 | 中 | 是，定义应保留 | 改写 | 保留相对幅度定义；提前说明：“Varying the third's amplitude lets us test the added tone across stronger and weaker evidence for quality.” |
+| 暂存 P3：“shrinks a nonzero same-root score gap” | 数学范围与有符号量的表述 | 公式适用于当前评分规则；应明确减小的是分差绝对值 | 低 | 是，通常可理解，但可更精确 | 改写 | “With our triad templates, adding only a seventh component to ideal pitch-class inputs reduces the magnitude of a nonzero same-root score gap through L2 normalization, without reversing its sign…” |
+| 新版 P4：“Comparisons of ideal inputs, paired audio and calibrated decoding will trace…” | 已完成与计划工作的边界 | 使用未来时；未把真实录音中的三音幅度当作已测量事实 | 低 | 是，适合进度报告 | 保留 | 保留原文。 |
+
+## 三、综合建议
+
+推理顺序为系统任务、实际观察、控制变量的理由、研究问题及比较路线。四个原始/解码时长和单曲范围保留；公式只用一句说明，不在引言重复推导或 Cm7 并列例子。独立审阅认可该推理，并建议明确数学范围与分差绝对值，已采纳。README 同步该结构。
+
+报告仍为四页，所有页已经渲染检查；其余正文和结果未改。本轮没有新增实验或外部文献核验。上述写作特征不能证明文本由 AI 生成。
+
+---
+
 # Publication pass — 2026-11-16
 
 报告正文沿用本文件下方的完整审查版本。上传前新增的仓库入口、历史范围及复现说明已分别经过 nature-writing 与 academic-language-audit，记录在 [publication_2026-11-16](../docs/research/publication_2026-11-16/report_review.md)。没有改动已测结果、源码快照或当前研究问题。
