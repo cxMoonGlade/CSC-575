@@ -1,0 +1,16 @@
+{
+  "guitarset": {
+    "per_recording_region_rows": 354,
+    "recording_method_pairs": 118,
+    "max_original_difference": 7.105427357601002e-15,
+    "confusion_rows": 4050,
+    "partition_and_confusion_totals_match": true
+  },
+  "idmt": {
+    "per_recording_region_rows": 384,
+    "recording_method_pairs": 128,
+    "max_original_difference": 7.105427357601002e-15,
+    "confusion_rows": 4050,
+    "partition_and_confusion_totals_match": true
+  }
+}

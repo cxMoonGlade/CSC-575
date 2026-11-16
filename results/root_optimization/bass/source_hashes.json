@@ -1,0 +1,9 @@
+{
+  "/tmp/chordrec_root_v1/bass/experiments/root_optimization/bass/run.py": "0789d1e2e5a40ff128103361398d05e486548d12721538106d38ae4675b1b121",
+  "/tmp/chordrec_root_v1/bass/chordrec/bass.py": "4e788341f71b8ee58c5ff339f419b98e52e9f9f088b1433cfed66db9841c18d9",
+  "/tmp/chordrec_root_v1/bass/chordrec/audio.py": "9036fce85a17ab723b7e10b9b148a9d93c04315da341bc92f211013e07f9bf35",
+  "/tmp/chordrec_root_v1/bass/chordrec/model.py": "b8cbface3a4e2156b5f82e0874df7f11a6dcb47e015b3713917e854f2f54d844",
+  "/home/cx/Documents/csc475/Proj/experiments/optimization_v2/common.py": "463c8d76d79e3e68977a8e3228027cec072bb65536b359be7a14c60cf1b44ff2",
+  "/home/cx/Documents/csc475/Proj/configs/frozen.json": "03514565df9c531724b0479233a39d9ec1048321923276e0c2b5ea4bd47bb0fb",
+  "/home/cx/Documents/csc475/Proj/configs/guitarset_split.json": "93a8a51bdd5479ea6dd7e822d30db497bffb83924bc977acbde1721cd5829744"
+}

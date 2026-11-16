@@ -1,0 +1,529 @@
+recording,group,instrument,fingering,quality,method,decoder,audio_seconds,scoreable_seconds,correct_seconds,duration_accuracy,root_correct_seconds,other_root_seconds,same_root_wrong_quality_seconds,chord_to_n_seconds,runtime_seconds
+077,4-A2-Minor 00,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.021703042089939117
+077,4-A2-Minor 00,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,raw,2.5,2.302,2.279410430839002,0.9901869812506525,2.302,0.0,0.022589569160997747,0.0,
+055,2-E1-Minor 00,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.015067191794514656
+055,2-E1-Minor 00,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+010,1-E1-Major 10,Fender Strat Clean Neck SC Chords,E,maj,projection,viterbi,2.5,2.305,2.305,1.0,2.305,0.0,0.0,0.0,0.021188417449593544
+010,1-E1-Major 10,Fender Strat Clean Neck SC Chords,E,maj,projection,raw,2.5,2.305,2.305,1.0,2.305,0.0,0.0,0.0,
+067,3-A2-Major 01,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.014927523210644722
+067,3-A2-Major 01,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+013,2-E1-Minor 02,Fender Strat Clean Neck SC Chords,E,min,long,viterbi,2.5,2.28,2.28,1.0,2.28,0.0,0.0,0.0,0.014645014889538288
+013,2-E1-Minor 02,Fender Strat Clean Neck SC Chords,E,min,long,raw,2.5,2.28,2.28,1.0,2.28,0.0,0.0,0.0,
+003,1-E1-Major 03,Fender Strat Clean Neck SC Chords,E,maj,harmonic,viterbi,2.5,2.301,2.301,1.0,2.301,0.0,0.0,0.0,0.06678566616028547
+003,1-E1-Major 03,Fender Strat Clean Neck SC Chords,E,maj,harmonic,raw,2.5,2.301,2.301,1.0,2.301,0.0,0.0,0.0,
+063,2-E1-Minor 08,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,viterbi,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,0.02117422502487898
+063,2-E1-Minor 08,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,raw,2.5,2.303,2.3026303854875283,0.9998395073762607,2.303,0.0,0.0003696145124716388,0.0,
+028,3-A2-Major 06,Fender Strat Clean Neck SC Chords,A,maj,long,viterbi,2.5,2.308,2.308,1.0,2.308,0.0,0.0,0.0,0.014778682962059975
+028,3-A2-Major 06,Fender Strat Clean Neck SC Chords,A,maj,long,raw,2.5,2.308,2.308,1.0,2.308,0.0,0.0,0.0,
+063,2-E1-Minor 08,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,viterbi,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,0.014663352631032467
+063,2-E1-Minor 08,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,raw,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,
+069,3-A2-Major 03,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06960600800812244
+069,3-A2-Major 03,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+002,1-E1-Major 02,Fender Strat Clean Neck SC Chords,E,maj,harmonic,viterbi,2.5,2.289,2.289,1.0,2.289,0.0,0.0,0.0,0.06748166028410196
+002,1-E1-Major 02,Fender Strat Clean Neck SC Chords,E,maj,harmonic,raw,2.5,2.289,2.289,1.0,2.289,0.0,0.0,0.0,
+012,2-E1-Minor 01,Fender Strat Clean Neck SC Chords,E,min,long,viterbi,2.5,2.283,2.283,1.0,2.283,0.0,0.0,0.0,0.01458101999014616
+012,2-E1-Minor 01,Fender Strat Clean Neck SC Chords,E,min,long,raw,2.5,2.283,2.283,1.0,2.283,0.0,0.0,0.0,
+045,1-E1-Major 01,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,viterbi,2.5,2.286,2.286,1.0,2.286,0.0,0.0,0.0,0.06918548047542572
+045,1-E1-Major 01,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,raw,2.5,2.286,2.286,1.0,2.286,0.0,0.0,0.0,
+025,3-A2-Major 03,Fender Strat Clean Neck SC Chords,A,maj,long,viterbi,2.5,2.311,2.311,1.0,2.311,0.0,0.0,0.0,0.015518024563789368
+025,3-A2-Major 03,Fender Strat Clean Neck SC Chords,A,maj,long,raw,2.5,2.311,2.311,1.0,2.311,0.0,0.0,0.0,
+049,1-E1-Major 05,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.021323267370462418
+049,1-E1-Major 05,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+067,3-A2-Major 01,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.0694899270310998
+067,3-A2-Major 01,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+085,4-A2-Minor 08,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.021279869601130486
+085,4-A2-Minor 08,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,raw,2.5,2.3,2.279410430839002,0.9910480134082619,2.3,0.0,0.020589569160997745,0.0,
+049,1-E1-Major 05,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.01490711234509945
+049,1-E1-Major 05,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+043,4-A2-Minor 10,Fender Strat Clean Neck SC Chords,A,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014655948616564274
+043,4-A2-Minor 10,Fender Strat Clean Neck SC Chords,A,min,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+014,2-E1-Minor 03,Fender Strat Clean Neck SC Chords,E,min,harmonic,viterbi,2.5,2.314,2.314,1.0,2.314,0.0,0.0,0.0,0.06746537890285254
+014,2-E1-Minor 03,Fender Strat Clean Neck SC Chords,E,min,harmonic,raw,2.5,2.314,2.314,1.0,2.314,0.0,0.0,0.0,
+070,3-A2-Major 04,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.014703898690640926
+070,3-A2-Major 04,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+069,3-A2-Major 03,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014770207926630974
+069,3-A2-Major 03,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+014,2-E1-Minor 03,Fender Strat Clean Neck SC Chords,E,min,long,viterbi,2.5,2.314,2.314,1.0,2.314,0.0,0.0,0.0,0.014772281050682068
+014,2-E1-Minor 03,Fender Strat Clean Neck SC Chords,E,min,long,raw,2.5,2.314,2.314,1.0,2.314,0.0,0.0,0.0,
+075,3-A2-Major 09,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.021159887313842773
+075,3-A2-Major 09,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+050,1-E1-Major 06,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06799966096878052
+050,1-E1-Major 06,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+056,2-E1-Minor 01,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06823365110903978
+056,2-E1-Minor 01,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+008,1-E1-Major 08,Fender Strat Clean Neck SC Chords,E,maj,harmonic,viterbi,2.5,2.33,2.33,1.0,2.33,0.0,0.0,0.0,0.06706937588751316
+008,1-E1-Major 08,Fender Strat Clean Neck SC Chords,E,maj,harmonic,raw,2.5,2.33,2.33,1.0,2.33,0.0,0.0,0.0,
+076,3-A2-Major 10,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.02125167939811945
+076,3-A2-Major 10,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+050,1-E1-Major 06,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.021324587054550648
+050,1-E1-Major 06,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+027,3-A2-Major 05,Fender Strat Clean Neck SC Chords,A,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.02115189004689455
+027,3-A2-Major 05,Fender Strat Clean Neck SC Chords,A,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+028,3-A2-Major 06,Fender Strat Clean Neck SC Chords,A,maj,projection,viterbi,2.5,2.308,2.308,1.0,2.308,0.0,0.0,0.0,0.021101578138768673
+028,3-A2-Major 06,Fender Strat Clean Neck SC Chords,A,maj,projection,raw,2.5,2.308,2.308,1.0,2.308,0.0,0.0,0.0,
+022,3-A2-Major 00,Fender Strat Clean Neck SC Chords,A,maj,long,viterbi,2.5,2.321,2.321,1.0,2.321,0.0,0.0,0.0,0.014752550050616264
+022,3-A2-Major 00,Fender Strat Clean Neck SC Chords,A,maj,long,raw,2.5,2.321,2.321,1.0,2.321,0.0,0.0,0.0,
+034,4-A2-Minor 01,Fender Strat Clean Neck SC Chords,A,min,projection,viterbi,2.5,2.31,2.31,1.0,2.31,0.0,0.0,0.0,0.021368532441556454
+034,4-A2-Minor 01,Fender Strat Clean Neck SC Chords,A,min,projection,raw,2.5,2.31,2.31,1.0,2.31,0.0,0.0,0.0,
+080,4-A2-Minor 03,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.02123429160565138
+080,4-A2-Minor 03,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+030,3-A2-Major 08,Fender Strat Clean Neck SC Chords,A,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014720439910888672
+030,3-A2-Major 08,Fender Strat Clean Neck SC Chords,A,maj,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+029,3-A2-Major 07,Fender Strat Clean Neck SC Chords,A,maj,harmonic,viterbi,2.5,2.314,2.314,1.0,2.314,0.0,0.0,0.0,0.06896376423537731
+029,3-A2-Major 07,Fender Strat Clean Neck SC Chords,A,maj,harmonic,raw,2.5,2.314,2.314,1.0,2.314,0.0,0.0,0.0,
+051,1-E1-Major 07,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014690261334180832
+051,1-E1-Major 07,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+064,2-E1-Minor 09,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.0683598592877388
+064,2-E1-Minor 09,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+018,2-E1-Minor 07,Fender Strat Clean Neck SC Chords,E,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.02110253181308508
+018,2-E1-Minor 07,Fender Strat Clean Neck SC Chords,E,min,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+053,1-E1-Major 09,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.02125245612114668
+053,1-E1-Major 09,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+072,3-A2-Major 06,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.021280732937157154
+072,3-A2-Major 06,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+045,1-E1-Major 01,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,viterbi,2.5,2.286,2.286,1.0,2.286,0.0,0.0,0.0,0.01494600810110569
+045,1-E1-Major 01,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,raw,2.5,2.286,2.209750566893424,0.9666450423855747,2.209750566893424,0.07624943310657598,0.0,0.0,
+023,3-A2-Major 01,Fender Strat Clean Neck SC Chords,A,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014768952503800392
+023,3-A2-Major 01,Fender Strat Clean Neck SC Chords,A,maj,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+007,1-E1-Major 07,Fender Strat Clean Neck SC Chords,E,maj,projection,viterbi,2.5,2.334,2.334,1.0,2.334,0.0,0.0,0.0,0.021142045967280865
+007,1-E1-Major 07,Fender Strat Clean Neck SC Chords,E,maj,projection,raw,2.5,2.334,2.334,1.0,2.334,0.0,0.0,0.0,
+015,2-E1-Minor 04,Fender Strat Clean Neck SC Chords,E,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.0668936362490058
+015,2-E1-Minor 04,Fender Strat Clean Neck SC Chords,E,min,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+054,1-E1-Major 10,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.02115246932953596
+054,1-E1-Major 10,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+073,3-A2-Major 07,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.014683262445032597
+073,3-A2-Major 07,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+057,2-E1-Minor 02,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06781810242682695
+057,2-E1-Minor 02,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+027,3-A2-Major 05,Fender Strat Clean Neck SC Chords,A,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.0686838198453188
+027,3-A2-Major 05,Fender Strat Clean Neck SC Chords,A,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+006,1-E1-Major 06,Fender Strat Clean Neck SC Chords,E,maj,harmonic,viterbi,2.5,2.301,2.301,1.0,2.301,0.0,0.0,0.0,0.06759168487042189
+006,1-E1-Major 06,Fender Strat Clean Neck SC Chords,E,maj,harmonic,raw,2.5,2.301,2.301,1.0,2.301,0.0,0.0,0.0,
+062,2-E1-Minor 07,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06946470774710178
+062,2-E1-Minor 07,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+026,3-A2-Major 04,Fender Strat Clean Neck SC Chords,A,maj,harmonic,viterbi,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,0.06857043970376253
+026,3-A2-Major 04,Fender Strat Clean Neck SC Chords,A,maj,harmonic,raw,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,
+077,4-A2-Minor 00,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.014792685396969318
+077,4-A2-Minor 00,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,raw,2.5,2.302,2.279410430839002,0.9901869812506525,2.302,0.0,0.022589569160997747,0.0,
+064,2-E1-Minor 09,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.014660950750112534
+064,2-E1-Minor 09,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+009,1-E1-Major 09,Fender Strat Clean Neck SC Chords,E,maj,long,viterbi,2.5,2.314,2.314,1.0,2.314,0.0,0.0,0.0,0.014700100757181644
+009,1-E1-Major 09,Fender Strat Clean Neck SC Chords,E,maj,long,raw,2.5,2.314,2.314,1.0,2.314,0.0,0.0,0.0,
+069,3-A2-Major 03,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.02124857809394598
+069,3-A2-Major 03,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+017,2-E1-Minor 06,Fender Strat Clean Neck SC Chords,E,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.021248633973300457
+017,2-E1-Minor 06,Fender Strat Clean Neck SC Chords,E,min,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+080,4-A2-Minor 03,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014745051972568035
+080,4-A2-Minor 03,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+040,4-A2-Minor 07,Fender Strat Clean Neck SC Chords,A,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014646639116108418
+040,4-A2-Minor 07,Fender Strat Clean Neck SC Chords,A,min,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+060,2-E1-Minor 05,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.0681959604844451
+060,2-E1-Minor 05,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+056,2-E1-Minor 01,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.02114786859601736
+056,2-E1-Minor 01,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+040,4-A2-Minor 07,Fender Strat Clean Neck SC Chords,A,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06889865268021822
+040,4-A2-Minor 07,Fender Strat Clean Neck SC Chords,A,min,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+075,3-A2-Major 09,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014695316553115845
+075,3-A2-Major 09,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,raw,2.5,2.3,2.226485260770975,0.9680370699004239,2.3,0.0,0.07351473922902496,0.0,
+032,3-A2-Major 10,Fender Strat Clean Neck SC Chords,A,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.021160068921744823
+032,3-A2-Major 10,Fender Strat Clean Neck SC Chords,A,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+057,2-E1-Minor 02,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014971929602324963
+057,2-E1-Minor 02,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+085,4-A2-Minor 08,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014609158039093018
+085,4-A2-Minor 08,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,raw,2.5,2.3,2.279410430839002,0.9910480134082619,2.3,0.0,0.020589569160997745,0.0,
+082,4-A2-Minor 05,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,viterbi,2.5,2.307,2.307,1.0,2.307,0.0,0.0,0.0,0.021186870522797108
+082,4-A2-Minor 05,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,raw,2.5,2.307,2.307,1.0,2.307,0.0,0.0,0.0,
+019,2-E1-Minor 08,Fender Strat Clean Neck SC Chords,E,min,harmonic,viterbi,2.5,2.304,2.304,1.0,2.304,0.0,0.0,0.0,0.06842558179050684
+019,2-E1-Minor 08,Fender Strat Clean Neck SC Chords,E,min,harmonic,raw,2.5,2.304,2.304,1.0,2.304,0.0,0.0,0.0,
+037,4-A2-Minor 04,Fender Strat Clean Neck SC Chords,A,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.021184622310101986
+037,4-A2-Minor 04,Fender Strat Clean Neck SC Chords,A,min,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+044,1-E1-Major 00,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,viterbi,2.5,2.295,2.295,1.0,2.295,0.0,0.0,0.0,0.014752399176359177
+044,1-E1-Major 00,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,raw,2.5,2.295,2.295,1.0,2.295,0.0,0.0,0.0,
+005,1-E1-Major 05,Fender Strat Clean Neck SC Chords,E,maj,harmonic,viterbi,2.5,2.326,2.326,1.0,2.326,0.0,0.0,0.0,0.06852307170629501
+005,1-E1-Major 05,Fender Strat Clean Neck SC Chords,E,maj,harmonic,raw,2.5,2.326,2.326,1.0,2.326,0.0,0.0,0.0,
+001,1-E1-Major 01,Fender Strat Clean Neck SC Chords,E,maj,projection,viterbi,2.5,2.292,2.292,1.0,2.292,0.0,0.0,0.0,0.021196026355028152
+001,1-E1-Major 01,Fender Strat Clean Neck SC Chords,E,maj,projection,raw,2.5,2.292,2.292,1.0,2.292,0.0,0.0,0.0,
+062,2-E1-Minor 07,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.01484188623726368
+062,2-E1-Minor 07,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+081,4-A2-Minor 04,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.02133292704820633
+081,4-A2-Minor 04,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+044,1-E1-Major 00,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,viterbi,2.5,2.295,2.295,1.0,2.295,0.0,0.0,0.0,0.06796677596867085
+044,1-E1-Major 00,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,raw,2.5,2.295,2.295,1.0,2.295,0.0,0.0,0.0,
+056,2-E1-Minor 01,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014634053222835064
+056,2-E1-Minor 01,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+041,4-A2-Minor 08,Fender Strat Clean Neck SC Chords,A,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06779481749981642
+041,4-A2-Minor 08,Fender Strat Clean Neck SC Chords,A,min,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+060,2-E1-Minor 05,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.014650905504822731
+060,2-E1-Minor 05,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+029,3-A2-Major 07,Fender Strat Clean Neck SC Chords,A,maj,projection,viterbi,2.5,2.314,2.314,1.0,2.314,0.0,0.0,0.0,0.021213524043560028
+029,3-A2-Major 07,Fender Strat Clean Neck SC Chords,A,maj,projection,raw,2.5,2.314,2.314,1.0,2.314,0.0,0.0,0.0,
+019,2-E1-Minor 08,Fender Strat Clean Neck SC Chords,E,min,projection,viterbi,2.5,2.304,2.304,1.0,2.304,0.0,0.0,0.0,0.021322578191757202
+019,2-E1-Minor 08,Fender Strat Clean Neck SC Chords,E,min,projection,raw,2.5,2.304,2.304,1.0,2.304,0.0,0.0,0.0,
+048,1-E1-Major 04,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.021350763738155365
+048,1-E1-Major 04,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+037,4-A2-Minor 04,Fender Strat Clean Neck SC Chords,A,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014686928130686283
+037,4-A2-Minor 04,Fender Strat Clean Neck SC Chords,A,min,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+026,3-A2-Major 04,Fender Strat Clean Neck SC Chords,A,maj,long,viterbi,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,0.014747797511518002
+026,3-A2-Major 04,Fender Strat Clean Neck SC Chords,A,maj,long,raw,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,
+001,1-E1-Major 01,Fender Strat Clean Neck SC Chords,E,maj,long,viterbi,2.5,2.292,2.292,1.0,2.292,0.0,0.0,0.0,0.01487673632800579
+001,1-E1-Major 01,Fender Strat Clean Neck SC Chords,E,maj,long,raw,2.5,2.292,2.292,1.0,2.292,0.0,0.0,0.0,
+019,2-E1-Minor 08,Fender Strat Clean Neck SC Chords,E,min,long,viterbi,2.5,2.304,2.304,1.0,2.304,0.0,0.0,0.0,0.014675917103886604
+019,2-E1-Minor 08,Fender Strat Clean Neck SC Chords,E,min,long,raw,2.5,2.304,2.304,1.0,2.304,0.0,0.0,0.0,
+046,1-E1-Major 02,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06612864695489407
+046,1-E1-Major 02,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+043,4-A2-Minor 10,Fender Strat Clean Neck SC Chords,A,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06945982109755278
+043,4-A2-Minor 10,Fender Strat Clean Neck SC Chords,A,min,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+047,1-E1-Major 03,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.02122770994901657
+047,1-E1-Major 03,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+032,3-A2-Major 10,Fender Strat Clean Neck SC Chords,A,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06965875159949064
+032,3-A2-Major 10,Fender Strat Clean Neck SC Chords,A,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+084,4-A2-Minor 07,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06892078183591366
+084,4-A2-Minor 07,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,raw,2.5,2.3,2.279410430839002,0.9910480134082619,2.3,0.0,0.020589569160997745,0.0,
+032,3-A2-Major 10,Fender Strat Clean Neck SC Chords,A,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.015022248961031437
+032,3-A2-Major 10,Fender Strat Clean Neck SC Chords,A,maj,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+047,1-E1-Major 03,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.06839330773800611
+047,1-E1-Major 03,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+026,3-A2-Major 04,Fender Strat Clean Neck SC Chords,A,maj,projection,viterbi,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,0.02104560937732458
+026,3-A2-Major 04,Fender Strat Clean Neck SC Chords,A,maj,projection,raw,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,
+010,1-E1-Major 10,Fender Strat Clean Neck SC Chords,E,maj,harmonic,viterbi,2.5,2.305,2.305,1.0,2.305,0.0,0.0,0.0,0.0666313199326396
+010,1-E1-Major 10,Fender Strat Clean Neck SC Chords,E,maj,harmonic,raw,2.5,2.305,2.305,1.0,2.305,0.0,0.0,0.0,
+086,4-A2-Minor 09,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014842377044260502
+086,4-A2-Minor 09,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+064,2-E1-Minor 09,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.021300528198480606
+064,2-E1-Minor 09,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+070,3-A2-Major 04,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.06914366781711578
+070,3-A2-Major 04,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+024,3-A2-Major 02,Fender Strat Clean Neck SC Chords,A,maj,projection,viterbi,2.5,2.312,2.312,1.0,2.312,0.0,0.0,0.0,0.02113169338554144
+024,3-A2-Major 02,Fender Strat Clean Neck SC Chords,A,maj,projection,raw,2.5,2.312,2.312,1.0,2.312,0.0,0.0,0.0,
+010,1-E1-Major 10,Fender Strat Clean Neck SC Chords,E,maj,long,viterbi,2.5,2.305,2.305,1.0,2.305,0.0,0.0,0.0,0.014866035431623459
+010,1-E1-Major 10,Fender Strat Clean Neck SC Chords,E,maj,long,raw,2.5,2.305,2.305,1.0,2.305,0.0,0.0,0.0,
+058,2-E1-Minor 03,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,viterbi,2.5,2.296,2.296,1.0,2.296,0.0,0.0,0.0,0.014643055386841297
+058,2-E1-Minor 03,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,raw,2.5,2.296,2.296,1.0,2.296,0.0,0.0,0.0,
+029,3-A2-Major 07,Fender Strat Clean Neck SC Chords,A,maj,long,viterbi,2.5,2.314,2.314,1.0,2.314,0.0,0.0,0.0,0.014733533374965191
+029,3-A2-Major 07,Fender Strat Clean Neck SC Chords,A,maj,long,raw,2.5,2.314,2.314,1.0,2.314,0.0,0.0,0.0,
+065,2-E1-Minor 10,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.014730896800756454
+065,2-E1-Minor 10,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+058,2-E1-Minor 03,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,viterbi,2.5,2.296,2.296,1.0,2.296,0.0,0.0,0.0,0.02131389919668436
+058,2-E1-Minor 03,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,raw,2.5,2.296,2.296,1.0,2.296,0.0,0.0,0.0,
+076,3-A2-Major 10,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014831818640232086
+076,3-A2-Major 10,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+067,3-A2-Major 01,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.021232549101114273
+067,3-A2-Major 01,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+023,3-A2-Major 01,Fender Strat Clean Neck SC Chords,A,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.021408378146588802
+023,3-A2-Major 01,Fender Strat Clean Neck SC Chords,A,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+077,4-A2-Minor 00,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.06964834127575159
+077,4-A2-Minor 00,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+038,4-A2-Minor 05,Fender Strat Clean Neck SC Chords,A,min,long,viterbi,2.5,2.308,2.308,1.0,2.308,0.0,0.0,0.0,0.014657665975391865
+038,4-A2-Minor 05,Fender Strat Clean Neck SC Chords,A,min,long,raw,2.5,2.308,2.308,1.0,2.308,0.0,0.0,0.0,
+044,1-E1-Major 00,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,viterbi,2.5,2.295,2.295,1.0,2.295,0.0,0.0,0.0,0.021272034384310246
+044,1-E1-Major 00,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,raw,2.5,2.295,2.295,1.0,2.295,0.0,0.0,0.0,
+033,4-A2-Minor 00,Fender Strat Clean Neck SC Chords,A,min,projection,viterbi,2.5,2.332,2.332,1.0,2.332,0.0,0.0,0.0,0.021252200938761234
+033,4-A2-Minor 00,Fender Strat Clean Neck SC Chords,A,min,projection,raw,2.5,2.332,2.332,1.0,2.332,0.0,0.0,0.0,
+068,3-A2-Major 02,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.02138833049684763
+068,3-A2-Major 02,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+062,2-E1-Minor 07,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.021353048272430897
+062,2-E1-Minor 07,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+022,3-A2-Major 00,Fender Strat Clean Neck SC Chords,A,maj,harmonic,viterbi,2.5,2.321,2.321,1.0,2.321,0.0,0.0,0.0,0.06918520666658878
+022,3-A2-Major 00,Fender Strat Clean Neck SC Chords,A,maj,harmonic,raw,2.5,2.321,2.321,1.0,2.321,0.0,0.0,0.0,
+060,2-E1-Minor 05,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.021245375275611877
+060,2-E1-Minor 05,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+070,3-A2-Major 04,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.021202550269663334
+070,3-A2-Major 04,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+014,2-E1-Minor 03,Fender Strat Clean Neck SC Chords,E,min,projection,viterbi,2.5,2.314,2.314,1.0,2.314,0.0,0.0,0.0,0.02135224174708128
+014,2-E1-Minor 03,Fender Strat Clean Neck SC Chords,E,min,projection,raw,2.5,2.314,2.314,1.0,2.314,0.0,0.0,0.0,
+086,4-A2-Minor 09,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06909054331481457
+086,4-A2-Minor 09,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+048,1-E1-Major 04,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014768384397029877
+048,1-E1-Major 04,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+083,4-A2-Minor 06,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.02116418071091175
+083,4-A2-Minor 06,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+051,1-E1-Major 07,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.021211049519479275
+051,1-E1-Major 07,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+066,3-A2-Major 00,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,viterbi,2.5,2.301,2.301,1.0,2.301,0.0,0.0,0.0,0.06838701758533716
+066,3-A2-Major 00,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,raw,2.5,2.301,2.301,1.0,2.301,0.0,0.0,0.0,
+000,1-E1-Major 00,Fender Strat Clean Neck SC Chords,E,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.021231618709862232
+000,1-E1-Major 00,Fender Strat Clean Neck SC Chords,E,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+054,1-E1-Major 10,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06858053617179394
+054,1-E1-Major 10,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+061,2-E1-Minor 06,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,viterbi,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,0.021114586852490902
+061,2-E1-Minor 06,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,raw,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,
+066,3-A2-Major 00,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,viterbi,2.5,2.301,2.301,1.0,2.301,0.0,0.0,0.0,0.02134125493466854
+066,3-A2-Major 00,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,raw,2.5,2.301,2.301,1.0,2.301,0.0,0.0,0.0,
+065,2-E1-Minor 10,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.02116828504949808
+065,2-E1-Minor 10,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+017,2-E1-Minor 06,Fender Strat Clean Neck SC Chords,E,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014839726500213146
+017,2-E1-Minor 06,Fender Strat Clean Neck SC Chords,E,min,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+004,1-E1-Major 04,Fender Strat Clean Neck SC Chords,E,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06730671506375074
+004,1-E1-Major 04,Fender Strat Clean Neck SC Chords,E,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+042,4-A2-Minor 09,Fender Strat Clean Neck SC Chords,A,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06966983526945114
+042,4-A2-Minor 09,Fender Strat Clean Neck SC Chords,A,min,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+046,1-E1-Major 02,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014726796187460423
+046,1-E1-Major 02,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+076,3-A2-Major 10,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06926246918737888
+076,3-A2-Major 10,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+078,4-A2-Minor 01,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.014752103947103024
+078,4-A2-Minor 01,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+071,3-A2-Major 05,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014794609509408474
+071,3-A2-Major 05,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+020,2-E1-Minor 09,Fender Strat Clean Neck SC Chords,E,min,harmonic,viterbi,2.5,2.317,2.317,1.0,2.317,0.0,0.0,0.0,0.06554937455803156
+020,2-E1-Minor 09,Fender Strat Clean Neck SC Chords,E,min,harmonic,raw,2.5,2.317,2.317,1.0,2.317,0.0,0.0,0.0,
+007,1-E1-Major 07,Fender Strat Clean Neck SC Chords,E,maj,long,viterbi,2.5,2.334,2.334,1.0,2.334,0.0,0.0,0.0,0.014525581151247025
+007,1-E1-Major 07,Fender Strat Clean Neck SC Chords,E,maj,long,raw,2.5,2.334,2.334,1.0,2.334,0.0,0.0,0.0,
+035,4-A2-Minor 02,Fender Strat Clean Neck SC Chords,A,min,long,viterbi,2.5,2.31,2.31,1.0,2.31,0.0,0.0,0.0,0.014754921197891235
+035,4-A2-Minor 02,Fender Strat Clean Neck SC Chords,A,min,long,raw,2.5,2.31,2.31,1.0,2.31,0.0,0.0,0.0,
+039,4-A2-Minor 06,Fender Strat Clean Neck SC Chords,A,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014758399687707424
+039,4-A2-Minor 06,Fender Strat Clean Neck SC Chords,A,min,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+082,4-A2-Minor 05,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,viterbi,2.5,2.307,2.307,1.0,2.307,0.0,0.0,0.0,0.01470320113003254
+082,4-A2-Minor 05,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,raw,2.5,2.307,2.307,1.0,2.307,0.0,0.0,0.0,
+050,1-E1-Major 06,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.01473307702690363
+050,1-E1-Major 06,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+079,4-A2-Minor 02,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,viterbi,2.5,2.308,2.308,1.0,2.308,0.0,0.0,0.0,0.014688728377223015
+079,4-A2-Minor 02,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,raw,2.5,2.308,2.256190476190476,0.9775521993892878,2.308,0.0,0.051809523809523805,0.0,
+024,3-A2-Major 02,Fender Strat Clean Neck SC Chords,A,maj,long,viterbi,2.5,2.312,2.312,1.0,2.312,0.0,0.0,0.0,0.014684476889669895
+024,3-A2-Major 02,Fender Strat Clean Neck SC Chords,A,maj,long,raw,2.5,2.312,2.312,1.0,2.312,0.0,0.0,0.0,
+024,3-A2-Major 02,Fender Strat Clean Neck SC Chords,A,maj,harmonic,viterbi,2.5,2.312,2.312,1.0,2.312,0.0,0.0,0.0,0.06768751982599497
+024,3-A2-Major 02,Fender Strat Clean Neck SC Chords,A,maj,harmonic,raw,2.5,2.312,2.312,1.0,2.312,0.0,0.0,0.0,
+085,4-A2-Minor 08,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06912441924214363
+085,4-A2-Minor 08,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,raw,2.5,2.3,2.279410430839002,0.9910480134082619,2.3,0.0,0.020589569160997745,0.0,
+045,1-E1-Major 01,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,viterbi,2.5,2.286,2.286,1.0,2.286,0.0,0.0,0.0,0.021297751925885677
+045,1-E1-Major 01,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,raw,2.5,2.286,2.286,1.0,2.286,0.0,0.0,0.0,
+002,1-E1-Major 02,Fender Strat Clean Neck SC Chords,E,maj,projection,viterbi,2.5,2.289,2.289,1.0,2.289,0.0,0.0,0.0,0.02127927727997303
+002,1-E1-Major 02,Fender Strat Clean Neck SC Chords,E,maj,projection,raw,2.5,2.289,2.289,1.0,2.289,0.0,0.0,0.0,
+003,1-E1-Major 03,Fender Strat Clean Neck SC Chords,E,maj,long,viterbi,2.5,2.301,2.301,1.0,2.301,0.0,0.0,0.0,0.0148386899381876
+003,1-E1-Major 03,Fender Strat Clean Neck SC Chords,E,maj,long,raw,2.5,2.301,2.301,1.0,2.301,0.0,0.0,0.0,
+068,3-A2-Major 02,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.014677735045552254
+068,3-A2-Major 02,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+078,4-A2-Minor 01,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.02133295778185129
+078,4-A2-Minor 01,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+037,4-A2-Minor 04,Fender Strat Clean Neck SC Chords,A,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06661512143909931
+037,4-A2-Minor 04,Fender Strat Clean Neck SC Chords,A,min,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+053,1-E1-Major 09,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.06721453834325075
+053,1-E1-Major 09,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+083,4-A2-Minor 06,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014740469865500927
+083,4-A2-Minor 06,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+061,2-E1-Minor 06,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,viterbi,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,0.06624051369726658
+061,2-E1-Minor 06,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,raw,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,
+022,3-A2-Major 00,Fender Strat Clean Neck SC Chords,A,maj,projection,viterbi,2.5,2.321,2.321,1.0,2.321,0.0,0.0,0.0,0.02121665980666876
+022,3-A2-Major 00,Fender Strat Clean Neck SC Chords,A,maj,projection,raw,2.5,2.321,2.321,1.0,2.321,0.0,0.0,0.0,
+073,3-A2-Major 07,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.02127416431903839
+073,3-A2-Major 07,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+082,4-A2-Minor 05,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,viterbi,2.5,2.307,2.307,1.0,2.307,0.0,0.0,0.0,0.07027665246278048
+082,4-A2-Minor 05,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,raw,2.5,2.307,2.307,1.0,2.307,0.0,0.0,0.0,
+036,4-A2-Minor 03,Fender Strat Clean Neck SC Chords,A,min,harmonic,viterbi,2.5,2.31,2.31,1.0,2.31,0.0,0.0,0.0,0.06944959051907063
+036,4-A2-Minor 03,Fender Strat Clean Neck SC Chords,A,min,harmonic,raw,2.5,2.31,2.3026303854875283,0.9968096906872417,2.31,0.0,0.007369614512471645,0.0,
+051,1-E1-Major 07,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06896338611841202
+051,1-E1-Major 07,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+030,3-A2-Major 08,Fender Strat Clean Neck SC Chords,A,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.0210253382101655
+030,3-A2-Major 08,Fender Strat Clean Neck SC Chords,A,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+035,4-A2-Minor 02,Fender Strat Clean Neck SC Chords,A,min,harmonic,viterbi,2.5,2.31,2.31,1.0,2.31,0.0,0.0,0.0,0.06980249471962452
+035,4-A2-Minor 02,Fender Strat Clean Neck SC Chords,A,min,harmonic,raw,2.5,2.31,2.31,1.0,2.31,0.0,0.0,0.0,
+041,4-A2-Minor 08,Fender Strat Clean Neck SC Chords,A,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.01459571160376072
+041,4-A2-Minor 08,Fender Strat Clean Neck SC Chords,A,min,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+087,4-A2-Minor 10,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.014774688519537449
+087,4-A2-Minor 10,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+000,1-E1-Major 00,Fender Strat Clean Neck SC Chords,E,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06768294516950846
+000,1-E1-Major 00,Fender Strat Clean Neck SC Chords,E,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+016,2-E1-Minor 05,Fender Strat Clean Neck SC Chords,E,min,harmonic,viterbi,2.5,2.33,2.33,1.0,2.33,0.0,0.0,0.0,0.06924294028431177
+016,2-E1-Minor 05,Fender Strat Clean Neck SC Chords,E,min,harmonic,raw,2.5,2.33,2.33,1.0,2.33,0.0,0.0,0.0,
+009,1-E1-Major 09,Fender Strat Clean Neck SC Chords,E,maj,harmonic,viterbi,2.5,2.314,2.314,1.0,2.314,0.0,0.0,0.0,0.0661008795723319
+009,1-E1-Major 09,Fender Strat Clean Neck SC Chords,E,maj,harmonic,raw,2.5,2.314,2.314,1.0,2.314,0.0,0.0,0.0,
+036,4-A2-Minor 03,Fender Strat Clean Neck SC Chords,A,min,projection,viterbi,2.5,2.31,2.31,1.0,2.31,0.0,0.0,0.0,0.020831244997680187
+036,4-A2-Minor 03,Fender Strat Clean Neck SC Chords,A,min,projection,raw,2.5,2.31,2.3026303854875283,0.9968096906872417,2.31,0.0,0.007369614512471645,0.0,
+005,1-E1-Major 05,Fender Strat Clean Neck SC Chords,E,maj,projection,viterbi,2.5,2.326,2.326,1.0,2.326,0.0,0.0,0.0,0.0209664236754179
+005,1-E1-Major 05,Fender Strat Clean Neck SC Chords,E,maj,projection,raw,2.5,2.326,2.326,1.0,2.326,0.0,0.0,0.0,
+011,2-E1-Minor 00,Fender Strat Clean Neck SC Chords,E,min,long,viterbi,2.5,2.333,2.333,1.0,2.333,0.0,0.0,0.0,0.014430961571633816
+011,2-E1-Minor 00,Fender Strat Clean Neck SC Chords,E,min,long,raw,2.5,2.333,2.333,1.0,2.333,0.0,0.0,0.0,
+034,4-A2-Minor 01,Fender Strat Clean Neck SC Chords,A,min,harmonic,viterbi,2.5,2.31,2.31,1.0,2.31,0.0,0.0,0.0,0.06840317975729704
+034,4-A2-Minor 01,Fender Strat Clean Neck SC Chords,A,min,harmonic,raw,2.5,2.31,2.31,1.0,2.31,0.0,0.0,0.0,
+004,1-E1-Major 04,Fender Strat Clean Neck SC Chords,E,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014347479678690434
+004,1-E1-Major 04,Fender Strat Clean Neck SC Chords,E,maj,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+009,1-E1-Major 09,Fender Strat Clean Neck SC Chords,E,maj,projection,viterbi,2.5,2.314,2.314,1.0,2.314,0.0,0.0,0.0,0.020792514085769653
+009,1-E1-Major 09,Fender Strat Clean Neck SC Chords,E,maj,projection,raw,2.5,2.314,2.314,1.0,2.314,0.0,0.0,0.0,
+006,1-E1-Major 06,Fender Strat Clean Neck SC Chords,E,maj,long,viterbi,2.5,2.301,2.301,1.0,2.301,0.0,0.0,0.0,0.014517971314489841
+006,1-E1-Major 06,Fender Strat Clean Neck SC Chords,E,maj,long,raw,2.5,2.301,2.301,1.0,2.301,0.0,0.0,0.0,
+016,2-E1-Minor 05,Fender Strat Clean Neck SC Chords,E,min,projection,viterbi,2.5,2.33,2.33,1.0,2.33,0.0,0.0,0.0,0.02100881189107895
+016,2-E1-Minor 05,Fender Strat Clean Neck SC Chords,E,min,projection,raw,2.5,2.33,2.33,1.0,2.33,0.0,0.0,0.0,
+003,1-E1-Major 03,Fender Strat Clean Neck SC Chords,E,maj,projection,viterbi,2.5,2.301,2.301,1.0,2.301,0.0,0.0,0.0,0.02102608699351549
+003,1-E1-Major 03,Fender Strat Clean Neck SC Chords,E,maj,projection,raw,2.5,2.301,2.301,1.0,2.301,0.0,0.0,0.0,
+000,1-E1-Major 00,Fender Strat Clean Neck SC Chords,E,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014518532902002335
+000,1-E1-Major 00,Fender Strat Clean Neck SC Chords,E,maj,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+021,2-E1-Minor 10,Fender Strat Clean Neck SC Chords,E,min,long,viterbi,2.5,2.305,2.305,1.0,2.305,0.0,0.0,0.0,0.014311116188764572
+021,2-E1-Minor 10,Fender Strat Clean Neck SC Chords,E,min,long,raw,2.5,2.305,2.305,1.0,2.305,0.0,0.0,0.0,
+008,1-E1-Major 08,Fender Strat Clean Neck SC Chords,E,maj,projection,viterbi,2.5,2.33,2.33,1.0,2.33,0.0,0.0,0.0,0.020951347425580025
+008,1-E1-Major 08,Fender Strat Clean Neck SC Chords,E,maj,projection,raw,2.5,2.33,2.33,1.0,2.33,0.0,0.0,0.0,
+074,3-A2-Major 08,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,viterbi,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,0.0693226782605052
+074,3-A2-Major 08,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,raw,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,
+042,4-A2-Minor 09,Fender Strat Clean Neck SC Chords,A,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.020877821370959282
+042,4-A2-Minor 09,Fender Strat Clean Neck SC Chords,A,min,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+061,2-E1-Minor 06,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,viterbi,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,0.014341665431857109
+061,2-E1-Minor 06,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,raw,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,
+002,1-E1-Major 02,Fender Strat Clean Neck SC Chords,E,maj,long,viterbi,2.5,2.289,2.289,1.0,2.289,0.0,0.0,0.0,0.01448656152933836
+002,1-E1-Major 02,Fender Strat Clean Neck SC Chords,E,maj,long,raw,2.5,2.289,2.289,1.0,2.289,0.0,0.0,0.0,
+041,4-A2-Minor 08,Fender Strat Clean Neck SC Chords,A,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.020908214151859283
+041,4-A2-Minor 08,Fender Strat Clean Neck SC Chords,A,min,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+057,2-E1-Minor 02,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.02093573473393917
+057,2-E1-Minor 02,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+033,4-A2-Minor 00,Fender Strat Clean Neck SC Chords,A,min,harmonic,viterbi,2.5,2.332,2.332,1.0,2.332,0.0,0.0,0.0,0.06908384338021278
+033,4-A2-Minor 00,Fender Strat Clean Neck SC Chords,A,min,harmonic,raw,2.5,2.332,2.332,1.0,2.332,0.0,0.0,0.0,
+038,4-A2-Minor 05,Fender Strat Clean Neck SC Chords,A,min,harmonic,viterbi,2.5,2.308,2.308,1.0,2.308,0.0,0.0,0.0,0.06738586351275444
+038,4-A2-Minor 05,Fender Strat Clean Neck SC Chords,A,min,harmonic,raw,2.5,2.308,2.308,1.0,2.308,0.0,0.0,0.0,
+059,2-E1-Minor 04,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.015730670653283596
+059,2-E1-Minor 04,Ibanez Power Strat Clean Bridge HU Chords,E,min,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+053,1-E1-Major 09,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.015428291633725166
+053,1-E1-Major 09,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+075,3-A2-Major 09,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.07057664636522532
+075,3-A2-Major 09,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+043,4-A2-Minor 10,Fender Strat Clean Neck SC Chords,A,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.021149002946913242
+043,4-A2-Minor 10,Fender Strat Clean Neck SC Chords,A,min,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+055,2-E1-Minor 00,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.02101790253072977
+055,2-E1-Minor 00,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+012,2-E1-Minor 01,Fender Strat Clean Neck SC Chords,E,min,projection,viterbi,2.5,2.283,2.283,1.0,2.283,0.0,0.0,0.0,0.020996397361159325
+012,2-E1-Minor 01,Fender Strat Clean Neck SC Chords,E,min,projection,raw,2.5,2.283,2.283,1.0,2.283,0.0,0.0,0.0,
+052,1-E1-Major 08,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06884085480123758
+052,1-E1-Major 08,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+046,1-E1-Major 02,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.02085081208497286
+046,1-E1-Major 02,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+079,4-A2-Minor 02,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,viterbi,2.5,2.308,2.308,1.0,2.308,0.0,0.0,0.0,0.021023845300078392
+079,4-A2-Minor 02,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,raw,2.5,2.308,2.256190476190476,0.9775521993892878,2.308,0.0,0.051809523809523805,0.0,
+020,2-E1-Minor 09,Fender Strat Clean Neck SC Chords,E,min,projection,viterbi,2.5,2.317,2.317,1.0,2.317,0.0,0.0,0.0,0.020864012651145458
+020,2-E1-Minor 09,Fender Strat Clean Neck SC Chords,E,min,projection,raw,2.5,2.317,2.317,1.0,2.317,0.0,0.0,0.0,
+021,2-E1-Minor 10,Fender Strat Clean Neck SC Chords,E,min,projection,viterbi,2.5,2.305,2.305,1.0,2.305,0.0,0.0,0.0,0.020988323725759983
+021,2-E1-Minor 10,Fender Strat Clean Neck SC Chords,E,min,projection,raw,2.5,2.305,2.305,1.0,2.305,0.0,0.0,0.0,
+033,4-A2-Minor 00,Fender Strat Clean Neck SC Chords,A,min,long,viterbi,2.5,2.332,2.332,1.0,2.332,0.0,0.0,0.0,0.01441249717026949
+033,4-A2-Minor 00,Fender Strat Clean Neck SC Chords,A,min,long,raw,2.5,2.332,2.332,1.0,2.332,0.0,0.0,0.0,
+005,1-E1-Major 05,Fender Strat Clean Neck SC Chords,E,maj,long,viterbi,2.5,2.326,2.326,1.0,2.326,0.0,0.0,0.0,0.014377114363014698
+005,1-E1-Major 05,Fender Strat Clean Neck SC Chords,E,maj,long,raw,2.5,2.326,2.326,1.0,2.326,0.0,0.0,0.0,
+020,2-E1-Minor 09,Fender Strat Clean Neck SC Chords,E,min,long,viterbi,2.5,2.317,2.317,1.0,2.317,0.0,0.0,0.0,0.014324216172099113
+020,2-E1-Minor 09,Fender Strat Clean Neck SC Chords,E,min,long,raw,2.5,2.317,2.317,1.0,2.317,0.0,0.0,0.0,
+058,2-E1-Minor 03,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,viterbi,2.5,2.296,2.296,1.0,2.296,0.0,0.0,0.0,0.06746668089181185
+058,2-E1-Minor 03,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,raw,2.5,2.296,2.296,1.0,2.296,0.0,0.0,0.0,
+052,1-E1-Major 08,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014306781813502312
+052,1-E1-Major 08,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+012,2-E1-Minor 01,Fender Strat Clean Neck SC Chords,E,min,harmonic,viterbi,2.5,2.283,2.283,1.0,2.283,0.0,0.0,0.0,0.06742655485868454
+012,2-E1-Minor 01,Fender Strat Clean Neck SC Chords,E,min,harmonic,raw,2.5,2.283,2.283,1.0,2.283,0.0,0.0,0.0,
+004,1-E1-Major 04,Fender Strat Clean Neck SC Chords,E,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.020857390016317368
+004,1-E1-Major 04,Fender Strat Clean Neck SC Chords,E,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+006,1-E1-Major 06,Fender Strat Clean Neck SC Chords,E,maj,projection,viterbi,2.5,2.301,2.301,1.0,2.301,0.0,0.0,0.0,0.02068175468593836
+006,1-E1-Major 06,Fender Strat Clean Neck SC Chords,E,maj,projection,raw,2.5,2.301,2.301,1.0,2.301,0.0,0.0,0.0,
+084,4-A2-Minor 07,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.020992601290345192
+084,4-A2-Minor 07,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,raw,2.5,2.3,2.279410430839002,0.9910480134082619,2.3,0.0,0.020589569160997745,0.0,
+028,3-A2-Major 06,Fender Strat Clean Neck SC Chords,A,maj,harmonic,viterbi,2.5,2.308,2.308,1.0,2.308,0.0,0.0,0.0,0.06919731665402651
+028,3-A2-Major 06,Fender Strat Clean Neck SC Chords,A,maj,harmonic,raw,2.5,2.308,2.308,1.0,2.308,0.0,0.0,0.0,
+084,4-A2-Minor 07,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014346539974212646
+084,4-A2-Minor 07,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,raw,2.5,2.3,2.279410430839002,0.9910480134082619,2.3,0.0,0.020589569160997745,0.0,
+047,1-E1-Major 03,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.014436121098697186
+047,1-E1-Major 03,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+011,2-E1-Minor 00,Fender Strat Clean Neck SC Chords,E,min,projection,viterbi,2.5,2.333,2.333,1.0,2.333,0.0,0.0,0.0,0.02077694609761238
+011,2-E1-Minor 00,Fender Strat Clean Neck SC Chords,E,min,projection,raw,2.5,2.333,2.333,1.0,2.333,0.0,0.0,0.0,
+039,4-A2-Minor 06,Fender Strat Clean Neck SC Chords,A,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06873086374253035
+039,4-A2-Minor 06,Fender Strat Clean Neck SC Chords,A,min,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+015,2-E1-Minor 04,Fender Strat Clean Neck SC Chords,E,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014240377582609653
+015,2-E1-Minor 04,Fender Strat Clean Neck SC Chords,E,min,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+065,2-E1-Minor 10,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.06893942877650261
+065,2-E1-Minor 10,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+040,4-A2-Minor 07,Fender Strat Clean Neck SC Chords,A,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.02076449990272522
+040,4-A2-Minor 07,Fender Strat Clean Neck SC Chords,A,min,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+054,1-E1-Major 10,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014428620226681232
+054,1-E1-Major 10,Ibanez Power Strat Clean Bridge HU Chords,E,maj,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+030,3-A2-Major 08,Fender Strat Clean Neck SC Chords,A,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06887546554207802
+030,3-A2-Major 08,Fender Strat Clean Neck SC Chords,A,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+081,4-A2-Minor 04,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.014281275682151318
+081,4-A2-Minor 04,Ibanez Power Strat Clean Bridge HU Chords,A,min,long,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+025,3-A2-Major 03,Fender Strat Clean Neck SC Chords,A,maj,harmonic,viterbi,2.5,2.311,2.311,1.0,2.311,0.0,0.0,0.0,0.06823515892028809
+025,3-A2-Major 03,Fender Strat Clean Neck SC Chords,A,maj,harmonic,raw,2.5,2.311,2.311,1.0,2.311,0.0,0.0,0.0,
+011,2-E1-Minor 00,Fender Strat Clean Neck SC Chords,E,min,harmonic,viterbi,2.5,2.333,2.333,1.0,2.333,0.0,0.0,0.0,0.06842361390590668
+011,2-E1-Minor 00,Fender Strat Clean Neck SC Chords,E,min,harmonic,raw,2.5,2.333,2.333,1.0,2.333,0.0,0.0,0.0,
+038,4-A2-Minor 05,Fender Strat Clean Neck SC Chords,A,min,projection,viterbi,2.5,2.308,2.308,1.0,2.308,0.0,0.0,0.0,0.02078151796013117
+038,4-A2-Minor 05,Fender Strat Clean Neck SC Chords,A,min,projection,raw,2.5,2.308,2.308,1.0,2.308,0.0,0.0,0.0,
+072,3-A2-Major 06,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014458843506872654
+072,3-A2-Major 06,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+048,1-E1-Major 04,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06836475431919098
+048,1-E1-Major 04,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+013,2-E1-Minor 02,Fender Strat Clean Neck SC Chords,E,min,harmonic,viterbi,2.5,2.28,2.28,1.0,2.28,0.0,0.0,0.0,0.06740600243210793
+013,2-E1-Minor 02,Fender Strat Clean Neck SC Chords,E,min,harmonic,raw,2.5,2.28,2.28,1.0,2.28,0.0,0.0,0.0,
+021,2-E1-Minor 10,Fender Strat Clean Neck SC Chords,E,min,harmonic,viterbi,2.5,2.305,2.305,1.0,2.305,0.0,0.0,0.0,0.06643356662243605
+021,2-E1-Minor 10,Fender Strat Clean Neck SC Chords,E,min,harmonic,raw,2.5,2.305,2.305,1.0,2.305,0.0,0.0,0.0,
+059,2-E1-Minor 04,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06880360469222069
+059,2-E1-Minor 04,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+015,2-E1-Minor 04,Fender Strat Clean Neck SC Chords,E,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.020679058507084846
+015,2-E1-Minor 04,Fender Strat Clean Neck SC Chords,E,min,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+016,2-E1-Minor 05,Fender Strat Clean Neck SC Chords,E,min,long,viterbi,2.5,2.33,2.33,1.0,2.33,0.0,0.0,0.0,0.01454969309270382
+016,2-E1-Minor 05,Fender Strat Clean Neck SC Chords,E,min,long,raw,2.5,2.33,2.33,1.0,2.33,0.0,0.0,0.0,
+007,1-E1-Major 07,Fender Strat Clean Neck SC Chords,E,maj,harmonic,viterbi,2.5,2.334,2.334,1.0,2.334,0.0,0.0,0.0,0.06850002519786358
+007,1-E1-Major 07,Fender Strat Clean Neck SC Chords,E,maj,harmonic,raw,2.5,2.334,2.334,1.0,2.334,0.0,0.0,0.0,
+066,3-A2-Major 00,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,viterbi,2.5,2.301,2.301,1.0,2.301,0.0,0.0,0.0,0.014376579783856869
+066,3-A2-Major 00,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,raw,2.5,2.301,2.301,1.0,2.301,0.0,0.0,0.0,
+059,2-E1-Minor 04,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.020891273394227028
+059,2-E1-Minor 04,Ibanez Power Strat Clean Bridge HU Chords,E,min,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+073,3-A2-Major 07,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.06834005750715733
+073,3-A2-Major 07,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+035,4-A2-Minor 02,Fender Strat Clean Neck SC Chords,A,min,projection,viterbi,2.5,2.31,2.31,1.0,2.31,0.0,0.0,0.0,0.020795750431716442
+035,4-A2-Minor 02,Fender Strat Clean Neck SC Chords,A,min,projection,raw,2.5,2.31,2.31,1.0,2.31,0.0,0.0,0.0,
+052,1-E1-Major 08,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.020885836333036423
+052,1-E1-Major 08,Ibanez Power Strat Clean Bridge HU Chords,E,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+086,4-A2-Minor 09,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.020817703567445278
+086,4-A2-Minor 09,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+018,2-E1-Minor 07,Fender Strat Clean Neck SC Chords,E,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06889401189982891
+018,2-E1-Minor 07,Fender Strat Clean Neck SC Chords,E,min,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+034,4-A2-Minor 01,Fender Strat Clean Neck SC Chords,A,min,long,viterbi,2.5,2.31,2.31,1.0,2.31,0.0,0.0,0.0,0.014299066737294197
+034,4-A2-Minor 01,Fender Strat Clean Neck SC Chords,A,min,long,raw,2.5,2.31,2.31,1.0,2.31,0.0,0.0,0.0,
+036,4-A2-Minor 03,Fender Strat Clean Neck SC Chords,A,min,long,viterbi,2.5,2.31,2.31,1.0,2.31,0.0,0.0,0.0,0.014432121068239212
+036,4-A2-Minor 03,Fender Strat Clean Neck SC Chords,A,min,long,raw,2.5,2.31,2.3026303854875283,0.9968096906872417,2.31,0.0,0.007369614512471645,0.0,
+087,4-A2-Minor 10,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.020819194614887238
+087,4-A2-Minor 10,Ibanez Power Strat Clean Bridge HU Chords,A,min,projection,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+081,4-A2-Minor 04,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.06732496153563261
+081,4-A2-Minor 04,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+078,4-A2-Minor 01,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.06823039799928665
+078,4-A2-Minor 01,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+068,3-A2-Major 02,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.06965655647218227
+068,3-A2-Major 02,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+025,3-A2-Major 03,Fender Strat Clean Neck SC Chords,A,maj,projection,viterbi,2.5,2.311,2.311,1.0,2.311,0.0,0.0,0.0,0.02079805824905634
+025,3-A2-Major 03,Fender Strat Clean Neck SC Chords,A,maj,projection,raw,2.5,2.311,2.311,1.0,2.311,0.0,0.0,0.0,
+079,4-A2-Minor 02,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,viterbi,2.5,2.308,2.308,1.0,2.308,0.0,0.0,0.0,0.06837938912212849
+079,4-A2-Minor 02,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,raw,2.5,2.308,2.256190476190476,0.9775521993892878,2.308,0.0,0.051809523809523805,0.0,
+071,3-A2-Major 05,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.020611350424587727
+071,3-A2-Major 05,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+055,2-E1-Minor 00,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06916841212660074
+055,2-E1-Minor 00,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+027,3-A2-Major 05,Fender Strat Clean Neck SC Chords,A,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.01537352241575718
+027,3-A2-Major 05,Fender Strat Clean Neck SC Chords,A,maj,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+013,2-E1-Minor 02,Fender Strat Clean Neck SC Chords,E,min,projection,viterbi,2.5,2.28,2.28,1.0,2.28,0.0,0.0,0.0,0.021826081909239292
+013,2-E1-Minor 02,Fender Strat Clean Neck SC Chords,E,min,projection,raw,2.5,2.28,2.28,1.0,2.28,0.0,0.0,0.0,
+071,3-A2-Major 05,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.07180633395910263
+071,3-A2-Major 05,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+031,3-A2-Major 09,Fender Strat Clean Neck SC Chords,A,maj,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.02150868345052004
+031,3-A2-Major 09,Fender Strat Clean Neck SC Chords,A,maj,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+018,2-E1-Minor 07,Fender Strat Clean Neck SC Chords,E,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014779921621084213
+018,2-E1-Minor 07,Fender Strat Clean Neck SC Chords,E,min,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+042,4-A2-Minor 09,Fender Strat Clean Neck SC Chords,A,min,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014921736903488636
+042,4-A2-Minor 09,Fender Strat Clean Neck SC Chords,A,min,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+017,2-E1-Minor 06,Fender Strat Clean Neck SC Chords,E,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.06926478538662195
+017,2-E1-Minor 06,Fender Strat Clean Neck SC Chords,E,min,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+080,4-A2-Minor 03,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.07114041410386562
+080,4-A2-Minor 03,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+087,4-A2-Minor 10,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,viterbi,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,0.07185322791337967
+087,4-A2-Minor 10,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,raw,2.5,2.302,2.302,1.0,2.302,0.0,0.0,0.0,
+074,3-A2-Major 08,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,viterbi,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,0.021463756449520588
+074,3-A2-Major 08,Ibanez Power Strat Clean Bridge HU Chords,A,maj,projection,raw,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,
+039,4-A2-Minor 06,Fender Strat Clean Neck SC Chords,A,min,projection,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.02147876564413309
+039,4-A2-Minor 06,Fender Strat Clean Neck SC Chords,A,min,projection,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+074,3-A2-Major 08,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,viterbi,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,0.014709343202412128
+074,3-A2-Major 08,Ibanez Power Strat Clean Bridge HU Chords,A,maj,long,raw,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,
+001,1-E1-Major 01,Fender Strat Clean Neck SC Chords,E,maj,harmonic,viterbi,2.5,2.292,2.292,1.0,2.292,0.0,0.0,0.0,0.06858261954039335
+001,1-E1-Major 01,Fender Strat Clean Neck SC Chords,E,maj,harmonic,raw,2.5,2.292,2.292,1.0,2.292,0.0,0.0,0.0,
+031,3-A2-Major 09,Fender Strat Clean Neck SC Chords,A,maj,long,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.014784913510084152
+031,3-A2-Major 09,Fender Strat Clean Neck SC Chords,A,maj,long,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+063,2-E1-Minor 08,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,viterbi,2.5,2.303,2.303,1.0,2.303,0.0,0.0,0.0,0.06901225075125694
+063,2-E1-Minor 08,Ibanez Power Strat Clean Bridge HU Chords,E,min,harmonic,raw,2.5,2.303,2.3026303854875283,0.9998395073762607,2.303,0.0,0.0003696145124716388,0.0,
+072,3-A2-Major 06,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.07181543577462435
+072,3-A2-Major 06,Ibanez Power Strat Clean Bridge HU Chords,A,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+023,3-A2-Major 01,Fender Strat Clean Neck SC Chords,A,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.07012237515300512
+023,3-A2-Major 01,Fender Strat Clean Neck SC Chords,A,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+049,1-E1-Major 05,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.07073741778731346
+049,1-E1-Major 05,Ibanez Power Strat Clean Bridge HU Chords,E,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+083,4-A2-Minor 06,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.07135447952896357
+083,4-A2-Minor 06,Ibanez Power Strat Clean Bridge HU Chords,A,min,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,
+008,1-E1-Major 08,Fender Strat Clean Neck SC Chords,E,maj,long,viterbi,2.5,2.33,2.33,1.0,2.33,0.0,0.0,0.0,0.014809495769441128
+008,1-E1-Major 08,Fender Strat Clean Neck SC Chords,E,maj,long,raw,2.5,2.33,2.33,1.0,2.33,0.0,0.0,0.0,
+031,3-A2-Major 09,Fender Strat Clean Neck SC Chords,A,maj,harmonic,viterbi,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,0.07156143989413977
+031,3-A2-Major 09,Fender Strat Clean Neck SC Chords,A,maj,harmonic,raw,2.5,2.3,2.3,1.0,2.3,0.0,0.0,0.0,

@@ -1,0 +1,51 @@
+{
+  "created_at_utc": "2026-11-09T22:44:37.290284+00:00",
+  "objective": "Reduce wrong-root chord predictions while improving duration-weighted major/minor accuracy.",
+  "baseline": "Unchanged long8192 STFT chroma, major/minor templates, frozen Viterbi penalty4 and RMS silence rule.",
+  "baseline_config_sha256": "03514565df9c531724b0479233a39d9ec1048321923276e0c2b5ea4bd47bb0fb",
+  "development": {
+    "split": "configs/guitarset_split.json, development only",
+    "recordings": 119,
+    "families": [
+      1,
+      2
+    ],
+    "primary": "Duration-weighted majmin accuracy",
+    "diagnostics": [
+      "Root-only accuracy on supported reference chords; N predictions count as root errors",
+      "Other-root error seconds",
+      "Near-change duration accuracy",
+      "Per-family and performer scores"
+    ]
+  },
+  "selection": "Highest development majmin accuracy among candidates gaining at least0.5percentagepoints, improving root accuracy, and not reducing majmin accuracy in either progression family; ties prefer fewer feature components. No tuning from either previously evaluated test set.",
+  "branches": {
+    "harmonic": [
+      "fundamental-only dictionary control",
+      "harmonic decay0.6",
+      "harmonic decay0.9"
+    ],
+    "bass": [
+      "baselineparity",
+      "rootweight0.1",
+      "rootweight0.2",
+      "lowtriadweight0.1",
+      "lowtriadweight0.2"
+    ]
+  },
+  "heldout": {
+    "source": "IDMT archive dataset1 all88isolatedchordWAVs in bothChordsdirectories with pairedXML",
+    "scope": "New recording session and isolated chord events; not a new-song/progression benchmark",
+    "annotations": "Freeze filename-derived root/quality checked againstXML pitchclasses; score first annotatednoteonset throughlastnoteoffset",
+    "run": "One frozen best-eligiblecandidate and originalbaseline; no modelscore before selection; fullfiletolabeltiming withsinglethread, orderseed20261109",
+    "promotion": "Retain any validated improvement as a runnable optional frontend. Original song-comparison tables and default remain traceable; isolatedchordresults must not be stated as gains on unheard songs."
+  },
+  "budget": "Two independent branches and at most one evidence-motivated follow-up; stop after freshcomparison.",
+  "pre_evaluation_amendment": {
+    "timestamp_utc": "2026-11-09T22:53:35.041508+00:00",
+    "basis": "Development-only fundamental projection gained6.06points overbaseline and trailedNNLSby0.34points. Include this fixed cheap control for a fair full-runtime tradeoff comparison. No new isolated-audio inference has occurred.",
+    "primary_candidate": "fundamental-only NNLS, highest development major/minor accuracy",
+    "secondary_control": "direct fundamental projection, no learned or selected parameter",
+    "heldout_comparisons": "One frozen run of all88recordings withbaseline,selectedNNLS,anddirectprojection. Reportall3,withpairedinstrumentgroups; no retuning."
+  }
+}

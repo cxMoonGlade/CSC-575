@@ -1,0 +1,44 @@
+% Tables checked against saved development and fast-tempo comparisons.
+\newcommand{\RootResults}{%
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{2.7pt}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+ & \multicolumn{2}{c}{Dev. (119)} & \multicolumn{3}{c}{Fast IDMT (64)} \\
+Method & Chord & Root & Chord & Root & Time (s)\\
+\midrule
+Long STFT & 71.97 & 74.48 & 64.70 & 73.91 & 9.49\\
+Note NNLS & 78.37 & 80.15 & 66.95 & 78.45 & 44.37\\
+Projection & 78.02 & 79.54 & 67.80 & 78.32 & 10.43\\
+\bottomrule
+\end{tabular}
+\caption{Decoded duration-weighted accuracies (\%); chord includes reference $N$, root excludes it. Note models use fundamental-only profiles. Time covers full inference on 64 fast files.}
+\label{tab:root}
+\end{table}
+}
+\newcommand{\ProgressTable}{%
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{@{}ll>{\raggedright\arraybackslash}p{4.9cm}@{}}
+\toprule
+PI & Level & Status and evidence \\
+\midrule
+O1.1 & Basic & Done: aligned labels and predictions (\S\ref{sec:method}, Fig.~\ref{fig:quality}b).\\
+O1.2 & Basic & Done: short, long and CQT comparison (\S\ref{sec:fusion}).\\
+O1.3 & Expected & Done: fixed/adaptive fusion (\S\ref{sec:fusion}).\\
+O1.4 & Expected & Done: playback and timed CSV (Fig.~\ref{fig:demo}).\\
+O1.5 & Advanced & Open: reassigned-spectrum comparison.\\
+O2.1 & Basic & Done: saved split, settings and versions (\S\ref{sec:individual}).\\
+O2.2 & Basic & Done: duration, coverage and boundary metrics (\S\ref{sec:data}, \S\ref{sec:comparison}).\\
+O2.3 & Expected & Done: accuracy, timing and error cases (Table~\ref{tab:root}, \S\ref{sec:comparison}, Figs.~\ref{fig:demo}--\ref{fig:quality}).\\
+O2.4 & Expected & Done for this report; final version remains (\S2, \S4, \S\ref{sec:future}).\\
+O2.5 & Advanced & Open: uncertainty analysis with valid grouping.\\
+\bottomrule
+\end{tabular}
+\caption{Original proposal indicators, with evidence for completed basic and expected work. O2.4 refers to this progress report; the final report is pending.}
+\label{tab:progress}
+\end{table}
+}

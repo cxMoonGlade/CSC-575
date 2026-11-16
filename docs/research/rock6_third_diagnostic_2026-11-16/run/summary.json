@@ -1,0 +1,168 @@
+{
+  "recording": "rock_6",
+  "tempo_branch": "fast",
+  "audio_seconds": 55.5,
+  "reference_chord_seconds": 48.033015873,
+  "margin_tolerance": 1e-12,
+  "switch_penalty": 4.0,
+  "methods": {
+    "long": {
+      "categories_seconds": {
+        "raw": {
+          "correct": 25.29900227163492,
+          "same_root_wrong_quality": 4.526893423950104,
+          "other_root": 18.207120177414975,
+          "chord_to_n": 0.0
+        },
+        "viterbi": {
+          "correct": 44.64646259039456,
+          "other_root": 3.386553282605437,
+          "same_root_wrong_quality": 0.0,
+          "chord_to_n": 0.0
+        }
+      },
+      "partitions": {
+        "all_reference_chords": {
+          "seconds": 48.033015873,
+          "margin_sign_seconds": {
+            "correct_quality_higher": 41.23065759852834,
+            "opposite_quality_higher": 6.802358274471659,
+            "numerical_tie": 0
+          },
+          "raw_category_seconds": {
+            "correct": 25.29900227163492,
+            "same_root_wrong_quality": 4.526893423950104,
+            "other_root": 18.207120177414975,
+            "chord_to_n": 0
+          },
+          "mean_quality_margin": 0.02507980443033712
+        },
+        "decoded_quality_errors": {
+          "seconds": 0,
+          "margin_sign_seconds": {
+            "correct_quality_higher": 0,
+            "opposite_quality_higher": 0,
+            "numerical_tie": 0
+          },
+          "raw_category_seconds": {
+            "correct": 0,
+            "same_root_wrong_quality": 0,
+            "other_root": 0,
+            "chord_to_n": 0
+          },
+          "mean_quality_margin": null
+        },
+        "raw_quality_errors": {
+          "seconds": 4.526893423950104,
+          "margin_sign_seconds": {
+            "correct_quality_higher": 0,
+            "opposite_quality_higher": 4.526893423950104,
+            "numerical_tie": 0
+          },
+          "raw_category_seconds": {
+            "correct": 0,
+            "same_root_wrong_quality": 4.526893423950104,
+            "other_root": 0,
+            "chord_to_n": 0
+          },
+          "mean_quality_margin": -0.12420551660557574
+        },
+        "decoded_quality_error_raw_correct": {
+          "seconds": 0,
+          "margin_sign_seconds": {
+            "correct_quality_higher": 0,
+            "opposite_quality_higher": 0,
+            "numerical_tie": 0
+          },
+          "raw_category_seconds": {
+            "correct": 0,
+            "same_root_wrong_quality": 0,
+            "other_root": 0,
+            "chord_to_n": 0
+          },
+          "mean_quality_margin": null
+        }
+      }
+    },
+    "projection": {
+      "categories_seconds": {
+        "raw": {
+          "correct": 26.728480730580518,
+          "other_root": 16.56866212663265,
+          "same_root_wrong_quality": 4.735873015786833,
+          "chord_to_n": 0.0
+        },
+        "viterbi": {
+          "correct": 33.82435374541951,
+          "other_root": 4.315351468546481,
+          "same_root_wrong_quality": 9.893310659034011,
+          "chord_to_n": 0.0
+        }
+      },
+      "partitions": {
+        "all_reference_chords": {
+          "seconds": 48.033015873,
+          "margin_sign_seconds": {
+            "correct_quality_higher": 40.94473923129479,
+            "opposite_quality_higher": 7.0882766417052085,
+            "numerical_tie": 0
+          },
+          "raw_category_seconds": {
+            "correct": 26.728480730580518,
+            "same_root_wrong_quality": 4.735873015786833,
+            "other_root": 16.56866212663265,
+            "chord_to_n": 0
+          },
+          "mean_quality_margin": 0.017101998081533773
+        },
+        "decoded_quality_errors": {
+          "seconds": 9.893310659034011,
+          "margin_sign_seconds": {
+            "correct_quality_higher": 7.850952382476205,
+            "opposite_quality_higher": 2.042358276557806,
+            "numerical_tie": 0
+          },
+          "raw_category_seconds": {
+            "correct": 5.552176872272124,
+            "same_root_wrong_quality": 1.6708390021813955,
+            "other_root": 2.6702947845804914,
+            "chord_to_n": 0
+          },
+          "mean_quality_margin": -0.005907768571355892
+        },
+        "raw_quality_errors": {
+          "seconds": 4.735873015786833,
+          "margin_sign_seconds": {
+            "correct_quality_higher": 0,
+            "opposite_quality_higher": 4.735873015786833,
+            "numerical_tie": 0
+          },
+          "raw_category_seconds": {
+            "correct": 0,
+            "same_root_wrong_quality": 4.735873015786833,
+            "other_root": 0,
+            "chord_to_n": 0
+          },
+          "mean_quality_margin": -0.20123755853567585
+        },
+        "decoded_quality_error_raw_correct": {
+          "seconds": 5.552176872272124,
+          "margin_sign_seconds": {
+            "correct_quality_higher": 5.552176872272124,
+            "opposite_quality_higher": 0,
+            "numerical_tie": 0
+          },
+          "raw_category_seconds": {
+            "correct": 5.552176872272124,
+            "same_root_wrong_quality": 0,
+            "other_root": 0,
+            "chord_to_n": 0
+          },
+          "mean_quality_margin": 0.030561353339738577
+        }
+      }
+    }
+  },
+  "scope": "Exploratory diagnosis of the previously selected recording; no parameter selection.",
+  "units": "Chroma values are L2-normalized feature activations, not acoustic energy or measured played-note amplitudes."
+}

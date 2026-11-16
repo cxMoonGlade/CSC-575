@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-11-07T17:54:16.585307+00:00",
+  "pdf_pages": 4,
+  "bibliography_entries": 15,
+  "local_readme_links_missing": [],
+  "selection_record_hash_matches": true,
+  "development_recordings": 119,
+  "test_recordings": 59,
+  "notebook_executed_code_cells": 3,
+  "notebook_errors": 0,
+  "pytest_passed": 53,
+  "region_analytical_checks_passed": 3,
+  "browser_validation_record": "browser_validation.json",
+  "reviewed_files_unchanged": true,
+  "pdf_sha256": "d0b3867526db1fac19ca600be6978977e83dfab38cc0e328b23f9d1b225f41b3"
+}

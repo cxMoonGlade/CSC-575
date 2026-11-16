@@ -1,0 +1,62 @@
+[
+  {
+    "recording": "00_BN1-129-Eb_comp",
+    "method": "short",
+    "absolute_error_seconds": 0.0
+  },
+  {
+    "recording": "00_BN1-129-Eb_comp",
+    "method": "long",
+    "absolute_error_seconds": 0.0
+  },
+  {
+    "recording": "00_BN1-129-Eb_comp",
+    "method": "cqt",
+    "absolute_error_seconds": 0.0
+  },
+  {
+    "recording": "00_BN1-129-Eb_comp",
+    "method": "equal",
+    "absolute_error_seconds": 0.0
+  },
+  {
+    "recording": "00_Funk2-108-Eb_comp",
+    "method": "short",
+    "absolute_error_seconds": 0.0
+  },
+  {
+    "recording": "00_Funk2-108-Eb_comp",
+    "method": "long",
+    "absolute_error_seconds": 0.0
+  },
+  {
+    "recording": "00_Funk2-108-Eb_comp",
+    "method": "cqt",
+    "absolute_error_seconds": 0.0
+  },
+  {
+    "recording": "00_Funk2-108-Eb_comp",
+    "method": "equal",
+    "absolute_error_seconds": 0.0
+  },
+  {
+    "recording": "00_Jazz1-130-D_comp",
+    "method": "short",
+    "absolute_error_seconds": 0.0
+  },
+  {
+    "recording": "00_Jazz1-130-D_comp",
+    "method": "long",
+    "absolute_error_seconds": 0.0
+  },
+  {
+    "recording": "00_Jazz1-130-D_comp",
+    "method": "cqt",
+    "absolute_error_seconds": 0.0
+  },
+  {
+    "recording": "00_Jazz1-130-D_comp",
+    "method": "equal",
+    "absolute_error_seconds": 0.0
+  }
+]

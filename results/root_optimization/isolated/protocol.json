@@ -1,0 +1,7 @@
+{
+  "order_seed": 20261109,
+  "recording_groups": 44,
+  "metric": "Exact duration accuracy on the first-onset to last-offset chord span. Root accuracy counts the correct root regardless of major/minor quality; a predicted N is an error.",
+  "runtime": "Uncached file loading, resampling, tuning, RMS, required spectral features, dictionary construction and NNLS when used, decoding, and interval construction. Imports, warm-up, raw diagnostics, scoring and writing are excluded.",
+  "scope": "Isolated guitar chords from a separate recording session; paired fingerings across instruments. No new-song generalization claim."
+}

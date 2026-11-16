@@ -1,0 +1,68 @@
+{
+  "source_run": "/tmp/chordrec_root_fast/results",
+  "baseline": "long",
+  "rule": "Post-hoc illustrations: largest and smallest per-recording projection-minus-baseline duration accuracy differences; lexical tie break. Not representative random examples and not used to change the model.",
+  "comparable_recordings": 59,
+  "excluded_from_case_selection": [
+    {
+      "recording": "metal_4",
+      "reason": "No scoreable reference duration; omitted only from illustrative case selection.",
+      "scoreable_seconds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "recording": "rock_5",
+      "reason": "No scoreable reference duration; omitted only from illustrative case selection.",
+      "scoreable_seconds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "recording": "metal_2",
+      "reason": "No scoreable reference duration; omitted only from illustrative case selection.",
+      "scoreable_seconds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "recording": "country_5",
+      "reason": "No scoreable reference duration; omitted only from illustrative case selection.",
+      "scoreable_seconds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "recording": "metal_1",
+      "reason": "No scoreable reference duration; omitted only from illustrative case selection.",
+      "scoreable_seconds": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "label": "Largest increase",
+      "recording": "jazz_5",
+      "split": "external_fast",
+      "projection_accuracy": 0.5825433936979301,
+      "baseline_accuracy": 0.10883693474853516,
+      "delta": 0.4737064589493949,
+      "coverage": 0.3429300291428571
+    },
+    {
+      "label": "Largest decrease",
+      "recording": "rock_6",
+      "split": "external_fast",
+      "projection_accuracy": 0.7041896730959305,
+      "baseline_accuracy": 0.9294953019073479,
+      "delta": -0.22530562881141736,
+      "coverage": 0.8654597454594594
+    }
+  ]
+}

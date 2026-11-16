@@ -1,0 +1,8 @@
+{
+  "updated_at_utc": "2026-11-09T22:50:32.272500+00:00",
+  "change": "Replace union of note durations with the actual first-onset to last-offset span in the loader docstring.",
+  "frozen_preflight_adapter_sha256": "385acd7e28c01e30178155ee73bf683a42b4628282c59044abb17bb71b5fa5eb",
+  "current_adapter_sha256": "45cadfcda6a3a40997b24d81b1ffc65a0c70c70291ef5794403c27af0d3673cf",
+  "non_docstring_ast_identical": true,
+  "prior_selection_and_preflight_files_unchanged": true
+}

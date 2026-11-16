@@ -1,0 +1,10 @@
+{
+  "numeric_loops_AST_identical": 2,
+  "import_starts_experiment": false,
+  "import_loads_audio_libraries": false,
+  "help_passed": true,
+  "overwrite_refused_before_input_loading": true,
+  "original_source_snapshot_hashes_match": true,
+  "full_search_rerun": false,
+  "reason": "Only argument handling, guarded imports, output selection and timing labels changed."
+}

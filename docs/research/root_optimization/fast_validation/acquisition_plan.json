@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-11-10T00:23:40.284853+00:00",
+  "source_selection_sha256": "b511635109e07e9a9337c96779e11a69c66ec71a078d893e4404c092602303b9",
+  "source_evaluation_plan_sha256": "e94baee0294f77c88d7428a705872fe3b5151238ce15781fdb422e3dd2d153a3",
+  "concurrency": 2,
+  "policy": "Require checked HTTP ranges, ZIP CRC32 and per-file SHA256. Retain all 64 pieces. Do not run recognition.",
+  "helper_sha256": "fcefc4df8b88e9a399cfc9fd1bc8c79fb674364c0c14caf14b92a52f035b8279",
+  "acquisition_script_sha256": "22646ae231bb723a1428b24ae0a2cc3f256b8cc1af9419252a9adc7d11cf1fbf",
+  "annotation_policy": "Use existing load_chords on fast annotation files. NC maps to N; unknown symbols remain X; no prefix or tail extrapolation."
+}

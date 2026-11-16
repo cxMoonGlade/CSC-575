@@ -1,0 +1,49 @@
+{
+  "hypothesis": "Low-register evidence may distinguish chords sharing strong upper-register pitch classes.",
+  "created_before_inference": true,
+  "settings": [
+    {
+      "name": "baseline",
+      "weight": 0.0,
+      "evidence": "root"
+    },
+    {
+      "name": "root_w0.1",
+      "weight": 0.1,
+      "evidence": "root"
+    },
+    {
+      "name": "root_w0.2",
+      "weight": 0.2,
+      "evidence": "root"
+    },
+    {
+      "name": "triad_w0.1",
+      "weight": 0.1,
+      "evidence": "triad"
+    },
+    {
+      "name": "triad_w0.2",
+      "weight": 0.2,
+      "evidence": "triad"
+    }
+  ],
+  "low_midi_range": [
+    36,
+    59
+  ],
+  "n_fft": 8192,
+  "fixed": "Tuning, RMS silence threshold, frame grid and Viterbi penalty 4.",
+  "empty_low_policy": "Retain baseline scores when low-register chroma has zero norm.",
+  "primary_metric": "Duration-weighted major/minor accuracy on all 119 development recordings.",
+  "secondary_metrics": [
+    "root_accuracy",
+    "other_root_seconds",
+    "same_root_quality_seconds",
+    "chord_to_n_seconds",
+    "near_accuracy"
+  ],
+  "selection": "Maximize primary accuracy; report both development progression families and retain adverse changes.",
+  "scope": "Five settings only; no test or IDMT evaluation, no adaptive band or weight search.",
+  "timing": "Selection uses cached baseline features and reports no full-pipeline speedup."
+}

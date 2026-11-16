@@ -1,0 +1,15 @@
+{
+  "objective": "Improve multi-resolution chord recognition on development recordings while identifying whether resolution, harmonic contamination, or boundary timing limits fusion.",
+  "metric_direction": "max",
+  "dev_eval": "Grouped duration accuracy on119 development recordings, families1 and2, with near-change diagnostics",
+  "test_eval": "Unavailable for promotion: obtain fresh independent audio and annotations before any new generalization claim",
+  "material": "/tmp/chordrec_opt2/repo",
+  "branching": 3,
+  "max_depth": 2,
+  "budget_cycles": 3,
+  "cycles_used": 3,
+  "best_node": null,
+  "best_test_score": null,
+  "best_branch_ref": null,
+  "created_at": 1794074377
+}

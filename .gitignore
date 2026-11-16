@@ -1,0 +1,31 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.pyc
+*.zip
+# Downloaded datasets, third-party code, and literature remain local.
+docs/archives/
+docs/datasets/
+docs/code/
+docs/papers/
+docs/research/papers/
+results/**/features.npz
+results/**/audio.wav
+experiments/optimization_v2/cache/
+
+experiments/optimization_v2/runs/
+
+experiments/optimization_v2/data/
+
+experiments/optimization_v2/baseline.json
+
+# Report build logs and auxiliary files; keep the PDF, figures and bibliography.
+report/*.aux
+report/*.log
+report/*.blg
+report/*.out
+report/*.toc
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz

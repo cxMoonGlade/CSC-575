@@ -1,0 +1,39 @@
+{
+  "created_at_utc": "2026-11-10T00:21:18.691856+00:00",
+  "question": "Do the fixed note-profile methods reduce root errors on previously unevaluated recordings containing chord changes?",
+  "data": "All 64 IDMT archive dataset4/acoustic_mic/fast files, subject to source and annotation preflight.",
+  "comparison_scope": "New tempo performances of the same 64 pieces as the earlier slow-stream comparison. This is within-repertoire transfer, not new-song or new-progression generalization.",
+  "selection_rule": "Include the complete fast acoustic-microphone stream; do not choose by labels, coverage or recognizer scores. No exclusions based on outcome.",
+  "methods": [
+    "long",
+    "projection",
+    "harmonic"
+  ],
+  "primary_candidate": "projection",
+  "secondary_candidate": "harmonic (fundamental-only NNLS)",
+  "primary_metric": "Duration-weighted majmin accuracy including the existing NC-to-N convention.",
+  "diagnostics": [
+    "Root accuracy on supported chord intervals only; predicted N is an error.",
+    "Chord-only majmin accuracy; near-change accuracy; boundary scores.",
+    "Wrong-root and same-root quality error durations; reference-N accuracy.",
+    "Scores by piece and total complete inference time."
+  ],
+  "settings": "Use the exact three configurations already frozen on November 9. No further tuning from this comparison.",
+  "config_sha256": {
+    "configs/frozen.json": "03514565df9c531724b0479233a39d9ec1048321923276e0c2b5ea4bd47bb0fb",
+    "configs/note_projection.json": "6c26f658382dd6872a322b5556924932b737a5c7c78a3debc3d2352620acd9bd",
+    "configs/note_nnls.json": "af9dc4e4b7997f533dff0d5f7e83abb652916cf5adb2b4896bd1a9f42fe24fe0"
+  },
+  "method_sha256": {
+    "audio.py": "9036fce85a17ab723b7e10b9b148a9d93c04315da341bc92f211013e07f9bf35",
+    "model.py": "b8cbface3a4e2156b5f82e0874df7f11a6dcb47e015b3713917e854f2f54d844",
+    "harmonic.py": "ed00fa91a67328b6f1cb1b94623dd0c276cf9835149ec927ff32c5d1a3ced9ad",
+    "projection.py": "456ba0e947aad670c0d5cbccb29bdb4547bc2c97ad8648f8cea7d7468733c1ea",
+    "idmt.py": "4bc4ed6033a85740c2b9e4fd9d4413f8d680bac60831dfd35e01413abfad0588"
+  },
+  "runtime": "Single CPU thread, feature caching disabled, complete audio-to-decoded-interval wall time. Include file read, resampling, tuning, dictionary construction and fitting. Exclude imports, separate warm-up, scoring and output. Retain OS file cache.",
+  "order_seed": 20261110,
+  "analysis": "One fixed comparison. Record all methods and adverse outcomes. Do not interpret shared repertoire or repeated performances as independent new songs.",
+  "expected_data_readiness": "Source guide must support separately recorded tempi and local annotations must match all64fast filenames.",
+  "algorithm_results_inspected": false
+}

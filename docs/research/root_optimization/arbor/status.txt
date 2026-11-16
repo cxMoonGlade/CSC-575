@@ -1,0 +1,9 @@
+Run: Improve root errors without sacrificing duration-weighted majmin accuracy
+Cycle 3/3  |  legend: * root  o pending  ~ running  = executed  V merged  x pruned
+
+[V] n0 Improve root errors without sacrificing duration-weighted majmin accur [test=1.0] <== M_best
+    [o] n1 Harmonic spectral decomposition reduces misleading pitch-class evidenc
+        [=] n3 Before octave folding, fit note spectra by NNLS with harmonic decay 0. [dev=0.783655504364039 test=1.0]
+        [=] n5 Direct projection onto fundamental-only note profiles matches the NNLS [dev=0.7802485704190184 test=1.0]
+    [x] n2 Low-register evidence improves root choice despite inversion ambiguity
+        [x] n4 Mix low-register root or triad evidence at weights 0.1 and 0.2 with th [dev=0.7192037]

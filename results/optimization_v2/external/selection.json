@@ -1,0 +1,461 @@
+{
+  "selected_at_utc": "2026-11-07T18:09:10.517892+00:00",
+  "dataset": "IDMT-SMT-Guitar V2 ZIP (Zenodo version1.0.0)",
+  "source_url": "https://zenodo.org/records/7544110/files/IDMT-SMT-GUITAR_V2.zip?download=1",
+  "archive_bytes": 1329918978,
+  "rule": "Choose the case-insensitive lexicographically first capture-stream directory containing all 64 piece IDs in its slow-tempo branch. Select every recording in that branch, without reference to labels, coverage, or algorithm scores.",
+  "capture_stream": "acoustic_mic",
+  "tempo_branch": "slow",
+  "recordings": [
+    {
+      "piece_id": "classical_1",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/classical/audio/classical_1_60BPM.wav",
+      "file_bytes": 6792136,
+      "compressed_bytes": 4672325,
+      "crc32": "9038ad48"
+    },
+    {
+      "piece_id": "classical_2",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/classical/audio/classical_2_50BPM.wav",
+      "file_bytes": 4957576,
+      "compressed_bytes": 3255713,
+      "crc32": "87b864ae"
+    },
+    {
+      "piece_id": "classical_3",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/classical/audio/classical_3_50BPM.wav",
+      "file_bytes": 4957576,
+      "compressed_bytes": 3202812,
+      "crc32": "5f1ac1de"
+    },
+    {
+      "piece_id": "classical_4",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/classical/audio/classical_4_60BPM.wav",
+      "file_bytes": 2911336,
+      "compressed_bytes": 1882326,
+      "crc32": "cbeb0e3c"
+    },
+    {
+      "piece_id": "classical_5",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/classical/audio/classical_5_70BPM.wav",
+      "file_bytes": 5380936,
+      "compressed_bytes": 4052105,
+      "crc32": "b85c77e8"
+    },
+    {
+      "piece_id": "classical_6",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/classical/audio/classical_6_75BPM.wav",
+      "file_bytes": 3123016,
+      "compressed_bytes": 2034458,
+      "crc32": "ea591e21"
+    },
+    {
+      "piece_id": "classical_7",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/classical/audio/classical_7_50BPM.wav",
+      "file_bytes": 4851736,
+      "compressed_bytes": 3029875,
+      "crc32": "db3d526b"
+    },
+    {
+      "piece_id": "classical_8",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/classical/audio/classical_8_100BPM.wav",
+      "file_bytes": 2311576,
+      "compressed_bytes": 1536919,
+      "crc32": "24b7024d"
+    },
+    {
+      "piece_id": "country_1",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/country_folk/audio/country_1_110BPM.wav",
+      "file_bytes": 2398172,
+      "compressed_bytes": 1651221,
+      "crc32": "599f78aa"
+    },
+    {
+      "piece_id": "country_2",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/country_folk/audio/country_2_110BPM.wav",
+      "file_bytes": 2253846,
+      "compressed_bytes": 1601482,
+      "crc32": "6e20ebe7"
+    },
+    {
+      "piece_id": "country_3",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/country_folk/audio/country_3_100BPM.wav",
+      "file_bytes": 4110856,
+      "compressed_bytes": 3077627,
+      "crc32": "8ca9f2ec"
+    },
+    {
+      "piece_id": "country_4",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/country_folk/audio/country_4_80BPM.wav",
+      "file_bytes": 3065686,
+      "compressed_bytes": 2098253,
+      "crc32": "4c3720ea"
+    },
+    {
+      "piece_id": "country_5",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/country_folk/audio/country_5_80BPM.wav",
+      "file_bytes": 3065686,
+      "compressed_bytes": 2260418,
+      "crc32": "5179b54b"
+    },
+    {
+      "piece_id": "folk_1",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/country_folk/audio/folk_1_80BPM.wav",
+      "file_bytes": 3197986,
+      "compressed_bytes": 2273423,
+      "crc32": "a18c9b41"
+    },
+    {
+      "piece_id": "folk_2",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/country_folk/audio/folk_2_75BPM.wav",
+      "file_bytes": 5663176,
+      "compressed_bytes": 3896999,
+      "crc32": "f981a76a"
+    },
+    {
+      "piece_id": "folk_3",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/country_folk/audio/folk_3_130BPM.wav",
+      "file_bytes": 3264136,
+      "compressed_bytes": 2334541,
+      "crc32": "77f27256"
+    },
+    {
+      "piece_id": "jazz_1",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/jazz/audio/jazz_1_160BPM.wav",
+      "file_bytes": 2734936,
+      "compressed_bytes": 1780649,
+      "crc32": "f821dad4"
+    },
+    {
+      "piece_id": "jazz_2",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/jazz/audio/jazz_2_170BPM.wav",
+      "file_bytes": 4447054,
+      "compressed_bytes": 3136078,
+      "crc32": "2599991c"
+    },
+    {
+      "piece_id": "jazz_3",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/jazz/audio/jazz_3_120BPM.wav",
+      "file_bytes": 2029336,
+      "compressed_bytes": 1257031,
+      "crc32": "eb739780"
+    },
+    {
+      "piece_id": "jazz_4",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/jazz/audio/jazz_4_70BPM.wav",
+      "file_bytes": 5985736,
+      "compressed_bytes": 3984631,
+      "crc32": "59eec279"
+    },
+    {
+      "piece_id": "jazz_5",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/jazz/audio/jazz_5_80BPM.wav",
+      "file_bytes": 3131836,
+      "compressed_bytes": 2100761,
+      "crc32": "6f64c291"
+    },
+    {
+      "piece_id": "jazz_6",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/jazz/audio/jazz_6_150BPM.wav",
+      "file_bytes": 1711816,
+      "compressed_bytes": 998162,
+      "crc32": "fa01a450"
+    },
+    {
+      "piece_id": "jazz_7",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/jazz/audio/jazz_7_140BPM.wav",
+      "file_bytes": 2281336,
+      "compressed_bytes": 1488455,
+      "crc32": "66f557a3"
+    },
+    {
+      "piece_id": "jazz_8",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/jazz/audio/jazz_8_110BPM.wav",
+      "file_bytes": 3937662,
+      "compressed_bytes": 2659120,
+      "crc32": "24e8a7a3"
+    },
+    {
+      "piece_id": "latin_1",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/latin/audio/latin_1_160BPM.wav",
+      "file_bytes": 1544236,
+      "compressed_bytes": 1072136,
+      "crc32": "814ff590"
+    },
+    {
+      "piece_id": "latin_2",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/latin/audio/latin_2_100BPM.wav",
+      "file_bytes": 2417416,
+      "compressed_bytes": 1278301,
+      "crc32": "c35760f3"
+    },
+    {
+      "piece_id": "latin_3",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/latin/audio/latin_3_100BPM.wav",
+      "file_bytes": 2523256,
+      "compressed_bytes": 1720826,
+      "crc32": "d951cdd3"
+    },
+    {
+      "piece_id": "latin_4",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/latin/audio/latin_4_130BPM.wav",
+      "file_bytes": 1880074,
+      "compressed_bytes": 1271730,
+      "crc32": "49369992"
+    },
+    {
+      "piece_id": "latin_5",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/latin/audio/latin_5_140BPM.wav",
+      "file_bytes": 1827736,
+      "compressed_bytes": 1236736,
+      "crc32": "ab1d8060"
+    },
+    {
+      "piece_id": "latin_6",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/latin/audio/latin_6_120BPM.wav",
+      "file_bytes": 2029336,
+      "compressed_bytes": 1368255,
+      "crc32": "88a47973"
+    },
+    {
+      "piece_id": "latin_7",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/latin/audio/latin_7_130BPM.wav",
+      "file_bytes": 3182720,
+      "compressed_bytes": 2229762,
+      "crc32": "d317eeda"
+    },
+    {
+      "piece_id": "latin_8",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/latin/audio/latin_8_160BPM.wav",
+      "file_bytes": 1676536,
+      "compressed_bytes": 1099871,
+      "crc32": "3881f691"
+    },
+    {
+      "piece_id": "metal_1",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/metal/audio/metal_1_160BPM.wav",
+      "file_bytes": 1577312,
+      "compressed_bytes": 1001709,
+      "crc32": "014140dd"
+    },
+    {
+      "piece_id": "metal_2",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/metal/audio/metal_2_150BPM.wav",
+      "file_bytes": 1676536,
+      "compressed_bytes": 1131221,
+      "crc32": "9bd29be5"
+    },
+    {
+      "piece_id": "metal_3",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/metal/audio/metal_3_100BPM.wav",
+      "file_bytes": 2556802,
+      "compressed_bytes": 1752147,
+      "crc32": "8e0ec181"
+    },
+    {
+      "piece_id": "metal_4",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/metal/audio/metal_4_130BPM.wav",
+      "file_bytes": 1920782,
+      "compressed_bytes": 1455009,
+      "crc32": "9378a989"
+    },
+    {
+      "piece_id": "metal_5",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/metal/audio/metal_5_150BPM.wav",
+      "file_bytes": 1641256,
+      "compressed_bytes": 1231887,
+      "crc32": "442d07bd"
+    },
+    {
+      "piece_id": "metal_6",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/metal/audio/metal_6_110BPM.wav",
+      "file_bytes": 2253846,
+      "compressed_bytes": 1584357,
+      "crc32": "bf6b38d6"
+    },
+    {
+      "piece_id": "metal_7",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/metal/audio/metal_7_75BPM.wav",
+      "file_bytes": 3264136,
+      "compressed_bytes": 2271325,
+      "crc32": "cdab3757"
+    },
+    {
+      "piece_id": "metal_8",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/metal/audio/metal_8_100BPM.wav",
+      "file_bytes": 2179276,
+      "compressed_bytes": 1536767,
+      "crc32": "6a9519f0"
+    },
+    {
+      "piece_id": "pop_1",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/pop/audio/pop_1_130BPM.wav",
+      "file_bytes": 2653520,
+      "compressed_bytes": 2132583,
+      "crc32": "62362f43"
+    },
+    {
+      "piece_id": "pop_2",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/pop/audio/pop_2_120BPM.wav",
+      "file_bytes": 2205736,
+      "compressed_bytes": 1683960,
+      "crc32": "cc41bba8"
+    },
+    {
+      "piece_id": "pop_3",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/pop/audio/pop_3_130BPM.wav",
+      "file_bytes": 1880074,
+      "compressed_bytes": 1382338,
+      "crc32": "402d20b8"
+    },
+    {
+      "piece_id": "pop_4",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/pop/audio/pop_4_100BPM.wav",
+      "file_bytes": 2417416,
+      "compressed_bytes": 1269545,
+      "crc32": "a1118749"
+    },
+    {
+      "piece_id": "pop_5",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/pop/audio/pop_5_78BPM.wav",
+      "file_bytes": 3074166,
+      "compressed_bytes": 2016170,
+      "crc32": "05f1c3b8"
+    },
+    {
+      "piece_id": "pop_6",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/pop/audio/pop_6_90BPM.wav",
+      "file_bytes": 2676136,
+      "compressed_bytes": 1995431,
+      "crc32": "8a7d88df"
+    },
+    {
+      "piece_id": "pop_7",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/pop/audio/pop_7_60BPM.wav",
+      "file_bytes": 3969736,
+      "compressed_bytes": 2522892,
+      "crc32": "f03c65fb"
+    },
+    {
+      "piece_id": "pop_8",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/pop/audio/pop_8_85BPM.wav",
+      "file_bytes": 2828326,
+      "compressed_bytes": 1821934,
+      "crc32": "51473d24"
+    },
+    {
+      "piece_id": "reggae_1",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/reggae_ska/audio/reggae_1_95BPM.wav",
+      "file_bytes": 2611344,
+      "compressed_bytes": 1341083,
+      "crc32": "e481119a"
+    },
+    {
+      "piece_id": "reggae_2",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/reggae_ska/audio/reggae_2_100BPM.wav",
+      "file_bytes": 2417416,
+      "compressed_bytes": 1522995,
+      "crc32": "5669bf6f"
+    },
+    {
+      "piece_id": "reggae_3",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/reggae_ska/audio/reggae_3_100BPM.wav",
+      "file_bytes": 2417416,
+      "compressed_bytes": 1538608,
+      "crc32": "35f6fd09"
+    },
+    {
+      "piece_id": "reggae_4",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/reggae_ska/audio/reggae_4_100BPM.wav",
+      "file_bytes": 2470336,
+      "compressed_bytes": 1611241,
+      "crc32": "7366fd9c"
+    },
+    {
+      "piece_id": "ska_1",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/reggae_ska/audio/ska_1_150BPM.wav",
+      "file_bytes": 1676536,
+      "compressed_bytes": 1207603,
+      "crc32": "474bc0b1"
+    },
+    {
+      "piece_id": "ska_2",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/reggae_ska/audio/ska_2_150BPM.wav",
+      "file_bytes": 1676536,
+      "compressed_bytes": 1215307,
+      "crc32": "f2f2de58"
+    },
+    {
+      "piece_id": "ska_3",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/reggae_ska/audio/ska_3_150BPM.wav",
+      "file_bytes": 1676536,
+      "compressed_bytes": 1100927,
+      "crc32": "7c96abdb"
+    },
+    {
+      "piece_id": "ska_4",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/reggae_ska/audio/ska_4_150BPM.wav",
+      "file_bytes": 1676536,
+      "compressed_bytes": 1094567,
+      "crc32": "29b99e67"
+    },
+    {
+      "piece_id": "rock_1",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/rock_blues/audio/rock_1_100BPM.wav",
+      "file_bytes": 2417416,
+      "compressed_bytes": 1681479,
+      "crc32": "f50c85ad"
+    },
+    {
+      "piece_id": "rock_2",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/rock_blues/audio/rock_2_100BPM.wav",
+      "file_bytes": 2470336,
+      "compressed_bytes": 1675860,
+      "crc32": "555e50c9"
+    },
+    {
+      "piece_id": "rock_3",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/rock_blues/audio/rock_3_100BPM.wav",
+      "file_bytes": 2417416,
+      "compressed_bytes": 1399315,
+      "crc32": "1ad2c252"
+    },
+    {
+      "piece_id": "rock_4",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/rock_blues/audio/rock_4_110BPM.wav",
+      "file_bytes": 2253846,
+      "compressed_bytes": 1573651,
+      "crc32": "ca681c62"
+    },
+    {
+      "piece_id": "rock_5",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/rock_blues/audio/rock_5_100BPM.wav",
+      "file_bytes": 2417416,
+      "compressed_bytes": 1567030,
+      "crc32": "0152d5e3"
+    },
+    {
+      "piece_id": "rock_6",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/rock_blues/audio/rock_6_100BPM.wav",
+      "file_bytes": 5857216,
+      "compressed_bytes": 4241371,
+      "crc32": "f93f7f02"
+    },
+    {
+      "piece_id": "rock_7",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/rock_blues/audio/rock_7_100BPM.wav",
+      "file_bytes": 5857216,
+      "compressed_bytes": 4428905,
+      "crc32": "f0a12915"
+    },
+    {
+      "piece_id": "rock_8",
+      "archive_path": "IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/rock_blues/audio/rock_8_100BPM.wav",
+      "file_bytes": 5910136,
+      "compressed_bytes": 3824924,
+      "crc32": "154d75a1"
+    }
+  ],
+  "scope": "All 64 recordings are retained regardless of scoreable label coverage. acoustic_mic and acoustic_pickup are capture streams of one acoustic guitar, not independent guitars.",
+  "algorithm_results_inspected": false
+}

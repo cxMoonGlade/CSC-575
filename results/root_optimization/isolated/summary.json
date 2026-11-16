@@ -1,0 +1,260 @@
+[
+  {
+    "method": "long",
+    "decoder": "raw",
+    "recordings": 88,
+    "scoreable_seconds": 202.725,
+    "audio_seconds": 220.0,
+    "correct_seconds": 202.4522879818594,
+    "root_correct_seconds": 202.64875056689343,
+    "duration_accuracy": 0.9986547686859509,
+    "root_accuracy": 0.9996238775034822,
+    "other_root_seconds": 0.07624943310657598,
+    "same_root_wrong_quality_seconds": 0.19646258503401365,
+    "chord_to_n_seconds": 0.0,
+    "total_runtime_seconds": null,
+    "instruments": {
+      "Fender Strat Clean Neck SC Chords": {
+        "recordings": 44,
+        "scoreable_seconds": 101.497,
+        "audio_seconds": 110.0,
+        "correct_seconds": 101.48963038548753,
+        "root_correct_seconds": 101.497,
+        "duration_accuracy": 0.999927390814384,
+        "root_accuracy": 1.0,
+        "other_root_seconds": 0.0,
+        "same_root_wrong_quality_seconds": 0.007369614512471645,
+        "chord_to_n_seconds": 0.0,
+        "total_runtime_seconds": null
+      },
+      "Ibanez Power Strat Clean Bridge HU Chords": {
+        "recordings": 44,
+        "scoreable_seconds": 101.228,
+        "audio_seconds": 110.0,
+        "correct_seconds": 100.96265759637188,
+        "root_correct_seconds": 101.15175056689343,
+        "duration_accuracy": 0.9973787647328001,
+        "root_accuracy": 0.9992467555112561,
+        "other_root_seconds": 0.07624943310657598,
+        "same_root_wrong_quality_seconds": 0.189092970521542,
+        "chord_to_n_seconds": 0.0,
+        "total_runtime_seconds": null
+      }
+    }
+  },
+  {
+    "method": "long",
+    "decoder": "viterbi",
+    "recordings": 88,
+    "scoreable_seconds": 202.725,
+    "audio_seconds": 220.0,
+    "correct_seconds": 202.725,
+    "root_correct_seconds": 202.725,
+    "duration_accuracy": 1.0,
+    "root_accuracy": 1.0,
+    "other_root_seconds": 0.0,
+    "same_root_wrong_quality_seconds": 0.0,
+    "chord_to_n_seconds": 0.0,
+    "total_runtime_seconds": 1.2936871536076069,
+    "instruments": {
+      "Fender Strat Clean Neck SC Chords": {
+        "recordings": 44,
+        "scoreable_seconds": 101.497,
+        "audio_seconds": 110.0,
+        "correct_seconds": 101.497,
+        "root_correct_seconds": 101.497,
+        "duration_accuracy": 1.0,
+        "root_accuracy": 1.0,
+        "other_root_seconds": 0.0,
+        "same_root_wrong_quality_seconds": 0.0,
+        "chord_to_n_seconds": 0.0,
+        "total_runtime_seconds": 0.645721323788166
+      },
+      "Ibanez Power Strat Clean Bridge HU Chords": {
+        "recordings": 44,
+        "scoreable_seconds": 101.228,
+        "audio_seconds": 110.0,
+        "correct_seconds": 101.228,
+        "root_correct_seconds": 101.228,
+        "duration_accuracy": 1.0,
+        "root_accuracy": 1.0,
+        "other_root_seconds": 0.0,
+        "same_root_wrong_quality_seconds": 0.0,
+        "chord_to_n_seconds": 0.0,
+        "total_runtime_seconds": 0.6479658298194408
+      }
+    }
+  },
+  {
+    "method": "harmonic",
+    "decoder": "raw",
+    "recordings": 88,
+    "scoreable_seconds": 202.725,
+    "audio_seconds": 220.0,
+    "correct_seconds": 202.62427210884354,
+    "root_correct_seconds": 202.725,
+    "duration_accuracy": 0.9995031303926183,
+    "root_accuracy": 1.0,
+    "other_root_seconds": 0.0,
+    "same_root_wrong_quality_seconds": 0.10072789115646258,
+    "chord_to_n_seconds": 0.0,
+    "total_runtime_seconds": null,
+    "instruments": {
+      "Fender Strat Clean Neck SC Chords": {
+        "recordings": 44,
+        "scoreable_seconds": 101.497,
+        "audio_seconds": 110.0,
+        "correct_seconds": 101.48963038548753,
+        "root_correct_seconds": 101.497,
+        "duration_accuracy": 0.999927390814384,
+        "root_accuracy": 1.0,
+        "other_root_seconds": 0.0,
+        "same_root_wrong_quality_seconds": 0.007369614512471645,
+        "chord_to_n_seconds": 0.0,
+        "total_runtime_seconds": null
+      },
+      "Ibanez Power Strat Clean Bridge HU Chords": {
+        "recordings": 44,
+        "scoreable_seconds": 101.228,
+        "audio_seconds": 110.0,
+        "correct_seconds": 101.13464172335601,
+        "root_correct_seconds": 101.228,
+        "duration_accuracy": 0.9990777425549849,
+        "root_accuracy": 1.0,
+        "other_root_seconds": 0.0,
+        "same_root_wrong_quality_seconds": 0.09335827664399093,
+        "chord_to_n_seconds": 0.0,
+        "total_runtime_seconds": null
+      }
+    }
+  },
+  {
+    "method": "harmonic",
+    "decoder": "viterbi",
+    "recordings": 88,
+    "scoreable_seconds": 202.725,
+    "audio_seconds": 220.0,
+    "correct_seconds": 202.725,
+    "root_correct_seconds": 202.725,
+    "duration_accuracy": 1.0,
+    "root_accuracy": 1.0,
+    "other_root_seconds": 0.0,
+    "same_root_wrong_quality_seconds": 0.0,
+    "chord_to_n_seconds": 0.0,
+    "total_runtime_seconds": 6.040545689873397,
+    "instruments": {
+      "Fender Strat Clean Neck SC Chords": {
+        "recordings": 44,
+        "scoreable_seconds": 101.497,
+        "audio_seconds": 110.0,
+        "correct_seconds": 101.497,
+        "root_correct_seconds": 101.497,
+        "duration_accuracy": 1.0,
+        "root_accuracy": 1.0,
+        "other_root_seconds": 0.0,
+        "same_root_wrong_quality_seconds": 0.0,
+        "chord_to_n_seconds": 0.0,
+        "total_runtime_seconds": 3.003716751933098
+      },
+      "Ibanez Power Strat Clean Bridge HU Chords": {
+        "recordings": 44,
+        "scoreable_seconds": 101.228,
+        "audio_seconds": 110.0,
+        "correct_seconds": 101.228,
+        "root_correct_seconds": 101.228,
+        "duration_accuracy": 1.0,
+        "root_accuracy": 1.0,
+        "other_root_seconds": 0.0,
+        "same_root_wrong_quality_seconds": 0.0,
+        "chord_to_n_seconds": 0.0,
+        "total_runtime_seconds": 3.0368289379402995
+      }
+    }
+  },
+  {
+    "method": "projection",
+    "decoder": "raw",
+    "recordings": 88,
+    "scoreable_seconds": 202.725,
+    "audio_seconds": 220.0,
+    "correct_seconds": 202.60168253968254,
+    "root_correct_seconds": 202.725,
+    "duration_accuracy": 0.9993917007753487,
+    "root_accuracy": 1.0,
+    "other_root_seconds": 0.0,
+    "same_root_wrong_quality_seconds": 0.12331746031746033,
+    "chord_to_n_seconds": 0.0,
+    "total_runtime_seconds": null,
+    "instruments": {
+      "Fender Strat Clean Neck SC Chords": {
+        "recordings": 44,
+        "scoreable_seconds": 101.497,
+        "audio_seconds": 110.0,
+        "correct_seconds": 101.48963038548753,
+        "root_correct_seconds": 101.497,
+        "duration_accuracy": 0.999927390814384,
+        "root_accuracy": 1.0,
+        "other_root_seconds": 0.0,
+        "same_root_wrong_quality_seconds": 0.007369614512471645,
+        "chord_to_n_seconds": 0.0,
+        "total_runtime_seconds": null
+      },
+      "Ibanez Power Strat Clean Bridge HU Chords": {
+        "recordings": 44,
+        "scoreable_seconds": 101.228,
+        "audio_seconds": 110.0,
+        "correct_seconds": 101.11205215419501,
+        "root_correct_seconds": 101.228,
+        "duration_accuracy": 0.9988545872109991,
+        "root_accuracy": 1.0,
+        "other_root_seconds": 0.0,
+        "same_root_wrong_quality_seconds": 0.11594784580498868,
+        "chord_to_n_seconds": 0.0,
+        "total_runtime_seconds": null
+      }
+    }
+  },
+  {
+    "method": "projection",
+    "decoder": "viterbi",
+    "recordings": 88,
+    "scoreable_seconds": 202.725,
+    "audio_seconds": 220.0,
+    "correct_seconds": 202.725,
+    "root_correct_seconds": 202.725,
+    "duration_accuracy": 1.0,
+    "root_accuracy": 1.0,
+    "other_root_seconds": 0.0,
+    "same_root_wrong_quality_seconds": 0.0,
+    "chord_to_n_seconds": 0.0,
+    "total_runtime_seconds": 1.8597859581932425,
+    "instruments": {
+      "Fender Strat Clean Neck SC Chords": {
+        "recordings": 44,
+        "scoreable_seconds": 101.497,
+        "audio_seconds": 110.0,
+        "correct_seconds": 101.497,
+        "root_correct_seconds": 101.497,
+        "duration_accuracy": 1.0,
+        "root_accuracy": 1.0,
+        "other_root_seconds": 0.0,
+        "same_root_wrong_quality_seconds": 0.0,
+        "chord_to_n_seconds": 0.0,
+        "total_runtime_seconds": 0.927632175385952
+      },
+      "Ibanez Power Strat Clean Bridge HU Chords": {
+        "recordings": 44,
+        "scoreable_seconds": 101.228,
+        "audio_seconds": 110.0,
+        "correct_seconds": 101.228,
+        "root_correct_seconds": 101.228,
+        "duration_accuracy": 1.0,
+        "root_accuracy": 1.0,
+        "other_root_seconds": 0.0,
+        "same_root_wrong_quality_seconds": 0.0,
+        "chord_to_n_seconds": 0.0,
+        "total_runtime_seconds": 0.9321537828072906
+      }
+    }
+  }
+]

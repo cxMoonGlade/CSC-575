@@ -1,0 +1,20 @@
+{
+  "README.md": "89338133fbe296bf42f9fda0c47cc81a43ab4988dbe3aa91c8bac8b10b709516",
+  "boundary/plan.json": "33123e2bd1fc39c11b030daf7d7f7c3301ac77521d1313a892f9817f9148efbc",
+  "boundary/refinement.py": "e0f41374d5ebbf87470fa3e0cda0f8056ce5b33e34253c3af800a9127c0db353",
+  "boundary/run.py": "42dafcccc04913d3394d7a15441fb55a56ce795537aa52b8652b45a7046d8b34",
+  "common.py": "463c8d76d79e3e68977a8e3228027cec072bb65536b359be7a14c60cf1b44ff2",
+  "data_sources/acquire_idmt.py": "fcefc4df8b88e9a399cfc9fd1bc8c79fb674364c0c14caf14b92a52f035b8279",
+  "data_sources/idmt_audio_acquire.py": "1fe4b752576dbcff8a328b825073f5e2cb580e295d08831eed7844c7d0fd1764",
+  "data_sources/idmt_metadata_acquire.py": "f222871b6e7c6e957c75036e20777a3058c28487b4d3e02a639be4e6abc3a988",
+  "frozen_config.json": "03514565df9c531724b0479233a39d9ec1048321923276e0c2b5ea4bd47bb0fb",
+  "language_audit.md": "4f30550b28ad2da52a27667058832e5db7a9072d77a4b8c5cefb0a91aebd1acd",
+  "long_resolution/run.py": "040401719227c07dea710e0c7b982f34df41e70de4c0437d40738e4254d9a8ad",
+  "nature_writing_notes.md": "080ab329418f001e7870b46eb41a0f06be7171f970b5c67a09d9941452cf289f",
+  "original_branches.json": "5ca4d134c449c5a3e7afec6645fcec4bcc99df39d2fa679020d00a995476e26f",
+  "original_sources.json": "d470acbadabccb6d6e27641b312088631b7cda856811041aca774f81c4c2845a",
+  "portability_validation.json": "b91542c3d14b9aecbc8e03aa4537a6786243184fbb2cd8fd91133c25167ad536",
+  "resolution/plan.json": "9190615866cc24c55a740789dd02218c5738981ccadb083d4e757108520b9c1e",
+  "resolution/run.py": "568ff5804f93870ef38826ea8ad007a8321fed865f2464328b4801a5cdc84f66",
+  "whitening/run.py": "43bcd6aab692073b6a7f42139bfa59d623348ef381b17a6ea540878186269a4f"
+}

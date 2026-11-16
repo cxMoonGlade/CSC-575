@@ -1,0 +1,10 @@
+{
+  "dev_score": 0.7222384154533077,
+  "metric": "duration_accuracy",
+  "baseline_score": 0.7196539813497197,
+  "result": "The best of nine prespecified candidates was 4096/8192 fixed fusion with short weight 0.2: 72.223842% accuracy, a 0.258444 percentage-point gain over long8192. Both development families improved, but the gain is below the prespecified 0.5-point threshold; no candidate is eligible.",
+  "insight": "Increasing the short window from 2048 to 4096 improves all matched single/fusion comparisons. Its extra benefit over the 8192 baseline is small in the tested settings, and the confidence-margin rule does not improve on the fixed 0.2 mixture. This supports more reliable short-window evidence but does not establish a useful fusion advantage under the acceptance criterion.",
+  "branch_ref": "experiment/resolution",
+  "gate_passed": false,
+  "test_accessed": false
+}

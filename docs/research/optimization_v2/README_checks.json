@@ -1,0 +1,14 @@
+{
+  "original_guitarset_table_unchanged": true,
+  "personal_objectives_and_PIs_unchanged": true,
+  "references_1_to_15_unchanged": true,
+  "references_total": 16,
+  "words_before": 1636,
+  "words_after": 1773,
+  "words_followup": 121,
+  "source_readme_sha256": "07ba659803f975c36e62d485ef4786efa37a5d9393cf302a5d7c8ecb28c907e7",
+  "candidate_readme_sha256": "d2fb36fd4486d50a7d7f62be9697121a1d3dacdb9b4d0b650369db5e55923d9d",
+  "gitignore_added_line": "experiments/optimization_v2/cache/",
+  "stale_next_method_sentence_removed": true,
+  "N_diagnostic_wording": "Explicit duration agreement with the reference label, without interpreting the underlying audio."
+}

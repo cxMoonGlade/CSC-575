@@ -1,0 +1,18 @@
+{
+  "tests": "tests/test_error_analysis.py: 7 passed",
+  "scope": "Saved predictions only; no feature extraction, decoding, fitting, or parameter changes.",
+  "checks": {
+    "guitarset": {
+      "saved_metric_maximum_absolute_difference": 7.105427357601002e-15,
+      "per_recording_rows": 354,
+      "confusion_rows": 4050
+    },
+    "idmt": {
+      "saved_metric_maximum_absolute_difference": 7.105427357601002e-15,
+      "per_recording_rows": 384,
+      "confusion_rows": 4050
+    }
+  },
+  "code_sha256": "ec9e9788a7dc585dc626defcf1caf8518a3989569d4aaa6c647f89d1b0048f74",
+  "figure_inspection": "Both PNGs inspected; category legends, row denominators, end labels, and axes are visible."
+}

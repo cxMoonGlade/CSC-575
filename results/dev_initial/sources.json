@@ -1,0 +1,11 @@
+{
+  "chordrec/__init__.py": "f242968d4b9b58eee319ae174882ba7bdce0b059c27500a218ce76d704f73d0f",
+  "chordrec/__main__.py": "cf2c91f0890a274260cb875b4273082725c079d9a9c15a0417a2900b403d9eb4",
+  "chordrec/audio.py": "1ee8d5e896fe554829cfb00bf9e4e4b7af9296f0283db6a07c275e13a61c452f",
+  "chordrec/data.py": "b80759287094851bd618b322a79ea6ca1396411a8f96b621381012ad2866d880",
+  "chordrec/demo.py": "f143ae9cefad4b1f6e7544aad30e435d94a0e91363ae06071fa528c50e9dff60",
+  "chordrec/evaluate.py": "c601b0a9f75560f71ddda3c3ae373161fcad4af2ac138b092c633fc22495cdd8",
+  "chordrec/model.py": "b8cbface3a4e2156b5f82e0874df7f11a6dcb47e015b3713917e854f2f54d844",
+  "chordrec/run.py": "a7bd0694f8a10b22e75a5bad84514a9708c952563b7c04bfb5f505074ace6c99",
+  "chordrec/visualize.py": "1017b7eb815a4ebef1eea2d271be154d2f3ac803aeadb0517b280436018432ca"
+}

@@ -1,0 +1,245 @@
+{
+  "scope": "Three development recordings, five selected configurations; no full search or external evaluation.",
+  "development_cache_records": 119,
+  "recordings": [
+    "00_BN1-129-Eb_comp",
+    "00_Funk2-108-Eb_comp",
+    "00_Jazz1-130-D_comp"
+  ],
+  "algorithm_function_ast_checks": [
+    {
+      "source": "common.py",
+      "function": "score",
+      "identical_ast": true
+    },
+    {
+      "source": "resolution/run.py",
+      "function": "prediction",
+      "identical_ast": true
+    },
+    {
+      "source": "resolution/run.py",
+      "function": "confidence_weight",
+      "identical_ast": true
+    },
+    {
+      "source": "whitening/run.py",
+      "function": "whiten_block",
+      "identical_ast": true
+    },
+    {
+      "source": "whitening/run.py",
+      "function": "extract_whitened",
+      "identical_ast": true
+    },
+    {
+      "source": "whitening/run.py",
+      "function": "self_test",
+      "identical_ast": true
+    },
+    {
+      "source": "boundary/refinement.py",
+      "function": "refine_boundaries",
+      "identical_ast": true
+    },
+    {
+      "source": "long_resolution/run.py",
+      "function": "predict",
+      "identical_ast": true
+    }
+  ],
+  "duration_score_checks": [
+    {
+      "branch": "baseline",
+      "setting": "long8192_penalty4",
+      "recording": "00_BN1-129-Eb_comp",
+      "maximum_duration_score_error_seconds": 0.0
+    },
+    {
+      "branch": "baseline",
+      "setting": "long8192_penalty4",
+      "recording": "00_Funk2-108-Eb_comp",
+      "maximum_duration_score_error_seconds": 0.0
+    },
+    {
+      "branch": "baseline",
+      "setting": "long8192_penalty4",
+      "recording": "00_Jazz1-130-D_comp",
+      "maximum_duration_score_error_seconds": 0.0
+    },
+    {
+      "branch": "resolution",
+      "setting": "fixed_4096_8192_w0.2",
+      "recording": "00_BN1-129-Eb_comp",
+      "maximum_duration_score_error_seconds": 0.0
+    },
+    {
+      "branch": "resolution",
+      "setting": "fixed_4096_8192_w0.2",
+      "recording": "00_Funk2-108-Eb_comp",
+      "maximum_duration_score_error_seconds": 0.0
+    },
+    {
+      "branch": "resolution",
+      "setting": "fixed_4096_8192_w0.2",
+      "recording": "00_Jazz1-130-D_comp",
+      "maximum_duration_score_error_seconds": 0.0
+    },
+    {
+      "branch": "whitening",
+      "setting": "long_strength_0.5",
+      "recording": "00_BN1-129-Eb_comp",
+      "maximum_duration_score_error_seconds": 0.0
+    },
+    {
+      "branch": "whitening",
+      "setting": "long_strength_0.5",
+      "recording": "00_Funk2-108-Eb_comp",
+      "maximum_duration_score_error_seconds": 0.0
+    },
+    {
+      "branch": "whitening",
+      "setting": "long_strength_0.5",
+      "recording": "00_Jazz1-130-D_comp",
+      "maximum_duration_score_error_seconds": 0.0
+    },
+    {
+      "branch": "boundary",
+      "setting": "boundary_r0.2_w0.5",
+      "recording": "00_BN1-129-Eb_comp",
+      "maximum_duration_score_error_seconds": 0.0
+    },
+    {
+      "branch": "boundary",
+      "setting": "boundary_r0.2_w0.5",
+      "recording": "00_Funk2-108-Eb_comp",
+      "maximum_duration_score_error_seconds": 0.0
+    },
+    {
+      "branch": "boundary",
+      "setting": "boundary_r0.2_w0.5",
+      "recording": "00_Jazz1-130-D_comp",
+      "maximum_duration_score_error_seconds": 0.0
+    },
+    {
+      "branch": "long_resolution",
+      "setting": "single_16384",
+      "recording": "00_BN1-129-Eb_comp",
+      "maximum_duration_score_error_seconds": 0.0
+    },
+    {
+      "branch": "long_resolution",
+      "setting": "single_16384",
+      "recording": "00_Funk2-108-Eb_comp",
+      "maximum_duration_score_error_seconds": 0.0
+    },
+    {
+      "branch": "long_resolution",
+      "setting": "single_16384",
+      "recording": "00_Jazz1-130-D_comp",
+      "maximum_duration_score_error_seconds": 0.0
+    }
+  ],
+  "command_line_checks": [
+    {
+      "script": "common.py",
+      "help_exit_code": 0
+    },
+    {
+      "script": "resolution/run.py",
+      "help_exit_code": 0
+    },
+    {
+      "script": "whitening/run.py",
+      "help_exit_code": 0
+    },
+    {
+      "script": "boundary/run.py",
+      "help_exit_code": 0
+    },
+    {
+      "script": "long_resolution/run.py",
+      "help_exit_code": 0
+    },
+    {
+      "script": "data_sources/acquire_idmt.py",
+      "help_exit_code": 0
+    },
+    {
+      "script": "data_sources/idmt_metadata_acquire.py",
+      "help_exit_code": 0
+    },
+    {
+      "script": "data_sources/idmt_audio_acquire.py",
+      "help_exit_code": 0
+    },
+    {
+      "script": "whitening/run.py",
+      "plan_only_exit_code": 0,
+      "settings": 9
+    },
+    {
+      "script": "long_resolution/run.py",
+      "plan_only_exit_code": 0,
+      "settings": [
+        {
+          "name": "single_8192",
+          "first_window": 8192,
+          "second_window": null,
+          "first_window_weight": null
+        },
+        {
+          "name": "single_16384",
+          "first_window": 16384,
+          "second_window": null,
+          "first_window_weight": null
+        },
+        {
+          "name": "fixed_4096_16384_w0.2",
+          "first_window": 4096,
+          "second_window": 16384,
+          "first_window_weight": 0.2
+        },
+        {
+          "name": "fixed_4096_16384_w0.5",
+          "first_window": 4096,
+          "second_window": 16384,
+          "first_window_weight": 0.5
+        },
+        {
+          "name": "fixed_8192_16384_w0.2",
+          "first_window": 8192,
+          "second_window": 16384,
+          "first_window_weight": 0.2
+        }
+      ]
+    }
+  ],
+  "maximum_duration_score_error_seconds": 0.0,
+  "test_audio_or_annotations_read": false,
+  "full_candidate_search_rerun": false,
+  "data_source_cache_check": {
+    "archive_members": 4292,
+    "selected_acoustic_mic_slow_recordings": 64,
+    "network_bytes": 0
+  },
+  "output_preservation_checks": [
+    {
+      "branch": "resolution",
+      "existing_output_preserved": true
+    },
+    {
+      "branch": "whitening",
+      "existing_output_preserved": true
+    },
+    {
+      "branch": "boundary",
+      "existing_output_preserved": true
+    },
+    {
+      "branch": "long_resolution",
+      "existing_output_preserved": true
+    }
+  ],
+  "all_python_sources_compile": true
+}

@@ -1,0 +1,44 @@
+{
+  "source": "/home/cx/Documents/csc475/Proj/results/root_optimization/demo_projection/playback.html",
+  "source_sha256": "f59f643a07e6d98a6ae48fa206cdf49dac274f0a272c9c203074e87db3f460fe",
+  "csv": "/home/cx/Documents/csc475/Proj/results/root_optimization/demo_projection/prediction.csv",
+  "csv_sha256": "ea2f5f27ac1dfd127be078a51974946da32fedaa6f152250a12b705bb4e7afce",
+  "data_unchanged": true,
+  "capture_width_css_px": 650,
+  "capture_height_css_px": 277,
+  "screenshot_scale": 3,
+  "presentation": "Compact view of the existing player. Surrounding prose, full-recording overview, selector, and context/whole-recording buttons hidden for capture. Existing start/end, focus/play controls and selected timeline retained. Text enlarged and SVG x-coordinates rescaled for column legibility. No prediction, audio, label, or feature data changed.",
+  "displayed_interval_seconds": [
+    0,
+    8
+  ],
+  "displayed_timeline_with_context_seconds": [
+    0,
+    9
+  ],
+  "checks": {
+    "duration": 29.68839,
+    "visibleInterval": "Selected interval: 0.00–8.00 s (1 s context)",
+    "reference": [
+      0,
+      9.896907216494846,
+      "C:maj/3"
+    ],
+    "long": [
+      0,
+      9.903310657596371,
+      "E:min"
+    ],
+    "projection": [
+      0,
+      9.97297052154195,
+      "C:maj"
+    ]
+  },
+  "playback_interval_stop_seconds": 0.3,
+  "csv_header_and_first_row": [
+    "start,end,label\r",
+    "0.0,9.97297052154195,C:maj\r"
+  ],
+  "caption": "Compact player view for a GuitarSet development excerpt. Projection recovers C major where Long STFT predicts E minor. Interval controls support listening; CSV output stores each segment’s start, end and label."
+}

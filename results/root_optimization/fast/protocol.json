@@ -1,0 +1,12 @@
+{
+  "order_seed": 20261110,
+  "primary_candidate": "projection",
+  "secondary_candidate": "harmonic (fundamental-only NNLS)",
+  "baseline": "long",
+  "primary_metric": "Exact duration major/minor accuracy including reference N.",
+  "root_metric": "Correct root, ignoring major/minor quality, over supported reference chord duration only. Reference N is excluded; predicting N on a chord is an error.",
+  "reference_policy": "Between first and last annotated beats only; NC is interpreted as N under the unchanged adapter; unsupported symbols and unannotated audio are excluded.",
+  "runtime": "Uncached audio loading, resampling, tuning, RMS, required spectral features, dictionary construction, projection or NNLS, Viterbi decoding and interval construction. Imports, warm-up, raw diagnostics, scoring, hashes and output are excluded. The OS disk cache is retained.",
+  "grouping": "Each fast piece ID is paired with the same ID in the already evaluated slow branch. Recordings are new tempo renditions, not independent new compositions or unseen progressions.",
+  "decision": "One frozen comparison. No parameter search, threshold adjustment or automatic default replacement follows this test."
+}

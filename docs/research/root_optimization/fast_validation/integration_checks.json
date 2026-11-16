@@ -1,0 +1,38 @@
+{
+  "checked_at_utc": "2026-11-10T00:38:38.741769+00:00",
+  "frozen_configuration_hashes": {
+    "configs/frozen.json": true,
+    "configs/note_projection.json": true,
+    "configs/note_nnls.json": true
+  },
+  "frozen_method_hashes": {
+    "audio.py": true,
+    "model.py": true,
+    "harmonic.py": true,
+    "projection.py": true,
+    "idmt.py": true
+  },
+  "runner_matches_evaluated_source": true,
+  "historical_FinalResults_exact": true,
+  "report_figure_matches_saved_case_plot": true,
+  "local_links_verified": 55,
+  "pytest": {
+    "passed": 96,
+    "seconds": 3.36,
+    "command": ".venv/bin/python -m pytest -q"
+  },
+  "pdf": {
+    "pages": 4,
+    "references": 16,
+    "figures": 2,
+    "tables": 3,
+    "equations": 2,
+    "sha256": "4db27ee626139af82c049749e850a10b7886594088e529079a676264453b3bac",
+    "overfull_boxes": false,
+    "unresolved_references": false,
+    "visual_inspection": "All four pages inspected; final caption clarified reference blanks."
+  },
+  "numeric_review": "numeric_review.json",
+  "figure_review": "final_figure_checks.json",
+  "inference_repeated_during_integration": false
+}

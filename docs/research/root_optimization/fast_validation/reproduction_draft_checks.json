@@ -1,0 +1,11 @@
+{
+  "python_extraction_block_compiles": true,
+  "saved_manifest_bytes_match_data": {
+    "selection.json": true,
+    "input_validation.json": true
+  },
+  "expected_wav_files": 64,
+  "expected_chord_csv_files": 64,
+  "downloads_executed": false,
+  "figure_script_sha256": "7b581556b0d47aa952db6a1a2e0c26b8f82e4a302685acf26fb79828da5af7e4"
+}

@@ -1,0 +1,26 @@
+{
+  "original_baseline_unchanged": true,
+  "baseline_sha256": {
+    "audio.py": "9036fce85a17ab723b7e10b9b148a9d93c04315da341bc92f211013e07f9bf35",
+    "model.py": "b8cbface3a4e2156b5f82e0874df7f11a6dcb47e015b3713917e854f2f54d844",
+    "run.py": "7abe73e233a51a13f1204e13f655879f6cb07ea6089caaad98afbf82eb7acaed"
+  },
+  "candidate_source": "/tmp/chordrec_root_v1/validation",
+  "candidate_modules_match_evaluated_source": true,
+  "baseline_config_unchanged": true,
+  "test_count": 90,
+  "full_suite_passed": true,
+  "pdf_pages": 4,
+  "references": 16,
+  "pdf_sha256": "ccf53dfe2f32d145e41c31ead97dd6faef421eca11388cebb9bbe7a7b5f43944",
+  "candidate_source_sha256": {
+    "harmonic.py": "ed00fa91a67328b6f1cb1b94623dd0c276cf9835149ec927ff32c5d1a3ced9ad",
+    "projection.py": "456ba0e947aad670c0d5cbccb29bdb4547bc2c97ad8648f8cea7d7468733c1ea",
+    "isolated_compare.py": "8f86136f7350c2325b83672d340536fbe3c12b92585b868dbb89b926b3e0cab7",
+    "note_predict.py": "a383ec14ffa453f97eb1c7a91c6d7b00c3034cd1da674ce9c9bfa641c03525a5"
+  },
+  "checked_at_utc": "2026-11-09T23:06:10.105660+00:00",
+  "final_display_edit": "Shortened method labels after the 90-test run; predictions and numerical code unchanged.",
+  "pdf_all_pages_visually_checked": true,
+  "player_browser_checked": true
+}

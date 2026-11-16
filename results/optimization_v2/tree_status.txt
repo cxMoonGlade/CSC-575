@@ -1,0 +1,8 @@
+Run: Improve multi-resolution chord recognition on development recordings while identifying whether resolution, harmonic contamination, or boundary timing limits fusion.
+Cycle 3/3  |  legend: * root  o pending  ~ running  = executed  V merged  x pruned
+
+[*] n0 Improve multi-resolution chord recognition on development recordings w
+    [x] n1 A4096-sample short window supplies more reliable chord evidence than20 [dev=0.7222384154533077]
+        [x] n4 A16384-sample window improves low-frequency pitch separation enough to [dev=0.7190730157695697]
+    [x] n2 Median spectral whitening reduces timbral and harmonic imbalance suffi [dev=0.715489]
+    [x] n3 Short-window evidence is more useful for moving an existing long-windo [dev=0.72003]

@@ -1,0 +1,12 @@
+{
+  "checked_at_utc": "2026-11-10T00:28:13.742189+00:00",
+  "recordings": 64,
+  "input_hashes_verified": true,
+  "prospective_selection_verified": true,
+  "paired_piece_ids_verified": true,
+  "inference_performed": false,
+  "primary_candidate": "projection",
+  "audio_seconds": 1786.1598412698413,
+  "chord_seconds": 936.939999995,
+  "no_chord_seconds": 126.84546486100001
+}

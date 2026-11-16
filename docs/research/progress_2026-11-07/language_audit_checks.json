@@ -1,0 +1,39 @@
+{
+  "README.md": {
+    "before_sha256": "96dfd6ca352b45731385862591b8ef1b4cc4ba08e67417c6dde9ad02a2a85e65",
+    "after_sha256": "07ba659803f975c36e62d485ef4786efa37a5d9393cf302a5d7c8ecb28c907e7"
+  },
+  "AGENTS.md": {
+    "before_sha256": "8e871ac02d37d13586254bb18a590307faf2c9fc1bfca1c0e58a9de05934ded2",
+    "after_sha256": "41926baf7517ef7348e45ef4a4cf907a5ef54bff3b9b4f2be56bfb1aab25d38a"
+  },
+  "chordrec/tune.py": {
+    "before_sha256": "541d600993a8f233e4f9d3e95c9c05ee048276958c19282ff65a04e43e3737a9",
+    "after_sha256": "dcf56c3d87c1f040cbde35dd6bb1092d3d23ae54060995593e3ea5545b83e87c"
+  },
+  "chordrec/regions.py": {
+    "before_sha256": "26949dea88d6891bc3150f4c7cc1b70bc258e9fda932717d705a1307030e9bdf",
+    "after_sha256": "c05e4b3e0b086d5a58fe67c2c61f95ac081a0684c47e7704088145511cd1570c"
+  },
+  "chordrec/report_figures.py": {
+    "before_sha256": "5b6c4e1c399ea100f95c872210e84153df519189eb084ca278d1cfaedf39b2e2",
+    "after_sha256": "f849c7d8b4ef0604f5245f3451582362330f1d39ad4e63b61bf11189af7883af"
+  },
+  "checks": {
+    "code_ast_unchanged_except_docstrings_and_figure_label": true,
+    "readme_numeric_values_preserved": true,
+    "readme_words_before": 1589,
+    "readme_words_after": 1636,
+    "notebook_code_cells_and_outputs_unchanged": true,
+    "diagnostic_cli_arguments_verified": true,
+    "selection_method_settings_verified": 52
+  },
+  "notebooks/listen.ipynb": {
+    "before_sha256": "1404cda483c0390ce54ccc1f8486a98361e3e6ec713ee1af909dbe9f0e1dd950",
+    "after_sha256": "3b8223df26268dd4d716f552dfe41c0241e8503aef00930216277fc3e3a58589"
+  },
+  "results/README.md": {
+    "before_sha256": "238cca07e9f5aec485a406488336af8c1c2db019b6be0b68280e02db8a8b50ff",
+    "after_sha256": "89697a465e7c07c3f28774b5f9bbfd24d81e48bf5a15b4eae3ccee83fe9e7471"
+  }
+}

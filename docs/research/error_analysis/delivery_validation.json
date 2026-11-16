@@ -1,0 +1,35 @@
+{
+  "checked_at_utc": "2026-11-09T12:09:23.844942+00:00",
+  "pages": 4,
+  "references": 16,
+  "tests_passed": 70,
+  "historical_comparison_blocks_unchanged": true,
+  "recognition_source_files_unchanged": 14,
+  "pdf_sha256": "af1f486eb1717e9723166a37c0b7a03e9c85fc917e68934bdef6e9c5cb145c28",
+  "readme_links_checked": 24,
+  "browser_validation": "demo/browser_validation.json",
+  "independent_numeric_review": "independent_checks.json",
+  "error_analysis": {
+    "guitarset": {
+      "other_root_error_percent": 89.33684119735209,
+      "reference_n_error_percent": 0.0,
+      "stable_error_share_percent": 76.4655599098244,
+      "stable_duration_share_percent": 84.95758626764388,
+      "near_error_rate_percent": 41.01898260273453,
+      "stable_error_rate_percent": 23.59729659287153
+    },
+    "idmt": {
+      "other_root_error_percent": 61.16554088202407,
+      "reference_n_error_percent": 32.81760543731471,
+      "stable_error_share_percent": 68.78372166982867,
+      "stable_duration_share_percent": 79.16441456163642,
+      "near_error_rate_percent": 51.3415850125981,
+      "stable_error_rate_percent": 29.774845834345676
+    }
+  },
+  "nc_runs": 207,
+  "nc_recordings": 32,
+  "model_changes": false,
+  "new_model_inference": false,
+  "git_remote_modified": false
+}

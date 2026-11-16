@@ -1,0 +1,538 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        2
+      ]
+    ],
+    "date-time": "2026-10-02T17:01:04Z",
+    "timestamp": 1790960464769,
+    "version": "4.1.0"
+  },
+  "reference-count": 51,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2026-01-01T00:00:00Z",
+        "timestamp": 1767225600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    }
+  ],
+  "funder": [
+    {
+      "name": "Italian Ministry of University Research"
+    },
+    {
+      "name": "European Union - Next Generation EU"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. Audio, Speech Lang. Process."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2026
+      ]
+    ]
+  },
+  "DOI": "10.1109/taslpro.2025.3646468",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2025,
+        12,
+        23
+      ]
+    ],
+    "date-time": "2025-12-23T18:30:25Z",
+    "timestamp": 1766514625000
+  },
+  "page": "581-595",
+  "source": "Crossref",
+  "is-referenced-by-count": 3,
+  "title": [
+    "ChordFormer: A Conformer-Based Architecture for Large-Vocabulary Audio Chord Recognition"
+  ],
+  "prefix": "10.1109",
+  "volume": "34",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-0488-4670",
+      "authenticated-orcid": false,
+      "given": "Muhammad Waseem",
+      "family": "Akram",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Excellence in Robotics and AI, Sant&#x2019;Anna School of Advanced Studies, Pisa, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-4336-0770",
+      "authenticated-orcid": false,
+      "given": "Stefano",
+      "family": "Dettori",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Excellence in Robotics and AI, Sant&#x2019;Anna School of Advanced Studies, Pisa, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-9574-0575",
+      "authenticated-orcid": false,
+      "given": "Valentina",
+      "family": "Colla",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Excellence in Robotics and AI, Sant&#x2019;Anna School of Advanced Studies, Pisa, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-4959-4017",
+      "authenticated-orcid": false,
+      "given": "Giorgio Carlo",
+      "family": "Buttazzo",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Excellence in Robotics and AI, Sant&#x2019;Anna School of Advanced Studies, Pisa, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1162/comj_a_00579"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TASLP.2022.3178203"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TASLP.2020.3030485"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICASSP49357.2023.10095389"
+    },
+    {
+      "key": "ref5",
+      "first-page": "54",
+      "article-title": "20 years of automatic chord recognition from audio",
+      "volume-title": "Proc. 20th Int. Soc. Music Inf. Retrieval Conf.",
+      "author": "Pauwels",
+      "year": "2019"
+    },
+    {
+      "key": "ref6",
+      "first-page": "644",
+      "article-title": "Large-vocabulary chord transcription via chord structure decomposition",
+      "volume-title": "Proc. Int. Soc. Music Inf. Retrieval Conf.",
+      "author": "Jiang",
+      "year": "2019"
+    },
+    {
+      "key": "ref7",
+      "first-page": "586",
+      "article-title": "Curriculum learning for imbalanced classification in large vocabulary automatic chord recognition",
+      "volume-title": "Proc. Int. Soc. Music Inf. Retrieval Conf.",
+      "author": "Rowe",
+      "year": "2021"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41597-023-02410-w"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.48550/ARXIV.1706.03762"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.eswa.2023.122666"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.21437/interspeech.2020-3015"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.eswa.2022.118190"
+    },
+    {
+      "key": "ref13",
+      "first-page": "127",
+      "article-title": "Audio chord recognition with a hybrid recurrent neural network",
+      "volume-title": "Proc. Int. Soc. Music Inf. Retrieval Conf.",
+      "author": "Sigtia",
+      "year": "2015"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICMLA.2012.220"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MLSP.2016.7738895"
+    },
+    {
+      "key": "ref16",
+      "first-page": "188",
+      "article-title": "Structured training for large-vocabulary chord recognition",
+      "volume-title": "Proc. Int. Soc. Music Inf. Retrieval Conf.",
+      "author": "McFee",
+      "year": "2017"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TASLP.2018.2879399"
+    },
+    {
+      "key": "ref18",
+      "first-page": "335",
+      "article-title": "Audio chord recognition with recurrent neural networks",
+      "volume-title": "Proc. Int. Soc. Music Inf. Retrieval Conf.",
+      "author": "Boulanger-Lewandowski",
+      "year": "2013"
+    },
+    {
+      "key": "ref19",
+      "first-page": "812",
+      "article-title": "A hybrid Gaussian-HMM-deep learning approach for automatic chord estimation with very large vocabulary",
+      "volume-title": "Proc. Int. Soc. Music Inf. Retrieval Conf.",
+      "author": "Deng",
+      "year": "2016"
+    },
+    {
+      "key": "ref20",
+      "first-page": "531",
+      "article-title": "Large vocabulary automatic chord estimation with an even chance training scheme",
+      "volume-title": "Proc. Int. Soc. Music Inf. Retrieval Conf.",
+      "author": "Deng",
+      "year": "2017"
+    },
+    {
+      "key": "ref21",
+      "first-page": "673",
+      "article-title": "Four timely insights on automatic chord estimation",
+      "volume-title": "Proc. Int. Soc. Music Inf. Retrieval Conf.",
+      "volume": "10",
+      "author": "Humphrey",
+      "year": "2015"
+    },
+    {
+      "key": "ref22",
+      "first-page": "464",
+      "article-title": "Realtime chord recognition of musical sound: Asystem using common LISP music",
+      "volume-title": "Proc. Int. Comput. Music Conf.",
+      "author": "Takuya",
+      "year": "1999"
+    },
+    {
+      "key": "ref23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TASLP.2013.2294580"
+    },
+    {
+      "key": "ref24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICASSP.2012.6287914"
+    },
+    {
+      "key": "ref25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1186/1687-4722-2013-15"
+    },
+    {
+      "key": "ref26",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICASSP.2010.5495218"
+    },
+    {
+      "key": "ref27",
+      "first-page": "185",
+      "article-title": "Chord segmentation and recognition using EM-trained hidden Markov models",
+      "volume-title": "Proc. Int. Symp. Music Inf. Retrieval",
+      "author": "Sheh",
+      "year": "2003"
+    },
+    {
+      "key": "ref28",
+      "first-page": "561",
+      "article-title": "Use of hidden Markov models and factored language models for automatic chord recognition",
+      "volume-title": "Proc. Int. Soc. Music Inf. Retrieval Conf.",
+      "author": "Khadkevich",
+      "year": "2009"
+    },
+    {
+      "key": "ref29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TASL.2012.2188516"
+    },
+    {
+      "key": "ref30",
+      "first-page": "135",
+      "article-title": "Approximate note transcription for the improved identification of difficult chords",
+      "volume-title": "Proc. Int. Soc. Music Inf. Retrieval Conf.",
+      "author": "Mauch",
+      "year": "2010"
+    },
+    {
+      "key": "ref31",
+      "first-page": "37",
+      "article-title": "Feature learning for chord recognition: The deep chroma extractor",
+      "volume-title": "Proc. 17th Int. Soc. Music Inf. Retrieval Conf.",
+      "author": "Korzeniowski",
+      "year": "2016"
+    },
+    {
+      "key": "ref32",
+      "first-page": "52",
+      "article-title": "Chord detection using deep learning",
+      "volume-title": "Proc. 16th ISMIR Conf.",
+      "volume": "53",
+      "author": "Zhou",
+      "year": "2015"
+    },
+    {
+      "key": "ref33",
+      "article-title": "Automatic chord recognition in audio recording",
+      "author": "Lanz",
+      "year": "2021"
+    },
+    {
+      "key": "ref34",
+      "first-page": "620",
+      "article-title": "A bi-directional transformer for musical chord recognition",
+      "volume-title": "Proc. 20th Int. Soc. Music Inf. Retrieval Conf.",
+      "author": "Park",
+      "year": "2019"
+    },
+    {
+      "key": "ref35",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TASLP.2021.3070158"
+    },
+    {
+      "key": "ref36",
+      "first-page": "91",
+      "article-title": "On the futility of learning complex frame-level language models for chord recognition",
+      "author": "Korzeniowski",
+      "year": "2018",
+      "journal-title": "IEEE Int. Conf. Acoust. Speech Signal Process."
+    },
+    {
+      "key": "ref37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TASLP.2020.3035001"
+    },
+    {
+      "key": "ref38",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCE.2024.3425718"
+    },
+    {
+      "key": "ref39",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1121/1.400476"
+    },
+    {
+      "key": "ref40",
+      "article-title": "Chordsync: Conformer-based alignment of chord annotations to music audio",
+      "volume-title": "Proc. Sound Music Comput. Conf.",
+      "author": "Poltronieri",
+      "year": "2024"
+    },
+    {
+      "key": "ref41",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICASSP40776.2020.9053896"
+    },
+    {
+      "key": "ref42",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ASRU46091.2019.9003750"
+    },
+    {
+      "key": "ref43",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.18653/v1/p19-1176"
+    },
+    {
+      "key": "ref44",
+      "article-title": "Transformers without tears: Improving the normalization of self-attention",
+      "volume-title": "Proc. 16th Int. Conf. Spoken Lang. Transl.",
+      "author": "Nguyen",
+      "year": "2019"
+    },
+    {
+      "key": "ref45",
+      "first-page": "26",
+      "article-title": "Lite transformer with long-short range attention",
+      "volume-title": "Proc. 8th Int. Conf. Learn. Representations",
+      "author": "Wu",
+      "year": "2020"
+    },
+    {
+      "key": "ref46",
+      "first-page": "933",
+      "article-title": "Language modeling with gated convolutional networks",
+      "volume-title": "Proc. Int. Conf. Mach. Learn.",
+      "author": "Dauphin",
+      "year": "2017"
+    },
+    {
+      "key": "ref47",
+      "article-title": "Searching for activation functions",
+      "author": "Ramachandran",
+      "year": "2017"
+    },
+    {
+      "key": "ref48",
+      "article-title": "Understanding and improving transformer from a multi-particle dynamic system point of view",
+      "volume-title": "Proc. Workshop Int. Deep Neural Models Differ. Equ.",
+      "author": "Lu",
+      "year": "2019"
+    },
+    {
+      "key": "ref49",
+      "first-page": "367",
+      "article-title": "MIR_EVAL: A transparent implementation of common MIR metrics",
+      "volume-title": "Proc. Int. Soc. Music Inf. Retrieval Conf.",
+      "volume": "10",
+      "author": "Raffel",
+      "year": "2014"
+    },
+    {
+      "key": "ref50",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICASSP.2013.6637748"
+    },
+    {
+      "key": "ref51",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.18653/v1/N18-2074"
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Audio, Speech and Language Processing"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx8/10723155/11302005/11313568.pdf?arnumber=11313568",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        1,
+        28
+      ]
+    ],
+    "date-time": "2026-01-28T20:58:45Z",
+    "timestamp": 1769633925000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/11313568/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026
+      ]
+    ]
+  },
+  "references-count": 51,
+  "URL": "https://doi.org/10.1109/taslpro.2025.3646468",
+  "relation": {},
+  "ISSN": [
+    "2998-4173"
+  ],
+  "issn-type": [
+    {
+      "value": "2998-4173",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026
+      ]
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "frames": 1013,
+  "tuning": 0.050000000000000044,
+  "times_sha256": "e2508e6a484a0eba28b67a148b363951630eaa5538af3303777cb49631b0c2c1",
+  "rms_sha256": "c8b3353452c5397bca983d627475d6447ca807d68b0cf09a07a477187782ad05",
+  "diagnostics": {
+    "projection_frames": 1013,
+    "dictionary_decay": 0.0
+  }
+}

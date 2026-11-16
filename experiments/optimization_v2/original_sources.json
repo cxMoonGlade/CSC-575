@@ -1,0 +1,46 @@
+{
+  "common.py": {
+    "source_worktree_path": "common.py",
+    "sha256": "4c495d47ea75bef0f19d0021c4d49fcb13478bf0433cb6bae7fcb97fdc9b041d"
+  },
+  "resolution/run.py": {
+    "source_worktree_path": "resolution/experiment/run_resolution.py",
+    "sha256": "89cfdb630472917c4a08caeba6ec413d49265b231231f624ff6bc491c3159875"
+  },
+  "resolution/plan.json": {
+    "source_worktree_path": "resolution/experiment/plan.json",
+    "sha256": "9190615866cc24c55a740789dd02218c5738981ccadb083d4e757108520b9c1e"
+  },
+  "whitening/run.py": {
+    "source_worktree_path": "spectral/experiments/spectral_whitening/whitening.py",
+    "sha256": "e5389fcf54c33cbdf72d1d397b3a14191145a4690ce158cad4e5069877ca1bd8"
+  },
+  "boundary/run.py": {
+    "source_worktree_path": "boundary/experiment/run.py",
+    "sha256": "0c49b700a1228326c749f5ec862869f31ecccd3d246a22f7ff56b54d7843da71"
+  },
+  "boundary/plan.json": {
+    "source_worktree_path": "boundary/experiment/plan.json",
+    "sha256": "33123e2bd1fc39c11b030daf7d7f7c3301ac77521d1313a892f9817f9148efbc"
+  },
+  "boundary/refinement.py": {
+    "source_worktree_path": "boundary/chordrec/boundary.py",
+    "sha256": "32f45768207ef7c45a610cbce78509c298c6634d879e3b2f69e8e40d6f8854c8"
+  },
+  "long_resolution/run.py": {
+    "source_worktree_path": "long_resolution/experiments/long_resolution/run_long_resolution.py",
+    "sha256": "b3f9dc873147a23d1f7b26f3790debcc4c81ed5661c1c453a6b2ee0e70d84641"
+  },
+  "data_sources/acquire_idmt.py": {
+    "source_worktree_path": "acquire_idmt.py",
+    "sha256": "77e450d2ae3b60a4274f4df742c25c8cc2568aa604143f76e1f7ad214dc257e2"
+  },
+  "data_sources/idmt_metadata_acquire.py": {
+    "source_worktree_path": "idmt_metadata_acquire.py",
+    "sha256": "6d2d08d989247c51c5d43e2a030f194ef2e6ea2d0aea10ffdb725d8ec806f3a0"
+  },
+  "data_sources/idmt_audio_acquire.py": {
+    "source_worktree_path": "idmt_audio_acquire.py",
+    "sha256": "7437d337b391b589cc0bc4b804a8513636eb21799105b7df9a415c1c7db5461b"
+  }
+}

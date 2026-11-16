@@ -1,0 +1,111 @@
+{
+  "script_sha256": "eddad38f2024f5c9761488229838ba891f5780aedfdb4b90898c33bf79494a3e",
+  "figure_assets_sha256": {
+    "error_cases.png": "bc2e58e30a5fdf52168ae51d6ccff4b192df2fb1ce391f044b61bca33afbe6b8",
+    "error_case_selection.json": "3b2ad9f367e537ec6b27f207ca3072d9abbb219e6965f5b76ee7224ce2d422f1",
+    "error_cases.pdf": "b25a84ebe83d04ce067bb2a9c920feb2bb3d341312e04593a2a21097b908abf8"
+  },
+  "recordings": 64,
+  "overall_scoreable_recordings": 59,
+  "root_scoreable_recordings": 58,
+  "n_only_piece": "jazz_3",
+  "files_checked": 192,
+  "maximum_total_duration_difference": 0.0,
+  "maximum_label_duration_difference": 0.0,
+  "selected_plot_tracks": [
+    {
+      "recording": "jazz_5",
+      "track": "reference",
+      "original_intervals": 32,
+      "display_intervals": 8,
+      "original_seconds": 19.214013604999998,
+      "display_seconds": 19.214013604999998,
+      "absolute_difference": 0.0,
+      "max_label_duration_difference": 0.0,
+      "source_sha256": "bb4cefdb12f00b072250959e4430a085bdab02a627bb750709eade4d36fb6b4e"
+    },
+    {
+      "recording": "jazz_5",
+      "track": "long_viterbi",
+      "original_intervals": 24,
+      "display_intervals": 24,
+      "original_seconds": 28.0,
+      "display_seconds": 28.0,
+      "absolute_difference": 0.0,
+      "max_label_duration_difference": 0.0,
+      "source_sha256": "60f4e07e6757090c0dc7c0cfdd316bafdabdfb45d2773317bd35eea6f88c4938"
+    },
+    {
+      "recording": "jazz_5",
+      "track": "projection_viterbi",
+      "original_intervals": 29,
+      "display_intervals": 29,
+      "original_seconds": 28.0,
+      "display_seconds": 28.0,
+      "absolute_difference": 0.0,
+      "max_label_duration_difference": 0.0,
+      "source_sha256": "87adfcda9279d5b7b587bd2ed89c0d0f222f2557c30ada9aa3ed984b4dae2f2b"
+    },
+    {
+      "recording": "rock_6",
+      "track": "reference",
+      "original_intervals": 96,
+      "display_intervals": 11,
+      "original_seconds": 48.033015873,
+      "display_seconds": 48.033015873,
+      "absolute_difference": 0.0,
+      "max_label_duration_difference": 0.0,
+      "source_sha256": "4526189e4a0ee77cf48b6c39e5b4e9c603784df888ae31f3e32833157977b7ee"
+    },
+    {
+      "recording": "rock_6",
+      "track": "long_viterbi",
+      "original_intervals": 31,
+      "display_intervals": 31,
+      "original_seconds": 55.5,
+      "display_seconds": 55.5,
+      "absolute_difference": 0.0,
+      "max_label_duration_difference": 0.0,
+      "source_sha256": "d5628bc1c172fd64a6abf75dd9357b713d2f86bbcdf63ae3d4f54b1112aa3b93"
+    },
+    {
+      "recording": "rock_6",
+      "track": "projection_viterbi",
+      "original_intervals": 37,
+      "display_intervals": 37,
+      "original_seconds": 55.5,
+      "display_seconds": 55.5,
+      "absolute_difference": 0.0,
+      "max_label_duration_difference": 0.0,
+      "source_sha256": "ad4f8e6567ce6969eae4305add92af79928f0a7fd5e8faad7ee457128cdec3d3"
+    }
+  ],
+  "selection_matches_saved_extrema": true,
+  "source_csvs_unchanged": true,
+  "canonical_path_checks": {
+    "results_exist": true,
+    "runner_exists": true,
+    "selection_binding_verified": true,
+    "runner_matches_reviewed_source": true
+  },
+  "canonical_manifest_hash_matches": {
+    "selection.json": true,
+    "input_validation.json": true,
+    "previous_selection.json": true,
+    "evaluation_plan.json": true
+  },
+  "canonical_delivery_checks": {
+    "verified_input_files": 128,
+    "identical_saved_interval_files": 192,
+    "figure_script_identical": true,
+    "reproduction_readme_identical": true,
+    "session_acquirer_available": true,
+    "figure_assets_identical": {
+      "error_cases.png": true,
+      "error_case_selection.json": true,
+      "error_cases.pdf": true
+    }
+  },
+  "visual_review": "PNG inspected at full image size: labels and titles fit; unsupported reference blocks and minor-chord hatching are distinct.",
+  "inference_performed": false
+}

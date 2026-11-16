@@ -1,0 +1,79 @@
+{
+  "scipy_version": "1.18.1",
+  "hann_dft_max_absolute_error": 5.452650154081267e-11,
+  "unit_sine_profiles": [
+    {
+      "midi": 36,
+      "maximum_absolute_error": 1.3642420526593924e-12
+    },
+    {
+      "midi": 40,
+      "maximum_absolute_error": 5.7980287238024175e-12
+    },
+    {
+      "midi": 48,
+      "maximum_absolute_error": 3.183231456205249e-12
+    },
+    {
+      "midi": 60,
+      "maximum_absolute_error": 5.4569682106375694e-12
+    },
+    {
+      "midi": 72,
+      "maximum_absolute_error": 7.294152097460333e-12
+    },
+    {
+      "midi": 95,
+      "maximum_absolute_error": 9.458744898438454e-11
+    }
+  ],
+  "frequency_bin_mask_exact": true,
+  "synthetic_recovery": [
+    {
+      "decay": 0.0,
+      "recovery_max_absolute_error": 1.6226160972276147e-15,
+      "residual": 7.394324723293531e-16,
+      "kkt_max_active_gradient": 1.870705151247951e-15
+    },
+    {
+      "decay": 0.6,
+      "recovery_max_absolute_error": 2.220446049250313e-16,
+      "residual": 5.530292851467224e-16,
+      "kkt_max_active_gradient": 6.135603640457273e-16
+    },
+    {
+      "decay": 0.9,
+      "recovery_max_absolute_error": 8.881784197001252e-16,
+      "residual": 2.6487948178206192e-15,
+      "kkt_max_active_gradient": 6.7007100489068044e-15
+    }
+  ],
+  "dev_frame_kkt": [
+    {
+      "frame": 100,
+      "nonzero_coefficients": 18,
+      "active_gradient_max": 3.490198581534987e-14,
+      "inactive_gradient_min": 0.27329772629181665,
+      "relative_kkt_active": 4.558972316631038e-16,
+      "alternative_residual_difference": 7.105427357601002e-15
+    },
+    {
+      "frame": 300,
+      "nonzero_coefficients": 11,
+      "active_gradient_max": 1.051453168239222e-14,
+      "inactive_gradient_min": 0.06409142492622576,
+      "relative_kkt_active": 6.635075865431551e-16,
+      "alternative_residual_difference": 0.0
+    },
+    {
+      "frame": 500,
+      "nonzero_coefficients": 27,
+      "active_gradient_max": 3.0779793039627224e-14,
+      "inactive_gradient_min": 0.09408780623184541,
+      "relative_kkt_active": 5.767024071391307e-16,
+      "alternative_residual_difference": -7.105427357601002e-15
+    }
+  ],
+  "source_record": "00_Funk1-97-C_comp",
+  "test_or_idmt_accessed": false
+}

@@ -1,0 +1,482 @@
+{
+  "total_seconds": 12.539721785113215,
+  "per_recording": [
+    {
+      "recording": "00_BN1-129-Eb_comp",
+      "seconds": 0.3827126696705818
+    },
+    {
+      "recording": "00_BN1-147-Gb_comp",
+      "seconds": 0.06921955291181803
+    },
+    {
+      "recording": "00_BN2-131-B_comp",
+      "seconds": 0.11078989412635565
+    },
+    {
+      "recording": "00_BN2-166-Ab_comp",
+      "seconds": 0.08068992663174868
+    },
+    {
+      "recording": "00_Funk1-114-Ab_comp",
+      "seconds": 0.08669963479042053
+    },
+    {
+      "recording": "00_Funk1-97-C_comp",
+      "seconds": 0.10341956932097673
+    },
+    {
+      "recording": "00_Funk2-108-Eb_comp",
+      "seconds": 0.1391822835430503
+    },
+    {
+      "recording": "00_Funk2-119-G_comp",
+      "seconds": 0.11336424760520458
+    },
+    {
+      "recording": "00_Jazz1-130-D_comp",
+      "seconds": 0.07113321125507355
+    },
+    {
+      "recording": "00_Jazz1-200-B_comp",
+      "seconds": 0.048987170681357384
+    },
+    {
+      "recording": "00_Jazz2-110-Bb_comp",
+      "seconds": 0.11525883059948683
+    },
+    {
+      "recording": "00_Jazz2-187-F#_comp",
+      "seconds": 0.07213484961539507
+    },
+    {
+      "recording": "00_Rock1-130-A_comp",
+      "seconds": 0.08008741121739149
+    },
+    {
+      "recording": "00_Rock1-90-C#_comp",
+      "seconds": 0.10950999706983566
+    },
+    {
+      "recording": "00_Rock2-142-D_comp",
+      "seconds": 0.09144377522170544
+    },
+    {
+      "recording": "00_Rock2-85-F_comp",
+      "seconds": 0.16839263774454594
+    },
+    {
+      "recording": "00_SS1-100-C#_comp",
+      "seconds": 0.10212940629571676
+    },
+    {
+      "recording": "00_SS1-68-E_comp",
+      "seconds": 0.14670246187597513
+    },
+    {
+      "recording": "00_SS2-107-Ab_comp",
+      "seconds": 0.11788275744765997
+    },
+    {
+      "recording": "00_SS2-88-F_comp",
+      "seconds": 0.14670009072870016
+    },
+    {
+      "recording": "01_BN1-129-Eb_comp",
+      "seconds": 0.0796809745952487
+    },
+    {
+      "recording": "01_BN1-147-Gb_comp",
+      "seconds": 0.06624592561274767
+    },
+    {
+      "recording": "01_BN2-131-B_comp",
+      "seconds": 0.10074644535779953
+    },
+    {
+      "recording": "01_BN2-166-Ab_comp",
+      "seconds": 0.07910093013197184
+    },
+    {
+      "recording": "01_Funk1-114-Ab_comp",
+      "seconds": 0.0867376122623682
+    },
+    {
+      "recording": "01_Funk1-97-C_comp",
+      "seconds": 0.10637073311954737
+    },
+    {
+      "recording": "01_Funk2-108-Eb_comp",
+      "seconds": 0.11630077101290226
+    },
+    {
+      "recording": "01_Funk2-119-G_comp",
+      "seconds": 0.10875359363853931
+    },
+    {
+      "recording": "01_Jazz1-130-D_comp",
+      "seconds": 0.07385605294257402
+    },
+    {
+      "recording": "01_Jazz1-200-B_comp",
+      "seconds": 0.050370953977108
+    },
+    {
+      "recording": "01_Jazz2-110-Bb_comp",
+      "seconds": 0.1136919604614377
+    },
+    {
+      "recording": "01_Jazz2-187-F#_comp",
+      "seconds": 0.0735103590413928
+    },
+    {
+      "recording": "01_Rock1-130-A_comp",
+      "seconds": 0.08330825250595808
+    },
+    {
+      "recording": "01_Rock1-90-C#_comp",
+      "seconds": 0.11409341916441917
+    },
+    {
+      "recording": "01_Rock2-142-D_comp",
+      "seconds": 0.09559146501123905
+    },
+    {
+      "recording": "01_Rock2-85-F_comp",
+      "seconds": 0.16568907443434
+    },
+    {
+      "recording": "01_SS1-100-C#_comp",
+      "seconds": 0.10817014332860708
+    },
+    {
+      "recording": "01_SS1-68-E_comp",
+      "seconds": 0.15188494231551886
+    },
+    {
+      "recording": "01_SS2-107-Ab_comp",
+      "seconds": 0.13231294974684715
+    },
+    {
+      "recording": "01_SS2-88-F_comp",
+      "seconds": 0.1499285465106368
+    },
+    {
+      "recording": "02_BN1-129-Eb_comp",
+      "seconds": 0.08384602889418602
+    },
+    {
+      "recording": "02_BN1-147-Gb_comp",
+      "seconds": 0.06573754828423262
+    },
+    {
+      "recording": "02_BN2-131-B_comp",
+      "seconds": 0.09984204079955816
+    },
+    {
+      "recording": "02_BN2-166-Ab_comp",
+      "seconds": 0.07603353448212147
+    },
+    {
+      "recording": "02_Funk1-114-Ab_comp",
+      "seconds": 0.08959703613072634
+    },
+    {
+      "recording": "02_Funk1-97-C_comp",
+      "seconds": 0.1037339111790061
+    },
+    {
+      "recording": "02_Funk2-108-Eb_comp",
+      "seconds": 0.12472109775990248
+    },
+    {
+      "recording": "02_Funk2-119-G_comp",
+      "seconds": 0.10866652615368366
+    },
+    {
+      "recording": "02_Jazz1-130-D_comp",
+      "seconds": 0.07615787908434868
+    },
+    {
+      "recording": "02_Jazz1-200-B_comp",
+      "seconds": 0.052514647133648396
+    },
+    {
+      "recording": "02_Jazz2-110-Bb_comp",
+      "seconds": 0.1223039235919714
+    },
+    {
+      "recording": "02_Jazz2-187-F#_comp",
+      "seconds": 0.07391041796654463
+    },
+    {
+      "recording": "02_Rock1-130-A_comp",
+      "seconds": 0.07875320315361023
+    },
+    {
+      "recording": "02_Rock1-90-C#_comp",
+      "seconds": 0.11238111089915037
+    },
+    {
+      "recording": "02_Rock2-142-D_comp",
+      "seconds": 0.09484181273728609
+    },
+    {
+      "recording": "02_Rock2-85-F_comp",
+      "seconds": 0.1567682782188058
+    },
+    {
+      "recording": "02_SS1-100-C#_comp",
+      "seconds": 0.09387256298214197
+    },
+    {
+      "recording": "02_SS1-68-E_comp",
+      "seconds": 0.14383343793451786
+    },
+    {
+      "recording": "02_SS2-107-Ab_comp",
+      "seconds": 0.11585827823728323
+    },
+    {
+      "recording": "02_SS2-88-F_comp",
+      "seconds": 0.1445874823257327
+    },
+    {
+      "recording": "03_BN1-129-Eb_comp",
+      "seconds": 0.0787237398326397
+    },
+    {
+      "recording": "03_BN1-147-Gb_comp",
+      "seconds": 0.0651394221931696
+    },
+    {
+      "recording": "03_BN2-131-B_comp",
+      "seconds": 0.10492750816047192
+    },
+    {
+      "recording": "03_BN2-166-Ab_comp",
+      "seconds": 0.0790253235027194
+    },
+    {
+      "recording": "03_Funk1-114-Ab_comp",
+      "seconds": 0.08804120123386383
+    },
+    {
+      "recording": "03_Funk1-97-C_comp",
+      "seconds": 0.10109592694789171
+    },
+    {
+      "recording": "03_Funk2-108-Eb_comp",
+      "seconds": 0.12737428024411201
+    },
+    {
+      "recording": "03_Funk2-119-G_comp",
+      "seconds": 0.11426830571144819
+    },
+    {
+      "recording": "03_Jazz1-130-D_comp",
+      "seconds": 0.07733111549168825
+    },
+    {
+      "recording": "03_Jazz1-200-B_comp",
+      "seconds": 0.051016259007155895
+    },
+    {
+      "recording": "03_Jazz2-110-Bb_comp",
+      "seconds": 0.122556546702981
+    },
+    {
+      "recording": "03_Jazz2-187-F#_comp",
+      "seconds": 0.07196476776152849
+    },
+    {
+      "recording": "03_Rock1-130-A_comp",
+      "seconds": 0.07694110460579395
+    },
+    {
+      "recording": "03_Rock1-90-C#_comp",
+      "seconds": 0.1078236186876893
+    },
+    {
+      "recording": "03_Rock2-142-D_comp",
+      "seconds": 0.09100473765283823
+    },
+    {
+      "recording": "03_Rock2-85-F_comp",
+      "seconds": 0.16071988455951214
+    },
+    {
+      "recording": "03_SS1-100-C#_comp",
+      "seconds": 0.10655356384813786
+    },
+    {
+      "recording": "03_SS1-68-E_comp",
+      "seconds": 0.1499994732439518
+    },
+    {
+      "recording": "03_SS2-107-Ab_comp",
+      "seconds": 0.13230156432837248
+    },
+    {
+      "recording": "03_SS2-88-F_comp",
+      "seconds": 0.1542098242789507
+    },
+    {
+      "recording": "04_BN1-129-Eb_comp",
+      "seconds": 0.07921250257641077
+    },
+    {
+      "recording": "04_BN1-147-Gb_comp",
+      "seconds": 0.06444842927157879
+    },
+    {
+      "recording": "04_BN2-131-B_comp",
+      "seconds": 0.098034692928195
+    },
+    {
+      "recording": "04_BN2-166-Ab_comp",
+      "seconds": 0.07805229909718037
+    },
+    {
+      "recording": "04_Funk1-114-Ab_comp",
+      "seconds": 0.08854649402201176
+    },
+    {
+      "recording": "04_Funk1-97-C_comp",
+      "seconds": 0.10400081053376198
+    },
+    {
+      "recording": "04_Funk2-108-Eb_comp",
+      "seconds": 0.12334877904504538
+    },
+    {
+      "recording": "04_Funk2-119-G_comp",
+      "seconds": 0.11343641765415668
+    },
+    {
+      "recording": "04_Jazz1-130-D_comp",
+      "seconds": 0.07722096517682076
+    },
+    {
+      "recording": "04_Jazz2-110-Bb_comp",
+      "seconds": 0.12174934893846512
+    },
+    {
+      "recording": "04_Jazz2-187-F#_comp",
+      "seconds": 0.07127944752573967
+    },
+    {
+      "recording": "04_Rock1-130-A_comp",
+      "seconds": 0.07749791815876961
+    },
+    {
+      "recording": "04_Rock1-90-C#_comp",
+      "seconds": 0.11393296159803867
+    },
+    {
+      "recording": "04_Rock2-142-D_comp",
+      "seconds": 0.09493486676365137
+    },
+    {
+      "recording": "04_Rock2-85-F_comp",
+      "seconds": 0.15208675898611546
+    },
+    {
+      "recording": "04_SS1-100-C#_comp",
+      "seconds": 0.09907925315201283
+    },
+    {
+      "recording": "04_SS1-68-E_comp",
+      "seconds": 0.14415459986776114
+    },
+    {
+      "recording": "04_SS2-107-Ab_comp",
+      "seconds": 0.12544329836964607
+    },
+    {
+      "recording": "04_SS2-88-F_comp",
+      "seconds": 0.15176764596253633
+    },
+    {
+      "recording": "05_BN1-129-Eb_comp",
+      "seconds": 0.07963023986667395
+    },
+    {
+      "recording": "05_BN1-147-Gb_comp",
+      "seconds": 0.07130654249340296
+    },
+    {
+      "recording": "05_BN2-131-B_comp",
+      "seconds": 0.10992333944886923
+    },
+    {
+      "recording": "05_BN2-166-Ab_comp",
+      "seconds": 0.07954158261418343
+    },
+    {
+      "recording": "05_Funk1-114-Ab_comp",
+      "seconds": 0.0893040457740426
+    },
+    {
+      "recording": "05_Funk1-97-C_comp",
+      "seconds": 0.10730475187301636
+    },
+    {
+      "recording": "05_Funk2-108-Eb_comp",
+      "seconds": 0.12107525765895844
+    },
+    {
+      "recording": "05_Funk2-119-G_comp",
+      "seconds": 0.10870918724685907
+    },
+    {
+      "recording": "05_Jazz1-130-D_comp",
+      "seconds": 0.07959446404129267
+    },
+    {
+      "recording": "05_Jazz1-200-B_comp",
+      "seconds": 0.05234390310943127
+    },
+    {
+      "recording": "05_Jazz2-110-Bb_comp",
+      "seconds": 0.11597731150686741
+    },
+    {
+      "recording": "05_Jazz2-187-F#_comp",
+      "seconds": 0.07406261004507542
+    },
+    {
+      "recording": "05_Rock1-130-A_comp",
+      "seconds": 0.08364435564726591
+    },
+    {
+      "recording": "05_Rock1-90-C#_comp",
+      "seconds": 0.11428296193480492
+    },
+    {
+      "recording": "05_Rock2-142-D_comp",
+      "seconds": 0.0972775761038065
+    },
+    {
+      "recording": "05_Rock2-85-F_comp",
+      "seconds": 0.15987766534090042
+    },
+    {
+      "recording": "05_SS1-100-C#_comp",
+      "seconds": 0.09391559287905693
+    },
+    {
+      "recording": "05_SS1-68-E_comp",
+      "seconds": 0.14698876347392797
+    },
+    {
+      "recording": "05_SS2-107-Ab_comp",
+      "seconds": 0.1275012781843543
+    },
+    {
+      "recording": "05_SS2-88-F_comp",
+      "seconds": 0.1570547018200159
+    }
+  ],
+  "scope": "Read/resample audio and extract 4096/16384 chroma with cached tuning, including initial library overhead. The 8192 chroma is reused. Not a per-candidate inference benchmark."
+}

@@ -1,0 +1,9 @@
+{
+  "baseline": "configs/frozen.json, long STFT, penalty 4",
+  "development": "119 accompaniment recordings in progression families1 and2 only",
+  "objective": "Increase duration-weighted supported-label accuracy, with per-family and near-change checks",
+  "candidate_gate": "At least0.5 percentage points overall improvement and nonnegative change in each development progression family; report all outcomes",
+  "test": "No fresh independent music test is available. Existing progression3 test must not be read or run for candidate selection. No model is promoted to a new validated default.",
+  "limits": "Three bounded hypotheses, up to12 settings each; one follow-up clarification only if evidence warrants it",
+  "changes": "Optional experimental implementation and development analysis; preserve frozen results and report historical test table"
+}

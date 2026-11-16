@@ -1,0 +1,37 @@
+{
+  "reviewed_at_utc": "2026-11-10T00:27:55.217402+00:00",
+  "runner_sha256": "3ee78b36a67afd4759983bc1217c35984c1fd244aa27f74fc7dde24dcf8f66a6",
+  "preflight_directory": "/tmp/chordrec_root_fast/independent_preflight",
+  "input_hashes_checked": 135,
+  "source_snapshot_hashes_checked": 23,
+  "comparison_plan_binding": true,
+  "config_plan_hashes_checked": 3,
+  "method_plan_hashes_checked": 5,
+  "fast_and_slow_piece_ids_and_paths_match": true,
+  "all_annotations_match_prior_metadata_audit": true,
+  "recordings": 64,
+  "scoreable_recordings": 59,
+  "zero_scoreable_recordings": [
+    "country_5",
+    "metal_1",
+    "metal_2",
+    "metal_4",
+    "rock_5"
+  ],
+  "audio_seconds": 1786.1598412698413,
+  "scoreable_seconds": 1063.785464856,
+  "coverage": 0.5955712586728628,
+  "chord_seconds": 936.939999995,
+  "reference_N_seconds": 126.84546486100001,
+  "unsupported_reference_seconds": 238.86471655199998,
+  "unannotated_seconds": 483.5096598618413,
+  "synthetic_interval_and_aggregation_checks_passed": 38,
+  "model_runs": 0,
+  "predictions_created": false,
+  "review_findings_resolved": [
+    "Frozen plan, configurations and core method hashes checked before inference.",
+    "Fast and previous slow filenames checked against paired piece IDs.",
+    "Comparison runner is rehashed after inference alongside imported sources."
+  ],
+  "status": "Ready for one frozen comparison; no new method selection from its results."
+}

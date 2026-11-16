@@ -1,0 +1,159 @@
+{
+  "summary": {
+    "setting": "independent_projection",
+    "correct_seconds": 1710.6941700610073,
+    "scoreable_seconds": 2192.4989483060635,
+    "near_correct_seconds": 92.21059440651564,
+    "near_scoreable_seconds": 163.99999999999966,
+    "chord_seconds": 2192.4989483060635,
+    "root_correct_seconds": 1743.9596016522235,
+    "other_root_seconds": 436.00846363396545,
+    "chord_to_n_seconds": 12.53088301987462,
+    "audio_stft_seconds": 5.553637606091797,
+    "projection_decode_seconds": 2.5889111403375864,
+    "accuracy": 0.7802485704190184,
+    "root_accuracy": 0.7954209524249104,
+    "near_accuracy": 0.5622597219909502,
+    "families": {
+      "1": {
+        "correct_seconds": 910.3429088793698,
+        "scoreable_seconds": 1055.1755588667654,
+        "near_correct_seconds": 35.2792712006281,
+        "near_scoreable_seconds": 57.59999999999985,
+        "chord_seconds": 1055.1755588667654,
+        "root_correct_seconds": 922.9242198599023,
+        "other_root_seconds": 123.0644909343007,
+        "chord_to_n_seconds": 9.186848072562373,
+        "audio_stft_seconds": 2.581371618434787,
+        "projection_decode_seconds": 1.1594863720238209,
+        "accuracy": 0.8627407081500802,
+        "root_accuracy": 0.8746641372655579,
+        "near_accuracy": 0.6124873472331284
+      },
+      "2": {
+        "correct_seconds": 800.3512611816376,
+        "scoreable_seconds": 1137.3233894392981,
+        "near_correct_seconds": 56.93132320588754,
+        "near_scoreable_seconds": 106.3999999999998,
+        "chord_seconds": 1137.3233894392981,
+        "root_correct_seconds": 821.0353817923212,
+        "other_root_seconds": 312.94397269966476,
+        "chord_to_n_seconds": 3.3440349473122475,
+        "audio_stft_seconds": 2.9722659876570106,
+        "projection_decode_seconds": 1.4294247683137655,
+        "accuracy": 0.7037147645193613,
+        "root_accuracy": 0.7219014305131742,
+        "near_accuracy": 0.5350688271230042
+      }
+    },
+    "delta_accuracy_pp": {
+      "baseline": 6.059458906929871,
+      "decay_0": -0.34069339450205627
+    },
+    "family_delta_accuracy_pp": {
+      "baseline": {
+        "1": 6.875966770286035,
+        "2": 5.301926661452427
+      },
+      "decay_0": {
+        "1": -0.4773871492922632,
+        "2": -0.21387290488261712
+      }
+    }
+  },
+  "saved_controls": [
+    {
+      "setting": "baseline",
+      "correct_seconds": 1577.840597253532,
+      "scoreable_seconds": 2192.4989483060635,
+      "near_correct_seconds": 86.19881328560136,
+      "near_scoreable_seconds": 163.99999999999966,
+      "chord_seconds": 2192.4989483060635,
+      "root_correct_seconds": 1632.8867742136013,
+      "other_root_seconds": 547.0812910725878,
+      "shared_audio_stft_seconds": 5.517656619660556,
+      "fit_decode_seconds": 0.33133387845009565,
+      "accuracy": 0.7196539813497197,
+      "near_accuracy": 0.5256025200341558,
+      "root_accuracy": 0.7447605735342214,
+      "families": {
+        "1": {
+          "correct_seconds": 837.7893880835111,
+          "scoreable_seconds": 1055.1755588667654,
+          "near_correct_seconds": 32.67814819550412,
+          "near_scoreable_seconds": 57.59999999999985,
+          "chord_seconds": 1055.1755588667654,
+          "root_correct_seconds": 865.7907557884878,
+          "other_root_seconds": 180.19795500571524,
+          "shared_audio_stft_seconds": 2.56152112968266,
+          "fit_decode_seconds": 0.1462603136897087,
+          "accuracy": 0.7939810404472198,
+          "near_accuracy": 0.5673289617275036,
+          "root_accuracy": 0.8205182052532826
+        },
+        "2": {
+          "correct_seconds": 740.051209170021,
+          "scoreable_seconds": 1137.3233894392981,
+          "near_correct_seconds": 53.520665090097246,
+          "near_scoreable_seconds": 106.3999999999998,
+          "chord_seconds": 1137.3233894392981,
+          "root_correct_seconds": 767.0960184251135,
+          "other_root_seconds": 366.8833360668725,
+          "shared_audio_stft_seconds": 2.956135489977896,
+          "fit_decode_seconds": 0.18507356476038694,
+          "accuracy": 0.650695497904837,
+          "near_accuracy": 0.503013769643772,
+          "root_accuracy": 0.6744748464227864
+        }
+      }
+    },
+    {
+      "setting": "decay_0",
+      "correct_seconds": 1718.1638691524133,
+      "scoreable_seconds": 2192.4989483060635,
+      "near_correct_seconds": 92.39266197307805,
+      "near_scoreable_seconds": 163.99999999999966,
+      "chord_seconds": 2192.4989483060635,
+      "root_correct_seconds": 1757.1844056618852,
+      "other_root_seconds": 422.78365962430365,
+      "shared_audio_stft_seconds": 5.517656619660556,
+      "fit_decode_seconds": 71.93180740624666,
+      "accuracy": 0.783655504364039,
+      "near_accuracy": 0.5633698900797454,
+      "root_accuracy": 0.8014527929509363,
+      "families": {
+        "1": {
+          "correct_seconds": 915.3801813998725,
+          "scoreable_seconds": 1055.1755588667654,
+          "near_correct_seconds": 35.655137257751825,
+          "near_scoreable_seconds": 57.59999999999985,
+          "chord_seconds": 1055.1755588667654,
+          "root_correct_seconds": 928.8943387821237,
+          "other_root_seconds": 117.09437201207933,
+          "shared_audio_stft_seconds": 2.56152112968266,
+          "fit_decode_seconds": 31.569118598476052,
+          "accuracy": 0.8675145796430028,
+          "near_accuracy": 0.6190127996137486,
+          "root_accuracy": 0.8803220762426824
+        },
+        "2": {
+          "correct_seconds": 802.7836877525408,
+          "scoreable_seconds": 1137.3233894392981,
+          "near_correct_seconds": 56.73752471532623,
+          "near_scoreable_seconds": 106.3999999999998,
+          "chord_seconds": 1137.3233894392981,
+          "root_correct_seconds": 828.2900668797616,
+          "other_root_seconds": 305.68928761222435,
+          "shared_audio_stft_seconds": 2.956135489977896,
+          "fit_decode_seconds": 40.36268880777061,
+          "accuracy": 0.7058534935681875,
+          "near_accuracy": 0.5332474127380294,
+          "root_accuracy": 0.7282801660204224
+        }
+      }
+    }
+  ],
+  "recordings": 119,
+  "test_or_idmt_accessed": false,
+  "timing_note": "Projection timing includes dictionary construction, projection, folding and decoding. It excludes tuning and RMS, so it is not full-pipeline runtime."
+}

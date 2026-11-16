@@ -1,0 +1,98 @@
+{
+  "completed_at_utc": "2026-11-09T23:03:14.445024+00:00",
+  "method": "note_projection",
+  "method_label": "Note projection",
+  "decoder": "viterbi",
+  "input": {
+    "path": "/home/cx/Documents/csc475/Proj/docs/datasets/GuitarSet/audio_mono-mic/01_Funk1-97-C_comp_mic.wav",
+    "bytes": 2618560,
+    "sha256": "c6dc6620cbd1a1c5e1bb4c24beca3f5c7176ce7a8685bc56f067dfea1b2ae289"
+  },
+  "config_file": {
+    "path": "/home/cx/Documents/csc475/Proj/configs/note_projection.json",
+    "bytes": 990,
+    "sha256": "6c26f658382dd6872a322b5556924932b737a5c7c78a3debc3d2352620acd9bd"
+  },
+  "config": {
+    "sample_rate": 22050,
+    "hop_length": 512,
+    "n_fft_short": 2048,
+    "n_fft_long": 8192,
+    "midi_min": 36,
+    "n_octaves": 5,
+    "fixed_weight": 0.0,
+    "change_threshold": 1.0,
+    "change_radius_seconds": 0.2,
+    "stable_short_weight": 0.2,
+    "change_short_weight": 0.8,
+    "silence_db": -45.0,
+    "switch_penalty": 4.0,
+    "boundary_tolerance": 0.1,
+    "annotation": "performed",
+    "seed": 20261107,
+    "status": "frozen",
+    "selected_single_window": "long",
+    "frozen_at_utc": "2026-11-09T22:55:04.289638+00:00",
+    "selection_record": "results/root_optimization/projection/summary.json",
+    "near_boundary_seconds": 0.2,
+    "evaluation_plan": "One prospective baseline, selectedNNLS and directprojection comparison on all88IDMTisolatedchords; primaryNNLS selectedbydevaccuracy, projectioncostcontrol fixedbeforetest. No test-basedretuning.",
+    "source_selection_sha256": "775fe881e302a9a03dda533ffbe7e56ad55a2da82ec81b97c9cbc31290c58458",
+    "method": "note_projection",
+    "harmonic_decay": 0.0
+  },
+  "audio_seconds": 29.688390022675737,
+  "frames": 1279,
+  "tuning": 0.040000000000000036,
+  "prediction_intervals": 6,
+  "runtime_seconds": 0.19756658468395472,
+  "warmup_seconds": 0.5127073545008898,
+  "realtime_factor": 0.0066546749262272244,
+  "runtime_definition": "CPU wall time from audio loading through decoded interval construction, including resampling, tuning, RMS, STFT, dictionary and note features. Imports, the separate warm-up pass, raw diagnostics, hashing, file output and playback generation are excluded. No feature cache is used; the OS disk cache is not cleared.",
+  "thread_settings": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "demonstration": {
+    "recording": "01_Funk1-97-C_comp",
+    "split": "development",
+    "audio_duration_seconds": 29.688390022675737,
+    "focus_intervals": [
+      [
+        0.0,
+        10.0
+      ]
+    ],
+    "reference_intervals": 6,
+    "prediction_tracks": 2
+  },
+  "development_metrics": {
+    "duration_accuracy": 0.9824057737716332,
+    "correct_seconds": 29.16604577226079,
+    "scoreable_seconds": 29.688390022675737,
+    "excluded_seconds": 0.0,
+    "coverage": 1.0,
+    "boundary_precision": 0.4,
+    "boundary_recall": 0.4,
+    "boundary_f1": 0.4000000000000001,
+    "boundary_matches": 2,
+    "reference_boundaries": 5,
+    "predicted_boundaries": 5,
+    "boundary_mae_seconds": 0.05935152067699967,
+    "boundary_mean_signed_error_seconds": 0.0167117843701039,
+    "boundary_timing_errors_seconds": [
+      0.07606330504710357,
+      -0.04263973630689577
+    ],
+    "matched_boundary_pairs": [
+      [
+        9.896907216494846,
+        9.97297052154195
+      ],
+      [
+        14.845360824742269,
+        14.802721088435373
+      ]
+    ]
+  }
+}

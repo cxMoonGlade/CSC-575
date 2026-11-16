@@ -1,0 +1,29 @@
+{
+  "recorded_at_utc": "2026-11-07T18:10:08.838415+00:00",
+  "dataset": "IDMT-SMT-Guitar v1.0.0, subset4",
+  "source": "https://zenodo.org/records/7544110",
+  "selection": "Case-insensitive lexicographically first complete64-file capture stream, slow tempo: acoustic_mic/slow. Selection uses metadata only, before any algorithm score.",
+  "methods": [
+    {
+      "name": "baseline_long8192",
+      "configuration": "original configs/frozen.json",
+      "method": "long"
+    },
+    {
+      "name": "fixed4096_8192_w02",
+      "configuration": "candidate_frozen.json",
+      "method": "fixed"
+    }
+  ],
+  "primary_metric": "Exact duration accuracy using existing mir_eval.majmin-compatible evaluator; same unsupported-label/gap exclusions. Report coverage for all selected recordings.",
+  "secondary_metrics": [
+    "near-reference-change accuracy,\u00b10.2s",
+    "one-to-one boundary F1 at100ms",
+    "serial uncached audio-to-label runtime",
+    "Chord-only duration accuracy excluding reference N, to distinguish no-chord coverage from chord labelling"
+  ],
+  "malformed_data": "Resolve annotation format and timing from official metadata before scoring; document exclusions without observing method output.",
+  "decision": "One comparison only; no new settings selected from these scores. Candidate failed development adoption threshold, so original default remains regardless of external outcome.",
+  "scope": "A new recording corpus, one capture stream and tempo; do not claim64independent progression families without checking their structure.",
+  "annotation_policy": "Hold each explicit mapped symbol until the next annotated beat/change; score only between first and last annotated beat. Parse final three rows as metadata. Interpret NC as N; nonstandard or malformed symbols as X. Validate slash bass syntax; major/minor metric ignores inversion."
+}

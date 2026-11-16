@@ -1,0 +1,37 @@
+{
+  "checked_at_utc": "2026-11-09T12:04:20.815082+00:00",
+  "browser": "156.0.8078.4",
+  "headless": true,
+  "status": "passed",
+  "metadata": {
+    "duration": 44.636349,
+    "error": null
+  },
+  "interval_playback": {
+    "requested": [
+      9.218321995,
+      10.901904761
+    ],
+    "observed_start": 9.450373,
+    "observed_stop": 10.901904
+  },
+  "context_playback": {
+    "requested": [
+      8.218321995,
+      11.901904761
+    ],
+    "observed_start": 8.373456,
+    "observed_stop": 11.901904
+  },
+  "full_seek": 22.308828,
+  "zoom_seek": 23.138894,
+  "invalid_interval_rejected": true,
+  "raf": {
+    "pending": 0,
+    "max": 1
+  },
+  "page_errors": [],
+  "audio_content_listened_to": false,
+  "html": "results/nc_diagnostic/jazz_8.html",
+  "screenshot": "results/nc_diagnostic/jazz_8.png"
+}

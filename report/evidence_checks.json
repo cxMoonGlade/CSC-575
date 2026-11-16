@@ -1,0 +1,283 @@
+{
+  "preserved_numerical_checks": {
+    "table_values_verified": {
+      "Long STFT": [
+        71.97,
+        74.48,
+        64.7,
+        73.91,
+        9.49
+      ],
+      "Note NNLS": [
+        78.37,
+        80.15,
+        66.95,
+        78.45,
+        44.37
+      ],
+      "Projection": [
+        78.02,
+        79.54,
+        67.8,
+        78.32,
+        10.43
+      ]
+    },
+    "quality_error_seconds_verified": {
+      "long_raw": 49.58244899807032,
+      "long_viterbi": 19.073605447238094,
+      "projection_raw": 49.643469402102085,
+      "projection_viterbi": 27.41478458587755,
+      "correct -> quality_wrong": 10.602993198777778,
+      "quality_wrong -> correct": 2.2618140601383203
+    },
+    "scoreable_counts": {
+      "recordings": 64,
+      "scoreable_recordings": 59,
+      "chord_scoreable_recordings": 58,
+      "scoreable_seconds": 1063.785464856,
+      "root_scoreable_seconds": 936.939999995,
+      "coverage": 0.5955712586728628,
+      "audio_seconds": 1786.1598412698413
+    },
+    "reference_changes": {
+      "development_reference_changes": {
+        "root_change": 410,
+        "same_root_quality": 0
+      },
+      "fast_reference_changes": {
+        "root_change": 363,
+        "same_root_quality": 4
+      }
+    }
+  },
+  "coverage_totals_seconds": {
+    "audio_seconds": 1786.1598412698413,
+    "unannotated_seconds": 483.50965986184127,
+    "unsupported_reference_seconds": 238.86471655199998,
+    "supported_chord_seconds": 936.939999995,
+    "no_chord_seconds": 126.84546486100001
+  },
+  "coverage_percentages": {
+    "scoreable_percent": 59.55712586728627,
+    "unannotated_percent": 27.06978673969615,
+    "unsupported_percent": 13.373087393017581
+  },
+  "raw_quality_error_location_seconds": {
+    "shared": 39.29426305287302,
+    "long_only": 10.288185945197249,
+    "projection_only": 10.34920634922901
+  },
+  "figure_group_rates_percent": {
+    "triad_pitch_set": {
+      "long_viterbi": 0.9205955411218574,
+      "projection_viterbi": 0.6749408625847464
+    },
+    "extended_pitch_set": {
+      "long_viterbi": 4.14524376281354,
+      "projection_viterbi": 7.184309092262971
+    }
+  },
+  "figure_rate_denominator": "All supported reference chord time within each reference pitch-set group, excluding N; not conditional on predicted root correctness",
+  "ideal_template_checks": [
+    {
+      "third_amplitude": 1.0,
+      "maximizers": [
+        "C:min",
+        "Eb:maj"
+      ],
+      "score": 0.8660254037844387
+    },
+    {
+      "third_amplitude": 0.5,
+      "maximizers": [
+        "C:min",
+        "Eb:maj"
+      ],
+      "score": 0.8006407690254358
+    },
+    {
+      "third_amplitude": 0.25,
+      "maximizers": [
+        "C:min",
+        "Eb:maj"
+      ],
+      "score": 0.7423074889580903
+    }
+  ],
+  "checked_at_utc": "2026-11-16T10:18:06.694246+00:00",
+  "task": "Document completed proposal indicators, add a real demonstration figure, clarify the remaining work and diagnose rock_6 with the frozen recognizer",
+  "prior_evidence_record": "/home/cx/Documents/csc475/report-backups/2026-11-16-before-rubric-revision-100008/report/evidence_checks.json",
+  "pages": 4,
+  "page_size": "A4",
+  "bibliography_entries": 19,
+  "all_entries_cited": true,
+  "overview_sources": 3,
+  "figures": 2,
+  "figure_panels": 3,
+  "tables": 2,
+  "equations": 3,
+  "new_benchmark_comparisons": false,
+  "parameter_selection_performed": false,
+  "diagnostic_recomputation": true,
+  "numeric_verification_scope": "Saved source hashes rechecked; Table 1, spectral/fusion results and boundary F1 rechecked against archived summaries. rock_6 was recomputed with the archived source and settings; all four label tracks and interval boundaries reproduce exactly. Saved diagnostic cells independently reaggregated. Other prior numerical checks retained with verified sources.",
+  "spectral_development_accuracy_percent": {
+    "short": 64.55869982060172,
+    "long": 71.96539813497196,
+    "cqt": 64.95039382942804,
+    "fixed": 71.96539813497196,
+    "adaptive": 71.66418661326777
+  },
+  "fusion_followup": {
+    "development_candidate": "fixed_4096_8192_w0.2",
+    "development_accuracy_percent": 72.22384154533077,
+    "slow_baseline_accuracy_percent": 65.73159779790052,
+    "slow_fusion_accuracy_percent": 65.55806224689078
+  },
+  "fast_boundary_f1_percent": {
+    "long": 27.26613488034808,
+    "projection": 28.904109589041095
+  },
+  "rock6_diagnostic": {
+    "decoded_quality_error_seconds": 9.893310659034011,
+    "positive_same_root_margin_seconds": 7.850952382476205,
+    "negative_same_root_margin_seconds": 2.042358276557806,
+    "raw_24_template_correct_seconds": 5.552176872272124,
+    "duration_weighted_mean_margin": -0.005907768571355892,
+    "all_four_saved_tracks_exactly_reproduced": true,
+    "frozen_input_and_source_hashes_verified": true,
+    "scope": "Previously selected case; feature activations are not physical note amplitudes. Positive-margin duration is not raw accuracy or a causal attribution."
+  },
+  "demo": {
+    "source_relative_to_project": "results/root_optimization/demo_projection/playback.html",
+    "source_sha256": "f59f643a07e6d98a6ae48fa206cdf49dac274f0a272c9c203074e87db3f460fe",
+    "csv_sha256": "ea2f5f27ac1dfd127be078a51974946da32fedaa6f152250a12b705bb4e7afce",
+    "data_unchanged": true,
+    "presentation_only_changes": "Compact view of the existing player. Surrounding prose, full-recording overview, selector, and context/whole-recording buttons hidden for capture. Existing start/end, focus/play controls and selected timeline retained. Text enlarged and SVG x-coordinates rescaled for column legibility. No prediction, audio, label, or feature data changed.",
+    "interval_playback_checked": true,
+    "csv_first_row": {
+      "start": "0.0",
+      "end": "9.97297052154195",
+      "label": "C:maj"
+    }
+  },
+  "completed_basic_expected_indicators": [
+    "O1.1",
+    "O1.2",
+    "O1.3",
+    "O1.4",
+    "O2.1",
+    "O2.2",
+    "O2.3",
+    "O2.4"
+  ],
+  "o2_4_scope": "Current README and progress report complete; final report remains pending.",
+  "no_overfull_boxes_or_undefined_citations": true,
+  "underfull_boxes": 6,
+  "visual_review": "All four rendered pages inspected; page 2 re-rendered after the final N definition and table-caption edits. Demonstration text, equations, existing quality panels, table rows and references are readable without clipping. Original template styles, fonts and margins retained. Supplementary diagnostic plot also inspected.",
+  "bibliography_and_readme_numbering_synchronized": true,
+  "local_readme_links_exist": true,
+  "preserved_files": [
+    "make_quality_figure.py",
+    "references.bib",
+    "figures/quality_diagnostic.pdf",
+    "figures/quality_diagnostic.png",
+    "ismir.sty",
+    "IEEEtran.bst",
+    "cite.sty"
+  ],
+  "test_status": "Four-page Tectonic build, numeric/source preservation, original-PI/command/citation/link consistency and visual checks passed. Frozen recognizer diagnostic reproduced all four archived tracks; no tuning or new benchmark comparison.",
+  "source_hashes": {
+    "results/root_optimization/fast/summary.json": "7b9fa188209d88c9e59375bb6ee2558aca81c91423b5826e4b0e1fbe2d2faabb",
+    "results/root_optimization/projection/summary.json": "775fe881e302a9a03dda533ffbe7e56ad55a2da82ec81b97c9cbc31290c58458",
+    "docs/research/root_questions_2026-11-13/annotation_check.json": "b8208d883d7b2dc3b7233d53a10e2e0af17f1cd9aaa2a96172c36b325c9fc47f",
+    "docs/research/root_questions_2026-11-13/paired_errors.json": "fb7a4195c2f7e42ca988b3e4940fd2356ce92e3b0573037d4ffedabbdcb9ccb7",
+    "results/root_optimization/fast/annotation_audit.json": "209ea02a5e1763b232232ca2aee1da2218b46ed4a3f6da59fbb80b106bf8e58b",
+    "results/optimization_v2/README.md": "b60e89d2f89d35a8bfb0ac2b13b0001b90b6eb844e95001fdf9b6ddd8956542d",
+    "results/dev_frozen/summary.json": "943b31410a15d3ca7e0fe958d4626a67b51e59481ae307a0f7149f6a3ebf4015",
+    "results/optimization_v2/external/summary.json": "23eb21aa85d4c5eba85b5515947a070e055f763ef2706ed88dc3c3fd0c783db6",
+    "results/optimization_v2/resolution/results/summary.json": "9f3f41130aef88acbf4aec0da3eedacc534ffd0380e15da106379cd685d5a1ea",
+    "configs/frozen.json": "03514565df9c531724b0479233a39d9ec1048321923276e0c2b5ea4bd47bb0fb",
+    "results/root_optimization/fast/configurations.json": "7c320f6262134f1cb1e5e25e9447036d71a56961a72bc9530c173831e6283483",
+    "results/root_optimization/fast/per_recording.csv": "900fbc27b285d9cde45b5e6064c1c37a655e9734944790094b0bdfe5445fcf5f",
+    "results/root_optimization/demo_projection/playback.html": "f59f643a07e6d98a6ae48fa206cdf49dac274f0a272c9c203074e87db3f460fe",
+    "results/root_optimization/demo_projection/prediction.csv": "ea2f5f27ac1dfd127be078a51974946da32fedaa6f152250a12b705bb4e7afce"
+  },
+  "supplementary_artifact_hashes": {
+    "docs/research/rock6_third_diagnostic_2026-11-16/README.md": "4e842741753742c5e50725bd61265b71a2c4b51cc087a856466ec2eb88eb0013",
+    "docs/research/rock6_third_diagnostic_2026-11-16/language_audit.md": "72465a17640574d14299c25da22fa0be7f4b5e200f05506acf91dd6641bc5a86",
+    "docs/research/rock6_third_diagnostic_2026-11-16/rock6_diagnostic.py": "b965c4ee4269c0daa8ecb1cca2ca89ed0a4eb8b378611bf8ef551630ffabc3f7",
+    "docs/research/rock6_third_diagnostic_2026-11-16/run/features.npz": "b884d05e30f9dcf66f75898b765c7bce996f4fc8b7cf67906ab9227a83e32847",
+    "docs/research/rock6_third_diagnostic_2026-11-16/run/frame_scores.csv": "533d7342a98b2dda1ac2f4d6e0a19b792c7782257e4c6fa4f84e8698e5fedcdd",
+    "docs/research/rock6_third_diagnostic_2026-11-16/run/long_quality_error_cells.csv": "9961d2e18ad04265bbeb3b9fc2da8541cfe6669624ab5a60761bfadc31efd1f3",
+    "docs/research/rock6_third_diagnostic_2026-11-16/run/projection_quality_error_cells.csv": "061670e4942de1e18cc76b2bd9882927f8efd246c854ce55953dc6c6de80857e",
+    "docs/research/rock6_third_diagnostic_2026-11-16/run/provenance.json": "bb2b74940a9b3c777c2c501ce009f8662ffcd61c68c6285448da095dee89a739",
+    "docs/research/rock6_third_diagnostic_2026-11-16/run/reference_cells.csv": "5a87b48ccd17a6bdb4d2dcc0e324a396d3c7fed582f0b9238c91123932fcecf8",
+    "docs/research/rock6_third_diagnostic_2026-11-16/run/rock6_diagnostic.pdf": "712fa699f646473297bfd9a4ab77ba6894c52c991242a7af9ba2c3fc548246da",
+    "docs/research/rock6_third_diagnostic_2026-11-16/run/rock6_diagnostic.png": "27ae3b2680fce86c81113da720dcc8cc11529c827041b2fd4810f74b6e84dd5d",
+    "docs/research/rock6_third_diagnostic_2026-11-16/run/summary.json": "e686ca759780c448f44fdc94015cc3ea487d903a15b26a0ef89c2381689539ca",
+    "docs/research/rock6_third_diagnostic_2026-11-16/run/validation.json": "1a6617ccaed82c5d2b0335c3d5dc50e656eaf99c33fceab62ff8b50eeb7673a6"
+  },
+  "artifact_hashes": {
+    "BUILD.md": "55e0b1d5bb0a6934c32128364818460106da775be23d0607c81717ecd19809f2",
+    "IEEEtran.bst": "314f0ece704568faf827011bac498650691b2b5ee06320720830e782416d5a5f",
+    "cite.sty": "56979b7c69ae65bdb52de5bcd540625cae6dd70119e767db438a4826991910ea",
+    "dataset_reading_notes.md": "d0e9efd58318cc3fb5b2389c0d53d11604923362e4de0ac6e647edc9426e562a",
+    "demo_capture/capture_demo.cjs": "4cf9b28ed42065d8d3b669f7ecc8eab33d44848b2e5c237a9c91f325feb3472c",
+    "demo_capture/figure_notes.md": "07a3314be7814213ff258dcf93ba594d3438e94653fbf4bc737b7f09e3aa8917",
+    "demo_capture/provenance.json": "248097d4d646a05d353e0d353d3e47f6d60d1195124d504df1b4b47d0b12418b",
+    "figures/demo_progress.pdf": "5fd946ac1fd8dfa8c8964996ba453628878997b29eb353b6f5eff84408f301d7",
+    "figures/demo_progress.png": "233b9d15cc4d333b6a56eb2f9b81bc3923aa36b84100dead5dad5a2cc6ac15d1",
+    "figures/error_baseline.pdf": "eb61250ab5787672a9f0b63d6260a5959e7c3e53dc1448032ec5bed153a8cf11",
+    "figures/error_case_selection.json": "8c9dc76bfefbcae217e802d3263061803e6eb545213b54e055b44b3becd07617",
+    "figures/error_cases.pdf": "9370d7ea4b801b9f7500d34959fe46ab02d9de89c72d986090a664c6fdfaf348",
+    "figures/error_cases.png": "899cca2534fabbf6b8ebf216ad3bdb35d4f48afc3c12d36b96d7353c508a8b3d",
+    "figures/example.pdf": "9370d7ea4b801b9f7500d34959fe46ab02d9de89c72d986090a664c6fdfaf348",
+    "figures/pipeline.pdf": "507c75c2304a5e3798082e441ecd6aaaaa3c14c08349d106ed5e48ea77e85737",
+    "figures/pipeline.png": "e546abe6fa5fd011555a7c3c72c1db6f995312fc0fa9cfe89b7114ec3e4d19c1",
+    "figures/quality_diagnostic.pdf": "fc02f8bf043dda9b11b7dfdbb87b861accec53899d892926d8f278fc0142ce4a",
+    "figures/quality_diagnostic.png": "41677ba959332a3abe8604f0aaee87b8befb342167b8997d9b1aafd6d4459294",
+    "figures/root_fast_cases.pdf": "b25a84ebe83d04ce067bb2a9c920feb2bb3d341312e04593a2a21097b908abf8",
+    "ismir.sty": "9c3c9da88cdac11ecb8fcfcb4bccc6ef5a6e5c759b74d71e9e38167b8124fe7f",
+    "language_audit.md": "c3ba946b77e0065d7e55785e7e4fc48f926d9eaa933da7cea3bb437c359d8686",
+    "overview_sources.md": "6ff4c17eaa2d5b30d29be84e35f0913fdd3792008450af34d1a9ede37557b478",
+    "progress_report.pdf": "ba165a7d6303970ca0df989a9822a7845cea4b1ad8af2a531bcf644d3a89a2ba",
+    "progress_report.tex": "38f07e129c897254d97e334a32eca7375b6983c68c043f03be8a53744f58c4c9",
+    "readme_language_audit.md": "59f0fc6c309270625422ca4fc86bd70eb41825dd33348cd10a909fde5c91b169",
+    "references.bib": "2ebc21d6e6bbd6d5d825d4520db0edb063bccff642cdb53203ec560b09f50a05",
+    "results.tex": "254a2237b8be7907b017737b96eb941ca31b4fcc00b131604f4423288abdb07a",
+    "writing_notes.md": "27adb3c4cd3928500314370507a2528694e86f60f7c902cf66e8b06728de4980"
+  },
+  "readme_sha256": "e323cf82842d524b281ef193a0f9e1e46d5306dd345178e806f5577ebdafc128",
+  "section_word_counts": {
+    "before": {
+      "Abstract": 98,
+      "Introduction": 228,
+      "Related Work": 139,
+      "Method and Evaluation": 506,
+      "Preliminary Results / Progress and Preliminary Results": 252,
+      "Individual Progress": 109,
+      "Discussion and Next Experiments / Discussion and Remaining Work": 278,
+      "Total counted prose": 1610
+    },
+    "after": {
+      "Abstract": 82,
+      "Introduction": 197,
+      "Related Work": 119,
+      "Method and Evaluation": 484,
+      "Preliminary Results / Progress and Preliminary Results": 314,
+      "Individual Progress": 27,
+      "Discussion and Next Experiments / Discussion and Remaining Work": 215,
+      "Total counted prose": 1438
+    },
+    "rule": "Approximate body-prose count, excluding equations, figures, tables, inline math, citations and headings; exact rule described in writing_notes.md."
+  },
+  "publication_review": {
+    "date": "2026-11-16",
+    "record": "../docs/research/publication_2026-11-16/verification.json",
+    "report_content_unchanged": true,
+    "readme_setup_instructions_revised": true,
+    "prior_evidence_record": "../docs/research/publication_2026-11-16/prior_report_evidence.json"
+  },
+  "readme_original_personal_indicators_unchanged": true
+}

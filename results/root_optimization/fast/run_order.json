@@ -1,0 +1,962 @@
+[
+  {
+    "recording": "jazz_2",
+    "group": "jazz_2",
+    "method": "harmonic"
+  },
+  {
+    "recording": "jazz_7",
+    "group": "jazz_7",
+    "method": "harmonic"
+  },
+  {
+    "recording": "latin_5",
+    "group": "latin_5",
+    "method": "projection"
+  },
+  {
+    "recording": "latin_3",
+    "group": "latin_3",
+    "method": "harmonic"
+  },
+  {
+    "recording": "reggae_4",
+    "group": "reggae_4",
+    "method": "projection"
+  },
+  {
+    "recording": "reggae_4",
+    "group": "reggae_4",
+    "method": "harmonic"
+  },
+  {
+    "recording": "country_3",
+    "group": "country_3",
+    "method": "harmonic"
+  },
+  {
+    "recording": "metal_5",
+    "group": "metal_5",
+    "method": "projection"
+  },
+  {
+    "recording": "pop_8",
+    "group": "pop_8",
+    "method": "projection"
+  },
+  {
+    "recording": "reggae_2",
+    "group": "reggae_2",
+    "method": "long"
+  },
+  {
+    "recording": "ska_3",
+    "group": "ska_3",
+    "method": "projection"
+  },
+  {
+    "recording": "rock_1",
+    "group": "rock_1",
+    "method": "projection"
+  },
+  {
+    "recording": "country_2",
+    "group": "country_2",
+    "method": "projection"
+  },
+  {
+    "recording": "metal_8",
+    "group": "metal_8",
+    "method": "projection"
+  },
+  {
+    "recording": "pop_4",
+    "group": "pop_4",
+    "method": "long"
+  },
+  {
+    "recording": "country_1",
+    "group": "country_1",
+    "method": "harmonic"
+  },
+  {
+    "recording": "latin_5",
+    "group": "latin_5",
+    "method": "long"
+  },
+  {
+    "recording": "pop_3",
+    "group": "pop_3",
+    "method": "long"
+  },
+  {
+    "recording": "reggae_3",
+    "group": "reggae_3",
+    "method": "long"
+  },
+  {
+    "recording": "jazz_3",
+    "group": "jazz_3",
+    "method": "long"
+  },
+  {
+    "recording": "metal_8",
+    "group": "metal_8",
+    "method": "long"
+  },
+  {
+    "recording": "pop_4",
+    "group": "pop_4",
+    "method": "projection"
+  },
+  {
+    "recording": "reggae_1",
+    "group": "reggae_1",
+    "method": "harmonic"
+  },
+  {
+    "recording": "metal_4",
+    "group": "metal_4",
+    "method": "long"
+  },
+  {
+    "recording": "ska_2",
+    "group": "ska_2",
+    "method": "projection"
+  },
+  {
+    "recording": "rock_5",
+    "group": "rock_5",
+    "method": "long"
+  },
+  {
+    "recording": "rock_8",
+    "group": "rock_8",
+    "method": "long"
+  },
+  {
+    "recording": "pop_7",
+    "group": "pop_7",
+    "method": "harmonic"
+  },
+  {
+    "recording": "latin_6",
+    "group": "latin_6",
+    "method": "long"
+  },
+  {
+    "recording": "rock_2",
+    "group": "rock_2",
+    "method": "harmonic"
+  },
+  {
+    "recording": "folk_3",
+    "group": "folk_3",
+    "method": "long"
+  },
+  {
+    "recording": "latin_7",
+    "group": "latin_7",
+    "method": "projection"
+  },
+  {
+    "recording": "jazz_6",
+    "group": "jazz_6",
+    "method": "long"
+  },
+  {
+    "recording": "rock_6",
+    "group": "rock_6",
+    "method": "harmonic"
+  },
+  {
+    "recording": "reggae_2",
+    "group": "reggae_2",
+    "method": "projection"
+  },
+  {
+    "recording": "rock_5",
+    "group": "rock_5",
+    "method": "harmonic"
+  },
+  {
+    "recording": "ska_3",
+    "group": "ska_3",
+    "method": "long"
+  },
+  {
+    "recording": "rock_8",
+    "group": "rock_8",
+    "method": "projection"
+  },
+  {
+    "recording": "metal_2",
+    "group": "metal_2",
+    "method": "projection"
+  },
+  {
+    "recording": "metal_7",
+    "group": "metal_7",
+    "method": "harmonic"
+  },
+  {
+    "recording": "pop_4",
+    "group": "pop_4",
+    "method": "harmonic"
+  },
+  {
+    "recording": "jazz_6",
+    "group": "jazz_6",
+    "method": "harmonic"
+  },
+  {
+    "recording": "jazz_5",
+    "group": "jazz_5",
+    "method": "harmonic"
+  },
+  {
+    "recording": "classical_4",
+    "group": "classical_4",
+    "method": "harmonic"
+  },
+  {
+    "recording": "reggae_4",
+    "group": "reggae_4",
+    "method": "long"
+  },
+  {
+    "recording": "rock_7",
+    "group": "rock_7",
+    "method": "long"
+  },
+  {
+    "recording": "pop_6",
+    "group": "pop_6",
+    "method": "long"
+  },
+  {
+    "recording": "country_2",
+    "group": "country_2",
+    "method": "long"
+  },
+  {
+    "recording": "jazz_6",
+    "group": "jazz_6",
+    "method": "projection"
+  },
+  {
+    "recording": "reggae_2",
+    "group": "reggae_2",
+    "method": "harmonic"
+  },
+  {
+    "recording": "country_5",
+    "group": "country_5",
+    "method": "harmonic"
+  },
+  {
+    "recording": "pop_2",
+    "group": "pop_2",
+    "method": "projection"
+  },
+  {
+    "recording": "latin_7",
+    "group": "latin_7",
+    "method": "harmonic"
+  },
+  {
+    "recording": "classical_3",
+    "group": "classical_3",
+    "method": "long"
+  },
+  {
+    "recording": "rock_3",
+    "group": "rock_3",
+    "method": "projection"
+  },
+  {
+    "recording": "pop_1",
+    "group": "pop_1",
+    "method": "harmonic"
+  },
+  {
+    "recording": "classical_6",
+    "group": "classical_6",
+    "method": "long"
+  },
+  {
+    "recording": "latin_8",
+    "group": "latin_8",
+    "method": "projection"
+  },
+  {
+    "recording": "classical_5",
+    "group": "classical_5",
+    "method": "harmonic"
+  },
+  {
+    "recording": "jazz_8",
+    "group": "jazz_8",
+    "method": "projection"
+  },
+  {
+    "recording": "jazz_1",
+    "group": "jazz_1",
+    "method": "long"
+  },
+  {
+    "recording": "folk_2",
+    "group": "folk_2",
+    "method": "projection"
+  },
+  {
+    "recording": "jazz_1",
+    "group": "jazz_1",
+    "method": "harmonic"
+  },
+  {
+    "recording": "pop_6",
+    "group": "pop_6",
+    "method": "harmonic"
+  },
+  {
+    "recording": "pop_3",
+    "group": "pop_3",
+    "method": "harmonic"
+  },
+  {
+    "recording": "ska_4",
+    "group": "ska_4",
+    "method": "harmonic"
+  },
+  {
+    "recording": "latin_6",
+    "group": "latin_6",
+    "method": "harmonic"
+  },
+  {
+    "recording": "ska_1",
+    "group": "ska_1",
+    "method": "long"
+  },
+  {
+    "recording": "classical_4",
+    "group": "classical_4",
+    "method": "long"
+  },
+  {
+    "recording": "pop_5",
+    "group": "pop_5",
+    "method": "long"
+  },
+  {
+    "recording": "folk_2",
+    "group": "folk_2",
+    "method": "long"
+  },
+  {
+    "recording": "pop_5",
+    "group": "pop_5",
+    "method": "projection"
+  },
+  {
+    "recording": "metal_7",
+    "group": "metal_7",
+    "method": "projection"
+  },
+  {
+    "recording": "country_2",
+    "group": "country_2",
+    "method": "harmonic"
+  },
+  {
+    "recording": "jazz_8",
+    "group": "jazz_8",
+    "method": "harmonic"
+  },
+  {
+    "recording": "jazz_5",
+    "group": "jazz_5",
+    "method": "long"
+  },
+  {
+    "recording": "classical_2",
+    "group": "classical_2",
+    "method": "projection"
+  },
+  {
+    "recording": "jazz_2",
+    "group": "jazz_2",
+    "method": "long"
+  },
+  {
+    "recording": "latin_1",
+    "group": "latin_1",
+    "method": "long"
+  },
+  {
+    "recording": "classical_7",
+    "group": "classical_7",
+    "method": "projection"
+  },
+  {
+    "recording": "latin_1",
+    "group": "latin_1",
+    "method": "harmonic"
+  },
+  {
+    "recording": "jazz_7",
+    "group": "jazz_7",
+    "method": "long"
+  },
+  {
+    "recording": "country_3",
+    "group": "country_3",
+    "method": "long"
+  },
+  {
+    "recording": "pop_2",
+    "group": "pop_2",
+    "method": "harmonic"
+  },
+  {
+    "recording": "classical_3",
+    "group": "classical_3",
+    "method": "harmonic"
+  },
+  {
+    "recording": "metal_1",
+    "group": "metal_1",
+    "method": "harmonic"
+  },
+  {
+    "recording": "classical_4",
+    "group": "classical_4",
+    "method": "projection"
+  },
+  {
+    "recording": "classical_6",
+    "group": "classical_6",
+    "method": "harmonic"
+  },
+  {
+    "recording": "latin_8",
+    "group": "latin_8",
+    "method": "long"
+  },
+  {
+    "recording": "latin_5",
+    "group": "latin_5",
+    "method": "harmonic"
+  },
+  {
+    "recording": "metal_4",
+    "group": "metal_4",
+    "method": "harmonic"
+  },
+  {
+    "recording": "metal_3",
+    "group": "metal_3",
+    "method": "harmonic"
+  },
+  {
+    "recording": "classical_2",
+    "group": "classical_2",
+    "method": "harmonic"
+  },
+  {
+    "recording": "ska_4",
+    "group": "ska_4",
+    "method": "projection"
+  },
+  {
+    "recording": "rock_4",
+    "group": "rock_4",
+    "method": "projection"
+  },
+  {
+    "recording": "latin_4",
+    "group": "latin_4",
+    "method": "projection"
+  },
+  {
+    "recording": "rock_1",
+    "group": "rock_1",
+    "method": "harmonic"
+  },
+  {
+    "recording": "classical_8",
+    "group": "classical_8",
+    "method": "harmonic"
+  },
+  {
+    "recording": "rock_2",
+    "group": "rock_2",
+    "method": "long"
+  },
+  {
+    "recording": "rock_2",
+    "group": "rock_2",
+    "method": "projection"
+  },
+  {
+    "recording": "country_5",
+    "group": "country_5",
+    "method": "long"
+  },
+  {
+    "recording": "classical_1",
+    "group": "classical_1",
+    "method": "long"
+  },
+  {
+    "recording": "rock_6",
+    "group": "rock_6",
+    "method": "projection"
+  },
+  {
+    "recording": "metal_5",
+    "group": "metal_5",
+    "method": "long"
+  },
+  {
+    "recording": "classical_1",
+    "group": "classical_1",
+    "method": "projection"
+  },
+  {
+    "recording": "jazz_3",
+    "group": "jazz_3",
+    "method": "harmonic"
+  },
+  {
+    "recording": "country_1",
+    "group": "country_1",
+    "method": "long"
+  },
+  {
+    "recording": "metal_6",
+    "group": "metal_6",
+    "method": "harmonic"
+  },
+  {
+    "recording": "latin_6",
+    "group": "latin_6",
+    "method": "projection"
+  },
+  {
+    "recording": "metal_2",
+    "group": "metal_2",
+    "method": "harmonic"
+  },
+  {
+    "recording": "pop_8",
+    "group": "pop_8",
+    "method": "long"
+  },
+  {
+    "recording": "metal_5",
+    "group": "metal_5",
+    "method": "harmonic"
+  },
+  {
+    "recording": "jazz_1",
+    "group": "jazz_1",
+    "method": "projection"
+  },
+  {
+    "recording": "jazz_4",
+    "group": "jazz_4",
+    "method": "harmonic"
+  },
+  {
+    "recording": "ska_1",
+    "group": "ska_1",
+    "method": "harmonic"
+  },
+  {
+    "recording": "metal_1",
+    "group": "metal_1",
+    "method": "projection"
+  },
+  {
+    "recording": "country_3",
+    "group": "country_3",
+    "method": "projection"
+  },
+  {
+    "recording": "metal_1",
+    "group": "metal_1",
+    "method": "long"
+  },
+  {
+    "recording": "country_1",
+    "group": "country_1",
+    "method": "projection"
+  },
+  {
+    "recording": "rock_4",
+    "group": "rock_4",
+    "method": "harmonic"
+  },
+  {
+    "recording": "metal_6",
+    "group": "metal_6",
+    "method": "projection"
+  },
+  {
+    "recording": "classical_2",
+    "group": "classical_2",
+    "method": "long"
+  },
+  {
+    "recording": "folk_1",
+    "group": "folk_1",
+    "method": "projection"
+  },
+  {
+    "recording": "latin_3",
+    "group": "latin_3",
+    "method": "projection"
+  },
+  {
+    "recording": "metal_4",
+    "group": "metal_4",
+    "method": "projection"
+  },
+  {
+    "recording": "classical_1",
+    "group": "classical_1",
+    "method": "harmonic"
+  },
+  {
+    "recording": "latin_2",
+    "group": "latin_2",
+    "method": "long"
+  },
+  {
+    "recording": "latin_1",
+    "group": "latin_1",
+    "method": "projection"
+  },
+  {
+    "recording": "classical_5",
+    "group": "classical_5",
+    "method": "long"
+  },
+  {
+    "recording": "pop_5",
+    "group": "pop_5",
+    "method": "harmonic"
+  },
+  {
+    "recording": "rock_1",
+    "group": "rock_1",
+    "method": "long"
+  },
+  {
+    "recording": "country_4",
+    "group": "country_4",
+    "method": "projection"
+  },
+  {
+    "recording": "latin_2",
+    "group": "latin_2",
+    "method": "harmonic"
+  },
+  {
+    "recording": "rock_3",
+    "group": "rock_3",
+    "method": "harmonic"
+  },
+  {
+    "recording": "reggae_1",
+    "group": "reggae_1",
+    "method": "projection"
+  },
+  {
+    "recording": "country_5",
+    "group": "country_5",
+    "method": "projection"
+  },
+  {
+    "recording": "rock_6",
+    "group": "rock_6",
+    "method": "long"
+  },
+  {
+    "recording": "jazz_8",
+    "group": "jazz_8",
+    "method": "long"
+  },
+  {
+    "recording": "reggae_3",
+    "group": "reggae_3",
+    "method": "harmonic"
+  },
+  {
+    "recording": "classical_3",
+    "group": "classical_3",
+    "method": "projection"
+  },
+  {
+    "recording": "country_4",
+    "group": "country_4",
+    "method": "long"
+  },
+  {
+    "recording": "classical_8",
+    "group": "classical_8",
+    "method": "long"
+  },
+  {
+    "recording": "metal_6",
+    "group": "metal_6",
+    "method": "long"
+  },
+  {
+    "recording": "metal_8",
+    "group": "metal_8",
+    "method": "harmonic"
+  },
+  {
+    "recording": "rock_7",
+    "group": "rock_7",
+    "method": "projection"
+  },
+  {
+    "recording": "jazz_3",
+    "group": "jazz_3",
+    "method": "projection"
+  },
+  {
+    "recording": "classical_8",
+    "group": "classical_8",
+    "method": "projection"
+  },
+  {
+    "recording": "ska_1",
+    "group": "ska_1",
+    "method": "projection"
+  },
+  {
+    "recording": "pop_1",
+    "group": "pop_1",
+    "method": "projection"
+  },
+  {
+    "recording": "jazz_5",
+    "group": "jazz_5",
+    "method": "projection"
+  },
+  {
+    "recording": "metal_2",
+    "group": "metal_2",
+    "method": "long"
+  },
+  {
+    "recording": "folk_3",
+    "group": "folk_3",
+    "method": "harmonic"
+  },
+  {
+    "recording": "classical_7",
+    "group": "classical_7",
+    "method": "harmonic"
+  },
+  {
+    "recording": "classical_5",
+    "group": "classical_5",
+    "method": "projection"
+  },
+  {
+    "recording": "pop_2",
+    "group": "pop_2",
+    "method": "long"
+  },
+  {
+    "recording": "latin_3",
+    "group": "latin_3",
+    "method": "long"
+  },
+  {
+    "recording": "classical_7",
+    "group": "classical_7",
+    "method": "long"
+  },
+  {
+    "recording": "classical_6",
+    "group": "classical_6",
+    "method": "projection"
+  },
+  {
+    "recording": "jazz_7",
+    "group": "jazz_7",
+    "method": "projection"
+  },
+  {
+    "recording": "rock_3",
+    "group": "rock_3",
+    "method": "long"
+  },
+  {
+    "recording": "folk_1",
+    "group": "folk_1",
+    "method": "harmonic"
+  },
+  {
+    "recording": "folk_1",
+    "group": "folk_1",
+    "method": "long"
+  },
+  {
+    "recording": "jazz_2",
+    "group": "jazz_2",
+    "method": "projection"
+  },
+  {
+    "recording": "pop_7",
+    "group": "pop_7",
+    "method": "long"
+  },
+  {
+    "recording": "pop_3",
+    "group": "pop_3",
+    "method": "projection"
+  },
+  {
+    "recording": "ska_3",
+    "group": "ska_3",
+    "method": "harmonic"
+  },
+  {
+    "recording": "ska_4",
+    "group": "ska_4",
+    "method": "long"
+  },
+  {
+    "recording": "jazz_4",
+    "group": "jazz_4",
+    "method": "long"
+  },
+  {
+    "recording": "metal_3",
+    "group": "metal_3",
+    "method": "long"
+  },
+  {
+    "recording": "metal_7",
+    "group": "metal_7",
+    "method": "long"
+  },
+  {
+    "recording": "reggae_3",
+    "group": "reggae_3",
+    "method": "projection"
+  },
+  {
+    "recording": "latin_7",
+    "group": "latin_7",
+    "method": "long"
+  },
+  {
+    "recording": "country_4",
+    "group": "country_4",
+    "method": "harmonic"
+  },
+  {
+    "recording": "rock_7",
+    "group": "rock_7",
+    "method": "harmonic"
+  },
+  {
+    "recording": "metal_3",
+    "group": "metal_3",
+    "method": "projection"
+  },
+  {
+    "recording": "pop_7",
+    "group": "pop_7",
+    "method": "projection"
+  },
+  {
+    "recording": "pop_6",
+    "group": "pop_6",
+    "method": "projection"
+  },
+  {
+    "recording": "rock_8",
+    "group": "rock_8",
+    "method": "harmonic"
+  },
+  {
+    "recording": "jazz_4",
+    "group": "jazz_4",
+    "method": "projection"
+  },
+  {
+    "recording": "latin_4",
+    "group": "latin_4",
+    "method": "harmonic"
+  },
+  {
+    "recording": "pop_8",
+    "group": "pop_8",
+    "method": "harmonic"
+  },
+  {
+    "recording": "folk_3",
+    "group": "folk_3",
+    "method": "projection"
+  },
+  {
+    "recording": "latin_4",
+    "group": "latin_4",
+    "method": "long"
+  },
+  {
+    "recording": "latin_8",
+    "group": "latin_8",
+    "method": "harmonic"
+  },
+  {
+    "recording": "rock_5",
+    "group": "rock_5",
+    "method": "projection"
+  },
+  {
+    "recording": "pop_1",
+    "group": "pop_1",
+    "method": "long"
+  },
+  {
+    "recording": "ska_2",
+    "group": "ska_2",
+    "method": "harmonic"
+  },
+  {
+    "recording": "ska_2",
+    "group": "ska_2",
+    "method": "long"
+  },
+  {
+    "recording": "reggae_1",
+    "group": "reggae_1",
+    "method": "long"
+  },
+  {
+    "recording": "folk_2",
+    "group": "folk_2",
+    "method": "harmonic"
+  },
+  {
+    "recording": "rock_4",
+    "group": "rock_4",
+    "method": "long"
+  },
+  {
+    "recording": "latin_2",
+    "group": "latin_2",
+    "method": "projection"
+  }
+]

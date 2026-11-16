@@ -1,0 +1,24 @@
+{
+  "runner_draft_sha256": "e60cf973e337309adf21f0269cb386e915fd142ce8e9338fee9105329ca0c580",
+  "prospective_selection_hash_matches": true,
+  "all_176_input_hashes_match": true,
+  "all_88_current_adapter_references_match_frozen_metadata": true,
+  "paired_groups": 44,
+  "each_group_instruments": [
+    "Fender Strat Clean Neck SC Chords",
+    "Ibanez Power Strat Clean Bridge HU Chords"
+  ],
+  "synthetic_only_metric_check": {
+    "scoreable_seconds": 2.3,
+    "correct_seconds": 1.0,
+    "root_correct_seconds": 1.5,
+    "other_root_seconds": 0.3,
+    "chord_to_n_seconds": 0.5
+  },
+  "audio_model_runs": 0,
+  "findings": [
+    "Verify the frozen validation manifest and its selected file hashes before inference.",
+    "Require one recording from each specified instrument in every group.",
+    "Integrate under chordrec before snapshotting source files; running the draft in /tmp would snapshot the wrong directory."
+  ]
+}

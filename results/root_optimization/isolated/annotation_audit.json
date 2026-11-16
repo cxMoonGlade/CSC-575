@@ -1,0 +1,3126 @@
+[
+  {
+    "recording": "000",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 00.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 00.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "E:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 00",
+    "fingering": "E",
+    "semitone_shift": 0,
+    "root_pitch_class": 4,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      40,
+      47,
+      52,
+      56,
+      59,
+      64
+    ],
+    "pitch_classes": [
+      4,
+      8,
+      11
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "001",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 01.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 01.xml",
+    "reference": [
+      [
+        0.208,
+        2.5,
+        "F:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 01",
+    "fingering": "E",
+    "semitone_shift": 1,
+    "root_pitch_class": 5,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      41,
+      48,
+      53,
+      57,
+      60,
+      65
+    ],
+    "pitch_classes": [
+      0,
+      5,
+      9
+    ],
+    "earliest_onset": 0.208,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "002",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 02.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 02.xml",
+    "reference": [
+      [
+        0.211,
+        2.5,
+        "F#:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 02",
+    "fingering": "E",
+    "semitone_shift": 2,
+    "root_pitch_class": 6,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      42,
+      49,
+      54,
+      58,
+      61,
+      66
+    ],
+    "pitch_classes": [
+      1,
+      6,
+      10
+    ],
+    "earliest_onset": 0.211,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "003",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 03.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 03.xml",
+    "reference": [
+      [
+        0.199,
+        2.5,
+        "G:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 03",
+    "fingering": "E",
+    "semitone_shift": 3,
+    "root_pitch_class": 7,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      43,
+      50,
+      55,
+      59,
+      62,
+      67
+    ],
+    "pitch_classes": [
+      2,
+      7,
+      11
+    ],
+    "earliest_onset": 0.199,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "004",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 04.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 04.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "G#:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 04",
+    "fingering": "E",
+    "semitone_shift": 4,
+    "root_pitch_class": 8,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      44,
+      51,
+      56,
+      60,
+      63,
+      68
+    ],
+    "pitch_classes": [
+      0,
+      3,
+      8
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "005",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 05.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 05.xml",
+    "reference": [
+      [
+        0.174,
+        2.5,
+        "A:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 05",
+    "fingering": "E",
+    "semitone_shift": 5,
+    "root_pitch_class": 9,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      45,
+      52,
+      57,
+      61,
+      64,
+      69
+    ],
+    "pitch_classes": [
+      1,
+      4,
+      9
+    ],
+    "earliest_onset": 0.174,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "006",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 06.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 06.xml",
+    "reference": [
+      [
+        0.199,
+        2.5,
+        "A#:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 06",
+    "fingering": "E",
+    "semitone_shift": 6,
+    "root_pitch_class": 10,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      46,
+      53,
+      58,
+      62,
+      65,
+      70
+    ],
+    "pitch_classes": [
+      2,
+      5,
+      10
+    ],
+    "earliest_onset": 0.199,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "007",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 07.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 07.xml",
+    "reference": [
+      [
+        0.166,
+        2.5,
+        "B:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 07",
+    "fingering": "E",
+    "semitone_shift": 7,
+    "root_pitch_class": 11,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      47,
+      54,
+      59,
+      63,
+      66,
+      71
+    ],
+    "pitch_classes": [
+      3,
+      6,
+      11
+    ],
+    "earliest_onset": 0.166,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "008",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 08.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 08.xml",
+    "reference": [
+      [
+        0.17,
+        2.5,
+        "C:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 08",
+    "fingering": "E",
+    "semitone_shift": 8,
+    "root_pitch_class": 0,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      48,
+      55,
+      60,
+      64,
+      67,
+      72
+    ],
+    "pitch_classes": [
+      0,
+      4,
+      7
+    ],
+    "earliest_onset": 0.17,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "009",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 09.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 09.xml",
+    "reference": [
+      [
+        0.186,
+        2.5,
+        "C#:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 09",
+    "fingering": "E",
+    "semitone_shift": 9,
+    "root_pitch_class": 1,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      49,
+      56,
+      61,
+      65,
+      68,
+      73
+    ],
+    "pitch_classes": [
+      1,
+      5,
+      8
+    ],
+    "earliest_onset": 0.186,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "010",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 10.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 10.xml",
+    "reference": [
+      [
+        0.195,
+        2.5,
+        "D:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 10",
+    "fingering": "E",
+    "semitone_shift": 10,
+    "root_pitch_class": 2,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      50,
+      57,
+      62,
+      66,
+      69,
+      74
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      9
+    ],
+    "earliest_onset": 0.195,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "011",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 00.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 00.xml",
+    "reference": [
+      [
+        0.167,
+        2.5,
+        "E:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 00",
+    "fingering": "E",
+    "semitone_shift": 0,
+    "root_pitch_class": 4,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      40,
+      47,
+      52,
+      55,
+      59,
+      64
+    ],
+    "pitch_classes": [
+      4,
+      7,
+      11
+    ],
+    "earliest_onset": 0.167,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "012",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 01.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 01.xml",
+    "reference": [
+      [
+        0.217,
+        2.5,
+        "F:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 01",
+    "fingering": "E",
+    "semitone_shift": 1,
+    "root_pitch_class": 5,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      41,
+      48,
+      53,
+      56,
+      60,
+      65
+    ],
+    "pitch_classes": [
+      0,
+      5,
+      8
+    ],
+    "earliest_onset": 0.217,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "013",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 02.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 02.xml",
+    "reference": [
+      [
+        0.22,
+        2.5,
+        "F#:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 02",
+    "fingering": "E",
+    "semitone_shift": 2,
+    "root_pitch_class": 6,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      42,
+      49,
+      54,
+      57,
+      61,
+      66
+    ],
+    "pitch_classes": [
+      1,
+      6,
+      9
+    ],
+    "earliest_onset": 0.22,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "014",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 03.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 03.xml",
+    "reference": [
+      [
+        0.186,
+        2.5,
+        "G:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 03",
+    "fingering": "E",
+    "semitone_shift": 3,
+    "root_pitch_class": 7,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      43,
+      50,
+      55,
+      58,
+      62,
+      67
+    ],
+    "pitch_classes": [
+      2,
+      7,
+      10
+    ],
+    "earliest_onset": 0.186,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "015",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 04.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 04.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "G#:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 04",
+    "fingering": "E",
+    "semitone_shift": 4,
+    "root_pitch_class": 8,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      44,
+      51,
+      56,
+      59,
+      63,
+      68
+    ],
+    "pitch_classes": [
+      3,
+      8,
+      11
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "016",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 05.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 05.xml",
+    "reference": [
+      [
+        0.17,
+        2.5,
+        "A:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 05",
+    "fingering": "E",
+    "semitone_shift": 5,
+    "root_pitch_class": 9,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      45,
+      52,
+      57,
+      60,
+      64,
+      69
+    ],
+    "pitch_classes": [
+      0,
+      4,
+      9
+    ],
+    "earliest_onset": 0.17,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "017",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 06.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 06.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "A#:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 06",
+    "fingering": "E",
+    "semitone_shift": 6,
+    "root_pitch_class": 10,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      46,
+      53,
+      58,
+      61,
+      65,
+      70
+    ],
+    "pitch_classes": [
+      1,
+      5,
+      10
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "018",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 07.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 07.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "B:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 07",
+    "fingering": "E",
+    "semitone_shift": 7,
+    "root_pitch_class": 11,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      47,
+      54,
+      59,
+      62,
+      66,
+      71
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      11
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "019",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 08.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 08.xml",
+    "reference": [
+      [
+        0.196,
+        2.5,
+        "C:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 08",
+    "fingering": "E",
+    "semitone_shift": 8,
+    "root_pitch_class": 0,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      48,
+      55,
+      60,
+      63,
+      67,
+      72
+    ],
+    "pitch_classes": [
+      0,
+      3,
+      7
+    ],
+    "earliest_onset": 0.196,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "020",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 09.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 09.xml",
+    "reference": [
+      [
+        0.183,
+        2.5,
+        "C#:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 09",
+    "fingering": "E",
+    "semitone_shift": 9,
+    "root_pitch_class": 1,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      49,
+      56,
+      61,
+      64,
+      68,
+      73
+    ],
+    "pitch_classes": [
+      1,
+      4,
+      8
+    ],
+    "earliest_onset": 0.183,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "021",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 10.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 10.xml",
+    "reference": [
+      [
+        0.195,
+        2.5,
+        "D:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 10",
+    "fingering": "E",
+    "semitone_shift": 10,
+    "root_pitch_class": 2,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      50,
+      57,
+      62,
+      65,
+      69,
+      74
+    ],
+    "pitch_classes": [
+      2,
+      5,
+      9
+    ],
+    "earliest_onset": 0.195,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "022",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 00.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 00.xml",
+    "reference": [
+      [
+        0.179,
+        2.5,
+        "A:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 00",
+    "fingering": "A",
+    "semitone_shift": 0,
+    "root_pitch_class": 9,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      45,
+      52,
+      57,
+      61,
+      64
+    ],
+    "pitch_classes": [
+      1,
+      4,
+      9
+    ],
+    "earliest_onset": 0.179,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "023",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 01.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 01.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "A#:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 01",
+    "fingering": "A",
+    "semitone_shift": 1,
+    "root_pitch_class": 10,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      46,
+      53,
+      58,
+      62,
+      65
+    ],
+    "pitch_classes": [
+      2,
+      5,
+      10
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "024",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 02.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 02.xml",
+    "reference": [
+      [
+        0.188,
+        2.5,
+        "B:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 02",
+    "fingering": "A",
+    "semitone_shift": 2,
+    "root_pitch_class": 11,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      47,
+      54,
+      59,
+      63,
+      66
+    ],
+    "pitch_classes": [
+      3,
+      6,
+      11
+    ],
+    "earliest_onset": 0.188,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "025",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 03.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 03.xml",
+    "reference": [
+      [
+        0.189,
+        2.5,
+        "C:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 03",
+    "fingering": "A",
+    "semitone_shift": 3,
+    "root_pitch_class": 0,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      48,
+      55,
+      60,
+      64,
+      67
+    ],
+    "pitch_classes": [
+      0,
+      4,
+      7
+    ],
+    "earliest_onset": 0.189,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "026",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 04.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 04.xml",
+    "reference": [
+      [
+        0.197,
+        2.5,
+        "C#:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 04",
+    "fingering": "A",
+    "semitone_shift": 4,
+    "root_pitch_class": 1,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      49,
+      56,
+      61,
+      65,
+      68
+    ],
+    "pitch_classes": [
+      1,
+      5,
+      8
+    ],
+    "earliest_onset": 0.197,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "027",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 05.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 05.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "D:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 05",
+    "fingering": "A",
+    "semitone_shift": 5,
+    "root_pitch_class": 2,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      50,
+      57,
+      62,
+      66,
+      69
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      9
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "028",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 06.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 06.xml",
+    "reference": [
+      [
+        0.192,
+        2.5,
+        "D#:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 06",
+    "fingering": "A",
+    "semitone_shift": 6,
+    "root_pitch_class": 3,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      51,
+      58,
+      63,
+      67,
+      70
+    ],
+    "pitch_classes": [
+      3,
+      7,
+      10
+    ],
+    "earliest_onset": 0.192,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "029",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 07.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 07.xml",
+    "reference": [
+      [
+        0.186,
+        2.5,
+        "E:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 07",
+    "fingering": "A",
+    "semitone_shift": 7,
+    "root_pitch_class": 4,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      52,
+      59,
+      64,
+      68,
+      71
+    ],
+    "pitch_classes": [
+      4,
+      8,
+      11
+    ],
+    "earliest_onset": 0.186,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "030",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 08.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 08.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "F:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 08",
+    "fingering": "A",
+    "semitone_shift": 8,
+    "root_pitch_class": 5,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      53,
+      60,
+      65,
+      69,
+      72
+    ],
+    "pitch_classes": [
+      0,
+      5,
+      9
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "031",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 09.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 09.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "F#:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 09",
+    "fingering": "A",
+    "semitone_shift": 9,
+    "root_pitch_class": 6,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      54,
+      61,
+      66,
+      70,
+      73
+    ],
+    "pitch_classes": [
+      1,
+      6,
+      10
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "032",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 10.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 10.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "G:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 10",
+    "fingering": "A",
+    "semitone_shift": 10,
+    "root_pitch_class": 7,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      55,
+      62,
+      67,
+      71,
+      74
+    ],
+    "pitch_classes": [
+      2,
+      7,
+      11
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "033",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 00.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 00.xml",
+    "reference": [
+      [
+        0.168,
+        2.5,
+        "A:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 00",
+    "fingering": "A",
+    "semitone_shift": 0,
+    "root_pitch_class": 9,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      45,
+      52,
+      57,
+      60,
+      64
+    ],
+    "pitch_classes": [
+      0,
+      4,
+      9
+    ],
+    "earliest_onset": 0.168,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "034",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 01.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 01.xml",
+    "reference": [
+      [
+        0.19,
+        2.5,
+        "A#:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 01",
+    "fingering": "A",
+    "semitone_shift": 1,
+    "root_pitch_class": 10,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      46,
+      53,
+      58,
+      61,
+      65
+    ],
+    "pitch_classes": [
+      1,
+      5,
+      10
+    ],
+    "earliest_onset": 0.19,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "035",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 02.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 02.xml",
+    "reference": [
+      [
+        0.19,
+        2.5,
+        "B:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 02",
+    "fingering": "A",
+    "semitone_shift": 2,
+    "root_pitch_class": 11,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      47,
+      54,
+      59,
+      62,
+      66
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      11
+    ],
+    "earliest_onset": 0.19,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "036",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 03.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 03.xml",
+    "reference": [
+      [
+        0.19,
+        2.5,
+        "C:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 03",
+    "fingering": "A",
+    "semitone_shift": 3,
+    "root_pitch_class": 0,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      48,
+      55,
+      60,
+      63,
+      67
+    ],
+    "pitch_classes": [
+      0,
+      3,
+      7
+    ],
+    "earliest_onset": 0.19,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "037",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 04.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 04.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "C#:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 04",
+    "fingering": "A",
+    "semitone_shift": 4,
+    "root_pitch_class": 1,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      49,
+      56,
+      61,
+      64,
+      68
+    ],
+    "pitch_classes": [
+      1,
+      4,
+      8
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "038",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 05.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 05.xml",
+    "reference": [
+      [
+        0.192,
+        2.5,
+        "D:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 05",
+    "fingering": "A",
+    "semitone_shift": 5,
+    "root_pitch_class": 2,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      50,
+      57,
+      62,
+      65,
+      69
+    ],
+    "pitch_classes": [
+      2,
+      5,
+      9
+    ],
+    "earliest_onset": 0.192,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "039",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 06.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 06.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "D#:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 06",
+    "fingering": "A",
+    "semitone_shift": 6,
+    "root_pitch_class": 3,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      51,
+      58,
+      63,
+      66,
+      70
+    ],
+    "pitch_classes": [
+      3,
+      6,
+      10
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "040",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 07.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 07.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "E:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 07",
+    "fingering": "A",
+    "semitone_shift": 7,
+    "root_pitch_class": 4,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      52,
+      59,
+      64,
+      67,
+      71
+    ],
+    "pitch_classes": [
+      4,
+      7,
+      11
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "041",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 08.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 08.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "F:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 08",
+    "fingering": "A",
+    "semitone_shift": 8,
+    "root_pitch_class": 5,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      53,
+      60,
+      65,
+      68,
+      72
+    ],
+    "pitch_classes": [
+      0,
+      5,
+      8
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "042",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 09.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 09.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "F#:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 09",
+    "fingering": "A",
+    "semitone_shift": 9,
+    "root_pitch_class": 6,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      54,
+      61,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      1,
+      6,
+      9
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "043",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 10.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 10.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "G:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 10",
+    "fingering": "A",
+    "semitone_shift": 10,
+    "root_pitch_class": 7,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      55,
+      62,
+      67,
+      70,
+      74
+    ],
+    "pitch_classes": [
+      2,
+      7,
+      10
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Fender Strat Clean Neck SC Chords"
+  },
+  {
+    "recording": "044",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 00.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 00.xml",
+    "reference": [
+      [
+        0.205,
+        2.5,
+        "E:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 00",
+    "fingering": "E",
+    "semitone_shift": 0,
+    "root_pitch_class": 4,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      40,
+      47,
+      52,
+      56,
+      59,
+      64
+    ],
+    "pitch_classes": [
+      4,
+      8,
+      11
+    ],
+    "earliest_onset": 0.205,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "045",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 01.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 01.xml",
+    "reference": [
+      [
+        0.214,
+        2.5,
+        "F:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 01",
+    "fingering": "E",
+    "semitone_shift": 1,
+    "root_pitch_class": 5,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      41,
+      48,
+      53,
+      57,
+      60,
+      65
+    ],
+    "pitch_classes": [
+      0,
+      5,
+      9
+    ],
+    "earliest_onset": 0.214,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "046",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 02.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 02.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "F#:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 02",
+    "fingering": "E",
+    "semitone_shift": 2,
+    "root_pitch_class": 6,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      42,
+      49,
+      54,
+      58,
+      61,
+      66
+    ],
+    "pitch_classes": [
+      1,
+      6,
+      10
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "047",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 03.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 03.xml",
+    "reference": [
+      [
+        0.198,
+        2.5,
+        "G:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 03",
+    "fingering": "E",
+    "semitone_shift": 3,
+    "root_pitch_class": 7,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      43,
+      50,
+      55,
+      59,
+      62,
+      67
+    ],
+    "pitch_classes": [
+      2,
+      7,
+      11
+    ],
+    "earliest_onset": 0.198,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "048",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 04.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 04.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "G#:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 04",
+    "fingering": "E",
+    "semitone_shift": 4,
+    "root_pitch_class": 8,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      44,
+      51,
+      56,
+      60,
+      63,
+      68
+    ],
+    "pitch_classes": [
+      0,
+      3,
+      8
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "049",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 05.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 05.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "A:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 05",
+    "fingering": "E",
+    "semitone_shift": 5,
+    "root_pitch_class": 9,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      45,
+      52,
+      57,
+      61,
+      64,
+      69
+    ],
+    "pitch_classes": [
+      1,
+      4,
+      9
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "050",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 06.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 06.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "A#:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 06",
+    "fingering": "E",
+    "semitone_shift": 6,
+    "root_pitch_class": 10,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      46,
+      53,
+      58,
+      62,
+      65,
+      70
+    ],
+    "pitch_classes": [
+      2,
+      5,
+      10
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "051",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 07.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 07.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "B:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 07",
+    "fingering": "E",
+    "semitone_shift": 7,
+    "root_pitch_class": 11,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      47,
+      54,
+      59,
+      63,
+      66,
+      71
+    ],
+    "pitch_classes": [
+      3,
+      6,
+      11
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "052",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 08.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 08.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "C:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 08",
+    "fingering": "E",
+    "semitone_shift": 8,
+    "root_pitch_class": 0,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      48,
+      55,
+      60,
+      64,
+      67,
+      72
+    ],
+    "pitch_classes": [
+      0,
+      4,
+      7
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "053",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 09.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 09.xml",
+    "reference": [
+      [
+        0.198,
+        2.5,
+        "C#:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 09",
+    "fingering": "E",
+    "semitone_shift": 9,
+    "root_pitch_class": 1,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      49,
+      56,
+      61,
+      65,
+      68,
+      73
+    ],
+    "pitch_classes": [
+      1,
+      5,
+      8
+    ],
+    "earliest_onset": 0.198,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "054",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 10.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 10.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "D:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "1-E1-Major 10",
+    "fingering": "E",
+    "semitone_shift": 10,
+    "root_pitch_class": 2,
+    "quality": "maj",
+    "note_count": 6,
+    "midi_pitches": [
+      50,
+      57,
+      62,
+      66,
+      69,
+      74
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      9
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "055",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 00.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 00.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "E:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 00",
+    "fingering": "E",
+    "semitone_shift": 0,
+    "root_pitch_class": 4,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      40,
+      47,
+      52,
+      55,
+      59,
+      64
+    ],
+    "pitch_classes": [
+      4,
+      7,
+      11
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "056",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 01.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 01.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "F:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 01",
+    "fingering": "E",
+    "semitone_shift": 1,
+    "root_pitch_class": 5,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      41,
+      48,
+      53,
+      56,
+      60,
+      65
+    ],
+    "pitch_classes": [
+      0,
+      5,
+      8
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "057",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 02.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 02.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "F#:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 02",
+    "fingering": "E",
+    "semitone_shift": 2,
+    "root_pitch_class": 6,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      42,
+      49,
+      54,
+      57,
+      61,
+      66
+    ],
+    "pitch_classes": [
+      1,
+      6,
+      9
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "058",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 03.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 03.xml",
+    "reference": [
+      [
+        0.204,
+        2.5,
+        "G:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 03",
+    "fingering": "E",
+    "semitone_shift": 3,
+    "root_pitch_class": 7,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      43,
+      50,
+      55,
+      58,
+      62,
+      67
+    ],
+    "pitch_classes": [
+      2,
+      7,
+      10
+    ],
+    "earliest_onset": 0.204,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "059",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 04.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 04.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "G#:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 04",
+    "fingering": "E",
+    "semitone_shift": 4,
+    "root_pitch_class": 8,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      44,
+      51,
+      56,
+      59,
+      63,
+      68
+    ],
+    "pitch_classes": [
+      3,
+      8,
+      11
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "060",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 05.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 05.xml",
+    "reference": [
+      [
+        0.198,
+        2.5,
+        "A:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 05",
+    "fingering": "E",
+    "semitone_shift": 5,
+    "root_pitch_class": 9,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      45,
+      52,
+      57,
+      60,
+      64,
+      69
+    ],
+    "pitch_classes": [
+      0,
+      4,
+      9
+    ],
+    "earliest_onset": 0.198,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "061",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 06.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 06.xml",
+    "reference": [
+      [
+        0.197,
+        2.5,
+        "A#:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 06",
+    "fingering": "E",
+    "semitone_shift": 6,
+    "root_pitch_class": 10,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      46,
+      53,
+      58,
+      61,
+      65,
+      70
+    ],
+    "pitch_classes": [
+      1,
+      5,
+      10
+    ],
+    "earliest_onset": 0.197,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "062",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 07.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 07.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "B:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 07",
+    "fingering": "E",
+    "semitone_shift": 7,
+    "root_pitch_class": 11,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      47,
+      54,
+      59,
+      62,
+      66,
+      71
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      11
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "063",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 08.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 08.xml",
+    "reference": [
+      [
+        0.197,
+        2.5,
+        "C:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 08",
+    "fingering": "E",
+    "semitone_shift": 8,
+    "root_pitch_class": 0,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      48,
+      55,
+      60,
+      63,
+      67,
+      72
+    ],
+    "pitch_classes": [
+      0,
+      3,
+      7
+    ],
+    "earliest_onset": 0.197,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "064",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 09.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 09.xml",
+    "reference": [
+      [
+        0.198,
+        2.5,
+        "C#:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 09",
+    "fingering": "E",
+    "semitone_shift": 9,
+    "root_pitch_class": 1,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      49,
+      56,
+      61,
+      64,
+      68,
+      73
+    ],
+    "pitch_classes": [
+      1,
+      4,
+      8
+    ],
+    "earliest_onset": 0.198,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "065",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 10.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 10.xml",
+    "reference": [
+      [
+        0.198,
+        2.5,
+        "D:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "2-E1-Minor 10",
+    "fingering": "E",
+    "semitone_shift": 10,
+    "root_pitch_class": 2,
+    "quality": "min",
+    "note_count": 6,
+    "midi_pitches": [
+      50,
+      57,
+      62,
+      65,
+      69,
+      74
+    ],
+    "pitch_classes": [
+      2,
+      5,
+      9
+    ],
+    "earliest_onset": 0.198,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "066",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 00.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 00.xml",
+    "reference": [
+      [
+        0.199,
+        2.5,
+        "A:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 00",
+    "fingering": "A",
+    "semitone_shift": 0,
+    "root_pitch_class": 9,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      45,
+      52,
+      57,
+      61,
+      64
+    ],
+    "pitch_classes": [
+      1,
+      4,
+      9
+    ],
+    "earliest_onset": 0.199,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "067",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 01.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 01.xml",
+    "reference": [
+      [
+        0.198,
+        2.5,
+        "A#:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 01",
+    "fingering": "A",
+    "semitone_shift": 1,
+    "root_pitch_class": 10,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      46,
+      53,
+      58,
+      62,
+      65
+    ],
+    "pitch_classes": [
+      2,
+      5,
+      10
+    ],
+    "earliest_onset": 0.198,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "068",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 02.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 02.xml",
+    "reference": [
+      [
+        0.198,
+        2.5,
+        "B:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 02",
+    "fingering": "A",
+    "semitone_shift": 2,
+    "root_pitch_class": 11,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      47,
+      54,
+      59,
+      63,
+      66
+    ],
+    "pitch_classes": [
+      3,
+      6,
+      11
+    ],
+    "earliest_onset": 0.198,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "069",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 03.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 03.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "C:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 03",
+    "fingering": "A",
+    "semitone_shift": 3,
+    "root_pitch_class": 0,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      48,
+      55,
+      60,
+      64,
+      67
+    ],
+    "pitch_classes": [
+      0,
+      4,
+      7
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "070",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 04.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 04.xml",
+    "reference": [
+      [
+        0.198,
+        2.5,
+        "C#:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 04",
+    "fingering": "A",
+    "semitone_shift": 4,
+    "root_pitch_class": 1,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      49,
+      56,
+      61,
+      65,
+      68
+    ],
+    "pitch_classes": [
+      1,
+      5,
+      8
+    ],
+    "earliest_onset": 0.198,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "071",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 05.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 05.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "D:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 05",
+    "fingering": "A",
+    "semitone_shift": 5,
+    "root_pitch_class": 2,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      50,
+      57,
+      62,
+      66,
+      69
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      9
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "072",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 06.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 06.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "D#:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 06",
+    "fingering": "A",
+    "semitone_shift": 6,
+    "root_pitch_class": 3,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      51,
+      58,
+      63,
+      67,
+      70
+    ],
+    "pitch_classes": [
+      3,
+      7,
+      10
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "073",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 07.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 07.xml",
+    "reference": [
+      [
+        0.198,
+        2.5,
+        "E:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 07",
+    "fingering": "A",
+    "semitone_shift": 7,
+    "root_pitch_class": 4,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      52,
+      59,
+      64,
+      68,
+      71
+    ],
+    "pitch_classes": [
+      4,
+      8,
+      11
+    ],
+    "earliest_onset": 0.198,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "074",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 08.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 08.xml",
+    "reference": [
+      [
+        0.197,
+        2.5,
+        "F:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 08",
+    "fingering": "A",
+    "semitone_shift": 8,
+    "root_pitch_class": 5,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      53,
+      60,
+      65,
+      69,
+      72
+    ],
+    "pitch_classes": [
+      0,
+      5,
+      9
+    ],
+    "earliest_onset": 0.197,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "075",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 09.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 09.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "F#:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 09",
+    "fingering": "A",
+    "semitone_shift": 9,
+    "root_pitch_class": 6,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      54,
+      61,
+      66,
+      70,
+      73
+    ],
+    "pitch_classes": [
+      1,
+      6,
+      10
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "076",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 10.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 10.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "G:maj"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "3-A2-Major 10",
+    "fingering": "A",
+    "semitone_shift": 10,
+    "root_pitch_class": 7,
+    "quality": "maj",
+    "note_count": 5,
+    "midi_pitches": [
+      55,
+      62,
+      67,
+      71,
+      74
+    ],
+    "pitch_classes": [
+      2,
+      7,
+      11
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "077",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 00.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 00.xml",
+    "reference": [
+      [
+        0.198,
+        2.5,
+        "A:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 00",
+    "fingering": "A",
+    "semitone_shift": 0,
+    "root_pitch_class": 9,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      45,
+      52,
+      57,
+      60,
+      64
+    ],
+    "pitch_classes": [
+      0,
+      4,
+      9
+    ],
+    "earliest_onset": 0.198,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "078",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 01.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 01.xml",
+    "reference": [
+      [
+        0.198,
+        2.5,
+        "A#:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 01",
+    "fingering": "A",
+    "semitone_shift": 1,
+    "root_pitch_class": 10,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      46,
+      53,
+      58,
+      61,
+      65
+    ],
+    "pitch_classes": [
+      1,
+      5,
+      10
+    ],
+    "earliest_onset": 0.198,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "079",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 02.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 02.xml",
+    "reference": [
+      [
+        0.192,
+        2.5,
+        "B:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 02",
+    "fingering": "A",
+    "semitone_shift": 2,
+    "root_pitch_class": 11,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      47,
+      54,
+      59,
+      62,
+      66
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      11
+    ],
+    "earliest_onset": 0.192,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "080",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 03.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 03.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "C:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 03",
+    "fingering": "A",
+    "semitone_shift": 3,
+    "root_pitch_class": 0,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      48,
+      55,
+      60,
+      63,
+      67
+    ],
+    "pitch_classes": [
+      0,
+      3,
+      7
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "081",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 04.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 04.xml",
+    "reference": [
+      [
+        0.198,
+        2.5,
+        "C#:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 04",
+    "fingering": "A",
+    "semitone_shift": 4,
+    "root_pitch_class": 1,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      49,
+      56,
+      61,
+      64,
+      68
+    ],
+    "pitch_classes": [
+      1,
+      4,
+      8
+    ],
+    "earliest_onset": 0.198,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "082",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 05.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 05.xml",
+    "reference": [
+      [
+        0.193,
+        2.5,
+        "D:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 05",
+    "fingering": "A",
+    "semitone_shift": 5,
+    "root_pitch_class": 2,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      50,
+      57,
+      62,
+      65,
+      69
+    ],
+    "pitch_classes": [
+      2,
+      5,
+      9
+    ],
+    "earliest_onset": 0.193,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "083",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 06.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 06.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "D#:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 06",
+    "fingering": "A",
+    "semitone_shift": 6,
+    "root_pitch_class": 3,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      51,
+      58,
+      63,
+      66,
+      70
+    ],
+    "pitch_classes": [
+      3,
+      6,
+      10
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "084",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 07.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 07.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "E:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 07",
+    "fingering": "A",
+    "semitone_shift": 7,
+    "root_pitch_class": 4,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      52,
+      59,
+      64,
+      67,
+      71
+    ],
+    "pitch_classes": [
+      4,
+      7,
+      11
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "085",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 08.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 08.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "F:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 08",
+    "fingering": "A",
+    "semitone_shift": 8,
+    "root_pitch_class": 5,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      53,
+      60,
+      65,
+      68,
+      72
+    ],
+    "pitch_classes": [
+      0,
+      5,
+      8
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "086",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 09.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 09.xml",
+    "reference": [
+      [
+        0.2,
+        2.5,
+        "F#:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 09",
+    "fingering": "A",
+    "semitone_shift": 9,
+    "root_pitch_class": 6,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      54,
+      61,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      1,
+      6,
+      9
+    ],
+    "earliest_onset": 0.2,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  },
+  {
+    "recording": "087",
+    "audio": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 10.wav",
+    "annotation": "/home/cx/Documents/csc475/Proj/docs/datasets/IDMT-SMT-Guitar-isolated/IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 10.xml",
+    "reference": [
+      [
+        0.198,
+        2.5,
+        "G:min"
+      ]
+    ],
+    "duration": 2.5,
+    "group_id": "4-A2-Minor 10",
+    "fingering": "A",
+    "semitone_shift": 10,
+    "root_pitch_class": 7,
+    "quality": "min",
+    "note_count": 5,
+    "midi_pitches": [
+      55,
+      62,
+      67,
+      70,
+      74
+    ],
+    "pitch_classes": [
+      2,
+      7,
+      10
+    ],
+    "earliest_onset": 0.198,
+    "latest_offset": 2.5,
+    "recording_date": "07.01.2013",
+    "instrument": "Ibanez Power Strat Clean Bridge HU Chords"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "recorded_at_utc": "2026-11-07T18:03:11.349594+00:00",
+  "hypothesis": "Frequency-axis median whitening improves major/minor template matching by reducing local spectral amplitude imbalance.",
+  "development": "All 119 recordings in progression families 1 and 2 only.",
+  "baseline": "Unwhitened long STFT with the frozen shared switch penalty of 4.",
+  "spectral_envelope": "For each frame, median-filter magnitude across in-range frequency bins with reflected edges. Divide magnitude by (median + floor)^strength before the unchanged chroma projection.",
+  "width_hz": 300.0,
+  "width_rule": "2 * round(width_hz / (sample_rate / n_fft) / 2) + 1 bins; the bin-centre span is approximately 300 Hz.",
+  "floor_fraction": 0.05,
+  "floor_rule": "0.05 times the maximum in-range magnitude in each frame, with a 1e-12 minimum.",
+  "choice_rationale": "The fixed width spans multiple spectral bins at both resolutions. The floor limits amplification of weak inter-peak energy. Neither choice is optimized in this experiment.",
+  "strengths": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "methods": [
+    "short",
+    "long",
+    "equal"
+  ],
+  "settings": 9,
+  "shared_controls": "Cached tuning, original Hann STFT settings, pitch range, frame centres, RMS silence rule, triad templates, and switch penalty 4.",
+  "equality_check": "Strength 0 must match cached chroma and predictions for short, long, and equal fusion.",
+  "candidate_gate": "At least 0.5 percentage points above the unwhitened long baseline overall, with nonnegative accuracy change in each development family.",
+  "reporting": "Report every setting, pooled/near-change/family scores, and extraction timing. No test access or promotion to the default.",
+  "code_sha256": "e5389fcf54c33cbdf72d1d397b3a14191145a4690ce158cad4e5069877ca1bd8"
+}

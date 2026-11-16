@@ -1,0 +1,522 @@
+{
+  "completed_at_utc": "2026-11-07T18:20:35.232401+00:00",
+  "recordings": 64,
+  "audio_seconds": 2160.9757369614513,
+  "warmup_seconds": 1.2650488894432783,
+  "run_order": [
+    {
+      "recording": "country_5",
+      "method": "fixed"
+    },
+    {
+      "recording": "country_5",
+      "method": "long"
+    },
+    {
+      "recording": "jazz_2",
+      "method": "long"
+    },
+    {
+      "recording": "jazz_2",
+      "method": "fixed"
+    },
+    {
+      "recording": "classical_6",
+      "method": "long"
+    },
+    {
+      "recording": "classical_6",
+      "method": "fixed"
+    },
+    {
+      "recording": "pop_2",
+      "method": "long"
+    },
+    {
+      "recording": "pop_2",
+      "method": "fixed"
+    },
+    {
+      "recording": "pop_3",
+      "method": "long"
+    },
+    {
+      "recording": "pop_3",
+      "method": "fixed"
+    },
+    {
+      "recording": "classical_1",
+      "method": "long"
+    },
+    {
+      "recording": "classical_1",
+      "method": "fixed"
+    },
+    {
+      "recording": "rock_2",
+      "method": "fixed"
+    },
+    {
+      "recording": "rock_2",
+      "method": "long"
+    },
+    {
+      "recording": "classical_4",
+      "method": "long"
+    },
+    {
+      "recording": "classical_4",
+      "method": "fixed"
+    },
+    {
+      "recording": "classical_7",
+      "method": "long"
+    },
+    {
+      "recording": "classical_7",
+      "method": "fixed"
+    },
+    {
+      "recording": "latin_8",
+      "method": "long"
+    },
+    {
+      "recording": "latin_8",
+      "method": "fixed"
+    },
+    {
+      "recording": "classical_8",
+      "method": "fixed"
+    },
+    {
+      "recording": "classical_8",
+      "method": "long"
+    },
+    {
+      "recording": "rock_3",
+      "method": "fixed"
+    },
+    {
+      "recording": "rock_3",
+      "method": "long"
+    },
+    {
+      "recording": "country_1",
+      "method": "fixed"
+    },
+    {
+      "recording": "country_1",
+      "method": "long"
+    },
+    {
+      "recording": "rock_8",
+      "method": "fixed"
+    },
+    {
+      "recording": "rock_8",
+      "method": "long"
+    },
+    {
+      "recording": "metal_6",
+      "method": "fixed"
+    },
+    {
+      "recording": "metal_6",
+      "method": "long"
+    },
+    {
+      "recording": "metal_5",
+      "method": "fixed"
+    },
+    {
+      "recording": "metal_5",
+      "method": "long"
+    },
+    {
+      "recording": "latin_1",
+      "method": "long"
+    },
+    {
+      "recording": "latin_1",
+      "method": "fixed"
+    },
+    {
+      "recording": "rock_5",
+      "method": "long"
+    },
+    {
+      "recording": "rock_5",
+      "method": "fixed"
+    },
+    {
+      "recording": "jazz_8",
+      "method": "fixed"
+    },
+    {
+      "recording": "jazz_8",
+      "method": "long"
+    },
+    {
+      "recording": "jazz_5",
+      "method": "long"
+    },
+    {
+      "recording": "jazz_5",
+      "method": "fixed"
+    },
+    {
+      "recording": "jazz_7",
+      "method": "fixed"
+    },
+    {
+      "recording": "jazz_7",
+      "method": "long"
+    },
+    {
+      "recording": "rock_7",
+      "method": "long"
+    },
+    {
+      "recording": "rock_7",
+      "method": "fixed"
+    },
+    {
+      "recording": "metal_3",
+      "method": "fixed"
+    },
+    {
+      "recording": "metal_3",
+      "method": "long"
+    },
+    {
+      "recording": "latin_7",
+      "method": "fixed"
+    },
+    {
+      "recording": "latin_7",
+      "method": "long"
+    },
+    {
+      "recording": "metal_2",
+      "method": "fixed"
+    },
+    {
+      "recording": "metal_2",
+      "method": "long"
+    },
+    {
+      "recording": "latin_6",
+      "method": "long"
+    },
+    {
+      "recording": "latin_6",
+      "method": "fixed"
+    },
+    {
+      "recording": "jazz_1",
+      "method": "long"
+    },
+    {
+      "recording": "jazz_1",
+      "method": "fixed"
+    },
+    {
+      "recording": "pop_8",
+      "method": "long"
+    },
+    {
+      "recording": "pop_8",
+      "method": "fixed"
+    },
+    {
+      "recording": "reggae_3",
+      "method": "fixed"
+    },
+    {
+      "recording": "reggae_3",
+      "method": "long"
+    },
+    {
+      "recording": "pop_1",
+      "method": "long"
+    },
+    {
+      "recording": "pop_1",
+      "method": "fixed"
+    },
+    {
+      "recording": "latin_3",
+      "method": "long"
+    },
+    {
+      "recording": "latin_3",
+      "method": "fixed"
+    },
+    {
+      "recording": "metal_8",
+      "method": "long"
+    },
+    {
+      "recording": "metal_8",
+      "method": "fixed"
+    },
+    {
+      "recording": "folk_2",
+      "method": "fixed"
+    },
+    {
+      "recording": "folk_2",
+      "method": "long"
+    },
+    {
+      "recording": "metal_1",
+      "method": "fixed"
+    },
+    {
+      "recording": "metal_1",
+      "method": "long"
+    },
+    {
+      "recording": "pop_6",
+      "method": "fixed"
+    },
+    {
+      "recording": "pop_6",
+      "method": "long"
+    },
+    {
+      "recording": "classical_2",
+      "method": "fixed"
+    },
+    {
+      "recording": "classical_2",
+      "method": "long"
+    },
+    {
+      "recording": "latin_4",
+      "method": "long"
+    },
+    {
+      "recording": "latin_4",
+      "method": "fixed"
+    },
+    {
+      "recording": "pop_4",
+      "method": "long"
+    },
+    {
+      "recording": "pop_4",
+      "method": "fixed"
+    },
+    {
+      "recording": "ska_2",
+      "method": "fixed"
+    },
+    {
+      "recording": "ska_2",
+      "method": "long"
+    },
+    {
+      "recording": "ska_4",
+      "method": "long"
+    },
+    {
+      "recording": "ska_4",
+      "method": "fixed"
+    },
+    {
+      "recording": "rock_6",
+      "method": "fixed"
+    },
+    {
+      "recording": "rock_6",
+      "method": "long"
+    },
+    {
+      "recording": "country_3",
+      "method": "long"
+    },
+    {
+      "recording": "country_3",
+      "method": "fixed"
+    },
+    {
+      "recording": "jazz_6",
+      "method": "long"
+    },
+    {
+      "recording": "jazz_6",
+      "method": "fixed"
+    },
+    {
+      "recording": "country_4",
+      "method": "fixed"
+    },
+    {
+      "recording": "country_4",
+      "method": "long"
+    },
+    {
+      "recording": "jazz_3",
+      "method": "long"
+    },
+    {
+      "recording": "jazz_3",
+      "method": "fixed"
+    },
+    {
+      "recording": "reggae_2",
+      "method": "long"
+    },
+    {
+      "recording": "reggae_2",
+      "method": "fixed"
+    },
+    {
+      "recording": "latin_2",
+      "method": "long"
+    },
+    {
+      "recording": "latin_2",
+      "method": "fixed"
+    },
+    {
+      "recording": "ska_3",
+      "method": "fixed"
+    },
+    {
+      "recording": "ska_3",
+      "method": "long"
+    },
+    {
+      "recording": "rock_4",
+      "method": "fixed"
+    },
+    {
+      "recording": "rock_4",
+      "method": "long"
+    },
+    {
+      "recording": "ska_1",
+      "method": "fixed"
+    },
+    {
+      "recording": "ska_1",
+      "method": "long"
+    },
+    {
+      "recording": "rock_1",
+      "method": "fixed"
+    },
+    {
+      "recording": "rock_1",
+      "method": "long"
+    },
+    {
+      "recording": "metal_4",
+      "method": "fixed"
+    },
+    {
+      "recording": "metal_4",
+      "method": "long"
+    },
+    {
+      "recording": "classical_5",
+      "method": "fixed"
+    },
+    {
+      "recording": "classical_5",
+      "method": "long"
+    },
+    {
+      "recording": "pop_5",
+      "method": "long"
+    },
+    {
+      "recording": "pop_5",
+      "method": "fixed"
+    },
+    {
+      "recording": "folk_1",
+      "method": "long"
+    },
+    {
+      "recording": "folk_1",
+      "method": "fixed"
+    },
+    {
+      "recording": "folk_3",
+      "method": "long"
+    },
+    {
+      "recording": "folk_3",
+      "method": "fixed"
+    },
+    {
+      "recording": "jazz_4",
+      "method": "long"
+    },
+    {
+      "recording": "jazz_4",
+      "method": "fixed"
+    },
+    {
+      "recording": "metal_7",
+      "method": "fixed"
+    },
+    {
+      "recording": "metal_7",
+      "method": "long"
+    },
+    {
+      "recording": "pop_7",
+      "method": "fixed"
+    },
+    {
+      "recording": "pop_7",
+      "method": "long"
+    },
+    {
+      "recording": "country_2",
+      "method": "long"
+    },
+    {
+      "recording": "country_2",
+      "method": "fixed"
+    },
+    {
+      "recording": "classical_3",
+      "method": "long"
+    },
+    {
+      "recording": "classical_3",
+      "method": "fixed"
+    },
+    {
+      "recording": "reggae_4",
+      "method": "fixed"
+    },
+    {
+      "recording": "reggae_4",
+      "method": "long"
+    },
+    {
+      "recording": "latin_5",
+      "method": "long"
+    },
+    {
+      "recording": "latin_5",
+      "method": "fixed"
+    },
+    {
+      "recording": "reggae_1",
+      "method": "fixed"
+    },
+    {
+      "recording": "reggae_1",
+      "method": "long"
+    }
+  ],
+  "runtime_definition": "Serial audio-to-label wall time including file reading, resampling, tuning, required transforms, fusion, decoding and interval construction. No feature cache; imports, warm-up, scoring and output are excluded.",
+  "reference_policy": "Between first and last annotated beats; NC is interpreted as N although the guide does not define NC. Unknown symbols remain X. No prefix or tail extrapolation. Chord-only scores exclude reference N intervals."
+}

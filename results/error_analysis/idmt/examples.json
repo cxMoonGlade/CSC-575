@@ -1,0 +1,85 @@
+{
+  "selection": "For each nonempty error category in the long baseline, choose the lower median recording by category duration divided by scoreable duration among recordings with that error; break ties by ID. Select the interval containing the median elapsed error time in that recording. These post-hoc examples illustrate categories, not population representativeness.",
+  "examples": [
+    {
+      "category": "reference_n_error",
+      "method": "long",
+      "recording": "rock_4",
+      "eligible_recordings": 32,
+      "selected_order_index": 15,
+      "category_seconds": 2.767278912702948,
+      "scoreable_seconds": 15.371337868,
+      "interval": {
+        "start": 16.520997732426302,
+        "end": 16.892403628,
+        "reference": "N",
+        "prediction": "D#:maj",
+        "category": "reference_n_error",
+        "near_seconds": 0.21725623557369644,
+        "stable_seconds": 0.15414966000000163
+      },
+      "context_start": 14.520997732426302,
+      "context_end": 18.892403628
+    },
+    {
+      "category": "chord_to_n",
+      "method": "long",
+      "recording": "jazz_4",
+      "eligible_recordings": 14,
+      "selected_order_index": 6,
+      "category_seconds": 0.11609977324262388,
+      "scoreable_seconds": 46.29353741499999,
+      "interval": {
+        "start": 43.59546485260771,
+        "end": 43.61868480725624,
+        "reference": "G#:min",
+        "prediction": "N",
+        "category": "chord_to_n",
+        "near_seconds": 0,
+        "stable_seconds": 0.023219954648524777
+      },
+      "context_start": 41.59546485260771,
+      "context_end": 45.61868480725624
+    },
+    {
+      "category": "same_root_wrong_quality",
+      "method": "long",
+      "recording": "pop_6",
+      "eligible_recordings": 8,
+      "selected_order_index": 3,
+      "category_seconds": 1.0712925176009085,
+      "scoreable_seconds": 21.316439909,
+      "interval": {
+        "start": 7.972879818,
+        "end": 9.044172335600908,
+        "reference": "G:maj",
+        "prediction": "G:min",
+        "category": "same_root_wrong_quality",
+        "near_seconds": 0,
+        "stable_seconds": 1.0712925176009085
+      },
+      "context_start": 5.972879818,
+      "context_end": 11.044172335600908
+    },
+    {
+      "category": "other_root",
+      "method": "long",
+      "recording": "ska_1",
+      "eligible_recordings": 52,
+      "selected_order_index": 25,
+      "category_seconds": 2.103015875820865,
+      "scoreable_seconds": 12.844512472000002,
+      "interval": {
+        "start": 11.18600907,
+        "end": 12.783741496,
+        "reference": "G#:maj",
+        "prediction": "D#:maj",
+        "category": "other_root",
+        "near_seconds": 0.3999999999999986,
+        "stable_seconds": 1.197732426
+      },
+      "context_start": 9.18600907,
+      "context_end": 14.783741496
+    }
+  ]
+}

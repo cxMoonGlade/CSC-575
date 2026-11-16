@@ -1,0 +1,1106 @@
+{
+  "groups": {
+    "classical": {
+      "seconds": 11.962312925999989,
+      "files": 4,
+      "beat_intervals": 23,
+      "runs": 9
+    },
+    "country_folk": {
+      "seconds": 11.448367345000001,
+      "files": 4,
+      "beat_intervals": 17,
+      "runs": 12
+    },
+    "jazz": {
+      "seconds": 54.004852611000004,
+      "files": 7,
+      "beat_intervals": 127,
+      "runs": 76
+    },
+    "latin": {
+      "seconds": 10.839682535999994,
+      "files": 5,
+      "beat_intervals": 23,
+      "runs": 23
+    },
+    "metal": {
+      "seconds": 1.2142630390000022,
+      "files": 3,
+      "beat_intervals": 3,
+      "runs": 3
+    },
+    "pop": {
+      "seconds": 12.386757369000001,
+      "files": 2,
+      "beat_intervals": 20,
+      "runs": 8
+    },
+    "reggae_ska": {
+      "seconds": 38.69852608,
+      "files": 5,
+      "beat_intervals": 65,
+      "runs": 65
+    },
+    "rock_blues": {
+      "seconds": 11.280385488999997,
+      "files": 2,
+      "beat_intervals": 19,
+      "runs": 11
+    }
+  },
+  "recordings": [
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/classical/annotation/chords/classical_1_60BPM.csv",
+      "nc_seconds": 1.9491609979999964,
+      "beat_intervals": 2,
+      "runs": [
+        [
+          35.031156462,
+          35.999954648
+        ],
+        [
+          67.012766439,
+          67.993129251
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/classical/annotation/chords/classical_4_60BPM.csv",
+      "nc_seconds": 1.9753514739999964,
+      "beat_intervals": 4,
+      "runs": [
+        [
+          19.510204081,
+          20.995918367
+        ],
+        [
+          31.584126984,
+          32.073764172
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/classical/annotation/chords/classical_5_70BPM.csv",
+      "nc_seconds": 6.388344671999995,
+      "beat_intervals": 15,
+      "runs": [
+        [
+          29.163492063,
+          32.116235827
+        ],
+        [
+          55.298299319,
+          57.870249433
+        ],
+        [
+          59.135124716,
+          59.99877551
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/classical/annotation/chords/classical_6_75BPM.csv",
+      "nc_seconds": 1.6494557820000004,
+      "beat_intervals": 2,
+      "runs": [
+        [
+          15.147936507,
+          15.9861678
+        ],
+        [
+          27.994217687,
+          28.805442176
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/country_folk/annotation/chords/country_3_100BPM.csv",
+      "nc_seconds": 3.567619048000001,
+      "beat_intervals": 6,
+      "runs": [
+        [
+          24.613151927,
+          26.383673469
+        ],
+        [
+          43.804535147,
+          45.601632653
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/country_folk/annotation/chords/country_4_80BPM.csv",
+      "nc_seconds": 6.676054420000003,
+      "beat_intervals": 9,
+      "runs": [
+        [
+          11.232653061,
+          11.968684807
+        ],
+        [
+          14.240385487,
+          14.976621315
+        ],
+        [
+          17.253628117,
+          17.978888888
+        ],
+        [
+          20.264353741,
+          20.987074829
+        ],
+        [
+          23.247732426,
+          24.00956916
+        ],
+        [
+          26.249818594,
+          27.001337868
+        ],
+        [
+          29.253061224,
+          30.008888888
+        ],
+        [
+          32.249886621,
+          33.736507936
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/country_folk/annotation/chords/folk_1_80BPM.csv",
+      "nc_seconds": 0.7544897949999978,
+      "beat_intervals": 1,
+      "runs": [
+        [
+          34.553015873,
+          35.307505668
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/country_folk/annotation/chords/folk_3_130BPM.csv",
+      "nc_seconds": 0.45020408199999906,
+      "beat_intervals": 1,
+      "runs": [
+        [
+          35.552244897,
+          36.002448979
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/jazz/annotation/chords/jazz_1_160BPM.csv",
+      "nc_seconds": 11.940000001000001,
+      "beat_intervals": 32,
+      "runs": [
+        [
+          5.224693877,
+          5.960181405
+        ],
+        [
+          6.704761904,
+          7.471020408
+        ],
+        [
+          8.214761904,
+          8.986122448
+        ],
+        [
+          9.753990929,
+          10.463424036
+        ],
+        [
+          11.244263038,
+          12.004716553
+        ],
+        [
+          12.748072562,
+          13.477301587
+        ],
+        [
+          14.268798185,
+          15.023151927
+        ],
+        [
+          15.74893424,
+          16.480362811
+        ],
+        [
+          17.226258503,
+          17.988911564
+        ],
+        [
+          18.769274376,
+          19.481020408
+        ],
+        [
+          20.201972789,
+          20.944512471
+        ],
+        [
+          21.741768707,
+          22.484081632
+        ],
+        [
+          23.216530612,
+          23.959546485
+        ],
+        [
+          24.69510204,
+          25.456961451
+        ],
+        [
+          26.224648526,
+          26.98739229
+        ],
+        [
+          27.733832199,
+          28.488956916
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/jazz/annotation/chords/jazz_2_170BPM.csv",
+      "nc_seconds": 11.413650794000002,
+      "beat_intervals": 32,
+      "runs": [
+        [
+          5.261655328,
+          5.620181405
+        ],
+        [
+          6.705442176,
+          7.057732426
+        ],
+        [
+          8.124761904,
+          8.475328798
+        ],
+        [
+          9.51585034,
+          9.870680272
+        ],
+        [
+          10.961678004,
+          11.315714285
+        ],
+        [
+          12.345170068,
+          12.704603174
+        ],
+        [
+          13.770748299,
+          14.137596371
+        ],
+        [
+          15.169365079,
+          15.533696145
+        ],
+        [
+          16.559115646,
+          16.909478458
+        ],
+        [
+          17.982403628,
+          18.353356009
+        ],
+        [
+          19.402675736,
+          19.752630385
+        ],
+        [
+          20.787641723,
+          21.168231292
+        ],
+        [
+          22.233038548,
+          22.584512471
+        ],
+        [
+          23.629977324,
+          23.976893424
+        ],
+        [
+          25.025328798,
+          25.378004535
+        ],
+        [
+          26.447777777,
+          26.818639455
+        ],
+        [
+          27.868684807,
+          28.209501133
+        ],
+        [
+          29.255918367,
+          29.613197278
+        ],
+        [
+          30.67462585,
+          31.014172335
+        ],
+        [
+          32.083424036,
+          32.442585034
+        ],
+        [
+          33.478956916,
+          33.832131519
+        ],
+        [
+          34.899591836,
+          35.256848072
+        ],
+        [
+          36.326190476,
+          36.690861678
+        ],
+        [
+          37.723197278,
+          38.088231292
+        ],
+        [
+          39.155170068,
+          39.522517006
+        ],
+        [
+          40.576439909,
+          40.917528344
+        ],
+        [
+          41.977256235,
+          42.346099773
+        ],
+        [
+          43.401383219,
+          43.759319727
+        ],
+        [
+          44.831043083,
+          45.180453514
+        ],
+        [
+          46.243650793,
+          46.605941043
+        ],
+        [
+          47.654875283,
+          47.98956916
+        ],
+        [
+          49.07786848,
+          49.438321995
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/jazz/annotation/chords/jazz_3_120BPM.csv",
+      "nc_seconds": 7.443560089000003,
+      "beat_intervals": 15,
+      "runs": [
+        [
+          5.98494331,
+          6.478367346
+        ],
+        [
+          7.465215419,
+          8.481088435
+        ],
+        [
+          9.479546485,
+          10.501224489
+        ],
+        [
+          11.493877551,
+          12.4923356
+        ],
+        [
+          13.507641723,
+          14.497029478
+        ],
+        [
+          15.511836734,
+          16.503582766
+        ],
+        [
+          17.510408163,
+          18.488888888
+        ],
+        [
+          19.508072562,
+          20.462585034
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/jazz/annotation/chords/jazz_5_80BPM.csv",
+      "nc_seconds": 0.7492290249999982,
+      "beat_intervals": 1,
+      "runs": [
+        [
+          33.752108843,
+          34.501337868
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/jazz/annotation/chords/jazz_6_150BPM.csv",
+      "nc_seconds": 6.7632879840000015,
+      "beat_intervals": 17,
+      "runs": [
+        [
+          5.193038548,
+          5.582902494
+        ],
+        [
+          5.991383219,
+          6.363219954
+        ],
+        [
+          6.755238095,
+          7.153764172
+        ],
+        [
+          7.947346938,
+          9.926530612
+        ],
+        [
+          11.579319727,
+          11.984217687
+        ],
+        [
+          12.366825396,
+          12.75941043
+        ],
+        [
+          13.184920634,
+          13.567596371
+        ],
+        [
+          14.374421768,
+          16.412086167
+        ],
+        [
+          18.397800453,
+          18.803854875
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/jazz/annotation/chords/jazz_7_140BPM.csv",
+      "nc_seconds": 2.5642176879999994,
+      "beat_intervals": 6,
+      "runs": [
+        [
+          14.159160997,
+          15.025306122
+        ],
+        [
+          22.748888888,
+          24.446961451
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/jazz/annotation/chords/jazz_8_110BPM.csv",
+      "nc_seconds": 13.130907030000005,
+      "beat_intervals": 24,
+      "runs": [
+        [
+          9.218321995,
+          10.901904761
+        ],
+        [
+          13.647165532,
+          15.262585034
+        ],
+        [
+          17.982630385,
+          19.614444444
+        ],
+        [
+          22.311133786,
+          23.968185941
+        ],
+        [
+          26.684875283,
+          28.370748299
+        ],
+        [
+          31.070340136,
+          32.672721088
+        ],
+        [
+          35.438412698,
+          37.061519274
+        ],
+        [
+          39.78739229,
+          41.419070294
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/latin/annotation/chords/latin_2_100BPM.csv",
+      "nc_seconds": 4.736077097000004,
+      "beat_intervals": 8,
+      "runs": [
+        [
+          9.569727891,
+          10.156575963
+        ],
+        [
+          11.363151927,
+          11.975510204
+        ],
+        [
+          14.395759637,
+          14.97510204
+        ],
+        [
+          16.173764172,
+          16.743424036
+        ],
+        [
+          19.175396825,
+          19.76861678
+        ],
+        [
+          20.967823129,
+          21.583673469
+        ],
+        [
+          23.965736961,
+          24.559727891
+        ],
+        [
+          25.767097505,
+          26.351904761
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/latin/annotation/chords/latin_4_130BPM.csv",
+      "nc_seconds": 0.4732653059999983,
+      "beat_intervals": 1,
+      "runs": [
+        [
+          19.819206349,
+          20.292471655
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/latin/annotation/chords/latin_5_140BPM.csv",
+      "nc_seconds": 1.7392970509999959,
+      "beat_intervals": 4,
+      "runs": [
+        [
+          8.119160997,
+          8.546734693
+        ],
+        [
+          11.563151927,
+          11.974512471
+        ],
+        [
+          14.944126984,
+          15.385623582
+        ],
+        [
+          18.384126984,
+          18.842993197
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/latin/annotation/chords/latin_7_130BPM.csv",
+      "nc_seconds": 0.9520861670000009,
+      "beat_intervals": 2,
+      "runs": [
+        [
+          19.845941043,
+          20.306213151
+        ],
+        [
+          34.681405895,
+          35.173219954
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/latin/annotation/chords/latin_8_160BPM.csv",
+      "nc_seconds": 2.938956914999995,
+      "beat_intervals": 8,
+      "runs": [
+        [
+          6.001269841,
+          6.377097505
+        ],
+        [
+          7.140294784,
+          7.498503401
+        ],
+        [
+          8.966349206,
+          9.342789115
+        ],
+        [
+          10.107800453,
+          10.474807256
+        ],
+        [
+          12.027641723,
+          12.381995464
+        ],
+        [
+          13.141065759,
+          13.52340136
+        ],
+        [
+          15.00739229,
+          15.377188208
+        ],
+        [
+          16.13170068,
+          16.486689342
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/metal/annotation/chords/metal_2_150BPM.csv",
+      "nc_seconds": 0.4028571430000021,
+      "beat_intervals": 1,
+      "runs": [
+        [
+          17.583310657,
+          17.9861678
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/metal/annotation/chords/metal_4_130BPM.csv",
+      "nc_seconds": 0.5000907029999979,
+      "beat_intervals": 1,
+      "runs": [
+        [
+          20.29340136,
+          20.793492063
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/metal/annotation/chords/metal_8_100BPM.csv",
+      "nc_seconds": 0.3113151930000022,
+      "beat_intervals": 1,
+      "runs": [
+        [
+          23.087120181,
+          23.398435374
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/pop/annotation/chords/pop_4_100BPM.csv",
+      "nc_seconds": 9.575419501,
+      "beat_intervals": 16,
+      "runs": [
+        [
+          8.982267573,
+          11.996394557
+        ],
+        [
+          13.828163265,
+          15.589070294
+        ],
+        [
+          18.561836734,
+          21.604263038
+        ],
+        [
+          23.406666666,
+          25.16462585
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/pop/annotation/chords/pop_8_85BPM.csv",
+      "nc_seconds": 2.8113378680000007,
+      "beat_intervals": 4,
+      "runs": [
+        [
+          10.587210884,
+          11.271133786
+        ],
+        [
+          16.228684807,
+          16.933832199
+        ],
+        [
+          21.86956916,
+          22.594376417
+        ],
+        [
+          27.519795918,
+          28.217256235
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/reggae_ska/annotation/chords/reggae_1_95BPM.csv",
+      "nc_seconds": 9.851451248999997,
+      "beat_intervals": 16,
+      "runs": [
+        [
+          7.544172335,
+          8.146848072
+        ],
+        [
+          8.786281179,
+          9.411564625
+        ],
+        [
+          10.089954648,
+          10.723764172
+        ],
+        [
+          11.363922902,
+          11.976099773
+        ],
+        [
+          12.665124716,
+          13.293174603
+        ],
+        [
+          13.923537414,
+          14.535510204
+        ],
+        [
+          15.196916099,
+          15.827120181
+        ],
+        [
+          16.446961451,
+          17.058911564
+        ],
+        [
+          17.726213151,
+          18.331609977
+        ],
+        [
+          18.961315192,
+          19.586371882
+        ],
+        [
+          20.23877551,
+          20.859183673
+        ],
+        [
+          21.484807256,
+          22.068684807
+        ],
+        [
+          22.715714285,
+          23.324058956
+        ],
+        [
+          23.985714285,
+          24.608253968
+        ],
+        [
+          25.269183673,
+          25.882834467
+        ],
+        [
+          26.512312925,
+          27.128367346
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/reggae_ska/annotation/chords/reggae_2_100BPM.csv",
+      "nc_seconds": 9.481133787000001,
+      "beat_intervals": 16,
+      "runs": [
+        [
+          7.175963718,
+          7.748730158
+        ],
+        [
+          8.392131519,
+          8.972267573
+        ],
+        [
+          9.571065759,
+          10.159047619
+        ],
+        [
+          10.788185941,
+          11.392403628
+        ],
+        [
+          12.002653061,
+          12.602675736
+        ],
+        [
+          13.199501133,
+          13.784489795
+        ],
+        [
+          14.391088435,
+          14.981814058
+        ],
+        [
+          15.564036281,
+          16.157482993
+        ],
+        [
+          16.756530612,
+          17.348390022
+        ],
+        [
+          17.965011337,
+          18.554058956
+        ],
+        [
+          19.168548752,
+          19.773877551
+        ],
+        [
+          20.39861678,
+          20.993446712
+        ],
+        [
+          21.593378684,
+          22.176575963
+        ],
+        [
+          22.784240362,
+          23.393854875
+        ],
+        [
+          24.001133786,
+          24.598662131
+        ],
+        [
+          25.189002267,
+          25.784444444
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/reggae_ska/annotation/chords/reggae_3_100BPM.csv",
+      "nc_seconds": 9.481133787000001,
+      "beat_intervals": 16,
+      "runs": [
+        [
+          7.175963718,
+          7.748730158
+        ],
+        [
+          8.392131519,
+          8.972267573
+        ],
+        [
+          9.571065759,
+          10.159047619
+        ],
+        [
+          10.788185941,
+          11.392403628
+        ],
+        [
+          12.002653061,
+          12.602675736
+        ],
+        [
+          13.199501133,
+          13.784489795
+        ],
+        [
+          14.391088435,
+          14.981814058
+        ],
+        [
+          15.564036281,
+          16.157482993
+        ],
+        [
+          16.756530612,
+          17.348390022
+        ],
+        [
+          17.965011337,
+          18.554058956
+        ],
+        [
+          19.168548752,
+          19.773877551
+        ],
+        [
+          20.39861678,
+          20.993446712
+        ],
+        [
+          21.593378684,
+          22.176575963
+        ],
+        [
+          22.784240362,
+          23.393854875
+        ],
+        [
+          24.001133786,
+          24.598662131
+        ],
+        [
+          25.189002267,
+          25.784444444
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/reggae_ska/annotation/chords/reggae_4_100BPM.csv",
+      "nc_seconds": 9.481133787000001,
+      "beat_intervals": 16,
+      "runs": [
+        [
+          7.175963718,
+          7.748730158
+        ],
+        [
+          8.392131519,
+          8.972267573
+        ],
+        [
+          9.571065759,
+          10.159047619
+        ],
+        [
+          10.788185941,
+          11.392403628
+        ],
+        [
+          12.002653061,
+          12.602675736
+        ],
+        [
+          13.199501133,
+          13.784489795
+        ],
+        [
+          14.391088435,
+          14.981814058
+        ],
+        [
+          15.564036281,
+          16.157482993
+        ],
+        [
+          16.756530612,
+          17.348390022
+        ],
+        [
+          17.965011337,
+          18.554058956
+        ],
+        [
+          19.168548752,
+          19.773877551
+        ],
+        [
+          20.39861678,
+          20.993446712
+        ],
+        [
+          21.593378684,
+          22.176575963
+        ],
+        [
+          22.784240362,
+          23.393854875
+        ],
+        [
+          24.001133786,
+          24.598662131
+        ],
+        [
+          25.189002267,
+          25.784444444
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/reggae_ska/annotation/chords/ska_4_150BPM.csv",
+      "nc_seconds": 0.4036734700000011,
+      "beat_intervals": 1,
+      "runs": [
+        [
+          17.558480725,
+          17.962154195
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/rock_blues/annotation/chords/rock_3_100BPM.csv",
+      "nc_seconds": 8.466666666999998,
+      "beat_intervals": 14,
+      "runs": [
+        [
+          7.782448979,
+          8.386507936
+        ],
+        [
+          10.147664399,
+          11.987301587
+        ],
+        [
+          14.978117913,
+          16.775306122
+        ],
+        [
+          17.367619047,
+          17.982131519
+        ],
+        [
+          19.77877551,
+          21.588752834
+        ],
+        [
+          24.592380952,
+          26.393673469
+        ]
+      ]
+    },
+    {
+      "file": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/rock_blues/annotation/chords/rock_4_110BPM.csv",
+      "nc_seconds": 2.8137188219999976,
+      "beat_intervals": 5,
+      "runs": [
+        [
+          7.656281179,
+          8.212380952
+        ],
+        [
+          11.993741496,
+          12.549274376
+        ],
+        [
+          16.338253968,
+          16.892403628
+        ],
+        [
+          20.683628117,
+          21.252063492
+        ],
+        [
+          23.961564625,
+          24.541065759
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "summary": {
+    "test_recordings": 59,
+    "total_audio_seconds": 1942.6190249433107,
+    "frames": 83694,
+    "high_weight_frames": 12,
+    "high_weight_fraction": 0.0001433794537242813,
+    "peaks": 1,
+    "mean_short_weight": 0.20008602767223457,
+    "scope": "Post-hoc diagnostic of the already frozen configuration; no parameter selection or model changes."
+  },
+  "recordings": [
+    {
+      "recording": "00_BN3-119-G_comp",
+      "audio_seconds": 32.26319727891156,
+      "frames": 1390,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999996,
+      "maximum_novelty": 0.7349225451216028
+    },
+    {
+      "recording": "00_BN3-154-E_comp",
+      "audio_seconds": 24.93199546485261,
+      "frames": 1074,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.6769873181559182
+    },
+    {
+      "recording": "00_Funk3-112-C#_comp",
+      "audio_seconds": 34.284399092970524,
+      "frames": 1477,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.5535875047329494
+    },
+    {
+      "recording": "00_Funk3-98-A_comp",
+      "audio_seconds": 39.17879818594104,
+      "frames": 1688,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.2,
+      "maximum_novelty": 0.7470165797321849
+    },
+    {
+      "recording": "00_Jazz3-137-Eb_comp",
+      "audio_seconds": 28.023197278911564,
+      "frames": 1207,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.7300706275462804
+    },
+    {
+      "recording": "00_Jazz3-150-C_comp",
+      "audio_seconds": 25.6,
+      "frames": 1103,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999996,
+      "maximum_novelty": 0.6427996243164699
+    },
+    {
+      "recording": "00_Rock3-117-Bb_comp",
+      "audio_seconds": 32.81639455782313,
+      "frames": 1414,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999996,
+      "maximum_novelty": 0.5727474513493842
+    },
+    {
+      "recording": "00_Rock3-148-C_comp",
+      "audio_seconds": 25.94079365079365,
+      "frames": 1118,
+      "high_weight_frames": 12,
+      "peaks": 1,
+      "mean_short_weight": 0.2064400715563506,
+      "maximum_novelty": 1.0
+    },
+    {
+      "recording": "00_SS3-84-Bb_comp",
+      "audio_seconds": 45.70759637188208,
+      "frames": 1969,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.20000000000000004,
+      "maximum_novelty": 0.8820195604013137
+    },
+    {
+      "recording": "00_SS3-98-C_comp",
+      "audio_seconds": 39.17879818594104,
+      "frames": 1688,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.2,
+      "maximum_novelty": 0.6456397354980812
+    },
+    {
+      "recording": "01_BN3-119-G_comp",
+      "audio_seconds": 32.26319727891156,
+      "frames": 1390,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999996,
+      "maximum_novelty": 0.7889693614978933
+    },
+    {
+      "recording": "01_BN3-154-E_comp",
+      "audio_seconds": 24.93199546485261,
+      "frames": 1074,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.7115353750575678
+    },
+    {
+      "recording": "01_Funk3-112-C#_comp",
+      "audio_seconds": 34.284399092970524,
+      "frames": 1477,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.8074787200706064
+    },
+    {
+      "recording": "01_Funk3-98-A_comp",
+      "audio_seconds": 39.17879818594104,
+      "frames": 1688,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.2,
+      "maximum_novelty": 0.7916669821314904
+    },
+    {
+      "recording": "01_Jazz3-137-Eb_comp",
+      "audio_seconds": 28.023197278911564,
+      "frames": 1207,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.7123253349423228
+    },
+    {
+      "recording": "01_Jazz3-150-C_comp",
+      "audio_seconds": 25.6,
+      "frames": 1103,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999996,
+      "maximum_novelty": 0.8677953072097715
+    },
+    {
+      "recording": "01_Rock3-117-Bb_comp",
+      "audio_seconds": 32.81639455782313,
+      "frames": 1414,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999996,
+      "maximum_novelty": 0.6811644686190772
+    },
+    {
+      "recording": "01_Rock3-148-C_comp",
+      "audio_seconds": 25.94079365079365,
+      "frames": 1118,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.49732709950706605
+    },
+    {
+      "recording": "01_SS3-84-Bb_comp",
+      "audio_seconds": 45.70759637188208,
+      "frames": 1969,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.20000000000000004,
+      "maximum_novelty": 0.5112797298065365
+    },
+    {
+      "recording": "01_SS3-98-C_comp",
+      "audio_seconds": 39.17879818594104,
+      "frames": 1688,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.2,
+      "maximum_novelty": 0.3461990031914396
+    },
+    {
+      "recording": "02_BN3-119-G_comp",
+      "audio_seconds": 32.26319727891156,
+      "frames": 1390,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999996,
+      "maximum_novelty": 0.5532758768298391
+    },
+    {
+      "recording": "02_BN3-154-E_comp",
+      "audio_seconds": 24.93199546485261,
+      "frames": 1074,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.6161929573926264
+    },
+    {
+      "recording": "02_Funk3-112-C#_comp",
+      "audio_seconds": 34.284399092970524,
+      "frames": 1477,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.608644077016198
+    },
+    {
+      "recording": "02_Funk3-98-A_comp",
+      "audio_seconds": 39.17879818594104,
+      "frames": 1688,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.2,
+      "maximum_novelty": 0.8905561450434428
+    },
+    {
+      "recording": "02_Jazz3-137-Eb_comp",
+      "audio_seconds": 28.023197278911564,
+      "frames": 1207,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.6382209352129353
+    },
+    {
+      "recording": "02_Jazz3-150-C_comp",
+      "audio_seconds": 25.6,
+      "frames": 1103,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999996,
+      "maximum_novelty": 0.518179098762132
+    },
+    {
+      "recording": "02_Rock3-117-Bb_comp",
+      "audio_seconds": 32.81639455782313,
+      "frames": 1414,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999996,
+      "maximum_novelty": 0.5735668847475485
+    },
+    {
+      "recording": "02_Rock3-148-C_comp",
+      "audio_seconds": 25.94079365079365,
+      "frames": 1118,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.5034280337915976
+    },
+    {
+      "recording": "02_SS3-84-Bb_comp",
+      "audio_seconds": 45.70759637188208,
+      "frames": 1969,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.20000000000000004,
+      "maximum_novelty": 0.5999956688712894
+    },
+    {
+      "recording": "02_SS3-98-C_comp",
+      "audio_seconds": 39.17879818594104,
+      "frames": 1688,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.2,
+      "maximum_novelty": 0.5668355560789333
+    },
+    {
+      "recording": "03_BN3-119-G_comp",
+      "audio_seconds": 32.26319727891156,
+      "frames": 1390,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999996,
+      "maximum_novelty": 0.6107467631963988
+    },
+    {
+      "recording": "03_BN3-154-E_comp",
+      "audio_seconds": 24.93199546485261,
+      "frames": 1074,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.6603073309628393
+    },
+    {
+      "recording": "03_Funk3-112-C#_comp",
+      "audio_seconds": 34.284399092970524,
+      "frames": 1477,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.6336907686571629
+    },
+    {
+      "recording": "03_Funk3-98-A_comp",
+      "audio_seconds": 39.17879818594104,
+      "frames": 1688,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.2,
+      "maximum_novelty": 0.6452526180012833
+    },
+    {
+      "recording": "03_Jazz3-137-Eb_comp",
+      "audio_seconds": 28.023197278911564,
+      "frames": 1207,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.7479483423837725
+    },
+    {
+      "recording": "03_Jazz3-150-C_comp",
+      "audio_seconds": 25.6,
+      "frames": 1103,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999996,
+      "maximum_novelty": 0.899897396302202
+    },
+    {
+      "recording": "03_Rock3-117-Bb_comp",
+      "audio_seconds": 32.81639455782313,
+      "frames": 1414,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999996,
+      "maximum_novelty": 0.5595419448713658
+    },
+    {
+      "recording": "03_Rock3-148-C_comp",
+      "audio_seconds": 25.94079365079365,
+      "frames": 1118,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.5940236249652447
+    },
+    {
+      "recording": "03_SS3-84-Bb_comp",
+      "audio_seconds": 45.70759637188208,
+      "frames": 1969,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.20000000000000004,
+      "maximum_novelty": 0.6960396149708301
+    },
+    {
+      "recording": "03_SS3-98-C_comp",
+      "audio_seconds": 39.17879818594104,
+      "frames": 1688,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.2,
+      "maximum_novelty": 0.5970992176025812
+    },
+    {
+      "recording": "04_BN3-119-G_comp",
+      "audio_seconds": 32.26319727891156,
+      "frames": 1390,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999996,
+      "maximum_novelty": 0.8373746619698824
+    },
+    {
+      "recording": "04_Funk3-112-C#_comp",
+      "audio_seconds": 34.284399092970524,
+      "frames": 1477,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.6769064493791921
+    },
+    {
+      "recording": "04_Funk3-98-A_comp",
+      "audio_seconds": 39.17879818594104,
+      "frames": 1688,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.2,
+      "maximum_novelty": 0.5986043713462172
+    },
+    {
+      "recording": "04_Jazz3-137-Eb_comp",
+      "audio_seconds": 28.023197278911564,
+      "frames": 1207,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.6633312551689771
+    },
+    {
+      "recording": "04_Jazz3-150-C_comp",
+      "audio_seconds": 25.6,
+      "frames": 1103,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999996,
+      "maximum_novelty": 0.7399160986307378
+    },
+    {
+      "recording": "04_Rock3-117-Bb_comp",
+      "audio_seconds": 32.81639455782313,
+      "frames": 1414,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999996,
+      "maximum_novelty": 0.5054926341728626
+    },
+    {
+      "recording": "04_Rock3-148-C_comp",
+      "audio_seconds": 25.94079365079365,
+      "frames": 1118,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.6549858370279378
+    },
+    {
+      "recording": "04_SS3-84-Bb_comp",
+      "audio_seconds": 45.70759637188208,
+      "frames": 1969,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.20000000000000004,
+      "maximum_novelty": 0.5279484637353509
+    },
+    {
+      "recording": "04_SS3-98-C_comp",
+      "audio_seconds": 39.17879818594104,
+      "frames": 1688,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.2,
+      "maximum_novelty": 0.5710544548945582
+    },
+    {
+      "recording": "05_BN3-119-G_comp",
+      "audio_seconds": 32.26319727891156,
+      "frames": 1390,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999996,
+      "maximum_novelty": 0.8372579404311299
+    },
+    {
+      "recording": "05_BN3-154-E_comp",
+      "audio_seconds": 24.93199546485261,
+      "frames": 1074,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.7870834252531727
+    },
+    {
+      "recording": "05_Funk3-112-C#_comp",
+      "audio_seconds": 34.284399092970524,
+      "frames": 1477,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.5212112138616636
+    },
+    {
+      "recording": "05_Funk3-98-A_comp",
+      "audio_seconds": 39.17879818594104,
+      "frames": 1688,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.2,
+      "maximum_novelty": 0.7932479873899334
+    },
+    {
+      "recording": "05_Jazz3-137-Eb_comp",
+      "audio_seconds": 28.023197278911564,
+      "frames": 1207,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.6089056654927388
+    },
+    {
+      "recording": "05_Jazz3-150-C_comp",
+      "audio_seconds": 25.6,
+      "frames": 1103,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999996,
+      "maximum_novelty": 0.6830607067224777
+    },
+    {
+      "recording": "05_Rock3-117-Bb_comp",
+      "audio_seconds": 32.81639455782313,
+      "frames": 1414,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999996,
+      "maximum_novelty": 0.5373640896215381
+    },
+    {
+      "recording": "05_Rock3-148-C_comp",
+      "audio_seconds": 25.94079365079365,
+      "frames": 1118,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.19999999999999998,
+      "maximum_novelty": 0.6677183971970677
+    },
+    {
+      "recording": "05_SS3-84-Bb_comp",
+      "audio_seconds": 45.70759637188208,
+      "frames": 1969,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.20000000000000004,
+      "maximum_novelty": 0.6655606100650715
+    },
+    {
+      "recording": "05_SS3-98-C_comp",
+      "audio_seconds": 39.17879818594104,
+      "frames": 1688,
+      "high_weight_frames": 0,
+      "peaks": 0,
+      "mean_short_weight": 0.2,
+      "maximum_novelty": 0.6131899382109329
+    }
+  ]
+}

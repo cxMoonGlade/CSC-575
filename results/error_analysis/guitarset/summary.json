@@ -1,0 +1,898 @@
+{
+  "dataset": "GuitarSet",
+  "source_run": "/home/cx/Documents/csc475/Proj/results/test_frozen",
+  "boundary_halfwidth_seconds": 0.2,
+  "definition": "Exact interval duration with the existing majmin reduction. Unsupported reference labels and gaps are excluded. Near is the union of reference-change neighborhoods, confined to each scoreable span; stable is the remainder.",
+  "category_definitions": {
+    "correct": "Identical reduced labels, including N.",
+    "reference_n_error": "Reference N, predicted chord or missing/unsupported prediction.",
+    "chord_to_n": "Supported reference chord, predicted N.",
+    "same_root_wrong_quality": "Supported chords with the same root but different major/minor quality.",
+    "other_root": "Supported chords with different roots, regardless of quality.",
+    "invalid_prediction": "Supported reference chord, missing or unsupported prediction."
+  },
+  "interpretation": "Post-hoc description of frozen predictions. Near-boundary errors are a location category, not a causal attribution to boundary timing. IDMT NC was mapped to N under the existing evaluation policy.",
+  "summary": [
+    {
+      "method": "long",
+      "decoder": "viterbi",
+      "recordings": 59,
+      "scoreable_recordings": 57,
+      "audio_seconds": 1942.6190249433107,
+      "excluded_seconds": 504.02011488591256,
+      "coverage": 0.7405460831927038,
+      "regions": {
+        "all": {
+          "scoreable_seconds": 1438.598910057398,
+          "correct_seconds": 1061.4279299439931,
+          "error_seconds": 377.17098011340477,
+          "duration_accuracy": 0.7378206131837287,
+          "categories_seconds": {
+            "correct": 1061.4279299439931,
+            "reference_n_error": 0.0,
+            "chord_to_n": 13.73326530612244,
+            "same_root_wrong_quality": 26.485075260873575,
+            "other_root": 336.9526395464088,
+            "invalid_prediction": 0.0
+          },
+          "categories_fraction": {
+            "correct": 0.7378206131837287,
+            "reference_n_error": 0.0,
+            "chord_to_n": 0.009546278125272947,
+            "same_root_wrong_quality": 0.018410326238754667,
+            "other_root": 0.2342227824522437,
+            "invalid_prediction": 0.0
+          }
+        },
+        "near": {
+          "scoreable_seconds": 216.39999999999972,
+          "correct_seconds": 127.63492164768232,
+          "error_seconds": 88.7650783523174,
+          "duration_accuracy": 0.5898101739726547,
+          "categories_seconds": {
+            "correct": 127.63492164768232,
+            "reference_n_error": 0.0,
+            "chord_to_n": 1.3681632653061255,
+            "same_root_wrong_quality": 2.19607843137255,
+            "other_root": 85.20083665563874,
+            "invalid_prediction": 0.0
+          },
+          "categories_fraction": {
+            "correct": 0.5898101739726547,
+            "reference_n_error": 0.0,
+            "chord_to_n": 0.006322381078124433,
+            "same_root_wrong_quality": 0.01014823674386577,
+            "other_root": 0.3937192082053551,
+            "invalid_prediction": 0.0
+          }
+        },
+        "stable": {
+          "scoreable_seconds": 1222.1989100573983,
+          "correct_seconds": 933.7930082963109,
+          "error_seconds": 288.4059017610874,
+          "duration_accuracy": 0.7640270340712847,
+          "categories_seconds": {
+            "correct": 933.7930082963109,
+            "reference_n_error": 0.0,
+            "chord_to_n": 12.365102040816316,
+            "same_root_wrong_quality": 24.288996829501023,
+            "other_root": 251.75180289077008,
+            "invalid_prediction": 0.0
+          },
+          "categories_fraction": {
+            "correct": 0.7640270340712847,
+            "reference_n_error": 0.0,
+            "chord_to_n": 0.010117094639067886,
+            "same_root_wrong_quality": 0.01987319464092824,
+            "other_root": 0.20598267664871917,
+            "invalid_prediction": 0.0
+          }
+        }
+      }
+    },
+    {
+      "method": "adaptive",
+      "decoder": "viterbi",
+      "recordings": 59,
+      "scoreable_recordings": 57,
+      "audio_seconds": 1942.6190249433107,
+      "excluded_seconds": 504.02011488591256,
+      "coverage": 0.7405460831927038,
+      "regions": {
+        "all": {
+          "scoreable_seconds": 1438.5989100573981,
+          "correct_seconds": 1043.354491671924,
+          "error_seconds": 395.2444183854741,
+          "duration_accuracy": 0.7252573906303708,
+          "categories_seconds": {
+            "correct": 1043.354491671924,
+            "reference_n_error": 0.0,
+            "chord_to_n": 13.73326530612244,
+            "same_root_wrong_quality": 26.065323360113272,
+            "other_root": 355.4458297192383,
+            "invalid_prediction": 0.0
+          },
+          "categories_fraction": {
+            "correct": 0.7252573906303708,
+            "reference_n_error": 0.0,
+            "chord_to_n": 0.009546278125272945,
+            "same_root_wrong_quality": 0.018118547969060605,
+            "other_root": 0.24707778327529561,
+            "invalid_prediction": 0.0
+          }
+        },
+        "near": {
+          "scoreable_seconds": 216.39999999999972,
+          "correct_seconds": 125.12167959152426,
+          "error_seconds": 91.27832040847547,
+          "duration_accuracy": 0.5781963012547339,
+          "categories_seconds": {
+            "correct": 125.12167959152426,
+            "reference_n_error": 0.0,
+            "chord_to_n": 1.3681632653061255,
+            "same_root_wrong_quality": 2.320907029478457,
+            "other_root": 87.5892501136909,
+            "invalid_prediction": 0.0
+          },
+          "categories_fraction": {
+            "correct": 0.5781963012547339,
+            "reference_n_error": 0.0,
+            "chord_to_n": 0.006322381078124433,
+            "same_root_wrong_quality": 0.010725078694447597,
+            "other_root": 0.40475623897269414,
+            "invalid_prediction": 0.0
+          }
+        },
+        "stable": {
+          "scoreable_seconds": 1222.1989100573983,
+          "correct_seconds": 918.2328120803998,
+          "error_seconds": 303.9660979769985,
+          "duration_accuracy": 0.7512957216082582,
+          "categories_seconds": {
+            "correct": 918.2328120803998,
+            "reference_n_error": 0.0,
+            "chord_to_n": 12.365102040816316,
+            "same_root_wrong_quality": 23.744416330634813,
+            "other_root": 267.8565796055474,
+            "invalid_prediction": 0.0
+          },
+          "categories_fraction": {
+            "correct": 0.7512957216082582,
+            "reference_n_error": 0.0,
+            "chord_to_n": 0.010117094639067886,
+            "same_root_wrong_quality": 0.019427620279517104,
+            "other_root": 0.21915956347315677,
+            "invalid_prediction": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "validation": {
+    "saved_metric_maximum_absolute_difference": 7.105427357601002e-15,
+    "per_recording_rows": 354,
+    "confusion_rows": 4050
+  },
+  "sources": [
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/per_recording.csv",
+      "sha256": "c54eae2ebac07a4b50eb6f60f9e193615dc386f379574111d5188a9da3825b61"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_BN3-119-G_comp/adaptive_viterbi.csv",
+      "sha256": "60e374456da3ad09b5c83bd013c41fa709276173fd132acbe78ee92cb3b07854"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_BN3-119-G_comp/long_viterbi.csv",
+      "sha256": "16991dcac49f0f797a2fb91e4eeb1a00640416d507d4f0faf9c9889ed9ef63c3"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_BN3-119-G_comp/reference.csv",
+      "sha256": "bbe940947764b5ffd5f5a4a591f49f2456d1777030646b19663c72e8a9aa5230"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_BN3-154-E_comp/adaptive_viterbi.csv",
+      "sha256": "d8d72368008165e850678acf3acc8120ffaa36849443288ebb2e8f89af55471d"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_BN3-154-E_comp/long_viterbi.csv",
+      "sha256": "8ff4db90f75d9a8c7182a65212b38ddcd8c41a416d2ee5536d482efa8fe014aa"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_BN3-154-E_comp/reference.csv",
+      "sha256": "166d3fea18568241f095046a165c283948fc1dbdc0329f42505b71d32e8042e9"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_Funk3-112-C#_comp/adaptive_viterbi.csv",
+      "sha256": "8daa10917e4a1a3a4b02edb8a2b239601dbbe082059ef0cafb943e91ca2f2c29"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_Funk3-112-C#_comp/long_viterbi.csv",
+      "sha256": "77b4e96cda936aed0432c335f2be925d0d6a4c87beeb95ad926a060007e82404"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_Funk3-112-C#_comp/reference.csv",
+      "sha256": "a146157c1ffecaf3157b2fce4cb223db829e13bcaba15beafcb5c8d695963349"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_Funk3-98-A_comp/adaptive_viterbi.csv",
+      "sha256": "ba977032be9ad48c096a47554872089842fa0411e5099f6fc46338143e763f1c"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_Funk3-98-A_comp/long_viterbi.csv",
+      "sha256": "c9076f6dc94551a3874f8ca93212f07ed97434d69e09f8ac0056e2ce9a7e2126"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_Funk3-98-A_comp/reference.csv",
+      "sha256": "c2621b4dc56dc2dbcf238edf11d0d529bc26aa119283c5da5d2baa1bc4bf3a1f"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_Jazz3-137-Eb_comp/adaptive_viterbi.csv",
+      "sha256": "4647fe10a3830306cb6bb219ddfc8ff6ce8abaffe67d832f27406154b7872289"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_Jazz3-137-Eb_comp/long_viterbi.csv",
+      "sha256": "099e65a19f3a7ebf2884e4c52be3af3fdabe393eebb2f7716febe77f76d3eccf"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_Jazz3-137-Eb_comp/reference.csv",
+      "sha256": "d4ca71ca123b24c3a90dda9d427f8db1f5d76bcd2a0cdd92a088969ebc1a8782"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_Jazz3-150-C_comp/adaptive_viterbi.csv",
+      "sha256": "6fabf994e28df19a873d1a6c1acfc4bea00459a04e48571f4e520653fb0e0a6f"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_Jazz3-150-C_comp/long_viterbi.csv",
+      "sha256": "82438d202df87f53b65d36456ec734c8055d7b6499688e159be9cd31ddcd6d6b"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_Jazz3-150-C_comp/reference.csv",
+      "sha256": "ea3b71578241268ebd12a4ccf834dbe032f3c66bf5a682eaf92b918f39ffee23"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_Rock3-117-Bb_comp/adaptive_viterbi.csv",
+      "sha256": "a9073e5e2b390744943fbb4446ae61cf1fefe975664c67f9ed75cd403770222b"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_Rock3-117-Bb_comp/long_viterbi.csv",
+      "sha256": "b701b24c7d61a1492aad44806b00c9253eef8360064d617ea8c75ebd461b80e5"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_Rock3-117-Bb_comp/reference.csv",
+      "sha256": "fef46f072eac5c08e4595aa8a8b159fdba5c37934155669d0c63a23068613b08"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_Rock3-148-C_comp/adaptive_viterbi.csv",
+      "sha256": "b59b99bb23aec753817af56de1d0a799fd3a1195a79a233428473081a496e96d"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_Rock3-148-C_comp/long_viterbi.csv",
+      "sha256": "9a38ed384f2ec921035f395f4f3a0a139b7fa33839cf5455c836e91050b82e00"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_Rock3-148-C_comp/reference.csv",
+      "sha256": "c5f635060d1b8115517d2c2c4d446f3087ca04e556b8e6060eae96b3d357cb31"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_SS3-84-Bb_comp/adaptive_viterbi.csv",
+      "sha256": "da48060afbd4f7caefa39ee5fd481f2b1c3d48ee4c1c00919055c5c0ffa4f2b9"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_SS3-84-Bb_comp/long_viterbi.csv",
+      "sha256": "d7c8eb6f6f127125b96cf4854c6e37943394e971e8e9b19b852f55a5291ca122"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_SS3-84-Bb_comp/reference.csv",
+      "sha256": "d1261e0dddabd0f2a498537c97c55807f7fc57892eda7431d10fb54d65ec37f3"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_SS3-98-C_comp/adaptive_viterbi.csv",
+      "sha256": "78fd0a50951d09eb208fa7e931c7f7a8e8554186e469dbb46b6fbbb941436bf7"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_SS3-98-C_comp/long_viterbi.csv",
+      "sha256": "e71c428923f79988d038fed17c85d4776d741ecec26fd5906bec62417f30ced7"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/00_SS3-98-C_comp/reference.csv",
+      "sha256": "be5c919ab5723fe043f49a409b68c894cc78eefac9ec803959360f0d181184a6"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_BN3-119-G_comp/adaptive_viterbi.csv",
+      "sha256": "c3b1c441a59adacb56cc80ef42819dcbfc07742f1c1b91bcc5ea7c85f78089a9"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_BN3-119-G_comp/long_viterbi.csv",
+      "sha256": "88f3d1fbc3ea488bc70c3f807a82b0e0470bcbffc262b97e65414d75737bc172"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_BN3-119-G_comp/reference.csv",
+      "sha256": "7300693fe853794f5add2f042852b153f7fca3654511f500d3fe118912ceba88"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_BN3-154-E_comp/adaptive_viterbi.csv",
+      "sha256": "9503f9cf5b29121ed489c1e734a5d4d9558a60dbb73dc51e5cfc4ef29fa93585"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_BN3-154-E_comp/long_viterbi.csv",
+      "sha256": "aae0806b39fbb973dbb0cdb28814e58a897ffde4b1951fa926f127d7356b81c6"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_BN3-154-E_comp/reference.csv",
+      "sha256": "bd7511acd169ee7ecb7593746345f9a748098edf668990e6efa37701613e1300"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_Funk3-112-C#_comp/adaptive_viterbi.csv",
+      "sha256": "0fe55fc64d7178936c1c5ab6f96b0e4795478b7ea8b1048fa364eb77f4dd2b1f"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_Funk3-112-C#_comp/long_viterbi.csv",
+      "sha256": "65a7882b6ea42d128049abff17e4db8f12e6a2b5797dbbd197f41ae532a5e028"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_Funk3-112-C#_comp/reference.csv",
+      "sha256": "78787a1bfb2d9d92c268f1b91b3bb62e6d0e886a80528ee6ef210ff1ef2df521"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_Funk3-98-A_comp/adaptive_viterbi.csv",
+      "sha256": "1bf570c15e7c40436c77404a5dcc369f6741c5f13cae8b2cb8d7e17ef97644f2"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_Funk3-98-A_comp/long_viterbi.csv",
+      "sha256": "e5d437e65292594c9209bc17f3131ef770bd6789ccdb5361a8a3d3d492b00234"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_Funk3-98-A_comp/reference.csv",
+      "sha256": "efe34923dc4da16e3350e206bce94c4d209580eba1f95ce7871c983a007f1561"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_Jazz3-137-Eb_comp/adaptive_viterbi.csv",
+      "sha256": "df97b715dfcfedd06a7f92785780cfcfbab80073630f2980b0fc735d20da9321"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_Jazz3-137-Eb_comp/long_viterbi.csv",
+      "sha256": "28ab9c06b5f8ebc494690d9fd8248da306142178ce9e8fb020bcfb8e8d4a19f8"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_Jazz3-137-Eb_comp/reference.csv",
+      "sha256": "f658629abc8569cab6590a72e5bec68c6cda1991e7cf93b0c481c22ac41dfd85"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_Jazz3-150-C_comp/adaptive_viterbi.csv",
+      "sha256": "255cf566db7550ca7237103563f2b3cc6bc543aca0b7a3631e3f3285c2df9328"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_Jazz3-150-C_comp/long_viterbi.csv",
+      "sha256": "aaa3bae725968c48dbf26cc543ccb34c68a78567d5abce5c69e17538ef834727"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_Jazz3-150-C_comp/reference.csv",
+      "sha256": "15df8ca484a323e8c682425106b9b54e80b7ba9a58054b4249101ffa6b578066"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_Rock3-117-Bb_comp/adaptive_viterbi.csv",
+      "sha256": "a14f39eca66a2a80ad640aa6e58a146a965a19acb1f9d2a32281c2777fe20053"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_Rock3-117-Bb_comp/long_viterbi.csv",
+      "sha256": "b4004c3fac9b9a3059e53d0ce7e4e3c930f19d322590ebfdd950e4e0dd7e2ec1"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_Rock3-117-Bb_comp/reference.csv",
+      "sha256": "405809e850928ac5c0bc92c8b3f90d7ddae54abf5420bca83a4e4b25d405d8dc"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_Rock3-148-C_comp/adaptive_viterbi.csv",
+      "sha256": "54df8407328a18437083fbf881c5226078b5cacb37abbe983b627c9b9e68e57d"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_Rock3-148-C_comp/long_viterbi.csv",
+      "sha256": "220dd3e87cd04541e06e529ba6796ea5172aab99bf2267af79578bdf191f9f47"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_Rock3-148-C_comp/reference.csv",
+      "sha256": "11e7f704405b93f68f5b3a2c7f4deb514226c4aa8d1a84505f264671983e6a68"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_SS3-84-Bb_comp/adaptive_viterbi.csv",
+      "sha256": "3579eb5151daba10d5ed9023da9a0dd79963a6728c366ec03b243e9036f04d28"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_SS3-84-Bb_comp/long_viterbi.csv",
+      "sha256": "ffee71dd47b26696569bfab8b49556c51bf245ca7f1296f982089bb2a4c3838d"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_SS3-84-Bb_comp/reference.csv",
+      "sha256": "b37ba0afb82b46870063a08278bc04031d8de3784eb7f8f18a0cc9029e8ee978"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_SS3-98-C_comp/adaptive_viterbi.csv",
+      "sha256": "66803a30637a774e3bedfe3c3c8dcbb70717a28668d0a56fc9768c5173aef359"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_SS3-98-C_comp/long_viterbi.csv",
+      "sha256": "0ce38b1eff2622ba3cd22c1cfd15a4dfb51fc203dbe3b5b65d1f9bea070e9c3b"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/01_SS3-98-C_comp/reference.csv",
+      "sha256": "9975aff63da7034144125a52e70cffdab88a495e9bb95f3176832642fe2bcde8"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_BN3-119-G_comp/adaptive_viterbi.csv",
+      "sha256": "5879486bd36ae200fcf21f113da8624c4658b205e31b73e99c9d17ecaa010b2e"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_BN3-119-G_comp/long_viterbi.csv",
+      "sha256": "8bc666ba61e6a0ac00cf0d40d24a9e58242f8e066531497e710e109339d88be3"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_BN3-119-G_comp/reference.csv",
+      "sha256": "0c8dd2b0d84bfc0c298e64f49e5557067e4d13a68b59f2b291bab6038c47b3ad"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_BN3-154-E_comp/adaptive_viterbi.csv",
+      "sha256": "3b2659a21561600c0220154c244a13bf18d02efd64f7f941cd887102dfa2e938"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_BN3-154-E_comp/long_viterbi.csv",
+      "sha256": "86de1d93d258e0cece611de2fdfa21a29d486dc926dbdabd7c20353cc881cd8e"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_BN3-154-E_comp/reference.csv",
+      "sha256": "b7399231462308cce4ac991e2ecf42dd3c6c1c52d5f53c1a85de28140f96180b"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_Funk3-112-C#_comp/adaptive_viterbi.csv",
+      "sha256": "1b359f30764c263483b31c138bcd62be38a2be2b9ca6faec05e5164c607f57f9"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_Funk3-112-C#_comp/long_viterbi.csv",
+      "sha256": "a9693f786bd7cee40435d9f1be961820dad699c74eba04e4392d3b93a385180a"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_Funk3-112-C#_comp/reference.csv",
+      "sha256": "d7dd450c9d2956654e2634188a8da2831af5305e510c0b2385db066207de5fb4"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_Funk3-98-A_comp/adaptive_viterbi.csv",
+      "sha256": "ca2a7c5b2b5ae5b7fbb4626b397ec662ec60f76dc64f22f5226405a1ca09930d"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_Funk3-98-A_comp/long_viterbi.csv",
+      "sha256": "a6c6b3ad8a6969d0cda03087a89c93538c0b416f5c389cc2773aa615d1e91bd6"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_Funk3-98-A_comp/reference.csv",
+      "sha256": "87a41db43f0f07b20cc6187ab5c8131668f8962b64e1918e311341746ec5760e"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_Jazz3-137-Eb_comp/adaptive_viterbi.csv",
+      "sha256": "f60531f60e1d78d73a9cd3c5803a4af4258e6f470393a959f7c1d853f1e968fa"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_Jazz3-137-Eb_comp/long_viterbi.csv",
+      "sha256": "6cb59ba2d91b09338ab90761cb6f1fd087322a2c72976f510842e7429e7ac1d7"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_Jazz3-137-Eb_comp/reference.csv",
+      "sha256": "fea50223c71e9795af56f80ef25a94077483e7e6f9e1cf0d5d4326f9649c9b33"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_Jazz3-150-C_comp/adaptive_viterbi.csv",
+      "sha256": "f5f2f5c6aaefeca0feed92730a3b4d3bcdb25061cd6c4bc26ea3d5d4545660f7"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_Jazz3-150-C_comp/long_viterbi.csv",
+      "sha256": "20201ba560e20023dc6a9bfdd48fd961f9de0013cb566c89ca99cd7273275b11"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_Jazz3-150-C_comp/reference.csv",
+      "sha256": "6f4719835b0ad9104ee57ac78685af720c6a0944167d87ecba0f2317fa1ee833"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_Rock3-117-Bb_comp/adaptive_viterbi.csv",
+      "sha256": "35cff385fa65c277a04a146c541cd62b9ffea46ba6c7c55c96c171cb08154e66"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_Rock3-117-Bb_comp/long_viterbi.csv",
+      "sha256": "9c5d423d6282c05cd34c8d0498c27f587f5324a9df0bc11e0eb7cfd662c8b91b"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_Rock3-117-Bb_comp/reference.csv",
+      "sha256": "fcccb6887556241c02e91fb7927b752be8645d7120de1a3c499f1b6ce7eb6f13"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_Rock3-148-C_comp/adaptive_viterbi.csv",
+      "sha256": "29d14ddced21289ecb252eaf6ebb2a74e949e993b1c1dc11e0315b5be9644d9d"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_Rock3-148-C_comp/long_viterbi.csv",
+      "sha256": "c448a32ca59c7e8848a33941bdea34f2a96fee68f20576574f8a132346cb9fc4"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_Rock3-148-C_comp/reference.csv",
+      "sha256": "01219bb42488aad93dde1e2921ef6d599c7aed02c8d095250ca7fe941896cb6c"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_SS3-84-Bb_comp/adaptive_viterbi.csv",
+      "sha256": "5c3eddf164bdb728c489425dfe492f8479e81b9edbf379d85c3a2525ee22ffe3"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_SS3-84-Bb_comp/long_viterbi.csv",
+      "sha256": "21bb379570ee2ba496a0371a19f6c118145c54ff7cd58eb86b429c543b485f14"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_SS3-84-Bb_comp/reference.csv",
+      "sha256": "5b9ca4835001ebcb2d75e2b29b137611090256549a74f11d58bf63cc06f90da0"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_SS3-98-C_comp/adaptive_viterbi.csv",
+      "sha256": "4da7d01a8089773a1823d7719c55aa896ae759399b2cca6695ebf73781c60eef"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_SS3-98-C_comp/long_viterbi.csv",
+      "sha256": "b992c6190de1df260df9bc45b32809c1ce8b60fa5961971242ae26b695861e54"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/02_SS3-98-C_comp/reference.csv",
+      "sha256": "d8866f47504bd64fb2ca3537568f7abb62d479902054eb82e903486e847de7f9"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_BN3-119-G_comp/adaptive_viterbi.csv",
+      "sha256": "990506aa1239d4e3eaae1cf469097876e6fe8718b98f728b1990ef728c0b2bee"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_BN3-119-G_comp/long_viterbi.csv",
+      "sha256": "f451e133fa3f8eb5975fe3d0229afa4ae3c9c2ad3bf23a1e27251c69a7dd7837"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_BN3-119-G_comp/reference.csv",
+      "sha256": "b7b107240e9e2022764f81126c6aa6be388b36166e9a000d6350e84763246460"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_BN3-154-E_comp/adaptive_viterbi.csv",
+      "sha256": "38276a2e1e0c3994a67dbfca85d80867ffcf828ad69741bcfdc9c48998fd935b"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_BN3-154-E_comp/long_viterbi.csv",
+      "sha256": "ff1fb58b301fa7237de896e2fe5f30475a47f02dd669c80343680ebe303ce02a"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_BN3-154-E_comp/reference.csv",
+      "sha256": "8942460e2b6030f837433d6f6cf104ab9ee87298d715fe26b7a5755d8133dc45"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_Funk3-112-C#_comp/adaptive_viterbi.csv",
+      "sha256": "1cb04de89d3f5c99cf4a2e4e710bf981b00f6ad886bb0baf1eb99be027831318"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_Funk3-112-C#_comp/long_viterbi.csv",
+      "sha256": "cdfbdd9f934e993658d468cbd3b2999c196432dda2c08b26f8dde3aead249797"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_Funk3-112-C#_comp/reference.csv",
+      "sha256": "0907e73a7d3d6fc7b3abc77ca8a2eb0b32f7b709368086992c8d9f48a75af329"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_Funk3-98-A_comp/adaptive_viterbi.csv",
+      "sha256": "045b2ae4d41112533288ec88191918d4960b76ebf9dbe707728270d9de610101"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_Funk3-98-A_comp/long_viterbi.csv",
+      "sha256": "960e72c6c2d26b53f392e1acf88445662d4a97e638e6f8c09f4484dc6e368060"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_Funk3-98-A_comp/reference.csv",
+      "sha256": "a230e2e7b25b1b559356d1b59948d970a29ac1055c3c4a97e37b358b48e29907"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_Jazz3-137-Eb_comp/adaptive_viterbi.csv",
+      "sha256": "5b84c83929e0d9d88154ebf9c11019d0a864f8bf940e7ea0e42341ff89892663"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_Jazz3-137-Eb_comp/long_viterbi.csv",
+      "sha256": "54ca8a82602c5f9a43676b3dc9c6a222cbb913f3e11cb5abc9d0ff42653d86b4"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_Jazz3-137-Eb_comp/reference.csv",
+      "sha256": "a67d7a3577d488a1cd3707ed9aebffa456df40a65c07f69ef6ce8832c349b656"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_Jazz3-150-C_comp/adaptive_viterbi.csv",
+      "sha256": "1cad1e3a8cb04d7bfcc5ca20ffbb8df666adea4c7b68132e5f3301970b96207c"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_Jazz3-150-C_comp/long_viterbi.csv",
+      "sha256": "6191353509d68389daa788d93050803c1773708eaf29e22a0977379030ad7985"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_Jazz3-150-C_comp/reference.csv",
+      "sha256": "e8cc8759897ea04fd3dafe110ff93dc6e25eaf3efce361aeab52a62b75b5c865"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_Rock3-117-Bb_comp/adaptive_viterbi.csv",
+      "sha256": "a4c4c62b29c159f7274f10f5a916f9f24f481be4dbd75db5e926d6d152bfab96"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_Rock3-117-Bb_comp/long_viterbi.csv",
+      "sha256": "f74d738fdfcae1cf091df64a8d281da6a1e3737a466786e60824cde23dbcc89e"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_Rock3-117-Bb_comp/reference.csv",
+      "sha256": "1827376ee7c58d3c2d89ae6bbe0b797212bf00ef5a333ee5b1c83675d47f521b"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_Rock3-148-C_comp/adaptive_viterbi.csv",
+      "sha256": "c7b8b18133d2df87ebfb68f3225a2512e66cb4fe8c89bf74cd4cfda370545846"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_Rock3-148-C_comp/long_viterbi.csv",
+      "sha256": "fbad1c7bfe115570a1ab1ae13bfac3a895008cf894bd8a3862861a07611a8c38"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_Rock3-148-C_comp/reference.csv",
+      "sha256": "07cfbb32e555427d36e7c4280bc28203dfab1361ec15686dd61a481c2e8c4e3c"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_SS3-84-Bb_comp/adaptive_viterbi.csv",
+      "sha256": "3ef5af4be684fbb3212eb147155ab80acc65bbf1fc999df0d12c43b71ff3181c"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_SS3-84-Bb_comp/long_viterbi.csv",
+      "sha256": "f32efc4bfea732423d3fa0565aa4fc5694a28fdd04fb3e48f23f3971a9aa9f88"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_SS3-84-Bb_comp/reference.csv",
+      "sha256": "8bce9f3ee6aeb8a9cd4d84d5987f3b241509f51289684d8cc3dae44e3156da67"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_SS3-98-C_comp/adaptive_viterbi.csv",
+      "sha256": "9c9e25a7bb14189c2fafe0cedbea5e5b5f24b354e3e364aa84dd41e4e982a7fb"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_SS3-98-C_comp/long_viterbi.csv",
+      "sha256": "e686097c7bba3e6ea3325b135299daf2956dc9ad4a84459f997fe86a1d097a53"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/03_SS3-98-C_comp/reference.csv",
+      "sha256": "18f3a193ecd03ac195561440de31ee1fd8afb7bf56e6b872689231a749c1fa1a"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_BN3-119-G_comp/adaptive_viterbi.csv",
+      "sha256": "4d40706b91011e629764951bdb4f0a359c23243a4a9094f3cadfdfa660a5377e"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_BN3-119-G_comp/long_viterbi.csv",
+      "sha256": "0f1a7f3d7d947c2afcd0c2686e06f94ced95cabc0753106b53d132658e7c3ebf"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_BN3-119-G_comp/reference.csv",
+      "sha256": "feea9c350843cdc671b53ec9a24e112fd63bb99de535867703a85990eabf64fc"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_Funk3-112-C#_comp/adaptive_viterbi.csv",
+      "sha256": "e04e27bdcc2e07515e2f0b58a629740a603296a1af8a0c3d913ca8a7a28a95ee"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_Funk3-112-C#_comp/long_viterbi.csv",
+      "sha256": "227258138e261b5976b5abe8dfd510bf1222058191a61a1cefb9e46bb4f41f40"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_Funk3-112-C#_comp/reference.csv",
+      "sha256": "550019cf112517f6d24ad6456677bad1b8cc909086441dbbad62488a00394d1b"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_Funk3-98-A_comp/adaptive_viterbi.csv",
+      "sha256": "43f7a40695ae5b1f15e5b3984d536215b6da6a5a27fe1b45a8fbd22ec4c30052"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_Funk3-98-A_comp/long_viterbi.csv",
+      "sha256": "4369050db441f91a77008946dbf51346a1de4eb7e9986ca8c22b8ae2a64922db"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_Funk3-98-A_comp/reference.csv",
+      "sha256": "90ec3e997e570eb4f3f0a748709b7eb84b6a07c5525e612f02f549b8a5a09a36"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_Jazz3-137-Eb_comp/adaptive_viterbi.csv",
+      "sha256": "3103b7877a32d0b5fd94db2be473e158c396d3baa116cb47c578550a6d707142"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_Jazz3-137-Eb_comp/long_viterbi.csv",
+      "sha256": "1deb74e675cc349e4dda93e61235b10ce4d12877880039152e37a41eca176bbd"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_Jazz3-137-Eb_comp/reference.csv",
+      "sha256": "95b82c4dbf37ab0260cc008a13f6ea7129ca8426ef3c527ded2fd3ed58d0f3f6"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_Jazz3-150-C_comp/adaptive_viterbi.csv",
+      "sha256": "26f3bdc6263429e8d71c955daf04ff2f21e52dc0aeb13c384b70d1e316eac12e"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_Jazz3-150-C_comp/long_viterbi.csv",
+      "sha256": "fb749300ca1cbb901493c91e05559303573c6a2506aeccb595484857154467d5"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_Jazz3-150-C_comp/reference.csv",
+      "sha256": "ac8b9e75b003c0a66585cc33fd26184283c8edfcbeef56e7dde869c28a353b5f"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_Rock3-117-Bb_comp/adaptive_viterbi.csv",
+      "sha256": "5f8cd27654bb952d99ea624ddfdf1ce3925ac30e577d221ddf210ccae5e21990"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_Rock3-117-Bb_comp/long_viterbi.csv",
+      "sha256": "11ca4f0908d366f34a044386ae296ee7fb77a9605ed336587156b4bbb8428df3"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_Rock3-117-Bb_comp/reference.csv",
+      "sha256": "4afd1f49476fc5be35c934c7ee1986384ec4f9941ed57c3eebe44528efc25926"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_Rock3-148-C_comp/adaptive_viterbi.csv",
+      "sha256": "d55e337ba6bd65a7afb8f3c1237dc4eb9e6b26f307cef8bc23ad7e149ff9fda6"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_Rock3-148-C_comp/long_viterbi.csv",
+      "sha256": "3a67724a900b274476ea9b050ef43a4462db8672d652df0517afd17c3c8c7d1a"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_Rock3-148-C_comp/reference.csv",
+      "sha256": "319de290474c7bcd61d5534e72479505f5b5b02f4d4a580a6a5dce922a5335a3"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_SS3-84-Bb_comp/adaptive_viterbi.csv",
+      "sha256": "57ceea6d44f693bef72b13149fa02d7501b9903ef209748ee772e18644761e99"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_SS3-84-Bb_comp/long_viterbi.csv",
+      "sha256": "19f9184a4ccd471aaa2ad069ed5f456b428f72ed290084ccaeeca04045911182"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_SS3-84-Bb_comp/reference.csv",
+      "sha256": "067bcd294f8bf5f5072bd9ffb5e181f7485dc58d8977a25b9abc927dcdb7e596"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_SS3-98-C_comp/adaptive_viterbi.csv",
+      "sha256": "13c3400eaecf70a241bcea01ee844af5beb6e7af5259029465d0a79d652033f5"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_SS3-98-C_comp/long_viterbi.csv",
+      "sha256": "2794dd6287f208b4f8f5dc54608815d03cd25ca59e9aff43de55402d544da8ac"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/04_SS3-98-C_comp/reference.csv",
+      "sha256": "ace0482ccc75b1a77f402b931417ec6b290277de08de3de7229acc9ac3530ddc"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_BN3-119-G_comp/adaptive_viterbi.csv",
+      "sha256": "aa36cc42ab46cd79a0560c9564616e11c3274054b867f87dd585880cacf572ce"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_BN3-119-G_comp/long_viterbi.csv",
+      "sha256": "f3486054d5a690e70d1e428f406d155f0d3bd6b78157042402da625a66941588"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_BN3-119-G_comp/reference.csv",
+      "sha256": "437d60c6f114c64798617b436b5e5fb2d2c4944a1c0af57f6aca3a8eaa6aa746"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_BN3-154-E_comp/adaptive_viterbi.csv",
+      "sha256": "6793cf711eb26b17a9091618c5799747d5f96f78896c96c3e581c1ca8381880c"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_BN3-154-E_comp/long_viterbi.csv",
+      "sha256": "b86c7087062a0118f25db3ac0bd37d924f966f417a827aae5162d1f20e45cb27"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_BN3-154-E_comp/reference.csv",
+      "sha256": "9551b01f14892d230febc390ca8b15b21a635ecae7f5b2bb295110545652b847"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_Funk3-112-C#_comp/adaptive_viterbi.csv",
+      "sha256": "b44bcc180b1838e08cca53b6551087b0e9d8238c227d59acc376ed601e18a140"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_Funk3-112-C#_comp/long_viterbi.csv",
+      "sha256": "4fd6d6af6ad5b3f95880dd7fbca520e85ba78bd93e8551babc440d37f8579524"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_Funk3-112-C#_comp/reference.csv",
+      "sha256": "5dc3a9e13bad142c68440a51cde1d0f0fe04036213ceacd0bc6e7dea44fe7e5b"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_Funk3-98-A_comp/adaptive_viterbi.csv",
+      "sha256": "6af9679f7145d4780b8e333e8597dded133f632a81ae11cf421c7ae04dac4664"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_Funk3-98-A_comp/long_viterbi.csv",
+      "sha256": "fa5b1e7aff1a094b13184537c7d8e1818a8bc6f3cc85c903dd66792d3cb442f1"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_Funk3-98-A_comp/reference.csv",
+      "sha256": "1db0e5308be64ced00e3f0f4731957b2c2c9340636ea3439269601a867a51406"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_Jazz3-137-Eb_comp/adaptive_viterbi.csv",
+      "sha256": "e207b7916ecf73618c0aec541f99dfcb083c1d9b7868b88438a73cda652b29ec"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_Jazz3-137-Eb_comp/long_viterbi.csv",
+      "sha256": "2f89606df123bc417878d1664791906e06412261cd549a336271c34774322ae3"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_Jazz3-137-Eb_comp/reference.csv",
+      "sha256": "78dce3172aad6f6f6916e45a7c600e1a9e2a673d5cf7667ade9d2ea6935fed43"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_Jazz3-150-C_comp/adaptive_viterbi.csv",
+      "sha256": "612eef5bfd75012ff44bded18a0495eeeaad17d96efec5afb59714f1f2679f24"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_Jazz3-150-C_comp/long_viterbi.csv",
+      "sha256": "662a31e0412e9b0173fa96f24f59c021fac4fa19a491b63d30138e7bd1e231f1"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_Jazz3-150-C_comp/reference.csv",
+      "sha256": "be39914bbb7d2a97822efcadc578843209d341c05cffb86b497a3da8db0d301a"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_Rock3-117-Bb_comp/adaptive_viterbi.csv",
+      "sha256": "a157d98a8d550edaad4dbfab3de2fa4cdeb4b7c7429e2f379ee0532b09387dc1"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_Rock3-117-Bb_comp/long_viterbi.csv",
+      "sha256": "2bfb67460b782bb31bebc00629bef2d170f4fba9785da8206c343f14196c1ef5"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_Rock3-117-Bb_comp/reference.csv",
+      "sha256": "405809e850928ac5c0bc92c8b3f90d7ddae54abf5420bca83a4e4b25d405d8dc"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_Rock3-148-C_comp/adaptive_viterbi.csv",
+      "sha256": "689cb625f6d4eeb3da27afedfdbf3cf9887fd66e60824ce253e1b379700196e1"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_Rock3-148-C_comp/long_viterbi.csv",
+      "sha256": "08b60834d6cc3155746e862f9ca6973183b4611a1c10eb0d39d8de2ec99a2643"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_Rock3-148-C_comp/reference.csv",
+      "sha256": "21562aa8166ff1fe1596e825e0aa13b0fe4983fc98b6a9719ddb313ba377544d"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_SS3-84-Bb_comp/adaptive_viterbi.csv",
+      "sha256": "b328b2ee0c9498848ca019b9b6095a4c954ab3c30a0454c5e790f42e4de0e0b9"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_SS3-84-Bb_comp/long_viterbi.csv",
+      "sha256": "1fe5e4efd0d3ca44cfc586d0b7c5838f6863ec87a83073d13ac7d67397115e0a"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_SS3-84-Bb_comp/reference.csv",
+      "sha256": "614cf0a6df69812a399954efbe56ef92fa6100d2ea385c24b16e8faf1b3b1e17"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_SS3-98-C_comp/adaptive_viterbi.csv",
+      "sha256": "09819efb54ae531b70eda0a79cec962bd4b411f193dc980593ddb1e6785345fc"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_SS3-98-C_comp/long_viterbi.csv",
+      "sha256": "b1d1e093bb6e6baf7c4dab118b3af481f0a3904aa24b8db5bc10c3b6b2e448d8"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/predictions/05_SS3-98-C_comp/reference.csv",
+      "sha256": "47b7eb90e6a2078f85b7831a31169fb06aa201e0959f59d113c2a044065f9f59"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/regions/per_recording_regions.csv",
+      "sha256": "a5b65696f5042bb3ae5f6ff1bc287269c73eacfeb611a4d79bd6c0986a1b6b92"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/test_frozen/summary.json",
+      "sha256": "36057ddbbfea1ff1227b6e2eb512fbfb22999fcc6241d2d652a028566aa3b2b3"
+    }
+  ]
+}

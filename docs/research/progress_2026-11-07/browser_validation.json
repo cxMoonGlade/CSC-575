@@ -1,0 +1,61 @@
+{
+  "checked_at_utc": "2026-11-07T17:50:48.686557+00:00",
+  "source": "/tmp/chordrec_progress_results/test_frozen/examples/00_BN3-119-G_comp/playback.html",
+  "browser": "Chromium 156.0.8078.4",
+  "headless": true,
+  "status": "passed",
+  "metadata": {
+    "duration": 32.263197,
+    "readyState": 4,
+    "paused": true,
+    "error": null
+  },
+  "initial_play_advanced_seconds": 0.852804,
+  "pause_stopped_time": true,
+  "click_seek": {
+    "target_seconds": 16.1315985,
+    "observed_seconds": 16.12068,
+    "cursor_x": 592.1666523850389,
+    "expected_cursor_x": 592.1666566397621
+  },
+  "pause_resume_cycles": [
+    {
+      "cycle": 1,
+      "before_seconds": 16.12068,
+      "after_seconds": 16.48044,
+      "pending": 0,
+      "maxPending": 1
+    },
+    {
+      "cycle": 2,
+      "before_seconds": 16.559552,
+      "after_seconds": 16.995227,
+      "pending": 0,
+      "maxPending": 1
+    },
+    {
+      "cycle": 3,
+      "before_seconds": 17.079126,
+      "after_seconds": 17.52178,
+      "pending": 0,
+      "maxPending": 1
+    }
+  ],
+  "final_state": {
+    "time": 17.60034,
+    "paused": true,
+    "display": "17.60 / 32.26 s",
+    "raf": {
+      "requested": 156,
+      "fired": 156,
+      "cancelled": 0,
+      "maxPending": 1
+    },
+    "pending": 0
+  },
+  "page_errors": [],
+  "console_errors": [],
+  "failed_requests": [],
+  "screenshot": "/tmp/chordrec_demo_validation/playback.png",
+  "environment_note": "Missing system libasound.so.2 was supplied by an official Ubuntu package extracted under /tmp; no system installation. Playback clock and controls verified in headless Chromium; acoustic listening quality was not assessed."
+}

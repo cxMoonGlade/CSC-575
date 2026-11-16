@@ -1,0 +1,49 @@
+{
+  "piece_id": "jazz_8",
+  "selection": "Largest total duration of reference N among the 64 evaluated recordings; annotation-only selection.",
+  "audio": "docs/datasets/IDMT-SMT-Guitar/IDMT-SMT-GUITAR_V2/dataset4/acoustic_mic/slow/jazz/audio/jazz_8_110BPM.wav",
+  "reference": "results/optimization_v2/external/predictions/jazz_8/reference.csv",
+  "predictions": [
+    "results/optimization_v2/external/predictions/jazz_8/long_viterbi.csv",
+    "results/optimization_v2/external/predictions/jazz_8/fixed_viterbi.csv"
+  ],
+  "audio_duration_seconds": 44.63634920634921,
+  "focus_intervals": [
+    [
+      9.218321995,
+      10.901904761
+    ],
+    [
+      13.647165532,
+      15.262585034
+    ],
+    [
+      17.982630385,
+      19.614444444
+    ],
+    [
+      22.311133786,
+      23.968185941
+    ],
+    [
+      26.684875283,
+      28.370748299
+    ],
+    [
+      31.070340136,
+      32.672721088
+    ],
+    [
+      35.438412698,
+      37.061519274
+    ],
+    [
+      39.78739229,
+      41.419070294
+    ]
+  ],
+  "reference_intervals": 66,
+  "prediction_tracks": 2,
+  "html": "results/nc_diagnostic/jazz_8.html",
+  "screenshot": "results/nc_diagnostic/jazz_8.png"
+}

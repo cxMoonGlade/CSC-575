@@ -1,0 +1,140 @@
+{
+  "source_run": "/tmp/chordrec_progress_results/test_frozen",
+  "boundary_halfwidth_seconds": 0.2,
+  "definition": "Union of neighborhoods around supported, merged reference chord changes, clipped to each contiguous scoreable span. Stable is the remaining scoreable time. Exact interval-duration integration.",
+  "inference_scope": "Descriptive paired-recording scores; no independence, statistical significance, or acoustic-boundary correctness claim.",
+  "summary": [
+    {
+      "method": "adaptive",
+      "decoder": "raw",
+      "recordings": 59,
+      "near_scoreable_seconds": 216.39999999999975,
+      "near_correct_seconds": 84.78697291903688,
+      "near_accuracy": 0.39180671404360895,
+      "stable_scoreable_seconds": 1222.1989100573983,
+      "stable_correct_seconds": 781.8487608249383,
+      "stable_accuracy": 0.6397066421767797
+    },
+    {
+      "method": "adaptive",
+      "decoder": "viterbi",
+      "recordings": 59,
+      "near_scoreable_seconds": 216.39999999999975,
+      "near_correct_seconds": 125.12167959152426,
+      "near_accuracy": 0.5781963012547339,
+      "stable_scoreable_seconds": 1222.1989100573983,
+      "stable_correct_seconds": 918.2328120803998,
+      "stable_accuracy": 0.7512957216082582
+    },
+    {
+      "method": "cqt",
+      "decoder": "raw",
+      "recordings": 59,
+      "near_scoreable_seconds": 216.39999999999975,
+      "near_correct_seconds": 62.64333153663455,
+      "near_accuracy": 0.2894793509086628,
+      "stable_scoreable_seconds": 1222.1989100573983,
+      "stable_correct_seconds": 622.0481096782232,
+      "stable_accuracy": 0.5089581610320778
+    },
+    {
+      "method": "cqt",
+      "decoder": "viterbi",
+      "recordings": 59,
+      "near_scoreable_seconds": 216.39999999999975,
+      "near_correct_seconds": 103.31706099789756,
+      "near_accuracy": 0.4774355868664403,
+      "stable_scoreable_seconds": 1222.1989100573983,
+      "stable_correct_seconds": 780.5723556788436,
+      "stable_accuracy": 0.6386622907740814
+    },
+    {
+      "method": "equal",
+      "decoder": "raw",
+      "recordings": 59,
+      "near_scoreable_seconds": 216.39999999999975,
+      "near_correct_seconds": 82.71993185088436,
+      "near_accuracy": 0.3822547682573219,
+      "stable_scoreable_seconds": 1222.1989100573983,
+      "stable_correct_seconds": 753.7657269844916,
+      "stable_accuracy": 0.6167291762263906
+    },
+    {
+      "method": "equal",
+      "decoder": "viterbi",
+      "recordings": 59,
+      "near_scoreable_seconds": 216.39999999999975,
+      "near_correct_seconds": 122.89875273118099,
+      "near_accuracy": 0.5679239959851254,
+      "stable_scoreable_seconds": 1222.1989100573983,
+      "stable_correct_seconds": 900.3105973838791,
+      "stable_accuracy": 0.7366318117086176
+    },
+    {
+      "method": "fixed",
+      "decoder": "raw",
+      "recordings": 59,
+      "near_scoreable_seconds": 216.39999999999975,
+      "near_correct_seconds": 86.06150391225033,
+      "near_accuracy": 0.3976964136425621,
+      "stable_scoreable_seconds": 1222.1989100573983,
+      "stable_correct_seconds": 793.2001237688161,
+      "stable_accuracy": 0.6489942980979789
+    },
+    {
+      "method": "fixed",
+      "decoder": "viterbi",
+      "recordings": 59,
+      "near_scoreable_seconds": 216.39999999999975,
+      "near_correct_seconds": 127.63492164768232,
+      "near_accuracy": 0.5898101739726547,
+      "stable_scoreable_seconds": 1222.1989100573983,
+      "stable_correct_seconds": 933.7930082963109,
+      "stable_accuracy": 0.7640270340712847
+    },
+    {
+      "method": "long",
+      "decoder": "raw",
+      "recordings": 59,
+      "near_scoreable_seconds": 216.39999999999975,
+      "near_correct_seconds": 86.06150391225033,
+      "near_accuracy": 0.3976964136425621,
+      "stable_scoreable_seconds": 1222.1989100573983,
+      "stable_correct_seconds": 793.2001237688161,
+      "stable_accuracy": 0.6489942980979789
+    },
+    {
+      "method": "long",
+      "decoder": "viterbi",
+      "recordings": 59,
+      "near_scoreable_seconds": 216.39999999999975,
+      "near_correct_seconds": 127.63492164768232,
+      "near_accuracy": 0.5898101739726547,
+      "stable_scoreable_seconds": 1222.1989100573983,
+      "stable_correct_seconds": 933.7930082963109,
+      "stable_accuracy": 0.7640270340712847
+    },
+    {
+      "method": "short",
+      "decoder": "raw",
+      "recordings": 59,
+      "near_scoreable_seconds": 216.39999999999975,
+      "near_correct_seconds": 69.03487060219446,
+      "near_accuracy": 0.3190151136885145,
+      "stable_scoreable_seconds": 1222.1989100573983,
+      "stable_correct_seconds": 643.7654150784949,
+      "stable_accuracy": 0.5267272043699186
+    },
+    {
+      "method": "short",
+      "decoder": "viterbi",
+      "recordings": 59,
+      "near_scoreable_seconds": 216.39999999999975,
+      "near_correct_seconds": 117.21372632313431,
+      "near_accuracy": 0.5416530791272387,
+      "stable_scoreable_seconds": 1222.1989100573983,
+      "stable_correct_seconds": 849.6040286482851,
+      "stable_accuracy": 0.6951438277819975
+    }
+  ]
+}

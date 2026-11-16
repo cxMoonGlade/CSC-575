@@ -1,0 +1,44 @@
+{
+  "source_run": "/tmp/chordrec_progress_results/test_frozen",
+  "baseline": "long",
+  "rule": "Post-hoc illustrations: largest and smallest per-recording adaptive-minus-baseline duration accuracy differences; lexical tie break. Not representative random examples and not used to change the model.",
+  "comparable_recordings": 57,
+  "excluded_from_case_selection": [
+    {
+      "recording": "01_Rock3-148-C_comp",
+      "reason": "No scoreable reference duration; omitted only from illustrative case selection.",
+      "scoreable_seconds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "recording": "02_Jazz3-137-Eb_comp",
+      "reason": "No scoreable reference duration; omitted only from illustrative case selection.",
+      "scoreable_seconds": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "label": "Largest increase",
+      "recording": "05_BN3-119-G_comp",
+      "split": "test",
+      "adaptive_accuracy": 0.5611569664902999,
+      "baseline_accuracy": 0.39449029982363326,
+      "delta": 0.16666666666666663,
+      "coverage": 0.3750663714920783
+    },
+    {
+      "label": "Largest decrease",
+      "recording": "04_Funk3-112-C#_comp",
+      "split": "test",
+      "adaptive_accuracy": 0.07486496006627666,
+      "baseline_accuracy": 0.211657049213042,
+      "delta": -0.13679208914676533,
+      "coverage": 0.8749952048425138
+    }
+  ]
+}

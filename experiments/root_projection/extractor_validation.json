@@ -1,0 +1,26 @@
+{
+  "checks": [
+    {
+      "recording": "00_BN1-129-Eb_comp",
+      "metadata_exact": true,
+      "selection_correct_seconds_exact": true,
+      "correct_seconds": 5.52921795074619
+    },
+    {
+      "recording": "00_BN1-147-Gb_comp",
+      "metadata_exact": true,
+      "selection_correct_seconds_exact": true,
+      "correct_seconds": 7.081654421768707
+    },
+    {
+      "recording": "00_BN2-131-B_comp",
+      "metadata_exact": true,
+      "selection_correct_seconds_exact": true,
+      "correct_seconds": 8.765896383998893
+    }
+  ],
+  "source_sha256": "456ba0e947aad670c0d5cbccb29bdb4547bc2c97ad8648f8cea7d7468733c1ea",
+  "six_targeted_tests_passed": true,
+  "project_suite_before_reader": 77,
+  "test_or_idmt_accessed": false
+}

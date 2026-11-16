@@ -1,0 +1,13 @@
+{
+  "hypothesis": "Fitting harmonic note spectra before octave folding may reduce wrong-root predictions caused by energy from upper partials.",
+  "source": "Mauch and Dixon (2010), sections 2.2-2.5 and Table 1; this is a simplified experiment with a different representation and decoder.",
+  "development_records": 119,
+  "progression_families": [1, 2],
+  "changed_settings": [0.0, 0.6, 0.9],
+  "control": "Frozen long8192 baseline; decay0 fits fundamental-only note profiles.",
+  "fixed": "Audio, tuning, Hann8192, hop512, observation frequency span, MIDI36-95, N threshold and 24-triad Viterbi decoder with switch penalty4.",
+  "primary_metric": "Duration-weighted major/minor accuracy on the unchanged scoreable reference duration.",
+  "secondary_metrics": ["root accuracy over all chord-scoreable duration", "wrong-root seconds excluding predictions of N", "near-boundary accuracy", "both progression-family scores", "fitting runtime"],
+  "selection": "Consider only settings with improved overall accuracy and nonnegative improvement in both development families; retain the original baseline if none qualify.",
+  "scope": "Development evidence only. The previously evaluated progression3 and IDMT material cannot provide a fresh test for this revision."
+}

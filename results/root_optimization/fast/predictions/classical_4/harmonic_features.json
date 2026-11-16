@@ -1,0 +1,11 @@
+{
+  "frames": 1109,
+  "tuning": 0.040000000000000036,
+  "times_sha256": "4338c6b8ce1328f6d1b12614005ceb8910ea104256f4bc1385d26200cd78648c",
+  "rms_sha256": "ea033e61379be08a75589a12f0e5048e7a5930c06c52a02bd050ba8a74dddb84",
+  "diagnostics": {
+    "relative_residual_mean": 0.4104398481125825,
+    "relative_residual_max": 0.8704991429862601,
+    "nnls_frames": 1109
+  }
+}

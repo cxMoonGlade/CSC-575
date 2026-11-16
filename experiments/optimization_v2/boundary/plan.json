@@ -1,0 +1,14 @@
+{
+  "hypothesis": "Short-window evidence improves timing when refining existing long-window boundaries while retaining the chord identity sequence.",
+  "data": "All 119 development recordings from progression families 1 and 2 only.",
+  "baseline": "Long STFT with the existing frozen switch penalty of 4.",
+  "algorithm": "Visit decoded chord boundaries from left to right. Search within the requested radius, after the previous refined boundary and before the next original boundary. Keep at least one frame per chord. Select the split maximizing cumulative left/right template scores. Preserve every boundary touching N and all N frames. Ties prefer the original position, then the earlier split.",
+  "evidence": "Convex mixture of short- and long-window cosine emissions; no normalization after score mixing. No reference boundaries or labels enter the algorithm.",
+  "radii_seconds": [0.1, 0.2, 0.3],
+  "short_weights": [0.5, 1.0],
+  "radius_rounding": "Floor seconds * sample_rate / hop_length, so the frame shift never exceeds the radius.",
+  "selection": "Highest pooled development duration accuracy. Ties prefer smaller radius, then smaller short-window weight.",
+  "candidate_gate": "At least 0.5 percentage points above baseline overall, with nonnegative accuracy differences in each development family.",
+  "diagnostics": "Report near-boundary duration accuracy, family scores, and exact boundary metrics for baseline and the best candidate. Cached-feature timing excludes audio extraction and is not end-to-end runtime.",
+  "stop_rule": "Evaluate six candidates and the baseline once; do not change the grid or pivot if this hypothesis fails. Do not read or run progression-3 test data. No candidate becomes a validated default."
+}

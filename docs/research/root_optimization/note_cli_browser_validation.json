@@ -1,0 +1,33 @@
+{
+  "page": "results/root_optimization/demo_projection/playback.html",
+  "duration_seconds": 29.68839,
+  "tracks": [
+    "Reference",
+    "Long STFT",
+    "Note projection"
+  ],
+  "javascript_errors": [],
+  "range_playback_stopped_at": 1.3,
+  "seek_label": "5.00 / 29.69 s",
+  "development_label_verified": true,
+  "left_track_label_bounds": [
+    {
+      "label": "Coverage",
+      "right": 64.20293045043945
+    },
+    {
+      "label": "Reference",
+      "right": 67.3774642944336
+    },
+    {
+      "label": "Long STFT",
+      "right": 69.57917785644531
+    },
+    {
+      "label": "Note projection",
+      "right": 101.69839477539062
+    }
+  ],
+  "plot_left": 140,
+  "all_track_labels_fit": true
+}

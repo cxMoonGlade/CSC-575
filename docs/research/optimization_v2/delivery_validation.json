@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-11-07T18:31:25.164220+00:00",
+  "pdf_pages": 4,
+  "bibliography_entries": 16,
+  "local_links_missing": [],
+  "original_configuration_preserved": true,
+  "candidate_selection_hash_matches": true,
+  "external_recordings": 64,
+  "externally_scoreable_recordings": 60,
+  "pytest_passed": 56,
+  "portable_equivalence_checks": 15,
+  "pdf_sha256": "d259221264a6d1438456aa08cf4bb7a95da356bb3f8b212abe35a3f7b670ff48"
+}

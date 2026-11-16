@@ -1,0 +1,10 @@
+{
+  "acquire_fast.py": "22646ae231bb723a1428b24ae0a2cc3f256b8cc1af9419252a9adc7d11cf1fbf",
+  "verify_acquisition.py": "f6c7878f1812d228ec0bf2ff57221aafffb5f8ac1e72e231c149e5fd3aabdfd6",
+  "acquisition_plan.json": "a53a1c22b8cbb380c3687a9d6e49cb57d830149a05db4a0301cf04089c381384",
+  "prospective_selection.json": "b511635109e07e9a9337c96779e11a69c66ec71a078d893e4404c092602303b9",
+  "data_notes.md": "1c180ca54cf234f56745efb43b485939047f10b762f8fd488e95093d16653748",
+  "acquisition_language_audit.md": "72e74a60b6302ae43d7b2f091595d1b8611fe8f63a893c1c0064c32ae7c714e0",
+  "acquisition_writing_notes.md": "15af0f233d449fe1f032b5df65ba1cfc16b9211d60c5b8b0ab731c638fd7c4a6",
+  "acquisition_validation.json": "53dd7bb0a43cee977c12977fcb32e7a92b0dd2680362883e3fba34dd92671e82"
+}

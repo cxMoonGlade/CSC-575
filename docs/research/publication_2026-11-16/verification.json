@@ -1,0 +1,32 @@
+{
+  "checked_at_utc": "2026-11-16T21:06:33.783488+00:00",
+  "phase": "Before publication",
+  "writing_skills": [
+    "nature-writing",
+    "academic-language-audit"
+  ],
+  "reviews": [
+    "entry_review.md",
+    "code_results_review.md",
+    "research_review.md",
+    "report_review.md"
+  ],
+  "tests": {
+    "passed": 96,
+    "environment": "Existing project Python environment; tests executed from the publication checkout"
+  },
+  "report": {
+    "pages": 4,
+    "bibliography_entries": 19,
+    "clean_build_text_matches_reviewed_pdf": true,
+    "reviewed_pdf_sha256": "ba165a7d6303970ca0df989a9822a7845cea4b1ad8af2a531bcf644d3a89a2ba"
+  },
+  "relative_markdown_links_checked": 135,
+  "missing_relative_links": [],
+  "original_personal_indicators_and_references_preserved": true,
+  "executable_source_and_numeric_files_preserved": 4151,
+  "recognizer_or_frozen_result_changes": false,
+  "full_dataset_redownload_or_fresh_dependency_install": false,
+  "notebook_code_unchanged_outputs_cleared": true,
+  "checks_scope": "Publication file set, language, local links, saved hashes, existing test suite and clean report build; no parameter selection or new recognition benchmark."
+}

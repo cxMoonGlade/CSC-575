@@ -1,0 +1,491 @@
+{
+  "completed_at_utc": "2026-11-07T05:22:14.452310+00:00",
+  "split": "development",
+  "recordings": 20,
+  "annotation": "performed",
+  "warmup_seconds": 0.46880039758980274,
+  "run_order": [
+    {
+      "recording": "00_BN2-131-B_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_BN2-131-B_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_BN2-131-B_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_BN2-131-B_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_BN2-131-B_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_BN2-131-B_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_Funk2-119-G_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_Funk2-119-G_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_Funk2-119-G_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_Funk2-119-G_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_Funk2-119-G_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_Funk2-119-G_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_Funk2-108-Eb_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_Funk2-108-Eb_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_Funk2-108-Eb_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_Funk2-108-Eb_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_Funk2-108-Eb_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_Funk2-108-Eb_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_Jazz2-110-Bb_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_Jazz2-110-Bb_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_Jazz2-110-Bb_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_Jazz2-110-Bb_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_Jazz2-110-Bb_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_Jazz2-110-Bb_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_Funk1-97-C_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_Funk1-97-C_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_Funk1-97-C_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_Funk1-97-C_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_Funk1-97-C_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_Funk1-97-C_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_Rock1-90-C#_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_Rock1-90-C#_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_Rock1-90-C#_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_Rock1-90-C#_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_Rock1-90-C#_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_Rock1-90-C#_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_BN1-129-Eb_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_BN1-129-Eb_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_BN1-129-Eb_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_BN1-129-Eb_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_BN1-129-Eb_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_BN1-129-Eb_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_SS2-88-F_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_SS2-88-F_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_SS2-88-F_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_SS2-88-F_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_SS2-88-F_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_SS2-88-F_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_Jazz1-130-D_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_Jazz1-130-D_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_Jazz1-130-D_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_Jazz1-130-D_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_Jazz1-130-D_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_Jazz1-130-D_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_SS1-100-C#_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_SS1-100-C#_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_SS1-100-C#_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_SS1-100-C#_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_SS1-100-C#_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_SS1-100-C#_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_SS1-68-E_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_SS1-68-E_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_SS1-68-E_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_SS1-68-E_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_SS1-68-E_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_SS1-68-E_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_BN2-166-Ab_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_BN2-166-Ab_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_BN2-166-Ab_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_BN2-166-Ab_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_BN2-166-Ab_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_BN2-166-Ab_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_Rock2-85-F_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_Rock2-85-F_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_Rock2-85-F_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_Rock2-85-F_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_Rock2-85-F_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_Rock2-85-F_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_Jazz1-200-B_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_Jazz1-200-B_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_Jazz1-200-B_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_Jazz1-200-B_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_Jazz1-200-B_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_Jazz1-200-B_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_Jazz2-187-F#_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_Jazz2-187-F#_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_Jazz2-187-F#_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_Jazz2-187-F#_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_Jazz2-187-F#_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_Jazz2-187-F#_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_Funk1-114-Ab_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_Funk1-114-Ab_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_Funk1-114-Ab_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_Funk1-114-Ab_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_Funk1-114-Ab_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_Funk1-114-Ab_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_BN1-147-Gb_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_BN1-147-Gb_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_BN1-147-Gb_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_BN1-147-Gb_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_BN1-147-Gb_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_BN1-147-Gb_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_Rock2-142-D_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_Rock2-142-D_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_Rock2-142-D_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_Rock2-142-D_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_Rock2-142-D_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_Rock2-142-D_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_Rock1-130-A_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_Rock1-130-A_comp",
+      "method": "cqt"
+    },
+    {
+      "recording": "00_Rock1-130-A_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_Rock1-130-A_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_Rock1-130-A_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_Rock1-130-A_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_SS2-107-Ab_comp",
+      "method": "long"
+    },
+    {
+      "recording": "00_SS2-107-Ab_comp",
+      "method": "adaptive"
+    },
+    {
+      "recording": "00_SS2-107-Ab_comp",
+      "method": "equal"
+    },
+    {
+      "recording": "00_SS2-107-Ab_comp",
+      "method": "short"
+    },
+    {
+      "recording": "00_SS2-107-Ab_comp",
+      "method": "fixed"
+    },
+    {
+      "recording": "00_SS2-107-Ab_comp",
+      "method": "cqt"
+    }
+  ],
+  "runtime_definition": "Serial CPU wall time: audio load, resampling, shared tuning/RMS, required features, fusion, Viterbi and intervals. Feature caches disabled; imports, warm-up, raw diagnostics, scoring and output excluded. OS disk cache is not cleared.",
+  "interpretation": "Development results with initial settings; no held-out conclusions."
+}

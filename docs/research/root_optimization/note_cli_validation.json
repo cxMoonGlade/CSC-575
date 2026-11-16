@@ -1,0 +1,21 @@
+{
+  "targeted_tests": 6,
+  "targeted_tests_passed": 6,
+  "example_recording": "01_Funk1-97-C_comp",
+  "split": "development",
+  "audio_seconds": 29.688390022675737,
+  "runtime_seconds": 0.19756658468395472,
+  "warmup_seconds": 0.5127073545008898,
+  "duration_accuracy": 0.9824057737716332,
+  "baseline_saved_duration_accuracy": 0.6498283839466922,
+  "browser_validation": "docs/research/root_optimization/note_cli_browser_validation.json",
+  "original_run_py_modified": false,
+  "source_sha256": {
+    "chordrec/note_predict.py": "a383ec14ffa453f97eb1c7a91c6d7b00c3034cd1da674ce9c9bfa641c03525a5",
+    "tests/test_note_predict.py": "e5227bf84db509ad2ccd4df69f5bc554c83b39f0b43689ce3a743186586a1b5a",
+    "docs/research/root_optimization/note_cli_language_audit.md": "24a7b5e21a3cc4a85cace515f158db78fe3e224fb93163a19dccecb1b829d39b",
+    "docs/research/root_optimization/note_cli_writing_notes.md": "b0a161de77a302a1f5065b7506cfc47892cc184af2a7eb37c20590d21b2d8302"
+  },
+  "display_label": "Note projection",
+  "label_refresh_used_saved_intervals_only": true
+}

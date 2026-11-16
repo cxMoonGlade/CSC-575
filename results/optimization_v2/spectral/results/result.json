@@ -1,0 +1,201 @@
+{
+  "best": {
+    "name": "long_strength_0.5",
+    "recordings": 119,
+    "correct_seconds": 1568.7090680275676,
+    "scoreable_seconds": 2192.4989483060635,
+    "accuracy": 0.7154890857482785,
+    "near_accuracy": 0.5200263999447154,
+    "near_correct_seconds": 85.28432959093315,
+    "near_scoreable_seconds": 163.99999999999966,
+    "families": {
+      "1": {
+        "recordings": 59,
+        "correct_seconds": 830.2932651930907,
+        "scoreable_seconds": 1055.1755588667654,
+        "accuracy": 0.7868768928696632,
+        "near_accuracy": 0.5664560993655354,
+        "near_correct_seconds": 32.627871323454755,
+        "near_scoreable_seconds": 57.59999999999985
+      },
+      "2": {
+        "recordings": 60,
+        "correct_seconds": 738.4158028344767,
+        "scoreable_seconds": 1137.3233894392981,
+        "accuracy": 0.6492575547914448,
+        "near_accuracy": 0.4948915250702866,
+        "near_correct_seconds": 52.6564582674784,
+        "near_scoreable_seconds": 106.3999999999998
+      }
+    },
+    "performers": {
+      "00": {
+        "recordings": 20,
+        "correct_seconds": 307.3035883328068,
+        "scoreable_seconds": 443.6558230209082,
+        "accuracy": 0.6926621321914318,
+        "near_accuracy": 0.5109587758411698,
+        "near_correct_seconds": 16.963831357926807,
+        "near_scoreable_seconds": 33.199999999999946
+      },
+      "01": {
+        "recordings": 20,
+        "correct_seconds": 398.28327243159504,
+        "scoreable_seconds": 506.0714403461129,
+        "accuracy": 0.78700997661358,
+        "near_accuracy": 0.5377226138293313,
+        "near_correct_seconds": 26.8861306914665,
+        "near_scoreable_seconds": 49.999999999999886
+      },
+      "02": {
+        "recordings": 20,
+        "correct_seconds": 202.9269558398581,
+        "scoreable_seconds": 237.01363500884142,
+        "accuracy": 0.8561826235536543,
+        "near_accuracy": 0.590032548405555,
+        "near_correct_seconds": 7.55241661959109,
+        "near_scoreable_seconds": 12.799999999999976
+      },
+      "03": {
+        "recordings": 20,
+        "correct_seconds": 249.42606992576063,
+        "scoreable_seconds": 369.5982882313596,
+        "accuracy": 0.6748572108365013,
+        "near_accuracy": 0.47878868624765714,
+        "near_correct_seconds": 13.214567740435312,
+        "near_scoreable_seconds": 27.599999999999948
+      },
+      "04": {
+        "recordings": 19,
+        "correct_seconds": 188.51048021268812,
+        "scoreable_seconds": 299.61265680299726,
+        "accuracy": 0.6291806301648947,
+        "near_accuracy": 0.49516750125627873,
+        "near_correct_seconds": 8.714948022110484,
+        "near_scoreable_seconds": 17.599999999999955
+      },
+      "05": {
+        "recordings": 20,
+        "correct_seconds": 222.2587012848588,
+        "scoreable_seconds": 336.54710489584426,
+        "accuracy": 0.6604088938861744,
+        "near_accuracy": 0.5242296122545169,
+        "near_correct_seconds": 11.952435159402958,
+        "near_scoreable_seconds": 22.799999999999947
+      }
+    },
+    "cached_prediction_seconds": 0.3198198499158025,
+    "method": "long",
+    "whitening_strength": 0.5,
+    "delta_pp": -0.41648956014411764,
+    "near_delta_pp": -0.5576120089440306,
+    "family_delta_pp": {
+      "1": -0.7104147577556619,
+      "2": -0.14379431133922926
+    },
+    "passes_candidate_gate": false
+  },
+  "baseline": {
+    "name": "long_strength_0",
+    "recordings": 119,
+    "correct_seconds": 1577.840597253532,
+    "scoreable_seconds": 2192.4989483060635,
+    "accuracy": 0.7196539813497197,
+    "near_accuracy": 0.5256025200341558,
+    "near_correct_seconds": 86.19881328560136,
+    "near_scoreable_seconds": 163.99999999999966,
+    "families": {
+      "1": {
+        "recordings": 59,
+        "correct_seconds": 837.7893880835111,
+        "scoreable_seconds": 1055.1755588667654,
+        "accuracy": 0.7939810404472198,
+        "near_accuracy": 0.5673289617275036,
+        "near_correct_seconds": 32.67814819550412,
+        "near_scoreable_seconds": 57.59999999999985
+      },
+      "2": {
+        "recordings": 60,
+        "correct_seconds": 740.051209170021,
+        "scoreable_seconds": 1137.3233894392981,
+        "accuracy": 0.650695497904837,
+        "near_accuracy": 0.503013769643772,
+        "near_correct_seconds": 53.520665090097246,
+        "near_scoreable_seconds": 106.3999999999998
+      }
+    },
+    "performers": {
+      "00": {
+        "recordings": 20,
+        "correct_seconds": 310.1882393794387,
+        "scoreable_seconds": 443.6558230209082,
+        "accuracy": 0.6991641341870102,
+        "near_accuracy": 0.5217811432776224,
+        "near_correct_seconds": 17.323133956817035,
+        "near_scoreable_seconds": 33.199999999999946
+      },
+      "01": {
+        "recordings": 20,
+        "correct_seconds": 399.8977492618671,
+        "scoreable_seconds": 506.0714403461129,
+        "accuracy": 0.7902001918708722,
+        "near_accuracy": 0.5332804869289328,
+        "near_correct_seconds": 26.664024346446578,
+        "near_scoreable_seconds": 49.999999999999886
+      },
+      "02": {
+        "recordings": 20,
+        "correct_seconds": 199.26274628236885,
+        "scoreable_seconds": 237.01363500884142,
+        "accuracy": 0.8407227131676862,
+        "near_accuracy": 0.5842248844308736,
+        "near_correct_seconds": 7.478078520715169,
+        "near_scoreable_seconds": 12.799999999999976
+      },
+      "03": {
+        "recordings": 20,
+        "correct_seconds": 249.32012641666628,
+        "scoreable_seconds": 369.5982882313596,
+        "accuracy": 0.674570565815494,
+        "near_accuracy": 0.48066399060743353,
+        "near_correct_seconds": 13.266326140765141,
+        "near_scoreable_seconds": 27.599999999999948
+      },
+      "04": {
+        "recordings": 19,
+        "correct_seconds": 189.5815006208514,
+        "scoreable_seconds": 299.61265680299726,
+        "accuracy": 0.6327553136231688,
+        "near_accuracy": 0.4987801584403645,
+        "near_correct_seconds": 8.778530788550393,
+        "near_scoreable_seconds": 17.599999999999955
+      },
+      "05": {
+        "recordings": 20,
+        "correct_seconds": 229.59023529233974,
+        "scoreable_seconds": 336.54710489584426,
+        "accuracy": 0.6821934640126948,
+        "near_accuracy": 0.5565227865046964,
+        "near_correct_seconds": 12.688719532307049,
+        "near_scoreable_seconds": 22.799999999999947
+      }
+    },
+    "cached_prediction_seconds": 0.631340797059238,
+    "method": "long",
+    "whitening_strength": 0.0,
+    "delta_pp": 0.0,
+    "near_delta_pp": 0.0,
+    "family_delta_pp": {
+      "1": 0.0,
+      "2": 0.0
+    },
+    "passes_candidate_gate": false
+  },
+  "passes_candidate_gate": false,
+  "test_access": false,
+  "promoted": false,
+  "identity_predictions_equal": true,
+  "analytic_tests": "Zero-strength identity, silent finite-zero output, and constant-spectrum normalized invariance passed.",
+  "code_sha256": "e5389fcf54c33cbdf72d1d397b3a14191145a4690ce158cad4e5069877ca1bd8",
+  "common_sha256": "4c495d47ea75bef0f19d0021c4d49fcb13478bf0433cb6bae7fcb97fdc9b041d"
+}

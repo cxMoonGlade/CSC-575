@@ -1,0 +1,954 @@
+{
+  "dataset": "IDMT-SMT-Guitar",
+  "source_run": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external",
+  "boundary_halfwidth_seconds": 0.2,
+  "definition": "Exact interval duration with the existing majmin reduction. Unsupported reference labels and gaps are excluded. Near is the union of reference-change neighborhoods, confined to each scoreable span; stable is the remainder.",
+  "category_definitions": {
+    "correct": "Identical reduced labels, including N.",
+    "reference_n_error": "Reference N, predicted chord or missing/unsupported prediction.",
+    "chord_to_n": "Supported reference chord, predicted N.",
+    "same_root_wrong_quality": "Supported chords with the same root but different major/minor quality.",
+    "other_root": "Supported chords with different roots, regardless of quality.",
+    "invalid_prediction": "Supported reference chord, missing or unsupported prediction."
+  },
+  "interpretation": "Post-hoc description of frozen predictions. Near-boundary errors are a location category, not a causal attribution to boundary timing. IDMT NC was mapped to N under the existing evaluation policy.",
+  "summary": [
+    {
+      "method": "long",
+      "decoder": "viterbi",
+      "recordings": 64,
+      "scoreable_recordings": 60,
+      "audio_seconds": 2160.9757369614513,
+      "excluded_seconds": 828.5950340134513,
+      "coverage": 0.6165643973501808,
+      "regions": {
+        "all": {
+          "scoreable_seconds": 1332.380702948,
+          "correct_seconds": 875.795124798619,
+          "error_seconds": 456.5855781493809,
+          "duration_accuracy": 0.6573159779790052,
+          "categories_seconds": {
+            "correct": 875.795124798619,
+            "reference_n_error": 149.84045352074605,
+            "chord_to_n": 1.2854421726734842,
+            "same_root_wrong_quality": 26.186643991575952,
+            "other_root": 279.27303846438554,
+            "invalid_prediction": 0.0
+          },
+          "categories_fraction": {
+            "correct": 0.6573159779790052,
+            "reference_n_error": 0.11246069024357074,
+            "chord_to_n": 0.0009647709320837051,
+            "same_root_wrong_quality": 0.0196540252599245,
+            "other_root": 0.20960453558541592,
+            "invalid_prediction": 0.0
+          }
+        },
+        "near": {
+          "scoreable_seconds": 277.6093197269999,
+          "correct_seconds": 135.08029483646698,
+          "error_seconds": 142.52902489053292,
+          "duration_accuracy": 0.486584149874019,
+          "categories_seconds": {
+            "correct": 135.08029483646698,
+            "reference_n_error": 63.647482993124605,
+            "chord_to_n": 0.15863945609524244,
+            "same_root_wrong_quality": 1.4472335582403701,
+            "other_root": 77.27566888307268,
+            "invalid_prediction": 0.0
+          },
+          "categories_fraction": {
+            "correct": 0.486584149874019,
+            "reference_n_error": 0.22926997932099447,
+            "chord_to_n": 0.0005714485963628597,
+            "same_root_wrong_quality": 0.005213202350928185,
+            "other_root": 0.2783612198576954,
+            "invalid_prediction": 0.0
+          }
+        },
+        "stable": {
+          "scoreable_seconds": 1054.7713832210002,
+          "correct_seconds": 740.714829962152,
+          "error_seconds": 314.0565532588482,
+          "duration_accuracy": 0.7022515416565432,
+          "categories_seconds": {
+            "correct": 740.714829962152,
+            "reference_n_error": 86.19297052762144,
+            "chord_to_n": 1.1268027165782417,
+            "same_root_wrong_quality": 24.739410433335582,
+            "other_root": 201.99736958131285,
+            "invalid_prediction": 0.0
+          },
+          "categories_fraction": {
+            "correct": 0.7022515416565432,
+            "reference_n_error": 0.08171720611570851,
+            "chord_to_n": 0.0010682909438984554,
+            "same_root_wrong_quality": 0.023454760744255114,
+            "other_root": 0.19150820053959455,
+            "invalid_prediction": 0.0
+          }
+        }
+      }
+    },
+    {
+      "method": "fixed",
+      "decoder": "viterbi",
+      "recordings": 64,
+      "scoreable_recordings": 60,
+      "audio_seconds": 2160.9757369614513,
+      "excluded_seconds": 828.5950340134513,
+      "coverage": 0.6165643973501808,
+      "regions": {
+        "all": {
+          "scoreable_seconds": 1332.380702948,
+          "correct_seconds": 873.4829706042108,
+          "error_seconds": 458.89773234378913,
+          "duration_accuracy": 0.6555806224689078,
+          "categories_seconds": {
+            "correct": 873.4829706042108,
+            "reference_n_error": 149.84045352074605,
+            "chord_to_n": 1.2854421726734842,
+            "same_root_wrong_quality": 26.901927437149645,
+            "other_root": 280.86990921322,
+            "invalid_prediction": 0.0
+          },
+          "categories_fraction": {
+            "correct": 0.6555806224689078,
+            "reference_n_error": 0.11246069024357074,
+            "chord_to_n": 0.0009647709320837051,
+            "same_root_wrong_quality": 0.02019087140606807,
+            "other_root": 0.2108030449493697,
+            "invalid_prediction": 0.0
+          }
+        },
+        "near": {
+          "scoreable_seconds": 277.6093197269999,
+          "correct_seconds": 134.9536281689273,
+          "error_seconds": 142.6556915580726,
+          "duration_accuracy": 0.4861278731623285,
+          "categories_seconds": {
+            "correct": 134.9536281689273,
+            "reference_n_error": 63.647482993124605,
+            "chord_to_n": 0.15863945609524244,
+            "same_root_wrong_quality": 1.447233558240371,
+            "other_root": 77.40233555061236,
+            "invalid_prediction": 0.0
+          },
+          "categories_fraction": {
+            "correct": 0.4861278731623285,
+            "reference_n_error": 0.22926997932099447,
+            "chord_to_n": 0.0005714485963628597,
+            "same_root_wrong_quality": 0.0052132023509281885,
+            "other_root": 0.278817496569386,
+            "invalid_prediction": 0.0
+          }
+        },
+        "stable": {
+          "scoreable_seconds": 1054.7713832210002,
+          "correct_seconds": 738.5293424352835,
+          "error_seconds": 316.24204078571665,
+          "duration_accuracy": 0.7001795404991034,
+          "categories_seconds": {
+            "correct": 738.5293424352835,
+            "reference_n_error": 86.19297052762144,
+            "chord_to_n": 1.1268027165782417,
+            "same_root_wrong_quality": 25.454693878909275,
+            "other_root": 203.46757366260763,
+            "invalid_prediction": 0.0
+          },
+          "categories_fraction": {
+            "correct": 0.7001795404991034,
+            "reference_n_error": 0.08171720611570851,
+            "chord_to_n": 0.0010682909438984554,
+            "same_root_wrong_quality": 0.024132901483520718,
+            "other_root": 0.19290206095776893,
+            "invalid_prediction": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "validation": {
+    "saved_metric_maximum_absolute_difference": 7.105427357601002e-15,
+    "per_recording_rows": 384,
+    "confusion_rows": 4050
+  },
+  "sources": [
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/per_recording.csv",
+      "sha256": "75175239186bc38a884e85794e8af0ddf1cd25522c4df8a3f6e8795326b546f1"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_1/fixed_viterbi.csv",
+      "sha256": "ee84061ab73f6f4c5e492fc4da8c3b52f415a3923c09b4e0193ce1f8b023f02c"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_1/long_viterbi.csv",
+      "sha256": "513ccf6dc985a7dd80658df4a877502350b10cc499055dc74422929b7eaa9376"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_1/reference.csv",
+      "sha256": "f8a4794dc4fb7efd1aeb7799d68c0c7d035d7c6731d8e57b74eb187eea39066a"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_2/fixed_viterbi.csv",
+      "sha256": "59f08081bab60e38558f716090f431b896943a0166f1c662b28bfc0f92980c00"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_2/long_viterbi.csv",
+      "sha256": "bfcf679c1970c46908009cb411d6abc65f19e609071f4210478aebad3249b892"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_2/reference.csv",
+      "sha256": "c6ea94006c0b058675659c22a25452ce6cdb90a6ddb43e45e414ace37c1b4709"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_3/fixed_viterbi.csv",
+      "sha256": "9579ec4a747dd736408333001afa3a9f79cec00a1fb9f9e0c16e61e428074185"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_3/long_viterbi.csv",
+      "sha256": "45543ad1114dec12d6015112a40cbdacb354b75d83769c826fe939a94b3f9452"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_3/reference.csv",
+      "sha256": "6eec00a5a76e698f40de5478a82213642b5ceaccb21fb2ce4f5c7b04beaff794"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_4/fixed_viterbi.csv",
+      "sha256": "3dca87ba0ad9f2c827f68af6868913cad241805ca85e4c0d962cb0c29a9e1eb8"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_4/long_viterbi.csv",
+      "sha256": "2c0eed5f3a827cea0e771cb2b7820b7123c970f38bca2dc2a10a59f24633117b"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_4/reference.csv",
+      "sha256": "ced864a55ddc4b545e76b852736994f77ebfdaf606bcf43f1af8ce85d5ac6898"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_5/fixed_viterbi.csv",
+      "sha256": "a5032593412b5287aa4877aeaefca57b3b87fe2b24a2d6f21e44188e2e46cbad"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_5/long_viterbi.csv",
+      "sha256": "a2a73b47b377fc11a55c998ebdb849167277fe3759ae61726b4cc9bd46b8b588"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_5/reference.csv",
+      "sha256": "421fc210256e80ccab7da27c863298a2d30acdd2bcd300f28809b8f3d6fbe812"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_6/fixed_viterbi.csv",
+      "sha256": "3af49d012aa233e4037bb08b3fb4b4aa1bbc65627c1ba354385bc4bc8abb8a0d"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_6/long_viterbi.csv",
+      "sha256": "d1424185b070874a5222f2ded498957660678394f59ca5981c10647d2d296db5"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_6/reference.csv",
+      "sha256": "bdab241e25709e9cc3286121e4e0a9428553252e505743174c99039213105e8a"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_7/fixed_viterbi.csv",
+      "sha256": "1dd4f8e3dbc061dfd3b07cc417016b2ffffff15f7a463bc57709facf17ff7839"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_7/long_viterbi.csv",
+      "sha256": "059d9782cde734c5e52a25bcabc57cb349e6783369d592d1c77764347e99d096"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_7/reference.csv",
+      "sha256": "f69adab2c8be30dd7bae3b1ad4c3ee7afeea8ece1883ad4e3316e0ed52f8545a"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_8/fixed_viterbi.csv",
+      "sha256": "52d50b3d4c7468a62622dee251df166e1e736c5aabce6b7a7d7e4ea94ed65991"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_8/long_viterbi.csv",
+      "sha256": "7b15c9ac0e317336504efcd16c565f9a5ab1565a90f30a5f4bb863f4a534cbc8"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/classical_8/reference.csv",
+      "sha256": "5f8a2cbaa6a59ecafd23c5c84f302d069c93e00dde4bdbe334374c8afc49cb28"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/country_1/fixed_viterbi.csv",
+      "sha256": "d91ba50b2f6086b7d4d13e3a4d657b0414f64a6a8a4074737ea0312b6d0cc685"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/country_1/long_viterbi.csv",
+      "sha256": "d91ba50b2f6086b7d4d13e3a4d657b0414f64a6a8a4074737ea0312b6d0cc685"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/country_1/reference.csv",
+      "sha256": "d4498c9f8ebbffa17fef4996138ba12bbddf79951b4b5762e33b355db84f7f45"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/country_2/fixed_viterbi.csv",
+      "sha256": "3b143397fb414b10f73b9e05e60de4536e4f81d47272a30288726ea6da625a94"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/country_2/long_viterbi.csv",
+      "sha256": "cdef0f168b59c5acd94e95a15ecd04fdd4f3195fd051e74b3ffa12db64fe9970"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/country_2/reference.csv",
+      "sha256": "864e4b2d82ec6e791c25956183a7d688c9bcaa0342d5b502bfdb6eb100b28323"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/country_3/fixed_viterbi.csv",
+      "sha256": "72120be3850fbf8d034031d4b01b2d0d0b6456f4afc33b8f436276b49a10b653"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/country_3/long_viterbi.csv",
+      "sha256": "16dbbd6392e24ceed66fa6c9b3e9f9ea3ae3e4aa7d59ab72cb916cdb06038fa6"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/country_3/reference.csv",
+      "sha256": "ee7594b9c99913c360b8483919ce82f021a8c5eb8feab3bf56fa1eb16a07660c"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/country_4/fixed_viterbi.csv",
+      "sha256": "7e80408f6e2db4d6727ab5985e73c31df9bbc2a899f2e0caf2ae1732dd4c25f1"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/country_4/long_viterbi.csv",
+      "sha256": "eb96c87b445585309b0f0cd0bfc808cb8776094ecbbdfd5457c0d22ae3bedd16"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/country_4/reference.csv",
+      "sha256": "fb78f63655794ee84f05b10e12bcb9479bb80e786a4d7b2c64e39b8e7179f87b"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/country_5/fixed_viterbi.csv",
+      "sha256": "ba20ebaf48f70dcb4afde7d42c6551d340ea6a5dd17cbec8df45c4cae0120c93"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/country_5/long_viterbi.csv",
+      "sha256": "b423b0644a39e923927aa3bfa2f02cfe6491125840d0be63a6b9ee89f64fa286"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/country_5/reference.csv",
+      "sha256": "f0130f657a20b521b390871efb4a0926e689d4024cf82fed21bfd387e09b0fe0"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/folk_1/fixed_viterbi.csv",
+      "sha256": "b28d8dc91d6a2851077cd45c4d775b4e1c24ee99440b4a4b8a17331b78ef3412"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/folk_1/long_viterbi.csv",
+      "sha256": "0751379817aa27e3037bd5b04c1a925f18ee5e701df610af68526f770dcfa5aa"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/folk_1/reference.csv",
+      "sha256": "ca24e628f4036be634ea1ea8398a3c8e30baf3819edabd049e0a7bc560bad752"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/folk_2/fixed_viterbi.csv",
+      "sha256": "5105e3c41e74aaff64ec5294696fa3a29156a72d42bda09738844ce60525315e"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/folk_2/long_viterbi.csv",
+      "sha256": "5b89060fe7ba256d444e0c9bef67ea151768f5ef030fd97642f494d739e283ec"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/folk_2/reference.csv",
+      "sha256": "ff9e6e84b31ec9b53285600d308a459f6b4a99a7b73197eca86cd7ca2e4cb3c1"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/folk_3/fixed_viterbi.csv",
+      "sha256": "48a38ce90fee51220549620f4d1050822e4cc4aa183258505cab70da7b804318"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/folk_3/long_viterbi.csv",
+      "sha256": "fb4407afb09e98149fad9ee606e4e3637c5962d1b5cf80f64088d960f93dfae1"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/folk_3/reference.csv",
+      "sha256": "8e6d9383e5513f2b65a6cd9e01851224f84f65e5e3b6ad03b70356de023b5ba7"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_1/fixed_viterbi.csv",
+      "sha256": "425ebce4c1dbdeec4964271bbe37acf776d8e12dc06049783aaab968da002494"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_1/long_viterbi.csv",
+      "sha256": "24e5b343e3717c71af28bcaa4a741c892e0976e11aceb83c6ee8463f4113d133"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_1/reference.csv",
+      "sha256": "e03af82fcbe71935085f1cd731e0ab422b467168c1f762c191716d2fae37d4c3"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_2/fixed_viterbi.csv",
+      "sha256": "66a16ff330d9f9f022ed8344070c0c201ffa85c5162fc725816beb5e84a14ce7"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_2/long_viterbi.csv",
+      "sha256": "1a47108f59dd5865f21f64153fbb1f5116af57e5dae4140197c9a68ed67df7aa"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_2/reference.csv",
+      "sha256": "62b2347740438ba4b76467019053e20fbd0ce847c93b123130dfd19a7c15ae75"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_3/fixed_viterbi.csv",
+      "sha256": "4ad9c505be98828dca6b381668bb3c99d8449d63e860be0a29e2a5b451e1ca47"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_3/long_viterbi.csv",
+      "sha256": "c613b018086a866a87383c504e7e811f3d0e3732f62ba5fe7aec0ea767a5d073"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_3/reference.csv",
+      "sha256": "67e3ebe277c063d8782c9f53c98f27adf7b662d9f326fd27a1a6ddac792ca152"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_4/fixed_viterbi.csv",
+      "sha256": "afc6e0caeecfda824b43bd0ae8f49ecea8f3f76683831f0f625e1ecd011370f5"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_4/long_viterbi.csv",
+      "sha256": "63941d20a25e3eb67085336763d4657016f0b950fcec3486978d862b2bd1d1e0"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_4/reference.csv",
+      "sha256": "ef993944d422098cd814fd2d3d11dbea9ef872f1b48ce172d9f3b761dc491dc7"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_5/fixed_viterbi.csv",
+      "sha256": "a4d8562ff447a0bc9b40ff9ec3777ff00f515678c86e61652d69c6fc506ae8aa"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_5/long_viterbi.csv",
+      "sha256": "31842c436f09bdea0602fca8a751853c689ef76d6c8068e8e4925e0ef8fe005c"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_5/reference.csv",
+      "sha256": "673c8c6954104ed5a66167776e0b7958e11d782d7d189e527e471e03c42a2492"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_6/fixed_viterbi.csv",
+      "sha256": "8b8bc58d85acccd3c9a0ec8b116e3b6d5c7201bdb6bcde31dda637d6a902f3a9"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_6/long_viterbi.csv",
+      "sha256": "b5e8e090b93ff48f86ac3afe85ea5cfc38523563c915c785c2f1dc85fc449abf"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_6/reference.csv",
+      "sha256": "aab744b3d7d028eaf2f4ea14a2d63215b1fa2cf01dfc7b6d301994faa19e5cba"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_7/fixed_viterbi.csv",
+      "sha256": "37e89b01110e1f9949d7d75c4bb56b016d0bcbe069569118b4009ca2a79996e2"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_7/long_viterbi.csv",
+      "sha256": "d735386b8ec9cfa2ebd25d5e8f0d6e104cd46b995cd26183a3b0c45758d1be2e"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_7/reference.csv",
+      "sha256": "a4d5938e4f54720748a76d9bf59cc5c22cd2ccc94b6c817dc7813ffbbddbbbe7"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_8/fixed_viterbi.csv",
+      "sha256": "e0788fe45064ec37d8d8c44a965fedd948e7d7359c8042a9e8bb1d541ae978b9"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_8/long_viterbi.csv",
+      "sha256": "ba8fa991b146c55f69d226dc46fa0a1093410ac5d98216478b678882a6ce1d60"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/jazz_8/reference.csv",
+      "sha256": "917a09f46500d0f22814fa015671aceab90fa3b037c3ff74d32bafb56a8f4e25"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_1/fixed_viterbi.csv",
+      "sha256": "e9f21942742afd9e75714e564bccc284916315324dbaf3f60931349f1ec5aea2"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_1/long_viterbi.csv",
+      "sha256": "0b11442ad82592d1d73eca48bf1027d75f4be38405a660149974717d579982b4"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_1/reference.csv",
+      "sha256": "7739b292c01e6b6ad141b74db22234dadf336d886e03ba3e24b1691af204e125"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_2/fixed_viterbi.csv",
+      "sha256": "14939ee28c7073dae695b51726d6075d7073a0cb8ca3e7c467b435ced9c59410"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_2/long_viterbi.csv",
+      "sha256": "33a0b19a55fed41c1eb0434414867880470494f9340fbd04921e0460943ed6b8"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_2/reference.csv",
+      "sha256": "c771ad467a836069aa6c69384d870e4bd88f85bc11ef6aa5b4f0983fb4440758"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_3/fixed_viterbi.csv",
+      "sha256": "5858a920c3de5dfeb420233e5126f9081402706b6b2fbaded5ddbbab41953d78"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_3/long_viterbi.csv",
+      "sha256": "86285adabad249e19ab1b35721e22962bc4c2623f5d35fc9e2cc248044ebb0f6"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_3/reference.csv",
+      "sha256": "8d3996c45a4e1fc990f8b4afe66b3e0ccf033dceabf1e5a4d6b7a63dd152cf55"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_4/fixed_viterbi.csv",
+      "sha256": "3c5064869b39748a9262c5651664fe55be80c0d0087538ae2d957534222d9960"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_4/long_viterbi.csv",
+      "sha256": "2f8c4db413eb8c7a7a1e640ca25bf76adb7758d52f679c0e5ef9042626fb3121"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_4/reference.csv",
+      "sha256": "70c9b0685d16998fa94a9e3eb7d2d27b1e7601479ccc608a590d9c048b11aa77"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_5/fixed_viterbi.csv",
+      "sha256": "6ae009a651b6f821cbae6e280c8341f7130fa1733dc7601afcf5d1bb87c1338b"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_5/long_viterbi.csv",
+      "sha256": "f081e6df9034d0902c77d9e2d04a98abab11cca3c604f36f1e9db620a9fd5f19"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_5/reference.csv",
+      "sha256": "71aa785e77aa52bda45dbdb4906b298a5a335962fabcef58b1c36aab4c5931d7"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_6/fixed_viterbi.csv",
+      "sha256": "44a13fe7463a9df6e72a091094b8445f33518707c976205304955d47f0a51d7b"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_6/long_viterbi.csv",
+      "sha256": "77e103e7e578b25dd738ee6ffd674ceb075589118f9dd4d6b0320b42150a4da7"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_6/reference.csv",
+      "sha256": "0e3cfd2cbb2ab16223bba21da88332faf8c0969e040da1dae4b713d2bc5268f5"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_7/fixed_viterbi.csv",
+      "sha256": "49e147f9c51adb35782762d7556de2ed2bd068ebefe57784a38e5644bce00715"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_7/long_viterbi.csv",
+      "sha256": "27dd5bab704d80a7af22557141c4b6e8d0dba10dcc20d32c34b900a7ceaa0f17"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_7/reference.csv",
+      "sha256": "ec2f467433352a2f076cc36bf190adc42de3cebf1a43c669e2b8847dccf6292b"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_8/fixed_viterbi.csv",
+      "sha256": "0bce6bfc3efd6f32fb9334a8c7bdf38381c221bfa0fc5a0de555f614930e88ff"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_8/long_viterbi.csv",
+      "sha256": "53b2db7e15aadb37049949461a81a7ed07459e8475cad25e1b9a15b30c4f50ac"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/latin_8/reference.csv",
+      "sha256": "c11048a21a35d8dd9751cbc726a9a314dd8b3a7b359f160c974720737e6037c9"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_1/fixed_viterbi.csv",
+      "sha256": "c03531b8d916ebbd4ab00d251f1b2c8cf3f5749c26ca0fb5dc946b9ef13d4287"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_1/long_viterbi.csv",
+      "sha256": "64d6e598fe6ed7072c9cc0ed5731ca1daf5fbe9420856bfa7de711b473bad613"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_1/reference.csv",
+      "sha256": "2c197fcb2aac2a916b95cb5234bb9d7edaf0ada7196b98fea0d0f959a0c66d26"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_2/fixed_viterbi.csv",
+      "sha256": "cc45298b9feb79663d707f232e50b58895a8dc23265d617175ba6042a9e64bf7"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_2/long_viterbi.csv",
+      "sha256": "aa1ba8f199cc55e3ccdf5c1a9f6243e29273f7ada50c6cd93994613f9d26189f"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_2/reference.csv",
+      "sha256": "7482faf0d03cc8251dcf685b2fa6ea0ea8fd1a32770ccbfc2d237d9ecefa7e36"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_3/fixed_viterbi.csv",
+      "sha256": "c9fdb23086784b4ba1318e5f8410d6bc282b966abd0a2348c935b3edd1156433"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_3/long_viterbi.csv",
+      "sha256": "bb7cdf91359565842477dfe267457d348c0c2d5736c6fbcfaf76ec7e022e6dc9"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_3/reference.csv",
+      "sha256": "8f6b0ac897ef32c6f7d1d6eae95c8e33480e190224d3d550751e5f20084e6741"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_4/fixed_viterbi.csv",
+      "sha256": "996e864f51751adc9ef74f7b32c1b7bb16ba43f66df0199e976a4bded8dd57bb"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_4/long_viterbi.csv",
+      "sha256": "04a7cf6354c0a6f0f4bde7a685fe01841e55d15332feea03068bbbb13c1c10f2"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_4/reference.csv",
+      "sha256": "83ed457e93c51f090451c58d6a8c7cc897f7096e8c52546e1dec1668b3766e36"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_5/fixed_viterbi.csv",
+      "sha256": "90c5034652c2c5d54618ec9bccf5731a1a876d8e1f11550e4a76170fd1ea4e07"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_5/long_viterbi.csv",
+      "sha256": "85dd4ad23808c914896af2d3b958b0ae667998bfc71c7d089f1d7f5efea8c9f1"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_5/reference.csv",
+      "sha256": "6653d3e81cc4256c55b36cf896354cb168693fa7669f73c0eafcb1e8a91990b9"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_6/fixed_viterbi.csv",
+      "sha256": "09f04cc6c63707cc5210f95194c01e59dd1d09c2a28ab63a3876a092ba18f3f1"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_6/long_viterbi.csv",
+      "sha256": "ecc8ee556ce6bdf2c08667c4ba39a21c3aff95e4c823484d763e1704156b5299"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_6/reference.csv",
+      "sha256": "0148cb505cc74c62d88b14da8633384a9bd6f7295cb12737d3239f1c77691886"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_7/fixed_viterbi.csv",
+      "sha256": "66b169d6e605ec5e22d77d89839ba760f46458c721194f7b77153573095f01af"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_7/long_viterbi.csv",
+      "sha256": "b8e81c44b183bba7b4dcb62a87ed19253d66c33d47c27f315f73ac3d886be6fb"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_7/reference.csv",
+      "sha256": "4986688d74ad2e91aab2b37e23a7203893f9db400f6cb8e4673c78e341adaef2"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_8/fixed_viterbi.csv",
+      "sha256": "1cf78abcfd63620b6dae6eb776e9e55290270254d2c6264de4bed1f4281e934f"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_8/long_viterbi.csv",
+      "sha256": "fe45d648f01de831446bd8eb1372980f293cf04f1a5b3d9d211e91f1d6d1585d"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/metal_8/reference.csv",
+      "sha256": "b9ef1c21ab692c0941aa891e6c9704a0103042511d770d040da14e9c69c47af3"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_1/fixed_viterbi.csv",
+      "sha256": "d1b4f073ff385731616191812a55dfd740a69ae1f28cf83c8ddaee2f2c1f00a0"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_1/long_viterbi.csv",
+      "sha256": "1f94f00e711a16ecf4955fbaeb78db625be3441d3e7869ee02917f7a71fce9cb"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_1/reference.csv",
+      "sha256": "6fd959e9be1067353faa6e8b86c5bf450d467feb7448cead3965a35f57082d55"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_2/fixed_viterbi.csv",
+      "sha256": "8702666555bab17842ed389c86d977c121ab12498d6c8eaf1adc771849031f7e"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_2/long_viterbi.csv",
+      "sha256": "9ae434f88490c5aae4c99f6770d4e9f2620be0fa122c2fcc8868e6003a48d387"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_2/reference.csv",
+      "sha256": "49961c28d6716b6f68c5f7095f7148a17b1d761840bb3ef41e06a727d0c2ea83"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_3/fixed_viterbi.csv",
+      "sha256": "465f9d5174ca15a0e46a97a3df8429d908c553cf337926445441a1cb30181b65"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_3/long_viterbi.csv",
+      "sha256": "b0a5e1cf8e00582abfe9d90fb7573e38c54fda37befa2e49be889b6d9e05200c"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_3/reference.csv",
+      "sha256": "ff6ae482148a9397892c081b6b435121341438987dd436c7664e061086ce4428"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_4/fixed_viterbi.csv",
+      "sha256": "6dda2cb3cda99851410e3d3868e46286a917b24433b131fe8b551dc171ec6adf"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_4/long_viterbi.csv",
+      "sha256": "5ec3bdf0b13ece2b4cd380b366134f8a12d663b00ce43704da5f41694487b079"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_4/reference.csv",
+      "sha256": "94041364079c10f22a4adf00f7bc72a532f672fb110208fd8ef30f0f774fa574"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_5/fixed_viterbi.csv",
+      "sha256": "f6ec1f233e3023141e04f72f74d6c38d4d527b564d93588afb5a3429018b1571"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_5/long_viterbi.csv",
+      "sha256": "f6ec1f233e3023141e04f72f74d6c38d4d527b564d93588afb5a3429018b1571"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_5/reference.csv",
+      "sha256": "e2c648904ec0bb7dd5bc17bb84dd9277792ce8e27d48d58215acbc1d91077e00"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_6/fixed_viterbi.csv",
+      "sha256": "ee3632e6b5ec6f3c3a2ef57be32a0d558ae5793286fdd5c1351804152dbd2b0b"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_6/long_viterbi.csv",
+      "sha256": "8dad35a737b0f543b049fce26bfe2dd2c9057d2f69656b5e2a0966f0f131ecae"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_6/reference.csv",
+      "sha256": "3d045368bcd53d5939ec31d803d925724895780c681e40983e691981f0038ef6"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_7/fixed_viterbi.csv",
+      "sha256": "f5c9690fed9a24e99098e2a1603ad8297b3cb56f7818e5fab9610633213fff0c"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_7/long_viterbi.csv",
+      "sha256": "6ed3c10ca7d8cc8b3d785bfc5c61b170c744b3ed0c8beb790883d0c2e10d70e3"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_7/reference.csv",
+      "sha256": "39e3098dd5f79991130653224bb6181dc0649e5ee7106b856e02953cb69f7137"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_8/fixed_viterbi.csv",
+      "sha256": "77a9adadb7d11b23d534d70ac61826628d34ec8e0f3320751a1d0de2301c10ad"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_8/long_viterbi.csv",
+      "sha256": "eb58378d7e15d380ffb8e8ece2fce24658e96ad15363123dd7f50c3602eacafe"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/pop_8/reference.csv",
+      "sha256": "85303a8914810c58826403bfd27ad85441644ee4a1c9842c338f8a3a59bbc455"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/reggae_1/fixed_viterbi.csv",
+      "sha256": "42c22e7d2773feddda1f3b848c9b957a27efbf80565d27bb348b4f28d914443d"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/reggae_1/long_viterbi.csv",
+      "sha256": "b9b006d5b9af7e403dd5c027eba4e985c72b1a89e62a771a091bc2b6b08dcfee"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/reggae_1/reference.csv",
+      "sha256": "8a7693c94b70111e4ec03c71964b1bb9f19cf19399717d4dd1cbae9a93d52e0e"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/reggae_2/fixed_viterbi.csv",
+      "sha256": "e2a27dca3dc72990fc4cb2786527d3eae52c8658627a4f514ee8ac6529307ced"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/reggae_2/long_viterbi.csv",
+      "sha256": "da5bd4a4deb532a43fec99bb7af72192ae526d3dd30f6941a09c0658f86f77ca"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/reggae_2/reference.csv",
+      "sha256": "b73e756d1d8962584d7bc57a146edf06acca0668b9be036e9419545a04be2338"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/reggae_3/fixed_viterbi.csv",
+      "sha256": "4d013b0e343b0ad8e6e399763d42b76400e55799b98655526978db2ec0db9c0e"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/reggae_3/long_viterbi.csv",
+      "sha256": "f5b4c76f671ce99b59b638be26a742a774242cbb2e640c37be88471e9209f877"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/reggae_3/reference.csv",
+      "sha256": "74c2b1121a098c2ccc3099a0b3c8d9f604ee8f68d863d816e293a64017cfd9e4"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/reggae_4/fixed_viterbi.csv",
+      "sha256": "719504b1e4b4732abfbfdd2f7ddad4f5860216770a91b07d38869bb0161c68f8"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/reggae_4/long_viterbi.csv",
+      "sha256": "205e1a67e565eece63d2c905afd3c979f6a295e55a84a701009d295e4d9c15ae"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/reggae_4/reference.csv",
+      "sha256": "a2b9151675e304bce87aaa9cb2a0a46b0a0445a57d0ec206c3f1a54ba7778fa3"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_1/fixed_viterbi.csv",
+      "sha256": "b0063a18aa05293871e72a805b85d88ab8a9d28e710a6a04ddd410ca6e571780"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_1/long_viterbi.csv",
+      "sha256": "8134cfc77851872a9dcbc4f3ccb6883c0b658ac0cb6b7a3f20f826f469766842"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_1/reference.csv",
+      "sha256": "6ed0ffdef50662fcd4dfb0c2cf8d802a63c5c0efe506be4ec22b38baf261c5f6"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_2/fixed_viterbi.csv",
+      "sha256": "8dd0b312fc59096336cf7e59c2408a7f492907a1a0380c4ba840be9cbc941f16"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_2/long_viterbi.csv",
+      "sha256": "690da140f48d0456bc95a85819efedd60ecd3febf827decc22a2f2bb2f8f67ac"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_2/reference.csv",
+      "sha256": "ab5848f646c73dfa165c14e0bbc47bbbdddc76b3c3fcb8c6bf32e745f218033f"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_3/fixed_viterbi.csv",
+      "sha256": "2216bb7c8480ff9f41c05e56620d29ea88ac93930f0600ce50cab3604aaab196"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_3/long_viterbi.csv",
+      "sha256": "2216bb7c8480ff9f41c05e56620d29ea88ac93930f0600ce50cab3604aaab196"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_3/reference.csv",
+      "sha256": "1e2dd61ca767838065cffecd1302a9f0b87c42bfebb808a16dd08ef3c49b7cc4"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_4/fixed_viterbi.csv",
+      "sha256": "59aa50be842b510468e8f1a4a89355fa996d090874c079039a79cfe9cecda90b"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_4/long_viterbi.csv",
+      "sha256": "1f5a4612f2f1478754ad0f78f39b95f07d0f312c3ae01857964f3fd2318ce3ac"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_4/reference.csv",
+      "sha256": "285c0fc4f338e4710b09762ca9c6bf94a5664f38ccaf1dbd3d82d8eab5128477"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_5/fixed_viterbi.csv",
+      "sha256": "0c705c7f19a4d99efc157c306db3575af53155974ab8bec82dea5447e23792a9"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_5/long_viterbi.csv",
+      "sha256": "0c705c7f19a4d99efc157c306db3575af53155974ab8bec82dea5447e23792a9"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_5/reference.csv",
+      "sha256": "f6f1435c707adf85f06717a10fff07a5ee94676d75c6c20462c6784c94a78195"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_6/fixed_viterbi.csv",
+      "sha256": "8a19aee3a93545650cc815239f3bca691a7a62ef9669b9e3f2d4a0690932fb2f"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_6/long_viterbi.csv",
+      "sha256": "ac43fff0966033869f5858e778ccb00248e542789183435a2746faf936468763"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_6/reference.csv",
+      "sha256": "fc1b9961851aea5a0bd240ea7cd7595b57a19781c5e76233fcd7a9a75a458693"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_7/fixed_viterbi.csv",
+      "sha256": "d94a3d4804e88cdbf2c4a2f1b02adca13ad4ec0cd58c245a419051923c9806bb"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_7/long_viterbi.csv",
+      "sha256": "96143b752194957231bfb1f552c52a84c43c7ed7f3b8c933e9e1d34032aa899a"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_7/reference.csv",
+      "sha256": "9bfe8fc4b7ecafef5da09b79173b86a640f2ae4dee5d4d44a11ce2a37c61c05e"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_8/fixed_viterbi.csv",
+      "sha256": "682f6562e9c1d3e6680cd2d44d73087179fa84c5005e27edbd47b1a95fc34dc7"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_8/long_viterbi.csv",
+      "sha256": "903007c8a1da87f25231e6fdd05ee20c099980e7d297d6abe3628d8e2301c2bd"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/rock_8/reference.csv",
+      "sha256": "6a2f7c1b53e39b6340f220f809e1eb80fce09178fa31784b99c2ccbeaf74423d"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/ska_1/fixed_viterbi.csv",
+      "sha256": "34a2964234e25b0cad94ceca3a6400e5f56f71f7a752410f516ed1dc738b5de3"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/ska_1/long_viterbi.csv",
+      "sha256": "2687d6a92210eb9b4fe9496c7932e2a6185ab4e1c5f4b8a1063e64314517b6c7"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/ska_1/reference.csv",
+      "sha256": "60f8ac114cf2728a517a84428bb718667c8ffebead4cfb1f2457e09f800a3c2f"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/ska_2/fixed_viterbi.csv",
+      "sha256": "4f8b27ecce415b3b0fa67558e8f2f140162d25d45afd44b14c348dcafaacf70a"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/ska_2/long_viterbi.csv",
+      "sha256": "982060f7d48bd4709c4f9bb271f0a55e921e7c143c91c1d373071d626f1b95e3"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/ska_2/reference.csv",
+      "sha256": "59cdc39e94fe6bbfa558e83a9bcae24f573948a6949096fbb998b53dc3f75275"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/ska_3/fixed_viterbi.csv",
+      "sha256": "e40350ad548c3c43fd23c2c9a21d6b23ca635556c3fd574ceb024d1a63acb11c"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/ska_3/long_viterbi.csv",
+      "sha256": "4463a85e1e34d960b0534649e76f5739b4527495d7b53330d04502af49e3df3d"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/ska_3/reference.csv",
+      "sha256": "db7463561f481007e0fee2a3f27b9792f23b278f83a6542732d23d120f3d80e6"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/ska_4/fixed_viterbi.csv",
+      "sha256": "3ece0c8c708ab6fd3a0ad7ddf1bd2b7ac456f5a65396c08a660a1c9dba3d7146"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/ska_4/long_viterbi.csv",
+      "sha256": "e53ddec5029d704536ef6bab2ad1b145c7abe9e10fd0aaf447aa1693ca2facc3"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/predictions/ska_4/reference.csv",
+      "sha256": "d94af4da1ea05875be6b1573c5f9fd4a35d649ce4e05071bd9e98a7b1c0f7ef6"
+    },
+    {
+      "path": "/home/cx/Documents/csc475/Proj/results/optimization_v2/external/summary.json",
+      "sha256": "23eb21aa85d4c5eba85b5515947a070e055f763ef2706ed88dc3c3fd0c783db6"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "checks": [
+    {
+      "recording": "00_BN1-129-Eb_comp",
+      "frames": 962,
+      "baseline_cache_exact": true,
+      "tuning_times_rms_duration_exact": true,
+      "independent_harmonic_chroma_exact": true,
+      "n_frames_equal": true
+    },
+    {
+      "recording": "00_BN1-147-Gb_comp",
+      "frames": 844,
+      "baseline_cache_exact": true,
+      "tuning_times_rms_duration_exact": true,
+      "independent_harmonic_chroma_exact": true,
+      "n_frames_equal": true
+    },
+    {
+      "recording": "00_BN2-131-B_comp",
+      "frames": 1263,
+      "baseline_cache_exact": true,
+      "tuning_times_rms_duration_exact": true,
+      "independent_harmonic_chroma_exact": true,
+      "n_frames_equal": true
+    }
+  ],
+  "test_or_idmt_accessed": false,
+  "source_sha256": "ed00fa91a67328b6f1cb1b94623dd0c276cf9835149ec927ff32c5d1a3ced9ad",
+  "dictionary_has_cache": false
+}

@@ -1,0 +1,31 @@
+{
+  "configuration": {
+    "n_fft_short": 4096,
+    "n_fft_long": 8192,
+    "fixed_weight": 0.2,
+    "switch_penalty": 4.0
+  },
+  "checks": [
+    {
+      "recording": "00_BN1-129-Eb_comp",
+      "frames": 962,
+      "tuning": 0.07000000000000006,
+      "exact_features": true,
+      "exact_predictions": true
+    },
+    {
+      "recording": "00_BN2-131-B_comp",
+      "frames": 1263,
+      "tuning": 0.07000000000000006,
+      "exact_features": true,
+      "exact_predictions": true
+    },
+    {
+      "recording": "05_SS2-88-F_comp",
+      "frames": 1879,
+      "tuning": 0.17000000000000004,
+      "exact_features": true,
+      "exact_predictions": true
+    }
+  ]
+}

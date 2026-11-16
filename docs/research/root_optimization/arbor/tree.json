@@ -1,0 +1,103 @@
+{
+  "_counter": 5,
+  "root": "n0",
+  "nodes": {
+    "n0": {
+      "id": "n0",
+      "parent": null,
+      "depth": 0,
+      "status": "merged",
+      "hypothesis": "Improve root errors without sacrificing duration-weighted majmin accuracy",
+      "insight": "[from n4] Retain complete chord accuracy as primary; low-register weighting alone did not improve this recognizer.\n[from n3] Discrete note profiles before octave folding are promising; modeled harmonic subtraction is not supported as the source of the best gain.\n[from n5] Use note-level projection as an exploratory low-cost candidate. No replacement of the baseline is supported by the saturated isolated-chord test; further transfer claims need unevaluated chord progressions.",
+      "metadata": {
+        "dev_score": null,
+        "test_score": 1.0,
+        "result": "",
+        "branch_ref": null
+      },
+      "created_at": 1794264192,
+      "updated_at": 1794265223
+    },
+    "n1": {
+      "id": "n1",
+      "parent": "n0",
+      "depth": 1,
+      "status": "pending",
+      "hypothesis": "Harmonic spectral decomposition reduces misleading pitch-class evidence and improves chord accuracy",
+      "insight": "[from n3] Discrete note profiles before octave folding are promising; modeled harmonic subtraction is not supported as the source of the best gain.\n[from n5] Use note-level projection as an exploratory low-cost candidate. No replacement of the baseline is supported by the saturated isolated-chord test; further transfer claims need unevaluated chord progressions.",
+      "metadata": {
+        "dev_score": null,
+        "test_score": null,
+        "result": "",
+        "branch_ref": null
+      },
+      "created_at": 1794264192,
+      "updated_at": 1794265223
+    },
+    "n2": {
+      "id": "n2",
+      "parent": "n0",
+      "depth": 1,
+      "status": "pruned",
+      "hypothesis": "Low-register evidence improves root choice despite inversion ambiguity",
+      "insight": "[from n4] Retain complete chord accuracy as primary; low-register weighting alone did not improve this recognizer.",
+      "metadata": {
+        "dev_score": null,
+        "test_score": null,
+        "result": "",
+        "branch_ref": null,
+        "prune_reason": "Four low-register mixtures failed to improve development major/minor accuracy."
+      },
+      "created_at": 1794264192,
+      "updated_at": 1794264621
+    },
+    "n3": {
+      "id": "n3",
+      "parent": "n1",
+      "depth": 2,
+      "status": "executed",
+      "hypothesis": "Before octave folding, fit note spectra by NNLS with harmonic decay 0.6 or 0.9; compare a fundamental-only dictionary control",
+      "insight": "The improvement does not require explicit harmonic partials. A direct-projection control is needed to separate note-profile resolution from iterative fitting.",
+      "metadata": {
+        "dev_score": 0.783655504364039,
+        "test_score": 1.0,
+        "result": "Fundamental-only NNLS78.36555%, root80.14528%; harmonic0.6=73.07294%, harmonic0.9=63.19797%, baseline71.96540%. Both development families improve for decay0.",
+        "branch_ref": "4ab03919a1e9268455c629de3a34b61aa8c24080"
+      },
+      "created_at": 1794264241,
+      "updated_at": 1794265223
+    },
+    "n4": {
+      "id": "n4",
+      "parent": "n2",
+      "depth": 2,
+      "status": "pruned",
+      "hypothesis": "Mix low-register root or triad evidence at weights 0.1 and 0.2 with the frozen full-register triad scores",
+      "insight": "A lower root-error rate can accompany worse complete chord identification; root-specific evidence must retain quality accuracy.",
+      "metadata": {
+        "dev_score": 0.7192037,
+        "test_score": null,
+        "result": "All four low-register mixtures lower major/minor accuracy. Best changed setting71.9204vs71.9654%; rootaccuracy+0.31points is offset by more qualityerrors.",
+        "branch_ref": "b4e79812e65020fee698b8bb27beb59fb5347ffc"
+      },
+      "created_at": 1794264241,
+      "updated_at": 1794264621
+    },
+    "n5": {
+      "id": "n5",
+      "parent": "n1",
+      "depth": 2,
+      "status": "executed",
+      "hypothesis": "Direct projection onto fundamental-only note profiles matches the NNLS gain at lower cost",
+      "insight": "Tuned fundamental note profiles recover most of the development gain without a joint NNLS solve. The isolated-chord comparison has a ceiling and cannot establish progression-level transfer.",
+      "metadata": {
+        "dev_score": 0.7802485704190184,
+        "test_score": 1.0,
+        "result": "Direct projection reached 78.024857% majmin and 79.542095% root accuracy on development data, below NNLS by 0.340693 percentage points in majmin; both progression families improved over baseline. Fresh isolated-chord decoded accuracy tied baseline and NNLS at 100%.",
+        "branch_ref": "415b3edf9ab2ca924822305069db0c1dac202730"
+      },
+      "created_at": 1794264621,
+      "updated_at": 1794265223
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "cpu_model": "Intel(R) Core(TM) Ultra 9 285K",
+  "logical_cpus": 24,
+  "platform": "Linux-6.17.0-1030-oem-x86_64-with-glibc2.39",
+  "python_executable": "/home/cx/Documents/csc475/Proj/.venv/bin/python",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "runner_sha256": "541d600993a8f233e4f9d3e95c9c05ee048276958c19282ff65a04e43e3737a9",
+  "diagnostic_completed_utc": "2026-11-07T17:35:10.045580+00:00",
+  "search_results_completed_utc": "2026-11-07T17:33:44.861276+00:00",
+  "note": "System metadata recorded after the search; selection timings are not end-to-end inference benchmarks."
+}

@@ -1,0 +1,1162 @@
+{
+  "summary": {
+    "name": "long8192_penalty4",
+    "recordings": 119,
+    "correct_seconds": 1577.840597253532,
+    "scoreable_seconds": 2192.4989483060635,
+    "accuracy": 0.7196539813497197,
+    "near_accuracy": 0.5256025200341558,
+    "near_correct_seconds": 86.19881328560136,
+    "near_scoreable_seconds": 163.99999999999966,
+    "families": {
+      "1": {
+        "recordings": 59,
+        "correct_seconds": 837.7893880835111,
+        "scoreable_seconds": 1055.1755588667654,
+        "accuracy": 0.7939810404472198,
+        "near_accuracy": 0.5673289617275036,
+        "near_correct_seconds": 32.67814819550412,
+        "near_scoreable_seconds": 57.59999999999985
+      },
+      "2": {
+        "recordings": 60,
+        "correct_seconds": 740.051209170021,
+        "scoreable_seconds": 1137.3233894392981,
+        "accuracy": 0.650695497904837,
+        "near_accuracy": 0.503013769643772,
+        "near_correct_seconds": 53.520665090097246,
+        "near_scoreable_seconds": 106.3999999999998
+      }
+    },
+    "performers": {
+      "00": {
+        "recordings": 20,
+        "correct_seconds": 310.1882393794387,
+        "scoreable_seconds": 443.6558230209082,
+        "accuracy": 0.6991641341870102,
+        "near_accuracy": 0.5217811432776224,
+        "near_correct_seconds": 17.323133956817035,
+        "near_scoreable_seconds": 33.199999999999946
+      },
+      "01": {
+        "recordings": 20,
+        "correct_seconds": 399.8977492618671,
+        "scoreable_seconds": 506.0714403461129,
+        "accuracy": 0.7902001918708722,
+        "near_accuracy": 0.5332804869289328,
+        "near_correct_seconds": 26.664024346446578,
+        "near_scoreable_seconds": 49.999999999999886
+      },
+      "02": {
+        "recordings": 20,
+        "correct_seconds": 199.26274628236885,
+        "scoreable_seconds": 237.01363500884142,
+        "accuracy": 0.8407227131676862,
+        "near_accuracy": 0.5842248844308736,
+        "near_correct_seconds": 7.478078520715169,
+        "near_scoreable_seconds": 12.799999999999976
+      },
+      "03": {
+        "recordings": 20,
+        "correct_seconds": 249.32012641666628,
+        "scoreable_seconds": 369.5982882313596,
+        "accuracy": 0.674570565815494,
+        "near_accuracy": 0.48066399060743353,
+        "near_correct_seconds": 13.266326140765141,
+        "near_scoreable_seconds": 27.599999999999948
+      },
+      "04": {
+        "recordings": 19,
+        "correct_seconds": 189.5815006208514,
+        "scoreable_seconds": 299.61265680299726,
+        "accuracy": 0.6327553136231688,
+        "near_accuracy": 0.4987801584403645,
+        "near_correct_seconds": 8.778530788550393,
+        "near_scoreable_seconds": 17.599999999999955
+      },
+      "05": {
+        "recordings": 20,
+        "correct_seconds": 229.59023529233974,
+        "scoreable_seconds": 336.54710489584426,
+        "accuracy": 0.6821934640126948,
+        "near_accuracy": 0.5565227865046964,
+        "near_correct_seconds": 12.688719532307049,
+        "near_scoreable_seconds": 22.799999999999947
+      }
+    },
+    "cached_prediction_seconds": 0.3129104133695364
+  },
+  "rows": [
+    {
+      "recording": "00_BN1-129-Eb_comp",
+      "progression": 1,
+      "performer": "00",
+      "correct_seconds": 4.098591994937507,
+      "scoreable_seconds": 9.301143279017031,
+      "near_correct_seconds": 0.1999999999999993,
+      "near_scoreable_seconds": 0.3999999999999986
+    },
+    {
+      "recording": "00_BN1-147-Gb_comp",
+      "progression": 1,
+      "performer": "00",
+      "correct_seconds": 5.456257596371881,
+      "scoreable_seconds": 14.68764081632653,
+      "near_correct_seconds": 0.1999999999999993,
+      "near_scoreable_seconds": 0.3999999999999986
+    },
+    {
+      "recording": "00_BN2-131-B_comp",
+      "progression": 2,
+      "performer": "00",
+      "correct_seconds": 8.566144951619322,
+      "scoreable_seconds": 16.4819670769071,
+      "near_correct_seconds": 0.27004137023766006,
+      "near_scoreable_seconds": 1.1999999999999975
+    },
+    {
+      "recording": "00_BN2-166-Ab_comp",
+      "progression": 2,
+      "performer": "00",
+      "correct_seconds": 4.617343933557357,
+      "scoreable_seconds": 13.009518072289152,
+      "near_correct_seconds": 0.9493451356446192,
+      "near_scoreable_seconds": 1.9999999999999978
+    },
+    {
+      "recording": "00_Funk1-114-Ab_comp",
+      "progression": 1,
+      "performer": "00",
+      "correct_seconds": 13.040874806062776,
+      "scoreable_seconds": 21.04786370688626,
+      "near_correct_seconds": 0.1999999999999993,
+      "near_scoreable_seconds": 0.7999999999999972
+    },
+    {
+      "recording": "00_Funk1-97-C_comp",
+      "progression": 1,
+      "performer": "00",
+      "correct_seconds": 17.22259344975103,
+      "scoreable_seconds": 27.214163218552027,
+      "near_correct_seconds": 0.3999999999999986,
+      "near_scoreable_seconds": 1.1999999999999957
+    },
+    {
+      "recording": "00_Funk2-108-Eb_comp",
+      "progression": 2,
+      "performer": "00",
+      "correct_seconds": 4.647981859410433,
+      "scoreable_seconds": 22.22222222222223,
+      "near_correct_seconds": 0.5999999999999996,
+      "near_scoreable_seconds": 1.9999999999999982
+    },
+    {
+      "recording": "00_Funk2-119-G_comp",
+      "progression": 2,
+      "performer": "00",
+      "correct_seconds": 9.548352674403095,
+      "scoreable_seconds": 18.15126050420168,
+      "near_correct_seconds": 0.6000000000000005,
+      "near_scoreable_seconds": 1.999999999999998
+    },
+    {
+      "recording": "00_Jazz1-130-D_comp",
+      "progression": 1,
+      "performer": "00",
+      "correct_seconds": 13.951393267050411,
+      "scoreable_seconds": 20.30104615384615,
+      "near_correct_seconds": 0.36416535845107223,
+      "near_scoreable_seconds": 1.1999999999999975
+    },
+    {
+      "recording": "00_Jazz1-200-B_comp",
+      "progression": 1,
+      "performer": "00",
+      "correct_seconds": 4.7836734693877325,
+      "scoreable_seconds": 13.199999999999974,
+      "near_correct_seconds": 0.39999999999999947,
+      "near_scoreable_seconds": 1.1999999999999993
+    },
+    {
+      "recording": "00_Jazz2-110-Bb_comp",
+      "progression": 2,
+      "performer": "00",
+      "correct_seconds": 4.315019583591015,
+      "scoreable_seconds": 21.812288188002476,
+      "near_correct_seconds": 0.5513832199546487,
+      "near_scoreable_seconds": 1.5999999999999979
+    },
+    {
+      "recording": "00_Jazz2-187-F#_comp",
+      "progression": 2,
+      "performer": "00",
+      "correct_seconds": 8.592949785974993,
+      "scoreable_seconds": 15.398305625280413,
+      "near_correct_seconds": 1.0723756169134295,
+      "near_scoreable_seconds": 2.799999999999995
+    },
+    {
+      "recording": "00_Rock1-130-A_comp",
+      "progression": 1,
+      "performer": "00",
+      "correct_seconds": 19.83380038374324,
+      "scoreable_seconds": 20.301046153846155,
+      "near_correct_seconds": 0.7441967556253228,
+      "near_scoreable_seconds": 1.1999999999999975
+    },
+    {
+      "recording": "00_Rock1-90-C#_comp",
+      "progression": 1,
+      "performer": "00",
+      "correct_seconds": 31.244625850340128,
+      "scoreable_seconds": 31.999999999999993,
+      "near_correct_seconds": 1.3039455782312892,
+      "near_scoreable_seconds": 1.999999999999993
+    },
+    {
+      "recording": "00_Rock2-142-D_comp",
+      "progression": 2,
+      "performer": "00",
+      "correct_seconds": 11.522616895020924,
+      "scoreable_seconds": 20.281036619718314,
+      "near_correct_seconds": 1.3427881575165255,
+      "near_scoreable_seconds": 2.7999999999999954
+    },
+    {
+      "recording": "00_Rock2-85-F_comp",
+      "progression": 2,
+      "performer": "00",
+      "correct_seconds": 26.846250500200078,
+      "scoreable_seconds": 33.87907963185274,
+      "near_correct_seconds": 1.4282406295851633,
+      "near_scoreable_seconds": 2.8000000000000007
+    },
+    {
+      "recording": "00_SS1-100-C#_comp",
+      "progression": 1,
+      "performer": "00",
+      "correct_seconds": 26.266122448979594,
+      "scoreable_seconds": 26.400000000000006,
+      "near_correct_seconds": 1.0722902494331041,
+      "near_scoreable_seconds": 1.1999999999999957
+    },
+    {
+      "recording": "00_SS1-68-E_comp",
+      "progression": 1,
+      "performer": "00",
+      "correct_seconds": 37.784121648659465,
+      "scoreable_seconds": 38.81698279311725,
+      "near_correct_seconds": 0.8609790582899812,
+      "near_scoreable_seconds": 1.2000000000000028
+    },
+    {
+      "recording": "00_SS2-107-Ab_comp",
+      "progression": 2,
+      "performer": "00",
+      "correct_seconds": 28.71993260855745,
+      "scoreable_seconds": 29.157422595206306,
+      "near_correct_seconds": 2.83018967088393,
+      "near_scoreable_seconds": 3.199999999999994
+    },
+    {
+      "recording": "00_SS2-88-F_comp",
+      "progression": 2,
+      "performer": "00",
+      "correct_seconds": 29.129591671820272,
+      "scoreable_seconds": 29.99283636363639,
+      "near_correct_seconds": 1.9331931560502942,
+      "near_scoreable_seconds": 1.9999999999999973
+    },
+    {
+      "recording": "01_BN1-129-Eb_comp",
+      "progression": 1,
+      "performer": "01",
+      "correct_seconds": 20.957965511786107,
+      "scoreable_seconds": 22.32439909297052,
+      "near_correct_seconds": 1.3742129409903452,
+      "near_scoreable_seconds": 1.9999999999999947
+    },
+    {
+      "recording": "01_BN1-147-Gb_comp",
+      "progression": 1,
+      "performer": "01",
+      "correct_seconds": 18.948502494331066,
+      "scoreable_seconds": 19.5856,
+      "near_correct_seconds": 1.3951020408163224,
+      "near_scoreable_seconds": 1.9999999999999947
+    },
+    {
+      "recording": "01_BN2-131-B_comp",
+      "progression": 2,
+      "performer": "01",
+      "correct_seconds": 23.359438472590057,
+      "scoreable_seconds": 25.64227242041855,
+      "near_correct_seconds": 2.2360395354070315,
+      "near_scoreable_seconds": 3.5999999999999943
+    },
+    {
+      "recording": "01_BN2-166-Ab_comp",
+      "progression": 2,
+      "performer": "01",
+      "correct_seconds": 15.979644018249873,
+      "scoreable_seconds": 21.68421686746988,
+      "near_correct_seconds": 2.2175614020708663,
+      "near_scoreable_seconds": 4.399999999999993
+    },
+    {
+      "recording": "01_Funk1-114-Ab_comp",
+      "progression": 1,
+      "performer": "01",
+      "correct_seconds": 16.412612483589932,
+      "scoreable_seconds": 25.258390022675737,
+      "near_correct_seconds": 0.699405656999641,
+      "near_scoreable_seconds": 1.999999999999993
+    },
+    {
+      "recording": "01_Funk1-97-C_comp",
+      "progression": 1,
+      "performer": "01",
+      "correct_seconds": 19.292358510414473,
+      "scoreable_seconds": 29.688390022675737,
+      "near_correct_seconds": 1.300875704233576,
+      "near_scoreable_seconds": 1.999999999999993
+    },
+    {
+      "recording": "01_Funk2-108-Eb_comp",
+      "progression": 2,
+      "performer": "01",
+      "correct_seconds": 14.617777777777778,
+      "scoreable_seconds": 24.43727891156463,
+      "near_correct_seconds": 1.2248526077097432,
+      "near_scoreable_seconds": 3.1999999999999904
+    },
+    {
+      "recording": "01_Funk2-119-G_comp",
+      "progression": 2,
+      "performer": "01",
+      "correct_seconds": 14.980977724423102,
+      "scoreable_seconds": 30.246390556222487,
+      "near_correct_seconds": 1.2749206349206323,
+      "near_scoreable_seconds": 4.399999999999991
+    },
+    {
+      "recording": "01_Jazz1-130-D_comp",
+      "progression": 1,
+      "performer": "01",
+      "correct_seconds": 8.756267224838657,
+      "scoreable_seconds": 20.30104615384615,
+      "near_correct_seconds": 0.6159148787720214,
+      "near_scoreable_seconds": 1.1999999999999975
+    },
+    {
+      "recording": "01_Jazz1-200-B_comp",
+      "progression": 1,
+      "performer": "01",
+      "correct_seconds": 8.348480725623585,
+      "scoreable_seconds": 14.399999999999977,
+      "near_correct_seconds": 0.9484807256235825,
+      "near_scoreable_seconds": 1.9999999999999964
+    },
+    {
+      "recording": "01_Jazz2-110-Bb_comp",
+      "progression": 2,
+      "performer": "01",
+      "correct_seconds": 25.421144094001242,
+      "scoreable_seconds": 30.539560915275203,
+      "near_correct_seconds": 2.579344465058745,
+      "near_scoreable_seconds": 4.39999999999999
+    },
+    {
+      "recording": "01_Jazz2-187-F#_comp",
+      "progression": 2,
+      "performer": "01",
+      "correct_seconds": 9.397243382201365,
+      "scoreable_seconds": 17.965150545066507,
+      "near_correct_seconds": 0.9736359998544863,
+      "near_scoreable_seconds": 3.5999999999999943
+    },
+    {
+      "recording": "01_Rock1-130-A_comp",
+      "progression": 1,
+      "performer": "01",
+      "correct_seconds": 16.17632262340834,
+      "scoreable_seconds": 16.608738461538465,
+      "near_correct_seconds": 0.2941705913134456,
+      "near_scoreable_seconds": 0.3999999999999986
+    },
+    {
+      "recording": "01_Rock1-90-C#_comp",
+      "progression": 1,
+      "performer": "01",
+      "correct_seconds": 31.26349206349206,
+      "scoreable_seconds": 31.999999999999993,
+      "near_correct_seconds": 1.3392290249433056,
+      "near_scoreable_seconds": 1.999999999999993
+    },
+    {
+      "recording": "01_Rock2-142-D_comp",
+      "progression": 2,
+      "performer": "01",
+      "correct_seconds": 17.954329711602952,
+      "scoreable_seconds": 20.28103661971831,
+      "near_correct_seconds": 1.8107118903899544,
+      "near_scoreable_seconds": 2.3999999999999946
+    },
+    {
+      "recording": "01_Rock2-85-F_comp",
+      "progression": 2,
+      "performer": "01",
+      "correct_seconds": 29.319602507669725,
+      "scoreable_seconds": 31.05555022008804,
+      "near_correct_seconds": 0.9215312791783354,
+      "near_scoreable_seconds": 1.5999999999999979
+    },
+    {
+      "recording": "01_SS1-100-C#_comp",
+      "progression": 1,
+      "performer": "01",
+      "correct_seconds": 28.10811791383221,
+      "scoreable_seconds": 28.800000000000004,
+      "near_correct_seconds": 1.309115646258503,
+      "near_scoreable_seconds": 1.999999999999993
+    },
+    {
+      "recording": "01_SS1-68-E_comp",
+      "progression": 1,
+      "performer": "01",
+      "correct_seconds": 41.7318554088302,
+      "scoreable_seconds": 42.34639455782313,
+      "near_correct_seconds": 1.545156729358407,
+      "near_scoreable_seconds": 2.0
+    },
+    {
+      "recording": "01_SS2-107-Ab_comp",
+      "progression": 2,
+      "performer": "01",
+      "correct_seconds": 8.946477631551062,
+      "scoreable_seconds": 20.186915887850468,
+      "near_correct_seconds": 1.1745150147286325,
+      "near_scoreable_seconds": 2.399999999999997
+    },
+    {
+      "recording": "01_SS2-88-F_comp",
+      "progression": 2,
+      "performer": "01",
+      "correct_seconds": 29.925138981653287,
+      "scoreable_seconds": 32.72010909090912,
+      "near_correct_seconds": 1.4292475778190017,
+      "near_scoreable_seconds": 2.3999999999999915
+    },
+    {
+      "recording": "02_BN1-129-Eb_comp",
+      "progression": 1,
+      "performer": "02",
+      "correct_seconds": 0.0,
+      "scoreable_seconds": 0.0,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "02_BN1-147-Gb_comp",
+      "progression": 1,
+      "performer": "02",
+      "correct_seconds": 18.21417142857143,
+      "scoreable_seconds": 19.5856,
+      "near_correct_seconds": 1.1910204081632623,
+      "near_scoreable_seconds": 1.9999999999999947
+    },
+    {
+      "recording": "02_BN2-131-B_comp",
+      "progression": 2,
+      "performer": "02",
+      "correct_seconds": 11.793122500908758,
+      "scoreable_seconds": 12.824427480916027,
+      "near_correct_seconds": 0.7981485520416778,
+      "near_scoreable_seconds": 1.1999999999999973
+    },
+    {
+      "recording": "02_BN2-166-Ab_comp",
+      "progression": 2,
+      "performer": "02",
+      "correct_seconds": 5.561861049640738,
+      "scoreable_seconds": 5.783132530120481,
+      "near_correct_seconds": 0.700283583312844,
+      "near_scoreable_seconds": 0.8000000000000007
+    },
+    {
+      "recording": "02_Funk1-114-Ab_comp",
+      "progression": 1,
+      "performer": "02",
+      "correct_seconds": 0.0,
+      "scoreable_seconds": 8.421052631578947,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "02_Funk1-97-C_comp",
+      "progression": 1,
+      "performer": "02",
+      "correct_seconds": 0.0,
+      "scoreable_seconds": 4.948453608247423,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "02_Funk2-108-Eb_comp",
+      "progression": 2,
+      "performer": "02",
+      "correct_seconds": 3.3473015873015903,
+      "scoreable_seconds": 4.444444444444445,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "02_Funk2-119-G_comp",
+      "progression": 2,
+      "performer": "02",
+      "correct_seconds": 3.6057516339869284,
+      "scoreable_seconds": 4.033613445378151,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "02_Jazz1-130-D_comp",
+      "progression": 1,
+      "performer": "02",
+      "correct_seconds": 19.314867887667887,
+      "scoreable_seconds": 20.30104615384615,
+      "near_correct_seconds": 0.6520355834641531,
+      "near_scoreable_seconds": 1.1999999999999975
+    },
+    {
+      "recording": "02_Jazz1-200-B_comp",
+      "progression": 1,
+      "performer": "02",
+      "correct_seconds": 4.725260770975057,
+      "scoreable_seconds": 4.8,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "02_Jazz2-110-Bb_comp",
+      "progression": 2,
+      "performer": "02",
+      "correct_seconds": 22.698010719439292,
+      "scoreable_seconds": 28.357742733457016,
+      "near_correct_seconds": 2.291783137497415,
+      "near_scoreable_seconds": 3.9999999999999893
+    },
+    {
+      "recording": "02_Jazz2-187-F#_comp",
+      "progression": 2,
+      "performer": "02",
+      "correct_seconds": 3.587653728157928,
+      "scoreable_seconds": 3.8502673796791456,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "02_Rock1-130-A_comp",
+      "progression": 1,
+      "performer": "02",
+      "correct_seconds": 17.549983882783884,
+      "scoreable_seconds": 18.454892307692308,
+      "near_correct_seconds": 0.39999999999999947,
+      "near_scoreable_seconds": 0.7999999999999989
+    },
+    {
+      "recording": "02_Rock1-90-C#_comp",
+      "progression": 1,
+      "performer": "02",
+      "correct_seconds": 5.333333333333329,
+      "scoreable_seconds": 5.333333333333329,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "02_Rock2-142-D_comp",
+      "progression": 2,
+      "performer": "02",
+      "correct_seconds": 6.501455003034076,
+      "scoreable_seconds": 10.140191549295773,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "02_Rock2-85-F_comp",
+      "progression": 2,
+      "performer": "02",
+      "correct_seconds": 10.589977324263035,
+      "scoreable_seconds": 14.114373749499805,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "02_SS1-100-C#_comp",
+      "progression": 1,
+      "performer": "02",
+      "correct_seconds": 27.445623582766437,
+      "scoreable_seconds": 28.800000000000004,
+      "near_correct_seconds": 1.2448072562358181,
+      "near_scoreable_seconds": 1.999999999999993
+    },
+    {
+      "recording": "02_SS1-68-E_comp",
+      "progression": 1,
+      "performer": "02",
+      "correct_seconds": 24.369299719887948,
+      "scoreable_seconds": 24.705882352941178,
+      "near_correct_seconds": 0.1999999999999993,
+      "near_scoreable_seconds": 0.3999999999999986
+    },
+    {
+      "recording": "02_SS2-107-Ab_comp",
+      "progression": 2,
+      "performer": "02",
+      "correct_seconds": 4.421705978341494,
+      "scoreable_seconds": 4.485981308411214,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "02_SS2-88-F_comp",
+      "progression": 2,
+      "performer": "02",
+      "correct_seconds": 10.20336615130903,
+      "scoreable_seconds": 13.629200000000028,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.4000000000000057
+    },
+    {
+      "recording": "03_BN1-129-Eb_comp",
+      "progression": 1,
+      "performer": "03",
+      "correct_seconds": 17.913282708432213,
+      "scoreable_seconds": 22.32439909297052,
+      "near_correct_seconds": 0.7798154300479885,
+      "near_scoreable_seconds": 1.9999999999999947
+    },
+    {
+      "recording": "03_BN1-147-Gb_comp",
+      "progression": 1,
+      "performer": "03",
+      "correct_seconds": 13.05498775510204,
+      "scoreable_seconds": 16.32029387755102,
+      "near_correct_seconds": 0.39999999999999947,
+      "near_scoreable_seconds": 0.7999999999999989
+    },
+    {
+      "recording": "03_BN2-131-B_comp",
+      "progression": 2,
+      "performer": "03",
+      "correct_seconds": 5.333709992903012,
+      "scoreable_seconds": 20.14608921431168,
+      "near_correct_seconds": 0.14426546190995482,
+      "near_scoreable_seconds": 1.1999999999999973
+    },
+    {
+      "recording": "03_BN2-166-Ab_comp",
+      "progression": 2,
+      "performer": "03",
+      "correct_seconds": 8.086214517935687,
+      "scoreable_seconds": 11.563734939759032,
+      "near_correct_seconds": 0.40000000000000124,
+      "near_scoreable_seconds": 0.8000000000000007
+    },
+    {
+      "recording": "03_Funk1-114-Ab_comp",
+      "progression": 1,
+      "performer": "03",
+      "correct_seconds": 2.2292684091180366,
+      "scoreable_seconds": 12.63157894736842,
+      "near_correct_seconds": 0.1999999999999993,
+      "near_scoreable_seconds": 1.1999999999999957
+    },
+    {
+      "recording": "03_Funk1-97-C_comp",
+      "progression": 1,
+      "performer": "03",
+      "correct_seconds": 0.0,
+      "scoreable_seconds": 0.0,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "03_Funk2-108-Eb_comp",
+      "progression": 2,
+      "performer": "03",
+      "correct_seconds": 8.12045351473923,
+      "scoreable_seconds": 22.21505668934241,
+      "near_correct_seconds": 0.594648526077096,
+      "near_scoreable_seconds": 1.599999999999996
+    },
+    {
+      "recording": "03_Funk2-119-G_comp",
+      "progression": 2,
+      "performer": "03",
+      "correct_seconds": 9.894356409230358,
+      "scoreable_seconds": 18.145550220088033,
+      "near_correct_seconds": 0.6160330798986253,
+      "near_scoreable_seconds": 1.599999999999996
+    },
+    {
+      "recording": "03_Jazz1-130-D_comp",
+      "progression": 1,
+      "performer": "03",
+      "correct_seconds": 0.0,
+      "scoreable_seconds": 3.6856615384615345,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "03_Jazz1-200-B_comp",
+      "progression": 1,
+      "performer": "03",
+      "correct_seconds": 0.0,
+      "scoreable_seconds": 0.0,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "03_Jazz2-110-Bb_comp",
+      "progression": 2,
+      "performer": "03",
+      "correct_seconds": 13.669736136879001,
+      "scoreable_seconds": 21.81228818800247,
+      "near_correct_seconds": 0.5999999999999988,
+      "near_scoreable_seconds": 1.1999999999999975
+    },
+    {
+      "recording": "03_Jazz2-187-F#_comp",
+      "progression": 2,
+      "performer": "03",
+      "correct_seconds": 3.4696592576424496,
+      "scoreable_seconds": 11.54803824560127,
+      "near_correct_seconds": 0.14186474589835818,
+      "near_scoreable_seconds": 0.7999999999999972
+    },
+    {
+      "recording": "03_Rock1-130-A_comp",
+      "progression": 1,
+      "performer": "03",
+      "correct_seconds": 19.17404109541252,
+      "scoreable_seconds": 20.301046153846155,
+      "near_correct_seconds": 0.7893947322518722,
+      "near_scoreable_seconds": 1.1999999999999975
+    },
+    {
+      "recording": "03_Rock1-90-C#_comp",
+      "progression": 1,
+      "performer": "03",
+      "correct_seconds": 9.445442176870753,
+      "scoreable_seconds": 10.666666666666666,
+      "near_correct_seconds": 0.1999999999999993,
+      "near_scoreable_seconds": 0.3999999999999986
+    },
+    {
+      "recording": "03_Rock2-142-D_comp",
+      "progression": 2,
+      "performer": "03",
+      "correct_seconds": 14.386407894988984,
+      "scoreable_seconds": 21.971177464788738,
+      "near_correct_seconds": 1.7116170036089524,
+      "near_scoreable_seconds": 3.1999999999999935
+    },
+    {
+      "recording": "03_Rock2-85-F_comp",
+      "progression": 2,
+      "performer": "03",
+      "correct_seconds": 14.761232492997195,
+      "scoreable_seconds": 22.588235294117645,
+      "near_correct_seconds": 0.7370148059223678,
+      "near_scoreable_seconds": 1.5999999999999979
+    },
+    {
+      "recording": "03_SS1-100-C#_comp",
+      "progression": 1,
+      "performer": "03",
+      "correct_seconds": 23.19201814058958,
+      "scoreable_seconds": 24.0,
+      "near_correct_seconds": 1.030204081632652,
+      "near_scoreable_seconds": 1.5999999999999943
+    },
+    {
+      "recording": "03_SS1-68-E_comp",
+      "progression": 1,
+      "performer": "03",
+      "correct_seconds": 31.85146591970121,
+      "scoreable_seconds": 42.34639455782313,
+      "near_correct_seconds": 0.9914045618247265,
+      "near_scoreable_seconds": 2.0
+    },
+    {
+      "recording": "03_SS2-107-Ab_comp",
+      "progression": 2,
+      "performer": "03",
+      "correct_seconds": 24.02554135672962,
+      "scoreable_seconds": 29.157422595206306,
+      "near_correct_seconds": 1.6595545383262311,
+      "near_scoreable_seconds": 2.799999999999992
+    },
+    {
+      "recording": "03_SS2-88-F_comp",
+      "progression": 2,
+      "performer": "03",
+      "correct_seconds": 30.712308637394393,
+      "scoreable_seconds": 38.17465454545457,
+      "near_correct_seconds": 2.270509173366319,
+      "near_scoreable_seconds": 3.5999999999999988
+    },
+    {
+      "recording": "04_BN1-129-Eb_comp",
+      "progression": 1,
+      "performer": "04",
+      "correct_seconds": 21.393947160259447,
+      "scoreable_seconds": 22.32439909297052,
+      "near_correct_seconds": 1.2552760639139295,
+      "near_scoreable_seconds": 1.9999999999999947
+    },
+    {
+      "recording": "04_BN1-147-Gb_comp",
+      "progression": 1,
+      "performer": "04",
+      "correct_seconds": 1.3235374149659869,
+      "scoreable_seconds": 14.68764081632653,
+      "near_correct_seconds": 0.1999999999999993,
+      "near_scoreable_seconds": 0.3999999999999986
+    },
+    {
+      "recording": "04_BN2-131-B_comp",
+      "progression": 2,
+      "performer": "04",
+      "correct_seconds": 3.664122137404581,
+      "scoreable_seconds": 10.99236641221374,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.3999999999999986
+    },
+    {
+      "recording": "04_BN2-166-Ab_comp",
+      "progression": 2,
+      "performer": "04",
+      "correct_seconds": 7.095948146326798,
+      "scoreable_seconds": 8.67216867469879,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "04_Funk1-114-Ab_comp",
+      "progression": 1,
+      "performer": "04",
+      "correct_seconds": 0.0,
+      "scoreable_seconds": 16.83733739109679,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "04_Funk1-97-C_comp",
+      "progression": 1,
+      "performer": "04",
+      "correct_seconds": 0.0,
+      "scoreable_seconds": 0.0,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "04_Funk2-108-Eb_comp",
+      "progression": 2,
+      "performer": "04",
+      "correct_seconds": 0.0,
+      "scoreable_seconds": 15.548390022675743,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.7999999999999972
+    },
+    {
+      "recording": "04_Funk2-119-G_comp",
+      "progression": 2,
+      "performer": "04",
+      "correct_seconds": 0.0,
+      "scoreable_seconds": 12.100840336134453,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.7999999999999989
+    },
+    {
+      "recording": "04_Jazz1-130-D_comp",
+      "progression": 1,
+      "performer": "04",
+      "correct_seconds": 1.8461538461538467,
+      "scoreable_seconds": 3.6923076923076934,
+      "near_correct_seconds": 0.1999999999999993,
+      "near_scoreable_seconds": 0.3999999999999986
+    },
+    {
+      "recording": "04_Jazz2-110-Bb_comp",
+      "progression": 2,
+      "performer": "04",
+      "correct_seconds": 7.312679859822717,
+      "scoreable_seconds": 15.266833642547926,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "04_Jazz2-187-F#_comp",
+      "progression": 2,
+      "performer": "04",
+      "correct_seconds": 3.1832990165763295,
+      "scoreable_seconds": 7.700534759358291,
+      "near_correct_seconds": 0.39999999999999947,
+      "near_scoreable_seconds": 0.7999999999999989
+    },
+    {
+      "recording": "04_Rock1-130-A_comp",
+      "progression": 1,
+      "performer": "04",
+      "correct_seconds": 0.0,
+      "scoreable_seconds": 0.0,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "04_Rock1-90-C#_comp",
+      "progression": 1,
+      "performer": "04",
+      "correct_seconds": 9.468662131519277,
+      "scoreable_seconds": 10.666666666666666,
+      "near_correct_seconds": 0.1999999999999993,
+      "near_scoreable_seconds": 0.3999999999999986
+    },
+    {
+      "recording": "04_Rock2-142-D_comp",
+      "progression": 2,
+      "performer": "04",
+      "correct_seconds": 16.860794532273005,
+      "scoreable_seconds": 21.971177464788738,
+      "near_correct_seconds": 1.4428973843058284,
+      "near_scoreable_seconds": 2.7999999999999954
+    },
+    {
+      "recording": "04_Rock2-85-F_comp",
+      "progression": 2,
+      "performer": "04",
+      "correct_seconds": 19.420560224089627,
+      "scoreable_seconds": 19.76143257302921,
+      "near_correct_seconds": 0.49378684807255624,
+      "near_scoreable_seconds": 0.7999999999999972
+    },
+    {
+      "recording": "04_SS1-100-C#_comp",
+      "progression": 1,
+      "performer": "04",
+      "correct_seconds": 28.43319727891157,
+      "scoreable_seconds": 28.800000000000004,
+      "near_correct_seconds": 1.633197278911565,
+      "near_scoreable_seconds": 1.999999999999993
+    },
+    {
+      "recording": "04_SS1-68-E_comp",
+      "progression": 1,
+      "performer": "04",
+      "correct_seconds": 28.2287474989996,
+      "scoreable_seconds": 28.2287474989996,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "04_SS2-107-Ab_comp",
+      "progression": 2,
+      "performer": "04",
+      "correct_seconds": 19.78138936571515,
+      "scoreable_seconds": 26.9144319410007,
+      "near_correct_seconds": 1.3959293873312628,
+      "near_scoreable_seconds": 2.799999999999992
+    },
+    {
+      "recording": "04_SS2-88-F_comp",
+      "progression": 2,
+      "performer": "04",
+      "correct_seconds": 21.568462007833464,
+      "scoreable_seconds": 35.447381818181846,
+      "near_correct_seconds": 1.5574438260152532,
+      "near_scoreable_seconds": 3.199999999999993
+    },
+    {
+      "recording": "05_BN1-129-Eb_comp",
+      "progression": 1,
+      "performer": "05",
+      "correct_seconds": 7.3189759004376915,
+      "scoreable_seconds": 7.440678162737961,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "05_BN1-147-Gb_comp",
+      "progression": 1,
+      "performer": "05",
+      "correct_seconds": 0.0,
+      "scoreable_seconds": 0.0,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "05_BN2-131-B_comp",
+      "progression": 2,
+      "performer": "05",
+      "correct_seconds": 0.0,
+      "scoreable_seconds": 3.664122137404579,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "05_BN2-166-Ab_comp",
+      "progression": 2,
+      "performer": "05",
+      "correct_seconds": 4.433163128705296,
+      "scoreable_seconds": 8.67216867469879,
+      "near_correct_seconds": 0.09345572767259824,
+      "near_scoreable_seconds": 0.40000000000000036
+    },
+    {
+      "recording": "05_Funk1-114-Ab_comp",
+      "progression": 1,
+      "performer": "05",
+      "correct_seconds": 8.096011457214466,
+      "scoreable_seconds": 16.84210526315789,
+      "near_correct_seconds": 0.3999999999999986,
+      "near_scoreable_seconds": 0.7999999999999972
+    },
+    {
+      "recording": "05_Funk1-97-C_comp",
+      "progression": 1,
+      "performer": "05",
+      "correct_seconds": 2.8096145124716525,
+      "scoreable_seconds": 27.214163218552024,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 1.1999999999999957
+    },
+    {
+      "recording": "05_Funk2-108-Eb_comp",
+      "progression": 2,
+      "performer": "05",
+      "correct_seconds": 6.940952380952382,
+      "scoreable_seconds": 24.43727891156463,
+      "near_correct_seconds": 0.09297052154195029,
+      "near_scoreable_seconds": 1.599999999999996
+    },
+    {
+      "recording": "05_Funk2-119-G_comp",
+      "progression": 2,
+      "performer": "05",
+      "correct_seconds": 1.6253968253968267,
+      "scoreable_seconds": 8.067226890756302,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.3999999999999986
+    },
+    {
+      "recording": "05_Jazz1-130-D_comp",
+      "progression": 1,
+      "performer": "05",
+      "correct_seconds": 0.0,
+      "scoreable_seconds": 0.0,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "05_Jazz1-200-B_comp",
+      "progression": 1,
+      "performer": "05",
+      "correct_seconds": 0.0,
+      "scoreable_seconds": 0.0,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "05_Jazz2-110-Bb_comp",
+      "progression": 2,
+      "performer": "05",
+      "correct_seconds": 1.253877551020409,
+      "scoreable_seconds": 10.903197278911563,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "05_Jazz2-187-F#_comp",
+      "progression": 2,
+      "performer": "05",
+      "correct_seconds": 0.0,
+      "scoreable_seconds": 7.697770865922124,
+      "near_correct_seconds": 0.0,
+      "near_scoreable_seconds": 0.0
+    },
+    {
+      "recording": "05_Rock1-130-A_comp",
+      "progression": 1,
+      "performer": "05",
+      "correct_seconds": 15.92587476016047,
+      "scoreable_seconds": 16.615384615384617,
+      "near_correct_seconds": 0.7873853130995974,
+      "near_scoreable_seconds": 1.1999999999999975
+    },
+    {
+      "recording": "05_Rock1-90-C#_comp",
+      "progression": 1,
+      "performer": "05",
+      "correct_seconds": 30.799092970521542,
+      "scoreable_seconds": 31.999999999999993,
+      "near_correct_seconds": 1.190294784580498,
+      "near_scoreable_seconds": 1.999999999999993
+    },
+    {
+      "recording": "05_Rock2-142-D_comp",
+      "progression": 2,
+      "performer": "05",
+      "correct_seconds": 19.455471163488873,
+      "scoreable_seconds": 27.041600000000003,
+      "near_correct_seconds": 3.1954290824310876,
+      "near_scoreable_seconds": 5.199999999999989
+    },
+    {
+      "recording": "05_Rock2-85-F_comp",
+      "progression": 2,
+      "performer": "05",
+      "correct_seconds": 8.078495398159262,
+      "scoreable_seconds": 16.941176470588236,
+      "near_correct_seconds": 0.500205415499531,
+      "near_scoreable_seconds": 0.7999999999999972
+    },
+    {
+      "recording": "05_SS1-100-C#_comp",
+      "progression": 1,
+      "performer": "05",
+      "correct_seconds": 27.973151927437648,
+      "scoreable_seconds": 28.800000000000004,
+      "near_correct_seconds": 1.424036281179136,
+      "near_scoreable_seconds": 1.999999999999993
+    },
+    {
+      "recording": "05_SS1-68-E_comp",
+      "progression": 1,
+      "performer": "05",
+      "correct_seconds": 36.68134453781513,
+      "scoreable_seconds": 38.81698279311725,
+      "near_correct_seconds": 0.7420354808590126,
+      "near_scoreable_seconds": 1.2000000000000028
+    },
+    {
+      "recording": "05_SS2-107-Ab_comp",
+      "progression": 2,
+      "performer": "05",
+      "correct_seconds": 29.8840634072944,
+      "scoreable_seconds": 31.400413249411912,
+      "near_correct_seconds": 2.3507898361836976,
+      "near_scoreable_seconds": 3.5999999999999925
+    },
+    {
+      "recording": "05_SS2-88-F_comp",
+      "progression": 2,
+      "performer": "05",
+      "correct_seconds": 28.314749371263684,
+      "scoreable_seconds": 29.99283636363639,
+      "near_correct_seconds": 1.9121170892599415,
+      "near_scoreable_seconds": 2.399999999999995
+    }
+  ]
+}

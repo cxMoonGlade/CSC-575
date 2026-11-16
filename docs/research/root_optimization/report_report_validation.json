@@ -1,0 +1,12 @@
+{
+  "pages": 4,
+  "references": 16,
+  "original_GuitarSet_results_macro_unchanged": true,
+  "bibliography_unchanged": true,
+  "new_table_matches_saved_summaries": true,
+  "full_runtime_scope_checked_against_protocol": true,
+  "source_subsets_explicit": true,
+  "no_overfull_or_undefined_latex": true,
+  "main_project_modified": false,
+  "pdf_sha256": "9f609d4ccb4a37fef912b41096659673158a6a0525605a2746df5bb211d3f2df"
+}

@@ -1,0 +1,27 @@
+{
+  "recordings": 64,
+  "scoreable_recordings": 59,
+  "zero_scoreable_pieces": [
+    "country_5",
+    "metal_1",
+    "metal_2",
+    "metal_4",
+    "rock_5"
+  ],
+  "totals": {
+    "audio_seconds": 1786.1598412698415,
+    "annotated_span_seconds": 1302.6501814080004,
+    "supported_chord_seconds": 936.9399999950007,
+    "n_seconds": 126.845464861,
+    "unsupported_seconds": 238.8647165519999,
+    "scoreable_seconds": 1063.7854648560008,
+    "coverage": 0.595571258672863,
+    "unannotated_seconds": 483.5096598618411
+  },
+  "source_selection_sha256": "b511635109e07e9a9337c96779e11a69c66ec71a078d893e4404c092602303b9",
+  "selection_precedes_audio_download": true,
+  "all_crc_sha_and_reference_checks_passed": true,
+  "http_retry_events": 0,
+  "range_bytes_downloaded": 105655086,
+  "algorithm_results_inspected": false
+}

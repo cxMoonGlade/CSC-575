@@ -1,0 +1,1546 @@
+[
+  {
+    "path": "chordrec/data.py",
+    "sha256": "b80759287094851bd618b322a79ea6ca1396411a8f96b621381012ad2866d880"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_1/harmonic_viterbi.csv",
+    "sha256": "7f1bc3f641bac8b4ed1c20dea61cd29753826c12ad526decf64a5a06ff194c16"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_1/long_raw.csv",
+    "sha256": "de81c32b19a063c761b501a36cbd08304794686845d3554995d1d8dbc0de813f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_1/long_viterbi.csv",
+    "sha256": "98920220e56a4641c43d79c9969da41107cb9b629980eeb085dbf62e45a767f1"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_1/projection_raw.csv",
+    "sha256": "1b475ff1b4d39035407692a0b6107e2f3a38c4af54e5c1c287abcf964b2d91c8"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_1/projection_viterbi.csv",
+    "sha256": "775445bcfdb86e40cae9479aa690dc3016c4ad8df8f671b0b48f33595257ba89"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_1/reference.csv",
+    "sha256": "2a18a0602623c3e87d0e5f4a07afe4c2c342a7aff2334d0c9f423b75ffcef96e"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_2/harmonic_viterbi.csv",
+    "sha256": "70eab928fa08dc99eb35c8b56558be1bb3d76940fdc5eb5fa1cbcd756562e54c"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_2/long_raw.csv",
+    "sha256": "e4703289391d8651c99bbccdfc3ec24628e845675771a6a947777df90f2fd57f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_2/long_viterbi.csv",
+    "sha256": "c685e2140f60783d4e0eb1c605a811a26cbdeaa5028da0559ba226375459ce56"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_2/projection_raw.csv",
+    "sha256": "fe23490d783e2b96218658f85fd84334878099b09350d8c5ac963780a76bd83b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_2/projection_viterbi.csv",
+    "sha256": "7a935a80f59edef969ba9652f830f18a9dcf192637fb04ea7a4ab46167e3861a"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_2/reference.csv",
+    "sha256": "ea70235271e1529c17be34e6c3564691fefa33930694f1b3df8c504bb7dcb2c6"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_3/harmonic_viterbi.csv",
+    "sha256": "a6be93a711b24ff03c7d38a9577c503d2ab2e8c0ca64cf0e3daaa9ffe516afb9"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_3/long_raw.csv",
+    "sha256": "e46a7454f3449d916865d7ec84b57898403304897f1fa9a5310a6d397d0312ad"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_3/long_viterbi.csv",
+    "sha256": "45df6fb6cc91cb1a8618f62a8dd3e2f758b56bd8258c65527af28704cdce9bf7"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_3/projection_raw.csv",
+    "sha256": "5d7d0287a329301bb31e0901221f80934c55b2774aaf43af45c44964934daa84"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_3/projection_viterbi.csv",
+    "sha256": "2675d0873702c5e554ec1bc1ce0c8b930fe72d4bc0f6fc10e9a065b6a3bc8d19"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_3/reference.csv",
+    "sha256": "7ba2f7745fdc346e9b46960a657b8db20cccf133f404e56f852c62d5d82f1603"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_4/harmonic_viterbi.csv",
+    "sha256": "239d3266197a1a3d7a50a97d3563d1fbd11ccc50a86dc1394e18c23763741ec1"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_4/long_raw.csv",
+    "sha256": "4095900dc8e7b4df7621a08c75981af9061fef50308e17a43888cc322e3e7838"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_4/long_viterbi.csv",
+    "sha256": "68bf1fcf8fb9054558fae1bf21c1f7e7e9ae6e2ceacaec80fb8f23d1efba4ac0"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_4/projection_raw.csv",
+    "sha256": "0277f458275a855271da488a93bfb39a1e49a6f0c88fcb74d2b4f72896e70163"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_4/projection_viterbi.csv",
+    "sha256": "b447165b730dea52e519264d4611139513166a43fdcfc6321db3bef0c198a295"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_4/reference.csv",
+    "sha256": "63b6cdedb5ef0fada183a8e1c10c2d3f13715a6f6429735485f395bd056de4a0"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_5/harmonic_viterbi.csv",
+    "sha256": "5d1cceaec7489bd1f8e3b4b760b9ef1857ff13ccb09e8898b6cfb7cf684c2e3b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_5/long_raw.csv",
+    "sha256": "ab2f566856153d40222cdf4b6bed0fa2f7cd6a001e9edf7aef7f486e7051ad37"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_5/long_viterbi.csv",
+    "sha256": "015a6d03e797baae8865e9892e092718bf4691af67c6e494bad8d021db05eafc"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_5/projection_raw.csv",
+    "sha256": "ade6cfaadd643c4e18394dcdae6f301b75d067ddb2df1a5027334e60e2b5ac31"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_5/projection_viterbi.csv",
+    "sha256": "df86ec9aeecdc38d037bd4ad6826080e7e0af59f1e0c50225c4c185ca61b35e8"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_5/reference.csv",
+    "sha256": "3f070a2c84e7652e7d9095f96db8b02f79a99b227ccceb09e8be777e3fb8f50f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_6/harmonic_viterbi.csv",
+    "sha256": "ccd82e79865106000f5f81d42c228ce0d808ec700c2b9ae429db49d2dfc9ea7a"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_6/long_raw.csv",
+    "sha256": "d285bd85ef052221245cf509146b86b09b3f93be70b6a980b68f9a844f3b9d21"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_6/long_viterbi.csv",
+    "sha256": "20617c4209c09592c69eb3de6eec2c4e77aa936289a6c08a70c3b50d3d1b61b7"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_6/projection_raw.csv",
+    "sha256": "0e48be437328f37c9c9f408a6d7e96a34f67df2554cbff3db546c79f44c9fe1c"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_6/projection_viterbi.csv",
+    "sha256": "bb44adebeb06863f712060da25c941a0025c333db213f34bb97dd9323d0a5eb2"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_6/reference.csv",
+    "sha256": "f3dee7fd1e74a718b40585722c5e886e014889506c86ff8248febc16b78682e7"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_7/harmonic_viterbi.csv",
+    "sha256": "aef07fd79f0b1cdc337d9087e6a7ef1601100c31597fe5e847601cd7588181cc"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_7/long_raw.csv",
+    "sha256": "d3cb56108bb21d4e160348faa4f95122643d63ec8c6570de8f001b267f212294"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_7/long_viterbi.csv",
+    "sha256": "3174d0d06114430bc1dd46c9a80f395be4b71522b0ce0e28be6ad6e32d4291d0"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_7/projection_raw.csv",
+    "sha256": "89032cc8ad04bee937238c69202186f5f2d2687995de891da4e46f6c3781e02b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_7/projection_viterbi.csv",
+    "sha256": "e8904d88b74f7bd296e19f9ed75195f15bfbee4f2c83307a034ad322c942aa34"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_7/reference.csv",
+    "sha256": "64090c9d72b7eb400ab55943b6d3c46cf04286ca3e28e9065e2fad3dc73f2f12"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_8/harmonic_viterbi.csv",
+    "sha256": "24b2c3fb29956077182f1f373d4c67cb237dbb5b644cedb923ed86ed4c30fe1f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_8/long_raw.csv",
+    "sha256": "ae24411b393294504785c2500a36c8a6512ed8bc39a6bb43cee190bbedc9a4f6"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_8/long_viterbi.csv",
+    "sha256": "61c024343cda953af90e0d591723bffb041980c695d55e236a1c4c34c16ed769"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_8/projection_raw.csv",
+    "sha256": "1aa84ceb7befffbc8980b05a908bd4737336ac595d82e3cd638d0ec586937af9"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_8/projection_viterbi.csv",
+    "sha256": "8ce285fefc5c8423678d8d85d619fc44a5c5ec49c0e25d896f228fa9e10dfc03"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/classical_8/reference.csv",
+    "sha256": "5befb44098306bb188728002d18144210ab689704e09cd8521554f477432ec58"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_1/harmonic_viterbi.csv",
+    "sha256": "3474c5a5fe807bdf4b0d3c74d447e2753ec7a3678d196b08eae58b60a5fe9d00"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_1/long_raw.csv",
+    "sha256": "d4706e5bc22e0d3d928d5ca69f838fbf8e26d5ae1bec75ff8b1d7a4bd85abcb6"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_1/long_viterbi.csv",
+    "sha256": "b3c3331ca499f60bd44318ef7c2909d54093c3d5c280048683688b9bdf2191af"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_1/projection_raw.csv",
+    "sha256": "e1c3fe7dd564483ec2303d291c7918c2002d9b4368427518a0ad4a287221613c"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_1/projection_viterbi.csv",
+    "sha256": "d0260edc889ad77a9a550b1502513d123dc9773d9ccd6b6953a569bcd9fd3aa2"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_1/reference.csv",
+    "sha256": "f6b6168b0a624ce53d6da1a9bb279c6260f7f3b99f055018ce8807d537094a6a"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_2/harmonic_viterbi.csv",
+    "sha256": "337d47bb6ee86046ebe7e8100fa6a6b07262049311bc91f0440ff1b8d34586ce"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_2/long_raw.csv",
+    "sha256": "f334ccd6a6c79c8e1fba26fea4b6e814a4cb9ed7076827594c64c0901cc35ac7"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_2/long_viterbi.csv",
+    "sha256": "f94f10608ff9d8b050fd93dcf9aef2992c8d25930997f3093462766eceb210ef"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_2/projection_raw.csv",
+    "sha256": "029b7ceb8e020cfd46f9e84f1c32b582961344257b2ab85a765aa3118d40ec43"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_2/projection_viterbi.csv",
+    "sha256": "7fd8f044af57d059186d61a4f1cd5fecf4ff5111dfe091df1ee11e9252acfec4"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_2/reference.csv",
+    "sha256": "92f0e69df3e96095ab648bdab98c29259ee75d3894022cff75fd276478a39aa2"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_3/harmonic_viterbi.csv",
+    "sha256": "a6ba4ad09f62ad3ea6e6e6d3c1096a696fd77689de180f7404b974d6ea9351ba"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_3/long_raw.csv",
+    "sha256": "06be2c9c14fa9552b290e099ad450794dd50632a4c69be94ecd9285303883049"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_3/long_viterbi.csv",
+    "sha256": "d6be0d9a814b5b22ae34dc5a3eb49066eb6b8b315e95a80c710fe38ab4fafd64"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_3/projection_raw.csv",
+    "sha256": "fdd5512badf9f4f523b2defd12a8317aba54d0c7e0b504028943f7f6831c70ac"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_3/projection_viterbi.csv",
+    "sha256": "41aa0f4a9f5ebee992b70005b92840fc9c434f6a90afcdb54973b0c71073fd31"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_3/reference.csv",
+    "sha256": "00265495b94a4460e71efd3ac8f81673098789e04786a149996c0dd83292151a"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_4/harmonic_viterbi.csv",
+    "sha256": "e5e9c04f05db36d5b8124f79e3167cc83390e53c5ae9753387a1cef3602443ad"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_4/long_raw.csv",
+    "sha256": "c5a176fb46947a9a7ecc6ec4ff31d6e8a68f6901d9e7b63f034eabff49782e98"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_4/long_viterbi.csv",
+    "sha256": "043b8b9591bec5c5195493f4a193bc4b971fef1fa281adf078aa19b7fbf57d49"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_4/projection_raw.csv",
+    "sha256": "4bbd6c63d0f317cbca4ced92a500af6fb2ea64598a442bd001f7c6a79a7ba41a"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_4/projection_viterbi.csv",
+    "sha256": "ac2bb3bbe22f3b8c78e48591d14258bb3bbb6a7d2ff25ecbab7c1d651986b239"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_4/reference.csv",
+    "sha256": "546d7af9b48122f239ccdd9f294c515dd0090589ee9beb0d30998ab44b960f18"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_5/harmonic_viterbi.csv",
+    "sha256": "3d7a37e8266aaeea8a640f3763d868b682fab4cd107a0df70479089f7feca457"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_5/long_raw.csv",
+    "sha256": "103ab12d2b1b55432d6741c0299d9b0b34da576f7cc714846ec27f2e7ef60ef0"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_5/long_viterbi.csv",
+    "sha256": "962e959770d6cb8e15b32b7e501bfa2dd24d0605876c7fb783aa6e2c0ab8a91d"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_5/projection_raw.csv",
+    "sha256": "5b02bf2a76fe3931b5a1f5a3dec89b97842de5179998f390693f11c73d70c435"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_5/projection_viterbi.csv",
+    "sha256": "76a77caccff2fce25d0d840cd3fed2669abf6da0aea88414da8c4baf118d84b6"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/country_5/reference.csv",
+    "sha256": "72cd65ce969977155367ca5e252eb3af6f8a2770388b048ce8010a5ff79bd7a4"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/folk_1/harmonic_viterbi.csv",
+    "sha256": "a11f8fe45bba8de2d8addbfc5c0231419c6518605ae83a5c9c62b581301c4808"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/folk_1/long_raw.csv",
+    "sha256": "d64fab4d6961efcf4d9af775eda94e358fe0382b76d5eb4bb2aac9d401c9c64f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/folk_1/long_viterbi.csv",
+    "sha256": "07e67a6586e62f82bc69d52fc8727cdc0592122d8312c619de82d8f84425d6d9"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/folk_1/projection_raw.csv",
+    "sha256": "98996747ffdc51a8d41caa0dbcffb511b8c183b86dd16b90e4f8fc8edea1513f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/folk_1/projection_viterbi.csv",
+    "sha256": "b799b91eca8555ba6781073957c3afcd533bc325c5139b538ba18267df2cc7f1"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/folk_1/reference.csv",
+    "sha256": "382bdd49a6952497ae0ab2c5169cb143b91900904c88380d14ba6bf1c30a3b5e"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/folk_2/harmonic_viterbi.csv",
+    "sha256": "af88c502e0972f3f7b9d22fa9ca547202da2151a0b27cad303a6139189f81387"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/folk_2/long_raw.csv",
+    "sha256": "5c6ddb376ecfc4880ec519b651868010d543fe656af45ac70d1d4c3d0c27722b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/folk_2/long_viterbi.csv",
+    "sha256": "1f5e59a30dfb6bd4dac7f7d6a50e58b3e770378ccaf68db21472a4b4fceebf28"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/folk_2/projection_raw.csv",
+    "sha256": "3fabcfe0c195d48afd2db91c0cbabe7f5f3920c4fe2c5d2178db7ee9bbb4e98b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/folk_2/projection_viterbi.csv",
+    "sha256": "c707394c0b50452af65793fdc72cfe0f77ccfb9099d8cf895c5725b0794547e7"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/folk_2/reference.csv",
+    "sha256": "42aa653a96e6bf009e24a65e80b809d33602712c300a897e9ee0e6d5615f05b6"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/folk_3/harmonic_viterbi.csv",
+    "sha256": "6170a858eb740400449c94b262a900774b28bc627e863658e816b6c5733eb3b8"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/folk_3/long_raw.csv",
+    "sha256": "b9d8d66098ba776868b022de81347cb3c80960273dba7ad5bd40bbd7e568f458"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/folk_3/long_viterbi.csv",
+    "sha256": "ebcd19d7005e003aab387878f28e11d3736ecbe3a07462e50e4c4179e183cece"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/folk_3/projection_raw.csv",
+    "sha256": "3896cc73941f2f39fd590c953ad6ef67a4fb157f6cf755ff2edce2bf5c8d814d"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/folk_3/projection_viterbi.csv",
+    "sha256": "37ad4b0d684808bb813c17d42bc77a5be95948914b2f41463f9547d4eed82f74"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/folk_3/reference.csv",
+    "sha256": "f8784b80f5316b1304c5ea7af3ff3db61988c705b538c86579a3bf6087fe5817"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_1/harmonic_viterbi.csv",
+    "sha256": "4596768bcc521de4b2aa138334e3af63954dc78fe19df29343c6c54bca5ebe13"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_1/long_raw.csv",
+    "sha256": "5a8b1ad54db8873e775cbdbec46441cc87ae65a42b758b453d042a770cf61ed2"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_1/long_viterbi.csv",
+    "sha256": "a078a07a8a7607e33441596316ae0fd198e300f5224b1842053d0dd22bfb7177"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_1/projection_raw.csv",
+    "sha256": "24940194cb2f5a9e3173c9ccff79d06201bad1c63d6045d474d0b5fdc9009e08"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_1/projection_viterbi.csv",
+    "sha256": "4cf8c9513a4ed0956cd42c2543e0a94f8af42c76c034b7a833c6d45f0a0b6d60"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_1/reference.csv",
+    "sha256": "9ce6247486d9e9957b61544d5f2c08cb25fce423de6dd8e183ad004e56820783"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_2/harmonic_viterbi.csv",
+    "sha256": "7546bb5fe656b567891f72911e570f23c915095dfcff43c53e562f3910cc2260"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_2/long_raw.csv",
+    "sha256": "99ee4dafe686e16e4df36ff1c91ddccebebe832a0ee5d8c7d2b015600b455c8d"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_2/long_viterbi.csv",
+    "sha256": "89739aae6f0aa35ecc947c4aadb71734a5d1a90e50e3e1a51e9211e62a411a1c"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_2/projection_raw.csv",
+    "sha256": "fbd6cc149d65256ddd83bfdeff924f548cc24494ecaa9f52c799084029e6fe9b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_2/projection_viterbi.csv",
+    "sha256": "261cdb8da304f28952a4ff49e52a5010955e86cf5d5ea74dd0f9a97a386166ef"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_2/reference.csv",
+    "sha256": "dcbd24f1050e089928242cb64d77747f82456ae10614298a735424321a5d7f91"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_3/harmonic_viterbi.csv",
+    "sha256": "72e3eec51ca09cf1d3398c66bbc19c390187338dda2529f83da2b55b1d67c748"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_3/long_raw.csv",
+    "sha256": "ed7bd1bc69fc6a6d92018427d5bb267fc6ee838e1a490fe0b63e4bf0e8f26be8"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_3/long_viterbi.csv",
+    "sha256": "813c7c98258945c3f63708d5aaf77b43dd38d0a67a5f783dff928908a8e12e5a"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_3/projection_raw.csv",
+    "sha256": "062747538454c7a396008a3f9c0dbeea80bfa7de62d016ec7d8c1f75d26d081a"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_3/projection_viterbi.csv",
+    "sha256": "3e3f96835480803489dff4c6b5410e60be610352238cd38c274ab7e5c29ba55e"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_3/reference.csv",
+    "sha256": "409796602a197f1bfbf994f29318795b2402e58859abf572858dcf2503f015b1"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_4/harmonic_viterbi.csv",
+    "sha256": "15de0055b1fb1b777331f736addff33c294d492ea763498b72d0852f92d927d4"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_4/long_raw.csv",
+    "sha256": "53cf4e81f704e1a5ccc64b883875af48b09166173fda9d3e03785d0b2a8907d0"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_4/long_viterbi.csv",
+    "sha256": "381107a447372ba9c482661402fd368d27cab2ec1ae9d798267b89efe17a3125"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_4/projection_raw.csv",
+    "sha256": "229358c1a758dff075dd0870ccb90cebc388a8dc00de2db2a7b809b8c89d998b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_4/projection_viterbi.csv",
+    "sha256": "0e1184000ec9fb860ee3cff96149d895adbc3fffb41e5417c792933fdcc3af01"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_4/reference.csv",
+    "sha256": "477fb5c3593036ff355760111f31a7b8fca45172bcaeeda37e331312f297facc"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_5/harmonic_viterbi.csv",
+    "sha256": "149d06e80caaec9fc9a213332d3022cccf988454f12d433b52605252d0f21a9c"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_5/long_raw.csv",
+    "sha256": "5761657bb65ac86f770ac9340a606821a7405b3abcf67991e0731004bcee2c06"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_5/long_viterbi.csv",
+    "sha256": "60f4e07e6757090c0dc7c0cfdd316bafdabdfb45d2773317bd35eea6f88c4938"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_5/projection_raw.csv",
+    "sha256": "29e73c85d4b43135abc8345f13a03bb6ec17b6cc3c6116b854b1c07c2f531b1e"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_5/projection_viterbi.csv",
+    "sha256": "87adfcda9279d5b7b587bd2ed89c0d0f222f2557c30ada9aa3ed984b4dae2f2b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_5/reference.csv",
+    "sha256": "bb4cefdb12f00b072250959e4430a085bdab02a627bb750709eade4d36fb6b4e"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_6/harmonic_viterbi.csv",
+    "sha256": "5795c5f4001e630512ca345243081d2aebfe3c337df5e373ccf08523207c2725"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_6/long_raw.csv",
+    "sha256": "872c5a88793c1895511c075f9e3f1be14ce6bf179d503915068fd57b49b12c72"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_6/long_viterbi.csv",
+    "sha256": "37b2a681ede1e8e45897f682cee13594e684451d7efcda22221ced137fae09da"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_6/projection_raw.csv",
+    "sha256": "89136deeb205acaeecf8128cc457b0a814b3ced19e1b3825172970bd050cf7d9"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_6/projection_viterbi.csv",
+    "sha256": "49801c5aeea979bf3ee8fc0cf4e171dab612fe276f8234b58994aa90f07b14fa"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_6/reference.csv",
+    "sha256": "821cbb66bce519362cd7df5df3ff0c88fffcfb0eaecf855e30e60339dab1db07"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_7/harmonic_viterbi.csv",
+    "sha256": "8a7c1c076a94e72147ea3733fcfc503a99cccf6067ce1458d2ba026a4af15e6f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_7/long_raw.csv",
+    "sha256": "0f8ba850a4883507b1378d90a314eb63d4fd35ba61749a4b54b3931a80f52b01"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_7/long_viterbi.csv",
+    "sha256": "9857f17ec79d0907dfd21d3e36a9f4a5427602ae0d4a35b0881f6e181b49c384"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_7/projection_raw.csv",
+    "sha256": "a041f8fe623efea3ebc2d11cc55276c25011bc8be1e1289ee1d4282cb98da0cc"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_7/projection_viterbi.csv",
+    "sha256": "fcb9d5dea1118d679b866c8460d500a5508e12373cb24da9d64c2bb08e3234bf"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_7/reference.csv",
+    "sha256": "e9f46640d5c0e788478d0f10e0b343a15573b2160d791169ac05558109ebc4a2"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_8/harmonic_viterbi.csv",
+    "sha256": "41e47d07d66c1f645b3c391947905ca3e45313eee8dcc8df9809adc89bbd3097"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_8/long_raw.csv",
+    "sha256": "060abf097c7e25e3a15c47f979a9e946308ede7f96504fa72a5997eee2be0062"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_8/long_viterbi.csv",
+    "sha256": "ee4f7a2ae9abbbd6e266d2d12d7a078bf0fdb99abff834b1baba3d8e8d64ffb4"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_8/projection_raw.csv",
+    "sha256": "1ee636458295540161d8d55054014bcccd3fe87a7b14eff363324d6a98e3f903"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_8/projection_viterbi.csv",
+    "sha256": "f2702f6e9675433e61949e4cb6055d11935c567ab556ace4be98fec2c99fba07"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/jazz_8/reference.csv",
+    "sha256": "479dde475ce5c6a5d9b2273d3176c0599255870f0eb8b164f9c1ba4b4ffdab61"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_1/harmonic_viterbi.csv",
+    "sha256": "0e3f127c0e197127cb0dd12bbaa404e81d71aeedb55d4c5fad375f5099d16b1a"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_1/long_raw.csv",
+    "sha256": "9c47b6036cc80034dfa15c924b4ee9ed8ceb87090d04a7c91e5da60cb26dcf44"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_1/long_viterbi.csv",
+    "sha256": "4a950d3b4a5150b84b31e44f59fbdcb31ad2342629d0ea29ddf677efd28f661c"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_1/projection_raw.csv",
+    "sha256": "48c398d4324574aa5fd69001a34c656805eb37fb125ddd22566767f1d573c666"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_1/projection_viterbi.csv",
+    "sha256": "0d3440cabb1919cf109608b5ab5e044c5d1d93465db27b171272a0afd2e7df9e"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_1/reference.csv",
+    "sha256": "8b4bccc804992e0e16cf07dc0500c07ee00cd2c99dcea7fb7f6eba57882f3c83"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_2/harmonic_viterbi.csv",
+    "sha256": "a01b187f336d8ab183f92098eb1a9d2da147bfdceab604b5e1db04b43a6d1f5c"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_2/long_raw.csv",
+    "sha256": "3eb50796e65cba65b25d8762b35a8c9bfaf134b6e7c7d7161c1f28e24074b868"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_2/long_viterbi.csv",
+    "sha256": "42e34169e13f149d21bfc4a3c835fb7b485b3d87d242150f3058d30555acfac8"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_2/projection_raw.csv",
+    "sha256": "fd54ba097c19ba9b3f71de9bfdaeccb0fd0a035c956241f6dce57d9da1f2930f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_2/projection_viterbi.csv",
+    "sha256": "faaa6a90ea6b70627dd32f68ad4147f29c4fedc62b091fcbc2b185727851f9a6"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_2/reference.csv",
+    "sha256": "7756a02edab56dfe7aced740468432f10d8d4eb86b8d686e7c3644ae7dddf59a"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_3/harmonic_viterbi.csv",
+    "sha256": "6b43c5ec5de8d03633055ae016403fba79dd23a977263363725894680b8f2e89"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_3/long_raw.csv",
+    "sha256": "ee6cdafe170dadd64d035476dff66a0462632849cd8cd7892c46ef835c8b1a61"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_3/long_viterbi.csv",
+    "sha256": "88a804b3c32a37831fb568a9bb3b0702df9bbac4b670401d5bc6359bbf7d5443"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_3/projection_raw.csv",
+    "sha256": "bfa82cf285e52b7f6b179924c2ed958acbdccbceff4ad1df324938f749c7a49e"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_3/projection_viterbi.csv",
+    "sha256": "2e3ceebe054b324ed0cab72b89f379af541cb14fed7b35ddf139a1af0ae7c036"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_3/reference.csv",
+    "sha256": "d9125d6387b4a84e6686c633c5de3ace7dd0964cbff4800e291390694d81d37c"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_4/harmonic_viterbi.csv",
+    "sha256": "03352772c274fc476a89a2ea6480c9b3e8f824ee23cc04d6a64beeb9cf9de7c3"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_4/long_raw.csv",
+    "sha256": "f7fe3ed3cb73a2aa3a1f53401fe38da76d1a9fa32b6ed50450dbf22771faa6c0"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_4/long_viterbi.csv",
+    "sha256": "282db2e7c1a3b928c96dcd90588fb7be650b598421b9a1fe382a6c64e72d9b32"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_4/projection_raw.csv",
+    "sha256": "cc72d3fbcfd33696442c5a777b539e360a68e9d35054967f77c237532f8c2a76"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_4/projection_viterbi.csv",
+    "sha256": "03352772c274fc476a89a2ea6480c9b3e8f824ee23cc04d6a64beeb9cf9de7c3"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_4/reference.csv",
+    "sha256": "454028af605bfa00db4e6d55db6eb611e5a26a3bcfdf54dcb0765d89626bec20"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_5/harmonic_viterbi.csv",
+    "sha256": "6574f6974b0e2955253618f147f83087e1ac16dbcc2d9b4cdb3e8958d433ad2c"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_5/long_raw.csv",
+    "sha256": "1afd6e0ee2501a2b09fc8b94b0eb51a56eeade807b43c4935af131f04b740c5c"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_5/long_viterbi.csv",
+    "sha256": "4b67df54aa459c57cb3acf66fa9b7870ab68ac5841847fbb0f12f2e08b60f2f1"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_5/projection_raw.csv",
+    "sha256": "7097c52026ceb052f85fdce82bd2e1cc83ce1701fb2e72dc95d1f7cedccf261e"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_5/projection_viterbi.csv",
+    "sha256": "6574f6974b0e2955253618f147f83087e1ac16dbcc2d9b4cdb3e8958d433ad2c"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_5/reference.csv",
+    "sha256": "aa24bdd99911b85df5f316e0fd38cadbae2adbf5c5db32ae9ab2cc1dd4d91393"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_6/harmonic_viterbi.csv",
+    "sha256": "8bed2338059504a35cbf7a8342f9299d7935a445332da5536662b02734fce8eb"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_6/long_raw.csv",
+    "sha256": "56c622b698ad5f7ebe8a0e1cd2ca05b17a5aeca8e5524195bfbe188a04b2c6ef"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_6/long_viterbi.csv",
+    "sha256": "517338d3064b0dba7c8d714b9113019e4e257388b2c2fd06a49f935e069b144b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_6/projection_raw.csv",
+    "sha256": "11a0f5119ecd97977d030a6a2a5b227c9fd86d2e83deb409fd72d3749c26fd58"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_6/projection_viterbi.csv",
+    "sha256": "6f923e914c60baf88dba17246e49e7650e3678d9ece27e914de3bb4f49d7c07d"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_6/reference.csv",
+    "sha256": "2fd141eeba95e54bea5d61022de0c6c2f3a28cd7976e6bfb478aaf6bf0fbca52"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_7/harmonic_viterbi.csv",
+    "sha256": "587d80cb8a4098ca44fd42da81a91e1db4c76ad9d454f148d55879498da58648"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_7/long_raw.csv",
+    "sha256": "804c09c1fbd1ddf4dc100a09b68d1e524623dfdd8e7f8cb4ecba19c5fb33ddfb"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_7/long_viterbi.csv",
+    "sha256": "0e63d66a7d07c3569812da3b8ca9d445e7424f5f7d3490792c7b2a6d4190bcba"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_7/projection_raw.csv",
+    "sha256": "3e69e74cf1c35a432b0973673cd870122259890aaca35406e1612b9bd9b2dd8d"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_7/projection_viterbi.csv",
+    "sha256": "587d80cb8a4098ca44fd42da81a91e1db4c76ad9d454f148d55879498da58648"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_7/reference.csv",
+    "sha256": "6c13d417396178d2fe4e2424395eb96a234cdd2602458f746678161aa7ad9529"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_8/harmonic_viterbi.csv",
+    "sha256": "8c58ff47b3038fa47d2fe0ffcf245d628571892780b47b0e9cbd6d2ca907d260"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_8/long_raw.csv",
+    "sha256": "cbb27ab580a4149b32cdc5157c1d9bcbfca5ddc2f2c47182d354223e54127c31"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_8/long_viterbi.csv",
+    "sha256": "3c22825feb5caee2c4055caf623a4a53c47f71592314a2a6a17cd7ec73525508"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_8/projection_raw.csv",
+    "sha256": "d947fdada9ad06ea8b59c31f0df0fb0e6c5566cb45bab4d4b349d0819e981f57"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_8/projection_viterbi.csv",
+    "sha256": "d59e5bb30ee5c5aaee26c4a1578a6629937ddf00fee265b71c009a632b76831b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/latin_8/reference.csv",
+    "sha256": "35027468f572b2617c9ed85110182a8f9a252d691b6efcce89e7a4898b9fd643"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_1/harmonic_viterbi.csv",
+    "sha256": "3c730b5db51a9e9140ff9f20482cd2ce2503473c7ae772bbfac327767fa357aa"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_1/long_raw.csv",
+    "sha256": "336f7d01b45c96a1f7bb2336da444c737bff591cccf436d42701716322ce8817"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_1/long_viterbi.csv",
+    "sha256": "0e227d056f3e401f1ef09206f378a7a5a34c20feee366ecd4940e3e8efadce88"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_1/projection_raw.csv",
+    "sha256": "b161e86f556a06f5199556b3a089eed8c58867cec9e972ce076d776119e99019"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_1/projection_viterbi.csv",
+    "sha256": "412f534ae1994f576a3f21398dbf9053a68c7e2cd64af3e6edbc4221a28f04f0"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_1/reference.csv",
+    "sha256": "93a357b6cdfd64c97bfb1558f2b798e35d90ed70528ee27c5491fd2ccb3f13d0"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_2/harmonic_viterbi.csv",
+    "sha256": "72ce60ea154110a10a3c2f8324c21348ba0353e179a03a54907089f4d3341db1"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_2/long_raw.csv",
+    "sha256": "06595a13e1688de69081eec2100b76ab2a3d7f6e478f74b91d81c2fc0cce0c25"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_2/long_viterbi.csv",
+    "sha256": "a7a5b2df391418b21dbfda9afc1b01825dc352228c8cd50dcac489a0c8c2229a"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_2/projection_raw.csv",
+    "sha256": "fc75bf28306d8980bd346cbd0e04d499e629575b773daee8787b288ec4d5c134"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_2/projection_viterbi.csv",
+    "sha256": "70f2517508fd87d1186ecdc0d6097aebfa48ab4ffc0029816ecc3a8831fa0c49"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_2/reference.csv",
+    "sha256": "6683b183fab10a91252a0f6275ca0093e5c49b7c5435b9e44ae489f3a38fc551"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_3/harmonic_viterbi.csv",
+    "sha256": "cccf976ef3a7f58bd1b8eb6028467da123982136a675351c6b33f0d2eec0f937"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_3/long_raw.csv",
+    "sha256": "9cd990ca59df09152073bc1a6e3caeba8c10e2279cad5fdf543d9fbcdd564196"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_3/long_viterbi.csv",
+    "sha256": "69a0a84d459b66c602c0699199a14836b73d2cce5f630c880514466adf8b45a4"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_3/projection_raw.csv",
+    "sha256": "f9333fb6f3d16c57d1e819ec80ad0e898560fe2a4442709d9cfd7cf274e7c159"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_3/projection_viterbi.csv",
+    "sha256": "e5f54f5881282bedb367262c744972a4200cc7ddc291202c53ee17c04fb42e44"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_3/reference.csv",
+    "sha256": "c2a1438351ba00b5a4aefae0b4b239108d2a311434c5990fc0e71d338ff29a3b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_4/harmonic_viterbi.csv",
+    "sha256": "c7ca504a1db245a33a9b7905b09dcdbd47946f22fca787a46b2d0d200775829a"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_4/long_raw.csv",
+    "sha256": "20366388fa58a06293d566e5c4eae087c4546e753fc88309cd65240c3c2f6e6b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_4/long_viterbi.csv",
+    "sha256": "bf89c2bca5b7e6027925fb9cea866a9d2e7ddc830126a951f2fb231896a8d01f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_4/projection_raw.csv",
+    "sha256": "6671adcc4f9d8bd3f3c819d2af2f40f8fd2569b1ffadad20356651fae473cd87"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_4/projection_viterbi.csv",
+    "sha256": "c7ca504a1db245a33a9b7905b09dcdbd47946f22fca787a46b2d0d200775829a"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_4/reference.csv",
+    "sha256": "babebd180c57507cb09e3c0b4764ba70a2b0e556566c58e0759aba47eea5139c"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_5/harmonic_viterbi.csv",
+    "sha256": "cabcfb01ce016e5cd18368d536d937e9a7ee4cf6faa520184f3c060d07b491f9"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_5/long_raw.csv",
+    "sha256": "12b19762f5e9f88c5d138637755ffa72dcef10f726f9ed52f6ca99a96fdd9f47"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_5/long_viterbi.csv",
+    "sha256": "b8746df12bca1f67ef73bd0aeb6a492e6425f1e11a9917b484346b19b2c389e3"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_5/projection_raw.csv",
+    "sha256": "1c7f13a19597d9cf091d834f3e4f03fdb472f9a27657c733490600313c047d81"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_5/projection_viterbi.csv",
+    "sha256": "228e9da072457683d53dbfe6005143e20d509ea200e643adaef52b3c5f03847b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_5/reference.csv",
+    "sha256": "0230564af0f23bedf2c36828e2d2b9fc4ae47eb8f602f3ddea82167cbace446e"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_6/harmonic_viterbi.csv",
+    "sha256": "e40cc7f83349d582c05117c10a9bc455f1caaf55eb951aff62c3e7eab250284f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_6/long_raw.csv",
+    "sha256": "a903c7b5212b111c2656f4c4c19325a305aa420b6fe85ba2a449ae043f3bd4ca"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_6/long_viterbi.csv",
+    "sha256": "646d447dda60f87843e7a04f361039b7408714348193f2f99434874932bd8bfa"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_6/projection_raw.csv",
+    "sha256": "43f658e801537a7cc7051ed7d17c509fbc6f2fda65e00f9856a51ed33e9155af"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_6/projection_viterbi.csv",
+    "sha256": "3c82bccdac019bfe681988a8e948429bac30679f966cad2dea319b46eb6bdd58"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_6/reference.csv",
+    "sha256": "41bf8a703ad3afe6ac3dfe7ec7af1a270d43db2e6287d77efbaccce030e04b06"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_7/harmonic_viterbi.csv",
+    "sha256": "86effcb07eedb5cdf0c79826b55b9245bff2476423060e541b3219ddb131c630"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_7/long_raw.csv",
+    "sha256": "acda21ec427f5e63fdbf83f08830732691a435af19776c5ccf993f1ed27e3fc9"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_7/long_viterbi.csv",
+    "sha256": "fc95ba21dc3f5b5dd0a1aef6a538a39a3e5342ebeed7dc7367be29d6013bc2ff"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_7/projection_raw.csv",
+    "sha256": "43f7af5ab4e8168dca531f17653d15b2d4b0de7c8069e6d6843d558cebc66565"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_7/projection_viterbi.csv",
+    "sha256": "6f03457cf13f0d7967c1c740973b7e6424b3e9ea7c38cf5ee916394a82bdd4bc"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_7/reference.csv",
+    "sha256": "479edc0eed019a288c54e22a93512dd9e8f913dc61cb80fc3b680181f426a45d"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_8/harmonic_viterbi.csv",
+    "sha256": "c429705a4f679ed8be66d1dd2acf8b36d6faf4fe7c91b2e2d13ab4bac7e8c8c5"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_8/long_raw.csv",
+    "sha256": "84c76c0b990f4aad5a42420d5b4e143f921bf9f49e97fd98a3142e770bdd5826"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_8/long_viterbi.csv",
+    "sha256": "831667b4e551b829bbc22acb1825763ed2868e21c92f381ec3df629d62a6b6a8"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_8/projection_raw.csv",
+    "sha256": "842f2423c574103323c93ee23d1cff4b28a8ffff42bde3eb57d9e5fa691f95b9"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_8/projection_viterbi.csv",
+    "sha256": "bf6966eee1e46941ab49ff89c557db7fd7249908c46f967fc9680256231b6b4c"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/metal_8/reference.csv",
+    "sha256": "c26ad06a34bb58e5ad77afb74b5f2849ff490143e9b470067ba5f4bb4d2b1f61"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_1/harmonic_viterbi.csv",
+    "sha256": "f15c11ad63a24589aa4148c0166a0479b577fe8c61a443933f0f394707f0fa7b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_1/long_raw.csv",
+    "sha256": "96c7b059f4fe0efa47813d0fcbccd9831606dd0ad2fb5b43cf6cf5b26edc64ba"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_1/long_viterbi.csv",
+    "sha256": "b97e0d9f854cdb95031846c4090ace1b5039b11b0d6b49da9720250085241300"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_1/projection_raw.csv",
+    "sha256": "bfef1e5b6e7112e64c3622a32ae47da81a0859e3e3558224d02d34916b26107b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_1/projection_viterbi.csv",
+    "sha256": "b185821d8810135bc0a80ff2644b6dce6931405f833c04b251977e31edf9f500"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_1/reference.csv",
+    "sha256": "f59469feceac5988680b3f1e9799fa56553cc7ca7fa84d3d05dd30178377db1d"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_2/harmonic_viterbi.csv",
+    "sha256": "800807f98ce7fb42dfa53642d42f7221641d5dd0053ee8c32e572be73e8c80e7"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_2/long_raw.csv",
+    "sha256": "35dda08d71cbd51a83cc8faf79246014d835fa98cff06c78d6f91bdc39b5a345"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_2/long_viterbi.csv",
+    "sha256": "1c6ad08f6e3d1d52913ea81cb2d9417860f313dbd9de270283048ea5a1c5c23b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_2/projection_raw.csv",
+    "sha256": "51db1b69d647b251e5bfe30b7f73a99260d336a7c7fd7cb35dcb9d8e25217c0a"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_2/projection_viterbi.csv",
+    "sha256": "15d6af0291529c90330c6d3f1891a71817e1e93f86a2216d46980268552f34b0"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_2/reference.csv",
+    "sha256": "6376c6010b7c6c38d001f85823dc945e24aac3204af1725dc1d024797096f0ef"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_3/harmonic_viterbi.csv",
+    "sha256": "94100e2f7b83a8ae70982fbb06b0e3cd4fc0c9ea8203e1276e5a8d4a9cd2211f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_3/long_raw.csv",
+    "sha256": "a79a37384c283a15eaef412137d96041d4285c6cc652661227c078a38499aa27"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_3/long_viterbi.csv",
+    "sha256": "ff4bb366f7fc693bbc5d41db7876c3ee9bc9a00837fb221707c915afbe3563d8"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_3/projection_raw.csv",
+    "sha256": "d9d8d211947fca13027053857f0ccd5ac30ccf90ca7218150e5882c9cb986919"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_3/projection_viterbi.csv",
+    "sha256": "7611beec60f1af12ce38500920a908c963a7906ad1a88e8c397bbe9941dc51da"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_3/reference.csv",
+    "sha256": "7bcccca5642b409488d0b6d5aa2432bebd17866d1595926189251711ac3e06d9"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_4/harmonic_viterbi.csv",
+    "sha256": "3d27578eb0948a62e03ba9606ecfe1aef1b7eece00842377a315d6275cd93c86"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_4/long_raw.csv",
+    "sha256": "f59bd19dbab337c8cc88a39dd7d03d4679a9ac4d18a2dd1f9b471ef4d1afe1d7"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_4/long_viterbi.csv",
+    "sha256": "40f4c0954ce22c1582545792cebfa49fe85f062c07d190cb07900386784498f5"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_4/projection_raw.csv",
+    "sha256": "a447836fae841f221a82b53ce9f89ad329e00333ebed04e7bf8a0d75984f4e0f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_4/projection_viterbi.csv",
+    "sha256": "d5fb67f3cb996cc57f4df8e41fc36e9912edec5ee268912ae7530eda26f321ec"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_4/reference.csv",
+    "sha256": "de7e85e69061446f92063396c8ed3237db606fb3b535c0ad5b0cdb6be0e1794f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_5/harmonic_viterbi.csv",
+    "sha256": "284b2f3838c2d4e24603196b59cfb9a71f48db71ca485ee58bb6963a98d0763f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_5/long_raw.csv",
+    "sha256": "8beb6d6bffa7e4598270af8fb0717b9b1ba42d9887fb334386174e7983d4c3a1"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_5/long_viterbi.csv",
+    "sha256": "f2bf82761db62a86941f85567926ac6bdcfc017cab42b9ed3c5daf6d020b5c31"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_5/projection_raw.csv",
+    "sha256": "2b3b0e5bc74def23e10fe633a7c08314591913932bf89b5e690d879100e49796"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_5/projection_viterbi.csv",
+    "sha256": "d48f20bc3fd6bf727acc61f2b8dedf7fea281407dfafe4c0ff7ce96a2c3ab4bd"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_5/reference.csv",
+    "sha256": "c75fca310fbd9694aacb25a20071911a2a541e0cd7b1174a6b79c639c2fa3070"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_6/harmonic_viterbi.csv",
+    "sha256": "f0f71714272dd6f69060665c43b6f5d40b804ead048bc9a4d39cfbdaec21c40b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_6/long_raw.csv",
+    "sha256": "f4de6cd99448e487fcf6f588604bd547edf414e142ff485d11a0ced5c1db12fc"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_6/long_viterbi.csv",
+    "sha256": "54aa124ec940dcd24aa31c8db780772089b856dcb3ae15106e1b60add2fb27c7"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_6/projection_raw.csv",
+    "sha256": "763bd18c17d806b24991018bf90645b4f4e23695d1f3b0fe525873058fad8ef2"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_6/projection_viterbi.csv",
+    "sha256": "96cf043356279670fe74b6af9d9a91d95fafab83ebf3134f70585d99eac9f4b1"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_6/reference.csv",
+    "sha256": "2d47fed523e601e2ff69cf0e7578a835534e8c3d76c1f25f43156e5236f6355d"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_7/harmonic_viterbi.csv",
+    "sha256": "3a665c448d902c83da7a8293fa931db993004c23d539a0c522ffed3ec22c00e6"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_7/long_raw.csv",
+    "sha256": "1f78dcada8653391c9297b1368172e52a3174deacbd03575e57c23615b677e74"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_7/long_viterbi.csv",
+    "sha256": "69203772fd2f926ab948df11f2565760230bb7ff9c4425dacb2d47688ecd504f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_7/projection_raw.csv",
+    "sha256": "3f87202c7d1d82b9e943dc5f1312eb4aed3b757269ecac91b6229632af179f35"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_7/projection_viterbi.csv",
+    "sha256": "f6e07027f2274fff7b6be70617e1e4472e84ee016681b55e7043ce397aab046b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_7/reference.csv",
+    "sha256": "6cd3e169598883abbb47ea0ab781d0af240918efc818cda40cf3c604a3ad9094"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_8/harmonic_viterbi.csv",
+    "sha256": "2da62c855f093b89ca674d620c5c20032a8be31c63513d99c61503431621eba9"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_8/long_raw.csv",
+    "sha256": "5597d6fed43c9ca8451ca5328e414e3c09ac2931ec06ddc1da95ba46c4774386"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_8/long_viterbi.csv",
+    "sha256": "92c3a1c8594e6436e1471d6e629435b2a6c4ca4b2e74dc8389c972d8a940b4e4"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_8/projection_raw.csv",
+    "sha256": "cd9a03c00d2ad904783001e11d15bf24b3e8d6abbe6f8cdc08db6bd1e3002a0d"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_8/projection_viterbi.csv",
+    "sha256": "d1ff998e4f9416b0bb3380448e2a453da32acb0c0101bab50d0aa06a1ccb0b56"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/pop_8/reference.csv",
+    "sha256": "96a59cec88b11b0c9a7b91621dd6e63f856f59569b337f23b22d714b5d3421fb"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_1/harmonic_viterbi.csv",
+    "sha256": "a4140328e292cbdcb112eb2dd60d311821d1fcc8c74ee122ef11a83fde962b13"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_1/long_raw.csv",
+    "sha256": "6eb3b920e1cd52c2bc8a13cc8f5371063e7738c84aa016b5c1604c52cf522740"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_1/long_viterbi.csv",
+    "sha256": "ead7b3d5ca28f515c5ac379d1e5bc1d67391d15e247b824c6dff69381aefc378"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_1/projection_raw.csv",
+    "sha256": "d8cc4e7af26d7b71779a350dc593acbe00b95152f49a42efb67c69341ba6c8d8"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_1/projection_viterbi.csv",
+    "sha256": "5b8000c37a3b796fc0cc5ae0fc7431392f8d850f078f471f5baeec53d6a51e71"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_1/reference.csv",
+    "sha256": "335143ffdb6a8a1284d262cdc7c97812299f3258003016fbdcf174a062bc98ed"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_2/harmonic_viterbi.csv",
+    "sha256": "a2280958908b295be353f91116c8d595b4db9638935cba92362677b22c02e943"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_2/long_raw.csv",
+    "sha256": "c0ac424cbb2978c8e59b01eaee472a57628868ec80281604bd15ecd63720292e"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_2/long_viterbi.csv",
+    "sha256": "59ca8848871f61616f2bf25922d4d067dc3268d071dc055fc1eed66f6dc076eb"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_2/projection_raw.csv",
+    "sha256": "09d0fea65aa7f593225b350c03f860ef6a3a1db0dd8d435bd1c10f7c3e45a845"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_2/projection_viterbi.csv",
+    "sha256": "c33c019e6d3de006f9310870ce62556954a5f28713a77a5102bb84841ab52868"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_2/reference.csv",
+    "sha256": "1988d47f20f251703037f3961b370636e0c5cc3a2a51ca74ea68768056afc777"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_3/harmonic_viterbi.csv",
+    "sha256": "1dadc4ce1f61971aa35a5f4a7d1f3e6a9a441d576f4bed39bb7d98e7172f5d30"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_3/long_raw.csv",
+    "sha256": "885526abfcc42037ae96fdec49368fae0ed010b429d3437532ded234011f4cad"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_3/long_viterbi.csv",
+    "sha256": "a73c11a9e147b73d186fbf1a38e10f4f7a54cb1a668a997e3241c2c17be2ac95"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_3/projection_raw.csv",
+    "sha256": "ecf215f63ad8e7a8e925c56eb53e387588910efd0404110cda53d74390150ff6"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_3/projection_viterbi.csv",
+    "sha256": "12dd426b137ff8b5f2997ce665ba72a6ca9ccac8a8ad37bc34d04592147fee13"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_3/reference.csv",
+    "sha256": "e8fe65a2530b51971ce40b41c0a0662c375a313964deb6a0f506f5fbd0f0560a"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_4/harmonic_viterbi.csv",
+    "sha256": "3813412547ef74ca6deaefd79ddc9a1b1ddeb582d48e9f91e6a81cc2e4e0b68f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_4/long_raw.csv",
+    "sha256": "44086d1fc158644a4375c12d0b29984f264ee15ef3b24096428cc52e2ff58cd7"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_4/long_viterbi.csv",
+    "sha256": "7bc7cbefbad27b414a1d756c56be2d797f4eac455c8582d7125ea4281d1f5d3d"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_4/projection_raw.csv",
+    "sha256": "cedbb312246434d11bde5f16a06dd0831c8a8eed6714752b0577ded256c148a1"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_4/projection_viterbi.csv",
+    "sha256": "a7b089f94457b80dd96bc28e73afc28c009c9ea156adf4fa6e01d947dad67ac3"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/reggae_4/reference.csv",
+    "sha256": "b8fb34805950a4bcee1d628783f51c93241bbafb9e844c8f37cffb8b01ff7567"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_1/harmonic_viterbi.csv",
+    "sha256": "8dca595135fa03397a6de2160e154127bfe27852f8a8c64b4d4df2281ff81568"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_1/long_raw.csv",
+    "sha256": "f49a13b9d68ab9b89cfb2821ee97fbac16f5f6d9ee99e20cf419ede477b300c7"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_1/long_viterbi.csv",
+    "sha256": "99f449bfa7db0cb30dd1e37e39df66ac5011a260e2708807121561d9e67efaee"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_1/projection_raw.csv",
+    "sha256": "e973cee1c52e8eaaf684070960f1c93a15c8af87e53dfc8d9ea7c6de0a472b92"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_1/projection_viterbi.csv",
+    "sha256": "1efaf5a00ec3928ef8a70a619bba84bbfeda3fb189f5ec5c8dd458fb7761783c"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_1/reference.csv",
+    "sha256": "615870d773c36f9e7cf5481f3bc4056445c7e4734d18c0d24bc3a95dfc50b00c"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_2/harmonic_viterbi.csv",
+    "sha256": "1d299865490f9563729716e73e7d9d6ed59d27f0e04ba2803ea6ac0acfd303ea"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_2/long_raw.csv",
+    "sha256": "affe31d31d65f1b6f5a4f0cee07934ec99ea1d507b03a0a393dce66d97aa0bcf"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_2/long_viterbi.csv",
+    "sha256": "a045951abebe6810b0919b5ff08bd4b0f19c399314b81166df05fcd05b3bf59a"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_2/projection_raw.csv",
+    "sha256": "d2a7b84c05424d9cc66d2bd40355e7120e45f9113cea9fdac80c4269012b8f79"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_2/projection_viterbi.csv",
+    "sha256": "549a3b8ba64ae561f2186606c45ed037ebac9b5c40f63902c25b78f5e4f25707"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_2/reference.csv",
+    "sha256": "585d2b93f20efa061f021fb4f3aec7071d9e408ee4089f1ff40ea62a1a8dd1ad"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_3/harmonic_viterbi.csv",
+    "sha256": "d44e15377e9c635a03fc7b5b22827920970e97e76dbbf413b81814395684db9f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_3/long_raw.csv",
+    "sha256": "7f978116cca7becc2f9808acf582b224ba41f6a24e20ac4f7f1b0399a45a196a"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_3/long_viterbi.csv",
+    "sha256": "c31714fce4da1209cfc0ae6179952195f074966ac39ce4dcb9322c55883b0e0e"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_3/projection_raw.csv",
+    "sha256": "e07e5c5671f28c2aae2fb8900555ac36414d64dcddc595eb43afd707e193df04"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_3/projection_viterbi.csv",
+    "sha256": "7dd9b1d68107bd5c10f93675932ffb0ecef6c6c68bcdd494be115d9db9f63dbe"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_3/reference.csv",
+    "sha256": "e27365bd54ad463c51c723612e36b3b079632e7115af82c3d65136efbf528c33"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_4/harmonic_viterbi.csv",
+    "sha256": "e0e75beba7dba1fdfb52f9ee3a321d73438d54b6f1b5a9ddb57a23634066b995"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_4/long_raw.csv",
+    "sha256": "ada574a6b3ae75594f85aa05c0258be20aac39bb179fb3b97e5504c1633f470f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_4/long_viterbi.csv",
+    "sha256": "b5c71ada54607a48e2d3a20abe926bbfd4bdd8f322496cbc94c750f4c7ffc6f3"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_4/projection_raw.csv",
+    "sha256": "2f34fdb5d8c32f35e5f025eafc18a1395e78fbe7297dad3769d671186d19ea8f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_4/projection_viterbi.csv",
+    "sha256": "8633a59fc5cfbe93c4a9f8e8310eef8691369b2d5cc98dd8dd2f7058583ce8af"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_4/reference.csv",
+    "sha256": "991153926112e8f22369186a75051d634f2a1069642b7b6c37cd8a5a0ece2024"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_5/harmonic_viterbi.csv",
+    "sha256": "f3a04d97fcd3cfc055f3b67d428facf488c0b6f61056e369ea748566a70d9883"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_5/long_raw.csv",
+    "sha256": "e0c7de5d8e22e7f2248ce9ad36622eb7eed6f765fff898ee876fadc20eeda8f6"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_5/long_viterbi.csv",
+    "sha256": "eb265275a913f25c251b3cab304db2a3b06f5662eb5a2eb4bdd8b823c418158c"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_5/projection_raw.csv",
+    "sha256": "21119e8bbdda9e5abbed0668566d2ea0f2a67a8affcff72a0cce72a93c039d74"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_5/projection_viterbi.csv",
+    "sha256": "f3a04d97fcd3cfc055f3b67d428facf488c0b6f61056e369ea748566a70d9883"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_5/reference.csv",
+    "sha256": "25e1e3c4cd83df55c62f3486dba3eb53167521662cd3d1ed7fc11f7e80b84719"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_6/harmonic_viterbi.csv",
+    "sha256": "2813e934893ee1bdb67fc981cd7f92f956443b1924056c234d4bd44ad14456ea"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_6/long_raw.csv",
+    "sha256": "01744c03d7f5eb6d2084f2c7d361df6c6d03c7b636c8ab7d42bb0871fa547306"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_6/long_viterbi.csv",
+    "sha256": "d5628bc1c172fd64a6abf75dd9357b713d2f86bbcdf63ae3d4f54b1112aa3b93"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_6/projection_raw.csv",
+    "sha256": "0b55f50db1d45a41f3e4156a75cc5e30756a6edf862508d6f27926828358601b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_6/projection_viterbi.csv",
+    "sha256": "ad4f8e6567ce6969eae4305add92af79928f0a7fd5e8faad7ee457128cdec3d3"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_6/reference.csv",
+    "sha256": "4526189e4a0ee77cf48b6c39e5b4e9c603784df888ae31f3e32833157977b7ee"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_7/harmonic_viterbi.csv",
+    "sha256": "346bf9774e8167d7d77c1f0d862fc0cb8de5351b7e55614412fbec83570e3a78"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_7/long_raw.csv",
+    "sha256": "df449a34ff87e18438ef0162807fcf1bf597688db99c2d890997f7a6bd65b4dc"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_7/long_viterbi.csv",
+    "sha256": "a0a058c37453013bd16acab86eb24642b453bf5e33af10133bb6883f74016380"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_7/projection_raw.csv",
+    "sha256": "bb14845901c04168430944792f71c3dee1e9de5b9014dd7c3f31d3b8546b1d9c"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_7/projection_viterbi.csv",
+    "sha256": "cd7a77a73bb8a6bfe21e320ceaac79391dd5d028141f3999ded501b356607384"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_7/reference.csv",
+    "sha256": "0552dd610d8cf7b62153eefae310a0be79019c78285535caa7a2ffb91c8135e9"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_8/harmonic_viterbi.csv",
+    "sha256": "975449424c3eb1cd287f07f279dc3a5c83b815b90f6923621f128e64ea019c5a"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_8/long_raw.csv",
+    "sha256": "0e23cabf927e79120d2ad9c77b4a7c49cde2ab30fa9031acd20a6838db8b00de"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_8/long_viterbi.csv",
+    "sha256": "c19418f076513080cb37d43c2dd07b172d7c94ccfe8747c1284f64877d31475b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_8/projection_raw.csv",
+    "sha256": "ded751ffd5b4e7e6e9cf5f86e9cf4b534409faf4e42b857763f93d6183c028ca"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_8/projection_viterbi.csv",
+    "sha256": "88ca1237b86643138261420454490ce28254c8c4b41c28c268af8bd320d44502"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/rock_8/reference.csv",
+    "sha256": "330df548981a0965ba3556e4cbfb00f4fa0df8e094682e54533b4c6685c21564"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_1/harmonic_viterbi.csv",
+    "sha256": "b63993b3272b3deba7f374a3b01704056599fa0e715aa908dc6f026cd0adeabe"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_1/long_raw.csv",
+    "sha256": "8acc14ac17724c1218ffbdf07d4c97d0562bcdc11d0ac6187d09d7774f2d6ec0"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_1/long_viterbi.csv",
+    "sha256": "bd8dcfe2b9da8a768808488eb1aefd4501770f1eb349d4d0a5a3f715163e700b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_1/projection_raw.csv",
+    "sha256": "d92f70d07496f9decd19b1fd1e3b9e84f3101613b003383eca2b02fb9aa7ad2f"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_1/projection_viterbi.csv",
+    "sha256": "b63993b3272b3deba7f374a3b01704056599fa0e715aa908dc6f026cd0adeabe"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_1/reference.csv",
+    "sha256": "d77c22320f76e25c85ca815f177fbe079059975b894a3ac4faf0c7d42a93cd6b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_2/harmonic_viterbi.csv",
+    "sha256": "72428193ff416d26cc5d7f172e85c21e87d790eaeac871e92a969c251d1b66d9"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_2/long_raw.csv",
+    "sha256": "0a0ea2a52576440dd8e12d8b489eecd07166f9541da6aec3aff2e656ddea01c8"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_2/long_viterbi.csv",
+    "sha256": "30077ab7a34c36a40f8e75c86aca10c85b8ceffa3fc055df6908373617cbfb55"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_2/projection_raw.csv",
+    "sha256": "9a602b6f2ff936857f2dc3c1157483a91786f577e699a50b227a86f67dc5e629"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_2/projection_viterbi.csv",
+    "sha256": "72428193ff416d26cc5d7f172e85c21e87d790eaeac871e92a969c251d1b66d9"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_2/reference.csv",
+    "sha256": "a0b2668f806efdf77e41bc2ffc32571a3c103267b5e217bb8838e8e1fbaff8fe"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_3/harmonic_viterbi.csv",
+    "sha256": "da7b6ba7213b63a5f7b35d7740a483146d1b346c866fd36dfbfaea6b8797dcbe"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_3/long_raw.csv",
+    "sha256": "48e0ebd6811ce0a11e0bf0115d74ab67588ba896d0f9588a0b58868f366c6512"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_3/long_viterbi.csv",
+    "sha256": "0aa4f49d338641e67586a2150969b48dc42abaaee15f9a0a289c6f19f2bc325d"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_3/projection_raw.csv",
+    "sha256": "a0c4b1af2d347368753db4dbe0b25f380cfc46c0f3ab4f9ce30eb002155b1837"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_3/projection_viterbi.csv",
+    "sha256": "6422b399a07294e0a9c2b9306aa91cd84b827d2dc58a4781c6907d6c3ca4a917"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_3/reference.csv",
+    "sha256": "3f0ea5e616f1411c6efed237a9af9c1aa671418456e09e4df719f34d7230ccda"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_4/harmonic_viterbi.csv",
+    "sha256": "1068f0e6a3663bb00b10f5b83390cb2e02f68a59dd229fd2805b258568190a81"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_4/long_raw.csv",
+    "sha256": "e54da822f4f6319b005638c8209464d9d6f01255d10e3da31842823774df9cc4"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_4/long_viterbi.csv",
+    "sha256": "515b0f6aca16f84124a380e619c7136f7ac82ad88bd22fad7bbb227be26d51f3"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_4/projection_raw.csv",
+    "sha256": "df70390993af54b040fa9933c54816db4f111011f36864d078498070c7f66a44"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_4/projection_viterbi.csv",
+    "sha256": "fb5811fa8fb25d57c8557769931e4a26023e2fad1778768464c71f813e617b1b"
+  },
+  {
+    "path": "results/root_optimization/fast/predictions/ska_4/reference.csv",
+    "sha256": "e7a1d87e226f43073b18f3fddd1463bbc31c3bd1c199054fb6befccfbcb98c63"
+  },
+  {
+    "path": "results/root_optimization/fast/summary.csv",
+    "sha256": "bf96a252da97353d1952981c27b5d4e1743f5fe1b448c3a07cb7804df79ee669"
+  }
+]

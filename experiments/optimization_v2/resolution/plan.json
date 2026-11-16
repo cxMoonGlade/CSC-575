@@ -1,0 +1,29 @@
+{
+  "hypothesis": "A 4096-sample short window supplies more reliable chord evidence than 2048 samples and improves fusion with an 8192-sample window.",
+  "created_at_utc": "2026-11-07T18:01:26.235676+00:00",
+  "split": "Only the 119 development recordings from global progression families 1 and 2. No progression-3 input or scores.",
+  "shared_controls": {
+    "sample_rate": 22050,
+    "hop_length": 512,
+    "long_window": 8192,
+    "switch_penalty": 4.0,
+    "stable_pitch_range": "MIDI 36\u201395",
+    "tuning": "Same long-window-derived tuning as the shared cache",
+    "silence_rule": "Unchanged RMS-based N rule"
+  },
+  "candidates": [
+    "single_2048",
+    "single_4096",
+    "single_8192",
+    "fixed_2048_8192_w0.2",
+    "fixed_2048_8192_w0.5",
+    "fixed_4096_8192_w0.2",
+    "fixed_4096_8192_w0.5",
+    "margin_2048_8192",
+    "margin_4096_8192"
+  ],
+  "confidence_rule": "For each normalized chroma vector, compute the difference between the highest and second-highest major/minor template cosine scores. The short-window weight is clip(m_short/(m_short+m_long),0.2,0.8), with 0.5 when both margins are zero. No confidence calibration or temporal smoothing is fitted.",
+  "selection": "Report every candidate. Eligibility requires at least 0.005 absolute pooled duration-accuracy gain over single_8192 and nonnegative gain in both development progression families. Near-boundary accuracy is a diagnostic, not an optimization target.",
+  "cost_scope": "Selection may reuse cached chroma; candidate scores do not establish uncached inference speed. Additional 4096 extraction time will be recorded.",
+  "no_pivot": "No search expansion or parameter changes after observing scores; no test-set evaluation."
+}

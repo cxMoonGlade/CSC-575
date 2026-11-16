@@ -1,0 +1,16 @@
+{
+  "python": "3.13.13",
+  "platform": "Linux-6.17.0-1030-oem-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "librosa": "0.11.0",
+    "soundfile": "0.14.0",
+    "mir_eval": "0.8.2"
+  },
+  "source_hashes": {
+    "run_long_resolution.py": "b3f9dc873147a23d1f7b26f3790debcc4c81ed5661c1c453a6b2ee0e70d84641",
+    "results/common_snapshot.py": "4c495d47ea75bef0f19d0021c4d49fcb13478bf0433cb6bae7fcb97fdc9b041d",
+    "results/development_manifest.json": "9007fc8e6a962e8f29bb19a54ae267a73db20a4284c4f4168d79a2b6c576138a"
+  }
+}

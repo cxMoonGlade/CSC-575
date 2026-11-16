@@ -1,0 +1,59 @@
+{
+  "checks": [
+    {
+      "method": "long",
+      "decoder": "raw",
+      "intervals": 322,
+      "labels_equal": true,
+      "maximum_boundary_difference_seconds": 0.0
+    },
+    {
+      "method": "long",
+      "decoder": "viterbi",
+      "intervals": 31,
+      "labels_equal": true,
+      "maximum_boundary_difference_seconds": 0.0
+    },
+    {
+      "method": "long",
+      "decoder": "raw",
+      "maximum_category_duration_difference_seconds": 0.0
+    },
+    {
+      "method": "long",
+      "decoder": "viterbi",
+      "maximum_category_duration_difference_seconds": 0.0
+    },
+    {
+      "method": "projection",
+      "decoder": "raw",
+      "intervals": 298,
+      "labels_equal": true,
+      "maximum_boundary_difference_seconds": 0.0
+    },
+    {
+      "method": "projection",
+      "decoder": "viterbi",
+      "intervals": 37,
+      "labels_equal": true,
+      "maximum_boundary_difference_seconds": 0.0
+    },
+    {
+      "method": "projection",
+      "decoder": "raw",
+      "maximum_category_duration_difference_seconds": 0.0
+    },
+    {
+      "method": "projection",
+      "decoder": "viterbi",
+      "maximum_category_duration_difference_seconds": 0.0
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "frozen_source_hashes_verified": true,
+  "saved_grid_rms_tuning_verified": true,
+  "prediction_intervals_reproduced": true,
+  "score_formula_verified": true,
+  "saved_score_values_available": false,
+  "score_validation": "Archived artifacts contain labels and grid/RMS metadata, but not score arrays. Scores were recomputed from the verified frozen source and settings; resulting labels and intervals match the archive."
+}

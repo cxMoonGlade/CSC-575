@@ -1,0 +1,1423 @@
+{
+  "selected_at_utc": "2026-11-09T22:43:40.457950+00:00",
+  "source_url": "https://zenodo.org/records/7544110/files/IDMT-SMT-GUITAR_V2.zip?download=1",
+  "archive_bytes": 1329918978,
+  "rule": "Select every WAV in the two archive dataset1 directories ending in Chords, together with its same-stem XML annotation. Retain all recordings regardless of eventual predictions.",
+  "expected_audio_files": 88,
+  "expected_annotation_files": 88,
+  "interval_policy": "One chord label from the earliest annotated note onset to the latest annotated note offset. Do not label the leading or trailing unannotated audio.",
+  "label_policy": "Read E/A fingering, major/minor quality and semitone shift 00 through 10 from the filename, then require that the resulting triad pitch-class set equals the union of annotated MIDI pitch classes. Stop and report inconsistencies before inference.",
+  "grouping": "Pair the two instruments by the complete filename stem; each group has one recording per instrument.",
+  "inference_scope": "Isolated guitar chords from a separate recording session. This does not test transfer to new chord progressions.",
+  "algorithm_results_inspected": false,
+  "members": [
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 00.xml",
+      "size": 1948,
+      "compressed_size": 359,
+      "crc32": "8555e2df",
+      "header_offset": 387,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 01.xml",
+      "size": 1951,
+      "compressed_size": 358,
+      "crc32": "308cfb23",
+      "header_offset": 866,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 02.xml",
+      "size": 1951,
+      "compressed_size": 361,
+      "crc32": "c4ede4bf",
+      "header_offset": 1344,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 03.xml",
+      "size": 1949,
+      "compressed_size": 362,
+      "crc32": "e7ec4941",
+      "header_offset": 1825,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 04.xml",
+      "size": 1948,
+      "compressed_size": 362,
+      "crc32": "ffaa6b6e",
+      "header_offset": 2307,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 05.xml",
+      "size": 1949,
+      "compressed_size": 360,
+      "crc32": "cb6dd3d8",
+      "header_offset": 2789,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 06.xml",
+      "size": 1951,
+      "compressed_size": 365,
+      "crc32": "00ea4ecc",
+      "header_offset": 3269,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 07.xml",
+      "size": 1951,
+      "compressed_size": 364,
+      "crc32": "6ab5519a",
+      "header_offset": 3754,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 08.xml",
+      "size": 1950,
+      "compressed_size": 360,
+      "crc32": "fda59af9",
+      "header_offset": 4238,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 09.xml",
+      "size": 1952,
+      "compressed_size": 366,
+      "crc32": "3f812f92",
+      "header_offset": 4718,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/1-E1-Major 10.xml",
+      "size": 1957,
+      "compressed_size": 358,
+      "crc32": "1de6c023",
+      "header_offset": 5204,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 00.xml",
+      "size": 1951,
+      "compressed_size": 359,
+      "crc32": "1b26ca87",
+      "header_offset": 5682,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 01.xml",
+      "size": 1949,
+      "compressed_size": 353,
+      "crc32": "2c21dfd1",
+      "header_offset": 6161,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 02.xml",
+      "size": 1950,
+      "compressed_size": 354,
+      "crc32": "362b8694",
+      "header_offset": 6634,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 03.xml",
+      "size": 1946,
+      "compressed_size": 355,
+      "crc32": "27a930b7",
+      "header_offset": 7108,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 04.xml",
+      "size": 1949,
+      "compressed_size": 358,
+      "crc32": "979cfc47",
+      "header_offset": 7583,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 05.xml",
+      "size": 1950,
+      "compressed_size": 359,
+      "crc32": "620951ae",
+      "header_offset": 8061,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 06.xml",
+      "size": 1948,
+      "compressed_size": 359,
+      "crc32": "8f648788",
+      "header_offset": 8540,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 07.xml",
+      "size": 1947,
+      "compressed_size": 357,
+      "crc32": "cd534f2c",
+      "header_offset": 9019,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 08.xml",
+      "size": 1949,
+      "compressed_size": 360,
+      "crc32": "35c35a88",
+      "header_offset": 9496,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 09.xml",
+      "size": 1952,
+      "compressed_size": 358,
+      "crc32": "6aa7a3b1",
+      "header_offset": 9976,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/2-E1-Minor 10.xml",
+      "size": 1953,
+      "compressed_size": 352,
+      "crc32": "295bb6ae",
+      "header_offset": 10454,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 00.xml",
+      "size": 1676,
+      "compressed_size": 349,
+      "crc32": "4e35d5fb",
+      "header_offset": 10926,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 01.xml",
+      "size": 1673,
+      "compressed_size": 345,
+      "crc32": "4b2bfc15",
+      "header_offset": 11395,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 02.xml",
+      "size": 1674,
+      "compressed_size": 347,
+      "crc32": "aafd68e6",
+      "header_offset": 11860,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 03.xml",
+      "size": 1674,
+      "compressed_size": 351,
+      "crc32": "1f255939",
+      "header_offset": 12327,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 04.xml",
+      "size": 1675,
+      "compressed_size": 349,
+      "crc32": "7397a76d",
+      "header_offset": 12798,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 05.xml",
+      "size": 1673,
+      "compressed_size": 345,
+      "crc32": "ddafe578",
+      "header_offset": 13267,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 06.xml",
+      "size": 1674,
+      "compressed_size": 348,
+      "crc32": "5f544996",
+      "header_offset": 13732,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 07.xml",
+      "size": 1674,
+      "compressed_size": 349,
+      "crc32": "2466de78",
+      "header_offset": 14200,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 08.xml",
+      "size": 1675,
+      "compressed_size": 347,
+      "crc32": "85a22494",
+      "header_offset": 14669,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 09.xml",
+      "size": 1676,
+      "compressed_size": 347,
+      "crc32": "bbae317d",
+      "header_offset": 15136,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/3-A2-Major 10.xml",
+      "size": 1678,
+      "compressed_size": 346,
+      "crc32": "b8d70751",
+      "header_offset": 15603,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 00.xml",
+      "size": 1675,
+      "compressed_size": 350,
+      "crc32": "e322ec3a",
+      "header_offset": 16069,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 01.xml",
+      "size": 1676,
+      "compressed_size": 351,
+      "crc32": "17e180c1",
+      "header_offset": 16539,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 02.xml",
+      "size": 1677,
+      "compressed_size": 351,
+      "crc32": "f495b30f",
+      "header_offset": 17010,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 03.xml",
+      "size": 1674,
+      "compressed_size": 350,
+      "crc32": "f66ad7aa",
+      "header_offset": 17481,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 04.xml",
+      "size": 1672,
+      "compressed_size": 350,
+      "crc32": "d0bd994f",
+      "header_offset": 17951,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 05.xml",
+      "size": 1674,
+      "compressed_size": 349,
+      "crc32": "66fd7fc2",
+      "header_offset": 18421,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 06.xml",
+      "size": 1674,
+      "compressed_size": 349,
+      "crc32": "b0b10dde",
+      "header_offset": 18890,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 07.xml",
+      "size": 1676,
+      "compressed_size": 350,
+      "crc32": "6908b750",
+      "header_offset": 19359,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 08.xml",
+      "size": 1678,
+      "compressed_size": 351,
+      "crc32": "78cdfc89",
+      "header_offset": 19829,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 09.xml",
+      "size": 1679,
+      "compressed_size": 351,
+      "crc32": "13c01b4e",
+      "header_offset": 20300,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/annotation/4-A2-Minor 10.xml",
+      "size": 1681,
+      "compressed_size": 351,
+      "crc32": "2083294c",
+      "header_offset": 20771,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 00.wav",
+      "size": 220544,
+      "compressed_size": 173573,
+      "crc32": "ca9a3d09",
+      "header_offset": 21340,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 01.wav",
+      "size": 220544,
+      "compressed_size": 176012,
+      "crc32": "934b97c7",
+      "header_offset": 195028,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 02.wav",
+      "size": 220544,
+      "compressed_size": 177479,
+      "crc32": "2123afa0",
+      "header_offset": 371155,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 03.wav",
+      "size": 220544,
+      "compressed_size": 176113,
+      "crc32": "c9337080",
+      "header_offset": 548749,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 04.wav",
+      "size": 220544,
+      "compressed_size": 178207,
+      "crc32": "2d74f666",
+      "header_offset": 724977,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 05.wav",
+      "size": 220544,
+      "compressed_size": 177139,
+      "crc32": "762be239",
+      "header_offset": 903299,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 06.wav",
+      "size": 220544,
+      "compressed_size": 179154,
+      "crc32": "74598ab2",
+      "header_offset": 1080553,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 07.wav",
+      "size": 220544,
+      "compressed_size": 175331,
+      "crc32": "76004f1b",
+      "header_offset": 1259822,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 08.wav",
+      "size": 220544,
+      "compressed_size": 178321,
+      "crc32": "5190e861",
+      "header_offset": 1435268,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 09.wav",
+      "size": 220544,
+      "compressed_size": 175088,
+      "crc32": "f6d70c9f",
+      "header_offset": 1613704,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/1-E1-Major 10.wav",
+      "size": 220544,
+      "compressed_size": 175312,
+      "crc32": "76b2243a",
+      "header_offset": 1788907,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 00.wav",
+      "size": 220544,
+      "compressed_size": 175548,
+      "crc32": "cbb28033",
+      "header_offset": 1964334,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 01.wav",
+      "size": 220544,
+      "compressed_size": 174311,
+      "crc32": "714b9287",
+      "header_offset": 2139997,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 02.wav",
+      "size": 220544,
+      "compressed_size": 174187,
+      "crc32": "f958c1b1",
+      "header_offset": 2314423,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 03.wav",
+      "size": 220544,
+      "compressed_size": 175949,
+      "crc32": "de94abe3",
+      "header_offset": 2488725,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 04.wav",
+      "size": 220544,
+      "compressed_size": 176301,
+      "crc32": "449dd8df",
+      "header_offset": 2664789,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 05.wav",
+      "size": 220544,
+      "compressed_size": 173121,
+      "crc32": "9946e905",
+      "header_offset": 2841205,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 06.wav",
+      "size": 220544,
+      "compressed_size": 179558,
+      "crc32": "96e1b08c",
+      "header_offset": 3014441,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 07.wav",
+      "size": 220544,
+      "compressed_size": 180486,
+      "crc32": "84932695",
+      "header_offset": 3194114,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 08.wav",
+      "size": 220544,
+      "compressed_size": 179400,
+      "crc32": "383e5841",
+      "header_offset": 3374715,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 09.wav",
+      "size": 220544,
+      "compressed_size": 178068,
+      "crc32": "3c68028d",
+      "header_offset": 3554230,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/2-E1-Minor 10.wav",
+      "size": 220544,
+      "compressed_size": 180192,
+      "crc32": "1f7e4a80",
+      "header_offset": 3732413,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 00.wav",
+      "size": 220544,
+      "compressed_size": 167969,
+      "crc32": "652504db",
+      "header_offset": 3912720,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 01.wav",
+      "size": 220544,
+      "compressed_size": 168088,
+      "crc32": "b9038c3d",
+      "header_offset": 4080804,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 02.wav",
+      "size": 220544,
+      "compressed_size": 169884,
+      "crc32": "be27b99a",
+      "header_offset": 4249007,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 03.wav",
+      "size": 220544,
+      "compressed_size": 170583,
+      "crc32": "bd907733",
+      "header_offset": 4419006,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 04.wav",
+      "size": 220544,
+      "compressed_size": 175305,
+      "crc32": "28ffc4da",
+      "header_offset": 4589704,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 05.wav",
+      "size": 220544,
+      "compressed_size": 173084,
+      "crc32": "cf5ab8bf",
+      "header_offset": 4765124,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 06.wav",
+      "size": 220544,
+      "compressed_size": 169206,
+      "crc32": "f443a180",
+      "header_offset": 4938323,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 07.wav",
+      "size": 220544,
+      "compressed_size": 172087,
+      "crc32": "dda7e046",
+      "header_offset": 5107644,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 08.wav",
+      "size": 220544,
+      "compressed_size": 175204,
+      "crc32": "c5ef6c93",
+      "header_offset": 5279846,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 09.wav",
+      "size": 220544,
+      "compressed_size": 171386,
+      "crc32": "bca95705",
+      "header_offset": 5455165,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/3-A2-Major 10.wav",
+      "size": 220544,
+      "compressed_size": 168782,
+      "crc32": "af2839ce",
+      "header_offset": 5626666,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 00.wav",
+      "size": 220544,
+      "compressed_size": 168415,
+      "crc32": "c9c42794",
+      "header_offset": 5795563,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 01.wav",
+      "size": 220544,
+      "compressed_size": 169731,
+      "crc32": "2dee5a1f",
+      "header_offset": 5964093,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 02.wav",
+      "size": 220544,
+      "compressed_size": 174303,
+      "crc32": "854c2107",
+      "header_offset": 6133939,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 03.wav",
+      "size": 220544,
+      "compressed_size": 166094,
+      "crc32": "7116e678",
+      "header_offset": 6308357,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 04.wav",
+      "size": 220544,
+      "compressed_size": 169135,
+      "crc32": "c046afe0",
+      "header_offset": 6474566,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 05.wav",
+      "size": 220544,
+      "compressed_size": 167625,
+      "crc32": "0e5639ca",
+      "header_offset": 6643816,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 06.wav",
+      "size": 220544,
+      "compressed_size": 173109,
+      "crc32": "a8dd0a35",
+      "header_offset": 6811556,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 07.wav",
+      "size": 220544,
+      "compressed_size": 171569,
+      "crc32": "336e4683",
+      "header_offset": 6984780,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 08.wav",
+      "size": 220544,
+      "compressed_size": 174294,
+      "crc32": "da4d3bf2",
+      "header_offset": 7156464,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 09.wav",
+      "size": 220544,
+      "compressed_size": 174388,
+      "crc32": "a89eba65",
+      "header_offset": 7330873,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC Chords/audio/4-A2-Minor 10.wav",
+      "size": 220544,
+      "compressed_size": 173192,
+      "crc32": "dab0372d",
+      "header_offset": 7505376,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 00.xml",
+      "size": 1950,
+      "compressed_size": 358,
+      "crc32": "05dfd7ee",
+      "header_offset": 19808889,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 01.xml",
+      "size": 1951,
+      "compressed_size": 360,
+      "crc32": "b5d5cb6f",
+      "header_offset": 19809375,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 02.xml",
+      "size": 1949,
+      "compressed_size": 358,
+      "crc32": "b22ddd51",
+      "header_offset": 19809863,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 03.xml",
+      "size": 1951,
+      "compressed_size": 363,
+      "crc32": "69f1790d",
+      "header_offset": 19810349,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 04.xml",
+      "size": 1948,
+      "compressed_size": 359,
+      "crc32": "0db6c9d2",
+      "header_offset": 19810840,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 05.xml",
+      "size": 1948,
+      "compressed_size": 359,
+      "crc32": "45e72ece",
+      "header_offset": 19811327,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 06.xml",
+      "size": 1949,
+      "compressed_size": 365,
+      "crc32": "2c0b4673",
+      "header_offset": 19811814,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 07.xml",
+      "size": 1948,
+      "compressed_size": 362,
+      "crc32": "fb266d06",
+      "header_offset": 19812307,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 08.xml",
+      "size": 1950,
+      "compressed_size": 362,
+      "crc32": "af510366",
+      "header_offset": 19812797,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 09.xml",
+      "size": 1953,
+      "compressed_size": 362,
+      "crc32": "d97a8a4e",
+      "header_offset": 19813287,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/1-E1-Major 10.xml",
+      "size": 1954,
+      "compressed_size": 359,
+      "crc32": "fa36092a",
+      "header_offset": 19813777,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 00.xml",
+      "size": 1943,
+      "compressed_size": 353,
+      "crc32": "abf59c14",
+      "header_offset": 19814264,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 01.xml",
+      "size": 1947,
+      "compressed_size": 356,
+      "crc32": "5d9bc7e4",
+      "header_offset": 19814745,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 02.xml",
+      "size": 1947,
+      "compressed_size": 357,
+      "crc32": "8aeba003",
+      "header_offset": 19815229,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 03.xml",
+      "size": 1950,
+      "compressed_size": 358,
+      "crc32": "7770372f",
+      "header_offset": 19815714,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 04.xml",
+      "size": 1949,
+      "compressed_size": 358,
+      "crc32": "7c44ba23",
+      "header_offset": 19816200,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 05.xml",
+      "size": 1949,
+      "compressed_size": 359,
+      "crc32": "76754138",
+      "header_offset": 19816686,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 06.xml",
+      "size": 1951,
+      "compressed_size": 361,
+      "crc32": "f2815656",
+      "header_offset": 19817173,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 07.xml",
+      "size": 1949,
+      "compressed_size": 359,
+      "crc32": "bc0e72f7",
+      "header_offset": 19817662,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 08.xml",
+      "size": 1950,
+      "compressed_size": 362,
+      "crc32": "52e209d4",
+      "header_offset": 19818149,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 09.xml",
+      "size": 1953,
+      "compressed_size": 364,
+      "crc32": "04be3334",
+      "header_offset": 19818639,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/2-E1-Minor 10.xml",
+      "size": 1957,
+      "compressed_size": 363,
+      "crc32": "9a59ceb3",
+      "header_offset": 19819131,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 00.xml",
+      "size": 1678,
+      "compressed_size": 353,
+      "crc32": "f94b31e8",
+      "header_offset": 19819622,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 01.xml",
+      "size": 1678,
+      "compressed_size": 353,
+      "crc32": "8133b604",
+      "header_offset": 19820103,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 02.xml",
+      "size": 1678,
+      "compressed_size": 349,
+      "crc32": "26532d18",
+      "header_offset": 19820584,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 03.xml",
+      "size": 1676,
+      "compressed_size": 346,
+      "crc32": "eea72adc",
+      "header_offset": 19821061,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 04.xml",
+      "size": 1678,
+      "compressed_size": 352,
+      "crc32": "701d4a7e",
+      "header_offset": 19821535,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 05.xml",
+      "size": 1676,
+      "compressed_size": 348,
+      "crc32": "a4442840",
+      "header_offset": 19822015,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 06.xml",
+      "size": 1675,
+      "compressed_size": 349,
+      "crc32": "16e94a75",
+      "header_offset": 19822491,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 07.xml",
+      "size": 1677,
+      "compressed_size": 351,
+      "crc32": "034f15b6",
+      "header_offset": 19822968,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 08.xml",
+      "size": 1681,
+      "compressed_size": 352,
+      "crc32": "46c51169",
+      "header_offset": 19823447,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 09.xml",
+      "size": 1679,
+      "compressed_size": 350,
+      "crc32": "06655b53",
+      "header_offset": 19823927,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/3-A2-Major 10.xml",
+      "size": 1680,
+      "compressed_size": 345,
+      "crc32": "6fb22f71",
+      "header_offset": 19824405,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 00.xml",
+      "size": 1678,
+      "compressed_size": 355,
+      "crc32": "133dd5cd",
+      "header_offset": 19824878,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 01.xml",
+      "size": 1678,
+      "compressed_size": 355,
+      "crc32": "cf125ec9",
+      "header_offset": 19825361,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 02.xml",
+      "size": 1678,
+      "compressed_size": 352,
+      "crc32": "170542c3",
+      "header_offset": 19825844,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 03.xml",
+      "size": 1676,
+      "compressed_size": 351,
+      "crc32": "f7c19fdb",
+      "header_offset": 19826324,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 04.xml",
+      "size": 1677,
+      "compressed_size": 355,
+      "crc32": "75efc42d",
+      "header_offset": 19826803,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 05.xml",
+      "size": 1678,
+      "compressed_size": 351,
+      "crc32": "81bef168",
+      "header_offset": 19827286,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 06.xml",
+      "size": 1676,
+      "compressed_size": 351,
+      "crc32": "acc9b70b",
+      "header_offset": 19827765,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 07.xml",
+      "size": 1676,
+      "compressed_size": 348,
+      "crc32": "c13f4bf1",
+      "header_offset": 19828244,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 08.xml",
+      "size": 1677,
+      "compressed_size": 352,
+      "crc32": "9359b79c",
+      "header_offset": 19828720,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 09.xml",
+      "size": 1678,
+      "compressed_size": 354,
+      "crc32": "aee19807",
+      "header_offset": 19829200,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/annotation/4-A2-Minor 10.xml",
+      "size": 1683,
+      "compressed_size": 354,
+      "crc32": "f3850f70",
+      "header_offset": 19829682,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 00.wav",
+      "size": 220544,
+      "compressed_size": 186015,
+      "crc32": "a8a0057e",
+      "header_offset": 19830270,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 01.wav",
+      "size": 220544,
+      "compressed_size": 179494,
+      "crc32": "8e431bbe",
+      "header_offset": 20016408,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 02.wav",
+      "size": 220544,
+      "compressed_size": 185751,
+      "crc32": "d314a912",
+      "header_offset": 20196025,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 03.wav",
+      "size": 220544,
+      "compressed_size": 177325,
+      "crc32": "5c462f12",
+      "header_offset": 20381899,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 04.wav",
+      "size": 220544,
+      "compressed_size": 173330,
+      "crc32": "6a31b362",
+      "header_offset": 20559347,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 05.wav",
+      "size": 220544,
+      "compressed_size": 182428,
+      "crc32": "8f6b1534",
+      "header_offset": 20732800,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 06.wav",
+      "size": 220544,
+      "compressed_size": 180325,
+      "crc32": "2b718a98",
+      "header_offset": 20915351,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 07.wav",
+      "size": 220544,
+      "compressed_size": 174659,
+      "crc32": "9c740ed0",
+      "header_offset": 21095799,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 08.wav",
+      "size": 220544,
+      "compressed_size": 180991,
+      "crc32": "a1fbd4f0",
+      "header_offset": 21270581,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 09.wav",
+      "size": 220544,
+      "compressed_size": 173994,
+      "crc32": "599505a1",
+      "header_offset": 21451695,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/1-E1-Major 10.wav",
+      "size": 220544,
+      "compressed_size": 180535,
+      "crc32": "5a9bc4bd",
+      "header_offset": 21625812,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 00.wav",
+      "size": 220544,
+      "compressed_size": 177677,
+      "crc32": "f3ec469b",
+      "header_offset": 21806470,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 01.wav",
+      "size": 220544,
+      "compressed_size": 180895,
+      "crc32": "cb479ff7",
+      "header_offset": 21984270,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 02.wav",
+      "size": 220544,
+      "compressed_size": 178784,
+      "crc32": "b3ef6911",
+      "header_offset": 22165288,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 03.wav",
+      "size": 220544,
+      "compressed_size": 175464,
+      "crc32": "18d8ec2f",
+      "header_offset": 22344195,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 04.wav",
+      "size": 220544,
+      "compressed_size": 179126,
+      "crc32": "975d29a4",
+      "header_offset": 22519782,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 05.wav",
+      "size": 220544,
+      "compressed_size": 182921,
+      "crc32": "0fe9d027",
+      "header_offset": 22699031,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 06.wav",
+      "size": 220544,
+      "compressed_size": 183192,
+      "crc32": "44f838b1",
+      "header_offset": 22882075,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 07.wav",
+      "size": 220544,
+      "compressed_size": 177593,
+      "crc32": "3bc7124e",
+      "header_offset": 23065390,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 08.wav",
+      "size": 220544,
+      "compressed_size": 178037,
+      "crc32": "b880e1d7",
+      "header_offset": 23243106,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 09.wav",
+      "size": 220544,
+      "compressed_size": 171838,
+      "crc32": "c5159193",
+      "header_offset": 23421266,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/2-E1-Minor 10.wav",
+      "size": 220544,
+      "compressed_size": 183359,
+      "crc32": "ac0d689a",
+      "header_offset": 23593227,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 00.wav",
+      "size": 220544,
+      "compressed_size": 181243,
+      "crc32": "51aee662",
+      "header_offset": 23776709,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 01.wav",
+      "size": 220544,
+      "compressed_size": 176594,
+      "crc32": "c9fd3591",
+      "header_offset": 23958075,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 02.wav",
+      "size": 220544,
+      "compressed_size": 175303,
+      "crc32": "4044cda8",
+      "header_offset": 24134792,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 03.wav",
+      "size": 220544,
+      "compressed_size": 173919,
+      "crc32": "383a8e63",
+      "header_offset": 24310218,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 04.wav",
+      "size": 220544,
+      "compressed_size": 171027,
+      "crc32": "4870fa4b",
+      "header_offset": 24484260,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 05.wav",
+      "size": 220544,
+      "compressed_size": 175403,
+      "crc32": "6eb9e734",
+      "header_offset": 24655410,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 06.wav",
+      "size": 220544,
+      "compressed_size": 175562,
+      "crc32": "6de8fc70",
+      "header_offset": 24830936,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 07.wav",
+      "size": 220544,
+      "compressed_size": 173581,
+      "crc32": "22fdab29",
+      "header_offset": 25006621,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 08.wav",
+      "size": 220544,
+      "compressed_size": 170371,
+      "crc32": "1a7f4ebf",
+      "header_offset": 25180325,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 09.wav",
+      "size": 220544,
+      "compressed_size": 173678,
+      "crc32": "d14b82ba",
+      "header_offset": 25350819,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/3-A2-Major 10.wav",
+      "size": 220544,
+      "compressed_size": 173561,
+      "crc32": "b9a08c92",
+      "header_offset": 25524620,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 00.wav",
+      "size": 220544,
+      "compressed_size": 179262,
+      "crc32": "76247d62",
+      "header_offset": 25698304,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 01.wav",
+      "size": 220544,
+      "compressed_size": 171115,
+      "crc32": "108cb66e",
+      "header_offset": 25877689,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 02.wav",
+      "size": 220544,
+      "compressed_size": 168043,
+      "crc32": "57bd8c8f",
+      "header_offset": 26048927,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 03.wav",
+      "size": 220544,
+      "compressed_size": 171016,
+      "crc32": "1062a56f",
+      "header_offset": 26217093,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 04.wav",
+      "size": 220544,
+      "compressed_size": 177515,
+      "crc32": "5e12a355",
+      "header_offset": 26388232,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 05.wav",
+      "size": 220544,
+      "compressed_size": 170285,
+      "crc32": "899c238d",
+      "header_offset": 26565870,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 06.wav",
+      "size": 220544,
+      "compressed_size": 170392,
+      "crc32": "f011fe22",
+      "header_offset": 26736278,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 07.wav",
+      "size": 220544,
+      "compressed_size": 170253,
+      "crc32": "747b4ac6",
+      "header_offset": 26906793,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 08.wav",
+      "size": 220544,
+      "compressed_size": 170758,
+      "crc32": "3b7b6645",
+      "header_offset": 27077169,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 09.wav",
+      "size": 220544,
+      "compressed_size": 170538,
+      "crc32": "99b6519c",
+      "header_offset": 27248050,
+      "compress_type": 8
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Bridge HU Chords/audio/4-A2-Minor 10.wav",
+      "size": 220544,
+      "compressed_size": 172283,
+      "crc32": "2fbea340",
+      "header_offset": 27418711,
+      "compress_type": 8
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+{
+  "plan": {
+    "hypothesis": "Low-register evidence may distinguish chords sharing strong upper-register pitch classes.",
+    "created_before_inference": true,
+    "settings": [
+      {
+        "name": "baseline",
+        "weight": 0.0,
+        "evidence": "root"
+      },
+      {
+        "name": "root_w0.1",
+        "weight": 0.1,
+        "evidence": "root"
+      },
+      {
+        "name": "root_w0.2",
+        "weight": 0.2,
+        "evidence": "root"
+      },
+      {
+        "name": "triad_w0.1",
+        "weight": 0.1,
+        "evidence": "triad"
+      },
+      {
+        "name": "triad_w0.2",
+        "weight": 0.2,
+        "evidence": "triad"
+      }
+    ],
+    "low_midi_range": [
+      36,
+      59
+    ],
+    "n_fft": 8192,
+    "fixed": "Tuning, RMS silence threshold, frame grid and Viterbi penalty 4.",
+    "empty_low_policy": "Retain baseline scores when low-register chroma has zero norm.",
+    "primary_metric": "Duration-weighted major/minor accuracy on all 119 development recordings.",
+    "secondary_metrics": [
+      "root_accuracy",
+      "other_root_seconds",
+      "same_root_quality_seconds",
+      "chord_to_n_seconds",
+      "near_accuracy"
+    ],
+    "selection": "Maximize primary accuracy; report both development progression families and retain adverse changes.",
+    "scope": "Five settings only; no test or IDMT evaluation, no adaptive band or weight search.",
+    "timing": "Selection uses cached baseline features and reports no full-pipeline speedup."
+  },
+  "recordings": 119,
+  "candidate_summaries": [
+    {
+      "name": "baseline",
+      "recordings": 119,
+      "correct_seconds": 1577.840597253532,
+      "scoreable_seconds": 2192.4989483060635,
+      "accuracy": 0.7196539813497197,
+      "near_accuracy": 0.5256025200341558,
+      "near_correct_seconds": 86.19881328560136,
+      "near_scoreable_seconds": 163.99999999999966,
+      "families": {
+        "1": {
+          "recordings": 59,
+          "correct_seconds": 837.7893880835111,
+          "scoreable_seconds": 1055.1755588667654,
+          "accuracy": 0.7939810404472198,
+          "near_accuracy": 0.5673289617275036,
+          "near_correct_seconds": 32.67814819550412,
+          "near_scoreable_seconds": 57.59999999999985,
+          "root_correct_seconds": 865.7907557884878,
+          "chord_reference_seconds": 1055.1755588667654,
+          "other_root_seconds": 180.19795500571524,
+          "same_root_quality_seconds": 28.001367704976726,
+          "chord_to_n_seconds": 9.186848072562373,
+          "root_accuracy": 0.8205182052532826
+        },
+        "2": {
+          "recordings": 60,
+          "correct_seconds": 740.051209170021,
+          "scoreable_seconds": 1137.3233894392981,
+          "accuracy": 0.650695497904837,
+          "near_accuracy": 0.503013769643772,
+          "near_correct_seconds": 53.520665090097246,
+          "near_scoreable_seconds": 106.3999999999998,
+          "root_correct_seconds": 767.0960184251135,
+          "chord_reference_seconds": 1137.3233894392981,
+          "other_root_seconds": 366.8833360668725,
+          "same_root_quality_seconds": 27.044809255092453,
+          "chord_to_n_seconds": 3.3440349473122475,
+          "root_accuracy": 0.6744748464227864
+        }
+      },
+      "performers": {
+        "00": {
+          "recordings": 20,
+          "correct_seconds": 310.1882393794387,
+          "scoreable_seconds": 443.6558230209082,
+          "accuracy": 0.6991641341870102,
+          "near_accuracy": 0.5217811432776224,
+          "near_correct_seconds": 17.323133956817035,
+          "near_scoreable_seconds": 33.199999999999946
+        },
+        "01": {
+          "recordings": 20,
+          "correct_seconds": 399.8977492618671,
+          "scoreable_seconds": 506.0714403461129,
+          "accuracy": 0.7902001918708722,
+          "near_accuracy": 0.5332804869289328,
+          "near_correct_seconds": 26.664024346446578,
+          "near_scoreable_seconds": 49.999999999999886
+        },
+        "02": {
+          "recordings": 20,
+          "correct_seconds": 199.26274628236885,
+          "scoreable_seconds": 237.01363500884142,
+          "accuracy": 0.8407227131676862,
+          "near_accuracy": 0.5842248844308736,
+          "near_correct_seconds": 7.478078520715169,
+          "near_scoreable_seconds": 12.799999999999976
+        },
+        "03": {
+          "recordings": 20,
+          "correct_seconds": 249.32012641666628,
+          "scoreable_seconds": 369.5982882313596,
+          "accuracy": 0.674570565815494,
+          "near_accuracy": 0.48066399060743353,
+          "near_correct_seconds": 13.266326140765141,
+          "near_scoreable_seconds": 27.599999999999948
+        },
+        "04": {
+          "recordings": 19,
+          "correct_seconds": 189.5815006208514,
+          "scoreable_seconds": 299.61265680299726,
+          "accuracy": 0.6327553136231688,
+          "near_accuracy": 0.4987801584403645,
+          "near_correct_seconds": 8.778530788550393,
+          "near_scoreable_seconds": 17.599999999999955
+        },
+        "05": {
+          "recordings": 20,
+          "correct_seconds": 229.59023529233974,
+          "scoreable_seconds": 336.54710489584426,
+          "accuracy": 0.6821934640126948,
+          "near_accuracy": 0.5565227865046964,
+          "near_correct_seconds": 12.688719532307049,
+          "near_scoreable_seconds": 22.799999999999947
+        }
+      },
+      "cached_prediction_seconds": 0.006078658625483513,
+      "root_correct_seconds": 1632.8867742136013,
+      "chord_reference_seconds": 2192.4989483060635,
+      "other_root_seconds": 547.0812910725878,
+      "same_root_quality_seconds": 55.046176960069175,
+      "chord_to_n_seconds": 12.53088301987462,
+      "root_accuracy": 0.7447605735342214,
+      "delta_accuracy_pp": 0.0,
+      "delta_root_accuracy_pp": 0.0,
+      "family_delta_pp": {
+        "1": 0.0,
+        "2": 0.0
+      }
+    },
+    {
+      "name": "root_w0.1",
+      "recordings": 119,
+      "correct_seconds": 1559.3457414221086,
+      "scoreable_seconds": 2192.4989483060635,
+      "accuracy": 0.7112184672320447,
+      "near_accuracy": 0.49792653052709784,
+      "near_correct_seconds": 81.65995100644388,
+      "near_scoreable_seconds": 163.99999999999966,
+      "families": {
+        "1": {
+          "recordings": 59,
+          "correct_seconds": 819.2751167753585,
+          "scoreable_seconds": 1055.1755588667654,
+          "accuracy": 0.7764348879112034,
+          "near_accuracy": 0.524758345995192,
+          "near_correct_seconds": 30.22608072932298,
+          "near_scoreable_seconds": 57.59999999999985,
+          "root_correct_seconds": 861.1660655759313,
+          "chord_reference_seconds": 1055.1755588667654,
+          "other_root_seconds": 184.82264521827176,
+          "same_root_quality_seconds": 41.89094880057286,
+          "chord_to_n_seconds": 9.186848072562373,
+          "root_accuracy": 0.8161353419717228
+        },
+        "2": {
+          "recordings": 60,
+          "correct_seconds": 740.0706246467502,
+          "scoreable_seconds": 1137.3233894392981,
+          "accuracy": 0.6507125691063171,
+          "near_accuracy": 0.483401036439107,
+          "near_correct_seconds": 51.43387027712089,
+          "near_scoreable_seconds": 106.3999999999998,
+          "root_correct_seconds": 771.3331255117963,
+          "chord_reference_seconds": 1137.3233894392981,
+          "other_root_seconds": 362.6462289801896,
+          "same_root_quality_seconds": 31.262500865046125,
+          "chord_to_n_seconds": 3.3440349473122475,
+          "root_accuracy": 0.6782003541596595
+        }
+      },
+      "performers": {
+        "00": {
+          "recordings": 20,
+          "correct_seconds": 309.4746611069597,
+          "scoreable_seconds": 443.6558230209082,
+          "accuracy": 0.6975557291228769,
+          "near_accuracy": 0.4873901066301743,
+          "near_correct_seconds": 16.18135154012176,
+          "near_scoreable_seconds": 33.199999999999946
+        },
+        "01": {
+          "recordings": 20,
+          "correct_seconds": 378.26542227744056,
+          "scoreable_seconds": 506.0714403461129,
+          "accuracy": 0.7474545926139141,
+          "near_accuracy": 0.5006205911723662,
+          "near_correct_seconds": 25.031029558618258,
+          "near_scoreable_seconds": 49.999999999999886
+        },
+        "02": {
+          "recordings": 20,
+          "correct_seconds": 203.15629477605188,
+          "scoreable_seconds": 237.01363500884142,
+          "accuracy": 0.8571502427211559,
+          "near_accuracy": 0.6027092274687884,
+          "near_correct_seconds": 7.714678111600477,
+          "near_scoreable_seconds": 12.799999999999976
+        },
+        "03": {
+          "recordings": 20,
+          "correct_seconds": 248.6125466046759,
+          "scoreable_seconds": 369.5982882313596,
+          "accuracy": 0.6726561094056,
+          "near_accuracy": 0.44975830605684297,
+          "near_correct_seconds": 12.413329247168843,
+          "near_scoreable_seconds": 27.599999999999948
+        },
+        "04": {
+          "recordings": 19,
+          "correct_seconds": 190.26193946702568,
+          "scoreable_seconds": 299.61265680299726,
+          "accuracy": 0.6350263753781524,
+          "near_accuracy": 0.49875357891863226,
+          "near_correct_seconds": 8.778062988967905,
+          "near_scoreable_seconds": 17.599999999999955
+        },
+        "05": {
+          "recordings": 20,
+          "correct_seconds": 229.5748771899549,
+          "scoreable_seconds": 336.54710489584426,
+          "accuracy": 0.6821478296804975,
+          "near_accuracy": 0.5062061210511692,
+          "near_correct_seconds": 11.541499559966631,
+          "near_scoreable_seconds": 22.799999999999947
+        }
+      },
+      "cached_prediction_seconds": 0.005985885858535767,
+      "root_correct_seconds": 1632.4991910877277,
+      "chord_reference_seconds": 2192.4989483060635,
+      "other_root_seconds": 547.4688741984613,
+      "same_root_quality_seconds": 73.15344966561898,
+      "chord_to_n_seconds": 12.53088301987462,
+      "root_accuracy": 0.744583796653132,
+      "delta_accuracy_pp": -0.8435514117674958,
+      "delta_root_accuracy_pp": -0.017677688108941325,
+      "family_delta_pp": {
+        "1": -1.7546152536016435,
+        "2": 0.0017071201480090004
+      }
+    },
+    {
+      "name": "root_w0.2",
+      "recordings": 119,
+      "correct_seconds": 1459.6324786260463,
+      "scoreable_seconds": 2192.4989483060635,
+      "accuracy": 0.6657391921459147,
+      "near_accuracy": 0.4607128812219784,
+      "near_correct_seconds": 75.5569125204043,
+      "near_scoreable_seconds": 163.99999999999966,
+      "families": {
+        "1": {
+          "recordings": 59,
+          "correct_seconds": 772.528946047707,
+          "scoreable_seconds": 1055.1755588667654,
+          "accuracy": 0.732133093451658,
+          "near_accuracy": 0.496443313267853,
+          "near_correct_seconds": 28.59513484422826,
+          "near_scoreable_seconds": 57.59999999999985,
+          "root_correct_seconds": 803.4832962088241,
+          "chord_reference_seconds": 1055.1755588667654,
+          "other_root_seconds": 242.50541458537893,
+          "same_root_quality_seconds": 30.954350161117087,
+          "chord_to_n_seconds": 9.186848072562373,
+          "root_accuracy": 0.7614688280609407
+        },
+        "2": {
+          "recordings": 60,
+          "correct_seconds": 687.1035325783394,
+          "scoreable_seconds": 1137.3233894392981,
+          "accuracy": 0.6041408617447692,
+          "near_accuracy": 0.4413700909415049,
+          "near_correct_seconds": 46.96177767617604,
+          "near_scoreable_seconds": 106.3999999999998,
+          "root_correct_seconds": 713.1802408573963,
+          "chord_reference_seconds": 1137.3233894392981,
+          "other_root_seconds": 420.79911363458973,
+          "same_root_quality_seconds": 26.076708279056888,
+          "chord_to_n_seconds": 3.3440349473122475,
+          "root_accuracy": 0.6270690003210037
+        }
+      },
+      "performers": {
+        "00": {
+          "recordings": 20,
+          "correct_seconds": 282.65540105853603,
+          "scoreable_seconds": 443.6558230209082,
+          "accuracy": 0.6371051305805026,
+          "near_accuracy": 0.46865315335066426,
+          "near_correct_seconds": 15.559284691242029,
+          "near_scoreable_seconds": 33.199999999999946
+        },
+        "01": {
+          "recordings": 20,
+          "correct_seconds": 348.7038614336097,
+          "scoreable_seconds": 506.0714403461129,
+          "accuracy": 0.689040782849006,
+          "near_accuracy": 0.4384901309166272,
+          "near_correct_seconds": 21.92450654583131,
+          "near_scoreable_seconds": 49.999999999999886
+        },
+        "02": {
+          "recordings": 20,
+          "correct_seconds": 205.1894828765401,
+          "scoreable_seconds": 237.01363500884142,
+          "accuracy": 0.8657286019383899,
+          "near_accuracy": 0.5951441827314312,
+          "near_correct_seconds": 7.617845538962305,
+          "near_scoreable_seconds": 12.799999999999976
+        },
+        "03": {
+          "recordings": 20,
+          "correct_seconds": 221.9921988561005,
+          "scoreable_seconds": 369.5982882313596,
+          "accuracy": 0.6006310254260125,
+          "near_accuracy": 0.4065209064339469,
+          "near_correct_seconds": 11.219977017576912,
+          "near_scoreable_seconds": 27.599999999999948
+        },
+        "04": {
+          "recordings": 19,
+          "correct_seconds": 186.360116016143,
+          "scoreable_seconds": 299.61265680299726,
+          "accuracy": 0.6220034827790315,
+          "near_accuracy": 0.4785631130221119,
+          "near_correct_seconds": 8.422710789189148,
+          "near_scoreable_seconds": 17.599999999999955
+        },
+        "05": {
+          "recordings": 20,
+          "correct_seconds": 214.73141838511705,
+          "scoreable_seconds": 336.54710489584426,
+          "accuracy": 0.6380426848466662,
+          "near_accuracy": 0.4742363130527465,
+          "near_correct_seconds": 10.812587937602595,
+          "near_scoreable_seconds": 22.799999999999947
+        }
+      },
+      "cached_prediction_seconds": 0.006045945920050144,
+      "root_correct_seconds": 1516.6635370662202,
+      "chord_reference_seconds": 2192.4989483060635,
+      "other_root_seconds": 663.3045282199687,
+      "same_root_quality_seconds": 57.03105844017397,
+      "chord_to_n_seconds": 12.53088301987462,
+      "root_accuracy": 0.6917510898867261,
+      "delta_accuracy_pp": -5.391478920380499,
+      "delta_root_accuracy_pp": -5.3009483647495355,
+      "family_delta_pp": {
+        "1": -6.184794699556184,
+        "2": -4.655463616006783
+      }
+    },
+    {
+      "name": "triad_w0.1",
+      "recordings": 119,
+      "correct_seconds": 1576.8533674630564,
+      "scoreable_seconds": 2192.4989483060635,
+      "accuracy": 0.7192037052885895,
+      "near_accuracy": 0.5343565735331264,
+      "near_correct_seconds": 87.63447805943255,
+      "near_scoreable_seconds": 163.99999999999966,
+      "families": {
+        "1": {
+          "recordings": 59,
+          "correct_seconds": 837.977131610489,
+          "scoreable_seconds": 1055.1755588667654,
+          "accuracy": 0.7941589667888606,
+          "near_accuracy": 0.5863781554790781,
+          "near_correct_seconds": 33.775381755594815,
+          "near_scoreable_seconds": 57.59999999999985,
+          "root_correct_seconds": 868.90421360118,
+          "chord_reference_seconds": 1055.1755588667654,
+          "other_root_seconds": 177.084497193023,
+          "same_root_quality_seconds": 30.927081990691015,
+          "chord_to_n_seconds": 9.186848072562373,
+          "root_accuracy": 0.8234688590914325
+        },
+        "2": {
+          "recordings": 60,
+          "correct_seconds": 738.8762358525674,
+          "scoreable_seconds": 1137.3233894392981,
+          "accuracy": 0.6496623939272316,
+          "near_accuracy": 0.5061945141338142,
+          "near_correct_seconds": 53.85909630383774,
+          "near_scoreable_seconds": 106.3999999999998,
+          "root_correct_seconds": 770.7946313291736,
+          "chord_reference_seconds": 1137.3233894392981,
+          "other_root_seconds": 363.18472316281225,
+          "same_root_quality_seconds": 31.91839547660623,
+          "chord_to_n_seconds": 3.3440349473122475,
+          "root_accuracy": 0.6777268791677417
+        }
+      },
+      "performers": {
+        "00": {
+          "recordings": 20,
+          "correct_seconds": 317.5035798575883,
+          "scoreable_seconds": 443.6558230209082,
+          "accuracy": 0.7156529079133157,
+          "near_accuracy": 0.5473672158703137,
+          "near_correct_seconds": 18.172591566894383,
+          "near_scoreable_seconds": 33.199999999999946
+        },
+        "01": {
+          "recordings": 20,
+          "correct_seconds": 393.659597893251,
+          "scoreable_seconds": 506.0714403461129,
+          "accuracy": 0.7778735698343674,
+          "near_accuracy": 0.5220562545758016,
+          "near_correct_seconds": 26.102812728790024,
+          "near_scoreable_seconds": 49.999999999999886
+        },
+        "02": {
+          "recordings": 20,
+          "correct_seconds": 199.44850591955705,
+          "scoreable_seconds": 237.01363500884142,
+          "accuracy": 0.841506464014684,
+          "near_accuracy": 0.5876049864716901,
+          "near_correct_seconds": 7.52134382683762,
+          "near_scoreable_seconds": 12.799999999999976
+        },
+        "03": {
+          "recordings": 20,
+          "correct_seconds": 246.87603171291704,
+          "scoreable_seconds": 369.5982882313596,
+          "accuracy": 0.6679577248430831,
+          "near_accuracy": 0.4943975078528799,
+          "near_correct_seconds": 13.64537121673946,
+          "near_scoreable_seconds": 27.599999999999948
+        },
+        "04": {
+          "recordings": 19,
+          "correct_seconds": 189.55828066620288,
+          "scoreable_seconds": 299.61265680299726,
+          "accuracy": 0.6326778137107943,
+          "near_accuracy": 0.5000994740453946,
+          "near_correct_seconds": 8.801750743198921,
+          "near_scoreable_seconds": 17.599999999999955
+        },
+        "05": {
+          "recordings": 20,
+          "correct_seconds": 229.80737141354024,
+          "scoreable_seconds": 336.54710489584426,
+          "accuracy": 0.6828386519166814,
+          "near_accuracy": 0.5873073674110605,
+          "near_correct_seconds": 13.390607976972149,
+          "near_scoreable_seconds": 22.799999999999947
+        }
+      },
+      "cached_prediction_seconds": 0.006018764339387417,
+      "root_correct_seconds": 1639.6988449303537,
+      "chord_reference_seconds": 2192.4989483060635,
+      "other_root_seconds": 540.2692203558353,
+      "same_root_quality_seconds": 62.84547746729724,
+      "chord_to_n_seconds": 12.53088301987462,
+      "root_accuracy": 0.7478675628087273,
+      "delta_accuracy_pp": -0.04502760611302392,
+      "delta_root_accuracy_pp": 0.31069892745059224,
+      "family_delta_pp": {
+        "1": 0.017792634164071064,
+        "2": -0.10331039776054762
+      }
+    },
+    {
+      "name": "triad_w0.2",
+      "recordings": 119,
+      "correct_seconds": 1564.3107116156507,
+      "scoreable_seconds": 2192.4989483060635,
+      "accuracy": 0.7134829929219558,
+      "near_accuracy": 0.5236923986848466,
+      "near_correct_seconds": 85.88555338431466,
+      "near_scoreable_seconds": 163.99999999999966,
+      "families": {
+        "1": {
+          "recordings": 59,
+          "correct_seconds": 839.5403383410047,
+          "scoreable_seconds": 1055.1755588667654,
+          "accuracy": 0.7956404328040464,
+          "near_accuracy": 0.584140816662282,
+          "near_correct_seconds": 33.64651103974736,
+          "near_scoreable_seconds": 57.59999999999985,
+          "root_correct_seconds": 870.7460597874781,
+          "chord_reference_seconds": 1055.1755588667654,
+          "other_root_seconds": 175.242651006725,
+          "same_root_quality_seconds": 31.205721446473326,
+          "chord_to_n_seconds": 9.186848072562373,
+          "root_accuracy": 0.8252143943920001
+        },
+        "2": {
+          "recordings": 60,
+          "correct_seconds": 724.7703732746459,
+          "scoreable_seconds": 1137.3233894392981,
+          "accuracy": 0.637259709951062,
+          "near_accuracy": 0.4909684430880395,
+          "near_correct_seconds": 52.23904234456731,
+          "near_scoreable_seconds": 106.3999999999998,
+          "root_correct_seconds": 769.6940066777378,
+          "chord_reference_seconds": 1137.3233894392981,
+          "other_root_seconds": 364.2853478142482,
+          "same_root_quality_seconds": 44.92363340309184,
+          "chord_to_n_seconds": 3.3440349473122475,
+          "root_accuracy": 0.6767591468044968
+        }
+      },
+      "performers": {
+        "00": {
+          "recordings": 20,
+          "correct_seconds": 314.043999077714,
+          "scoreable_seconds": 443.6558230209082,
+          "accuracy": 0.7078550145907,
+          "near_accuracy": 0.51470372364249,
+          "near_correct_seconds": 17.08816362493064,
+          "near_scoreable_seconds": 33.199999999999946
+        },
+        "01": {
+          "recordings": 20,
+          "correct_seconds": 384.65047183709174,
+          "scoreable_seconds": 506.0714403461129,
+          "accuracy": 0.7600714862984981,
+          "near_accuracy": 0.5159877423224155,
+          "near_correct_seconds": 25.79938711612072,
+          "near_scoreable_seconds": 49.999999999999886
+        },
+        "02": {
+          "recordings": 20,
+          "correct_seconds": 197.6721793889448,
+          "scoreable_seconds": 237.01363500884142,
+          "accuracy": 0.8340118465402675,
+          "near_accuracy": 0.5894190454286061,
+          "near_correct_seconds": 7.544563781486144,
+          "near_scoreable_seconds": 12.799999999999976
+        },
+        "03": {
+          "recordings": 20,
+          "correct_seconds": 247.8457550385379,
+          "scoreable_seconds": 369.5982882313596,
+          "accuracy": 0.6705814472912073,
+          "near_accuracy": 0.4846999968765964,
+          "near_correct_seconds": 13.377719913794035,
+          "near_scoreable_seconds": 27.599999999999948
+        },
+        "04": {
+          "recordings": 19,
+          "correct_seconds": 187.87605957637524,
+          "scoreable_seconds": 299.61265680299726,
+          "accuracy": 0.6270631607526127,
+          "near_accuracy": 0.5013881078921679,
+          "near_correct_seconds": 8.824430698902132,
+          "near_scoreable_seconds": 17.599999999999955
+        },
+        "05": {
+          "recordings": 20,
+          "correct_seconds": 232.22224669698696,
+          "scoreable_seconds": 336.54710489584426,
+          "accuracy": 0.69001409704254,
+          "near_accuracy": 0.5811968530298696,
+          "near_correct_seconds": 13.251288249080996,
+          "near_scoreable_seconds": 22.799999999999947
+        }
+      },
+      "cached_prediction_seconds": 0.006166917271912098,
+      "root_correct_seconds": 1640.4400664652158,
+      "chord_reference_seconds": 2192.4989483060635,
+      "other_root_seconds": 539.5279988209732,
+      "same_root_quality_seconds": 76.12935484956516,
+      "chord_to_n_seconds": 12.53088301987462,
+      "root_accuracy": 0.748205634366497,
+      "delta_accuracy_pp": -0.6170988427763868,
+      "delta_root_accuracy_pp": 0.34450608322755816,
+      "family_delta_pp": {
+        "1": 0.165939235682655,
+        "2": -1.3435787953775091
+      }
+    }
+  ],
+  "baseline_chroma_max_absolute_difference": 0.0,
+  "baseline_decoder_exact_equal_recordings": 119,
+  "extraction_and_parity_check_seconds": 7.582246579229832,
+  "best_by_duration_accuracy": "baseline",
+  "test_or_idmt_accessed": false
+}

@@ -1,0 +1,47 @@
+{
+  "review_date": "2026-11-13",
+  "papers": [
+    {
+      "url": "https://webspace.eecs.qmul.ac.uk/s.e.dixon/pub/2010/Mauch-Dixon-ISMIR-2010.pdf",
+      "version": "ISMIR 2010 author copy",
+      "local_pdf": "docs/research/papers/Mauch_Dixon_2010_NNLS_Chroma.pdf",
+      "sha256": "79c51e8896d367f151f6b98ce66b71912e584ae4afb62879dd6ffe3818eb09c4",
+      "read_scope": "See the corresponding numbered entry in literature_audit.md."
+    },
+    {
+      "url": "https://www.cp.jku.at/research/papers/Korzeniowski_ISMIR_2016.pdf",
+      "version": "ISMIR 2016 author copy",
+      "local_pdf": "docs/research/papers/Korzeniowski_Widmer_2016_Deep_Chroma.pdf",
+      "sha256": "c666eba31136ae2bf524a52b099297d29349a8a7f54b2b32824d5b8baabf06a3",
+      "read_scope": "See the corresponding numbered entry in literature_audit.md."
+    },
+    {
+      "url": "https://new.eurasip.org/Proceedings/Eusipco/Eusipco2018/papers/1570432212.pdf",
+      "version": "EUSIPCO 2018 proceedings",
+      "local_pdf": "docs/research/papers/Korzeniowski_Widmer_2018_Higher_Order_EUSIPCO.pdf",
+      "sha256": "21798dadac825207abbe8f2d504063ab741e7b4ca22a45f933329e9c8ae8ea29",
+      "read_scope": "See the corresponding numbered entry in literature_audit.md."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2509.01588v1",
+      "version": "arXiv 2509.01588 v1",
+      "local_pdf": "docs/research/papers/Poltronieri_et_al_2025_Discord_Harmony_arxiv_v1.pdf",
+      "sha256": "09849cf9f41677ed85708156d4b0d86c5a3cb3e7658091a202c2df776af42195",
+      "read_scope": "See the corresponding numbered entry in literature_audit.md."
+    },
+    {
+      "url": "https://doi.org/10.1109/TASLPRO.2025.3646468",
+      "version": "Local accepted author copy; arXiv metadata separately checked",
+      "local_pdf": "docs/research/papers/Akram_et_al_ChordFormer_IEEE_Accepted_2025_3646468.pdf",
+      "sha256": "1678f0c0951753ef6cab5d0820b18fa4eca139d6ced531ad023ebf5e33e66adb",
+      "read_scope": "See the corresponding numbered entry in literature_audit.md."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2602.19778v5",
+      "version": "arXiv 2602.19778 v5",
+      "local_pdf": "docs/research/papers/Phan_et_al_2026_Pseudo_Labeling_Distillation_arxiv_v5.pdf",
+      "sha256": "cdc88dc223e0e1f662781fbb88e698d6fbc3c5b9f2b9aa20dcbf25bc5c5f078e",
+      "read_scope": "See the corresponding numbered entry in literature_audit.md."
+    }
+  ]
+}

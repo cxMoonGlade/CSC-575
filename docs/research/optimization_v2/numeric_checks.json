@@ -1,0 +1,35 @@
+[
+  {
+    "direction": "window",
+    "configuration": "fixed_4096_8192_w0.2",
+    "accuracy_percent": 72.224,
+    "delta_points": 0.258,
+    "near_percent": 52.759,
+    "family_delta_points": {
+      "1": 0.31687377467524147,
+      "2": 0.20423341793720518
+    }
+  },
+  {
+    "direction": "whitening",
+    "configuration": "long_strength_0.5",
+    "accuracy_percent": 71.549,
+    "delta_points": -0.416,
+    "near_percent": 52.003,
+    "family_delta_points": {
+      "1": -0.7104147577556619,
+      "2": -0.14379431133922926
+    }
+  },
+  {
+    "direction": "boundary",
+    "configuration": "boundary_r0.2_w0.5",
+    "accuracy_percent": 72.003,
+    "delta_points": 0.038,
+    "near_percent": 52.864,
+    "family_delta_points": {
+      "1": 0.03168240011870438,
+      "2": 0.04311695620672351
+    }
+  }
+]

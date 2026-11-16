@@ -1,0 +1,18 @@
+{
+  "FinalResults_exact": true,
+  "reference_entries": 16,
+  "figure1_exact_final": true,
+  "figure2_unchanged": true,
+  "pdf_pages": 4,
+  "overfull_boxes": false,
+  "unresolved_references": false,
+  "sha256": {
+    "progress_report.tex": "83544539201a439be3b3f10107a557e3d0ba01e0aa6748b0d324af3e03be1398",
+    "results.tex": "2afc4d5923ee194860634e339d269a9c7b94576fbcaf9e43c6c0e7d844a5a2a6",
+    "progress_report.pdf": "72e3cd1293bdf032ca2a3df839b168418bfbde084a1a933ab0ffdf7eb6a99b25"
+  },
+  "source_token_counts": {
+    "prior": 1905,
+    "draft": 1941
+  }
+}

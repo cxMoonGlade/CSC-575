@@ -1,0 +1,50 @@
+{
+  "created_at_utc": "2026-11-07T18:08:13.323889+00:00",
+  "hypothesis": "A 16384-sample window improves chord evidence through finer frequency resolution; fixed fusion with a shorter window can recover accuracy near changes.",
+  "motivation": "The preceding development experiment improved matched comparisons by replacing a 2048-sample short window with 4096 samples, but its best gain of 0.258444 percentage points missed the 0.5-point gate. This is the one authorized resolution follow-up.",
+  "split": "All 119 development recordings in progression families 1 and 2; no progression-3 inputs or scores.",
+  "settings": [
+    {
+      "name": "single_8192",
+      "first_window": 8192,
+      "second_window": null,
+      "first_window_weight": null
+    },
+    {
+      "name": "single_16384",
+      "first_window": 16384,
+      "second_window": null,
+      "first_window_weight": null
+    },
+    {
+      "name": "fixed_4096_16384_w0.2",
+      "first_window": 4096,
+      "second_window": 16384,
+      "first_window_weight": 0.2
+    },
+    {
+      "name": "fixed_4096_16384_w0.5",
+      "first_window": 4096,
+      "second_window": 16384,
+      "first_window_weight": 0.5
+    },
+    {
+      "name": "fixed_8192_16384_w0.2",
+      "first_window": 8192,
+      "second_window": 16384,
+      "first_window_weight": 0.2
+    }
+  ],
+  "shared_controls": {
+    "sample_rate": 22050,
+    "hop_length": 512,
+    "tuning": "Reuse the cached 8192-derived tuning through explicit config tuning.",
+    "pitch_range": "MIDI 36-95",
+    "rms": "Unchanged 2048-sample RMS and -45 dB rule.",
+    "switch_penalty": 4.0
+  },
+  "gate": "At least 0.5 percentage points above single_8192 in pooled duration accuracy, with nonnegative change in each development family.",
+  "diagnostics": "Report all settings, near-change accuracy, both families, and feature extraction time. Near-change accuracy is diagnostic rather than the selection target.",
+  "stop": "No additional settings or tuning after the results. A successful candidate requires new independent material for validation; the original test set is not used in this round.",
+  "code_sha256": "b3f9dc873147a23d1f7b26f3790debcc4c81ed5661c1c453a6b2ee0e70d84641"
+}

@@ -1,0 +1,782 @@
+[
+  {
+    "raw": "A",
+    "converted": "A:maj",
+    "occurrences": 28
+  },
+  {
+    "raw": "A/Db",
+    "converted": "A:maj",
+    "occurrences": 8
+  },
+  {
+    "raw": "A/E",
+    "converted": "A:maj",
+    "occurrences": 8
+  },
+  {
+    "raw": "A13/E",
+    "converted": "A:13",
+    "occurrences": 2
+  },
+  {
+    "raw": "A13/Gb",
+    "converted": "A:13",
+    "occurrences": 8
+  },
+  {
+    "raw": "A5",
+    "converted": "A:5",
+    "occurrences": 2
+  },
+  {
+    "raw": "A7",
+    "converted": "A:7",
+    "occurrences": 9
+  },
+  {
+    "raw": "Ab",
+    "converted": "Ab:maj",
+    "occurrences": 30
+  },
+  {
+    "raw": "Ab13",
+    "converted": "Ab:13",
+    "occurrences": 16
+  },
+  {
+    "raw": "Ab5",
+    "converted": "Ab:5",
+    "occurrences": 4
+  },
+  {
+    "raw": "Ab7",
+    "converted": "Ab:7",
+    "occurrences": 2
+  },
+  {
+    "raw": "Ab7/Gb",
+    "converted": "Ab:7",
+    "occurrences": 2
+  },
+  {
+    "raw": "Ab713",
+    "converted": "X",
+    "occurrences": 4
+  },
+  {
+    "raw": "Abmin",
+    "converted": "Ab:min",
+    "occurrences": 16
+  },
+  {
+    "raw": "Abmin13",
+    "converted": "Ab:min13",
+    "occurrences": 2
+  },
+  {
+    "raw": "Abmin7",
+    "converted": "Ab:min7",
+    "occurrences": 6
+  },
+  {
+    "raw": "Absus4",
+    "converted": "Ab:sus4",
+    "occurrences": 2
+  },
+  {
+    "raw": "Amaj7/E",
+    "converted": "A:maj7",
+    "occurrences": 2
+  },
+  {
+    "raw": "Amin",
+    "converted": "A:min",
+    "occurrences": 14
+  },
+  {
+    "raw": "Amin/C",
+    "converted": "A:min",
+    "occurrences": 2
+  },
+  {
+    "raw": "Amin7/G",
+    "converted": "A:min7",
+    "occurrences": 4
+  },
+  {
+    "raw": "Amin75b",
+    "converted": "X",
+    "occurrences": 2
+  },
+  {
+    "raw": "B",
+    "converted": "B:maj",
+    "occurrences": 26
+  },
+  {
+    "raw": "B/E",
+    "converted": "B:maj",
+    "occurrences": 2
+  },
+  {
+    "raw": "B/Eb",
+    "converted": "B:maj",
+    "occurrences": 3
+  },
+  {
+    "raw": "B/Gb",
+    "converted": "B:maj",
+    "occurrences": 10
+  },
+  {
+    "raw": "B13/Ab",
+    "converted": "B:13",
+    "occurrences": 2
+  },
+  {
+    "raw": "B5",
+    "converted": "B:5",
+    "occurrences": 2
+  },
+  {
+    "raw": "B7",
+    "converted": "B:7",
+    "occurrences": 4
+  },
+  {
+    "raw": "B7/A",
+    "converted": "B:7",
+    "occurrences": 2
+  },
+  {
+    "raw": "B7/E",
+    "converted": "B:7",
+    "occurrences": 4
+  },
+  {
+    "raw": "B7/Eb",
+    "converted": "B:7",
+    "occurrences": 1
+  },
+  {
+    "raw": "B75b",
+    "converted": "X",
+    "occurrences": 2
+  },
+  {
+    "raw": "B79b/Eb",
+    "converted": "X",
+    "occurrences": 2
+  },
+  {
+    "raw": "Bb",
+    "converted": "Bb:maj",
+    "occurrences": 36
+  },
+  {
+    "raw": "Bb13",
+    "converted": "Bb:13",
+    "occurrences": 8
+  },
+  {
+    "raw": "Bb13/F",
+    "converted": "Bb:13",
+    "occurrences": 4
+  },
+  {
+    "raw": "Bb5",
+    "converted": "Bb:5",
+    "occurrences": 6
+  },
+  {
+    "raw": "Bb7",
+    "converted": "Bb:7",
+    "occurrences": 6
+  },
+  {
+    "raw": "Bb713b",
+    "converted": "X",
+    "occurrences": 2
+  },
+  {
+    "raw": "Bb75b",
+    "converted": "X",
+    "occurrences": 4
+  },
+  {
+    "raw": "Bb7913/Ab",
+    "converted": "X",
+    "occurrences": 4
+  },
+  {
+    "raw": "Bbmaj7",
+    "converted": "Bb:maj7",
+    "occurrences": 4
+  },
+  {
+    "raw": "Bbmin7",
+    "converted": "Bb:min7",
+    "occurrences": 6
+  },
+  {
+    "raw": "Bdim7",
+    "converted": "B:dim7",
+    "occurrences": 2
+  },
+  {
+    "raw": "Bmaj7",
+    "converted": "B:maj7",
+    "occurrences": 2
+  },
+  {
+    "raw": "Bmin",
+    "converted": "B:min",
+    "occurrences": 10
+  },
+  {
+    "raw": "Bmin/Gb",
+    "converted": "B:min",
+    "occurrences": 4
+  },
+  {
+    "raw": "Bmin7",
+    "converted": "B:min7",
+    "occurrences": 8
+  },
+  {
+    "raw": "Bmin75b",
+    "converted": "X",
+    "occurrences": 4
+  },
+  {
+    "raw": "C",
+    "converted": "C:maj",
+    "occurrences": 36
+  },
+  {
+    "raw": "C/E",
+    "converted": "C:maj",
+    "occurrences": 4
+  },
+  {
+    "raw": "C/G",
+    "converted": "C:maj",
+    "occurrences": 10
+  },
+  {
+    "raw": "C7",
+    "converted": "C:7",
+    "occurrences": 8
+  },
+  {
+    "raw": "C713/Bb",
+    "converted": "X",
+    "occurrences": 4
+  },
+  {
+    "raw": "C9",
+    "converted": "C:9",
+    "occurrences": 2
+  },
+  {
+    "raw": "Cmaj7",
+    "converted": "C:maj7",
+    "occurrences": 2
+  },
+  {
+    "raw": "Cmin",
+    "converted": "C:min",
+    "occurrences": 12
+  },
+  {
+    "raw": "Cmin7",
+    "converted": "C:min7",
+    "occurrences": 4
+  },
+  {
+    "raw": "D",
+    "converted": "D:maj",
+    "occurrences": 28
+  },
+  {
+    "raw": "D/7Gb",
+    "converted": "X",
+    "occurrences": 1
+  },
+  {
+    "raw": "D/A",
+    "converted": "D:maj",
+    "occurrences": 6
+  },
+  {
+    "raw": "D11",
+    "converted": "D:11",
+    "occurrences": 2
+  },
+  {
+    "raw": "D1113",
+    "converted": "X",
+    "occurrences": 2
+  },
+  {
+    "raw": "D13",
+    "converted": "D:13",
+    "occurrences": 2
+  },
+  {
+    "raw": "D5",
+    "converted": "D:5",
+    "occurrences": 6
+  },
+  {
+    "raw": "D7",
+    "converted": "D:7",
+    "occurrences": 4
+  },
+  {
+    "raw": "D7/A",
+    "converted": "D:7",
+    "occurrences": 2
+  },
+  {
+    "raw": "D7/C",
+    "converted": "D:7",
+    "occurrences": 2
+  },
+  {
+    "raw": "D7/Gb",
+    "converted": "D:7",
+    "occurrences": 1
+  },
+  {
+    "raw": "D79/Gb",
+    "converted": "X",
+    "occurrences": 8
+  },
+  {
+    "raw": "D79b",
+    "converted": "X",
+    "occurrences": 4
+  },
+  {
+    "raw": "Db",
+    "converted": "Db:maj",
+    "occurrences": 12
+  },
+  {
+    "raw": "Db/Ab",
+    "converted": "Db:maj",
+    "occurrences": 4
+  },
+  {
+    "raw": "Db5",
+    "converted": "Db:5",
+    "occurrences": 4
+  },
+  {
+    "raw": "Db7",
+    "converted": "Db:7",
+    "occurrences": 2
+  },
+  {
+    "raw": "Db79",
+    "converted": "X",
+    "occurrences": 4
+  },
+  {
+    "raw": "Dbdim",
+    "converted": "Db:dim",
+    "occurrences": 2
+  },
+  {
+    "raw": "Dbmaj7",
+    "converted": "Db:maj7",
+    "occurrences": 2
+  },
+  {
+    "raw": "Dbmaj79",
+    "converted": "X",
+    "occurrences": 2
+  },
+  {
+    "raw": "Dbmin",
+    "converted": "Db:min",
+    "occurrences": 6
+  },
+  {
+    "raw": "Dbmin/Ab",
+    "converted": "Db:min",
+    "occurrences": 4
+  },
+  {
+    "raw": "Dbmin/E",
+    "converted": "Db:min",
+    "occurrences": 2
+  },
+  {
+    "raw": "Dbmin75b",
+    "converted": "X",
+    "occurrences": 2
+  },
+  {
+    "raw": "Dmaj7",
+    "converted": "D:maj7",
+    "occurrences": 4
+  },
+  {
+    "raw": "Dmin",
+    "converted": "D:min",
+    "occurrences": 8
+  },
+  {
+    "raw": "Dmin/F",
+    "converted": "D:min",
+    "occurrences": 2
+  },
+  {
+    "raw": "Dmin7",
+    "converted": "D:min7",
+    "occurrences": 2
+  },
+  {
+    "raw": "Dsus4",
+    "converted": "D:sus4",
+    "occurrences": 2
+  },
+  {
+    "raw": "Dsus9",
+    "converted": "X",
+    "occurrences": 4
+  },
+  {
+    "raw": "E",
+    "converted": "E:maj",
+    "occurrences": 51
+  },
+  {
+    "raw": "E/Ab",
+    "converted": "E:maj",
+    "occurrences": 14
+  },
+  {
+    "raw": "E/B",
+    "converted": "E:maj",
+    "occurrences": 18
+  },
+  {
+    "raw": "E13",
+    "converted": "E:13",
+    "occurrences": 2
+  },
+  {
+    "raw": "E13/Ab",
+    "converted": "E:13",
+    "occurrences": 2
+  },
+  {
+    "raw": "E13/Db",
+    "converted": "E:13",
+    "occurrences": 22
+  },
+  {
+    "raw": "E5",
+    "converted": "E:5",
+    "occurrences": 15
+  },
+  {
+    "raw": "E7",
+    "converted": "E:7",
+    "occurrences": 6
+  },
+  {
+    "raw": "E7/B",
+    "converted": "E:7",
+    "occurrences": 2
+  },
+  {
+    "raw": "Eb",
+    "converted": "Eb:maj",
+    "occurrences": 35
+  },
+  {
+    "raw": "Eb13",
+    "converted": "Eb:13",
+    "occurrences": 24
+  },
+  {
+    "raw": "Eb5",
+    "converted": "Eb:5",
+    "occurrences": 1
+  },
+  {
+    "raw": "Eb7",
+    "converted": "Eb:7",
+    "occurrences": 2
+  },
+  {
+    "raw": "Eb79",
+    "converted": "X",
+    "occurrences": 4
+  },
+  {
+    "raw": "Ebmaj7",
+    "converted": "Eb:maj7",
+    "occurrences": 2
+  },
+  {
+    "raw": "Ebmin",
+    "converted": "Eb:min",
+    "occurrences": 8
+  },
+  {
+    "raw": "Ebmin7",
+    "converted": "Eb:min7",
+    "occurrences": 4
+  },
+  {
+    "raw": "Ebmin79",
+    "converted": "X",
+    "occurrences": 2
+  },
+  {
+    "raw": "Edim",
+    "converted": "E:dim",
+    "occurrences": 4
+  },
+  {
+    "raw": "Emaj7",
+    "converted": "E:maj7",
+    "occurrences": 4
+  },
+  {
+    "raw": "Emin",
+    "converted": "E:min",
+    "occurrences": 21
+  },
+  {
+    "raw": "Emin7",
+    "converted": "E:min7",
+    "occurrences": 8
+  },
+  {
+    "raw": "Emin75b",
+    "converted": "X",
+    "occurrences": 2
+  },
+  {
+    "raw": "Eminmaj79",
+    "converted": "X",
+    "occurrences": 2
+  },
+  {
+    "raw": "Esus4",
+    "converted": "E:sus4",
+    "occurrences": 2
+  },
+  {
+    "raw": "F",
+    "converted": "F:maj",
+    "occurrences": 18
+  },
+  {
+    "raw": "F/A",
+    "converted": "F:maj",
+    "occurrences": 2
+  },
+  {
+    "raw": "F/C",
+    "converted": "F:maj",
+    "occurrences": 8
+  },
+  {
+    "raw": "F13/C",
+    "converted": "F:13",
+    "occurrences": 12
+  },
+  {
+    "raw": "F5",
+    "converted": "F:5",
+    "occurrences": 16
+  },
+  {
+    "raw": "F7",
+    "converted": "F:7",
+    "occurrences": 2
+  },
+  {
+    "raw": "F7/C",
+    "converted": "F:7",
+    "occurrences": 6
+  },
+  {
+    "raw": "F79",
+    "converted": "X",
+    "occurrences": 2
+  },
+  {
+    "raw": "F913",
+    "converted": "X",
+    "occurrences": 2
+  },
+  {
+    "raw": "Fdim",
+    "converted": "F:dim",
+    "occurrences": 4
+  },
+  {
+    "raw": "Fdim/B",
+    "converted": "F:dim",
+    "occurrences": 2
+  },
+  {
+    "raw": "Fmaj7",
+    "converted": "F:maj7",
+    "occurrences": 5
+  },
+  {
+    "raw": "Fmin",
+    "converted": "F:min",
+    "occurrences": 4
+  },
+  {
+    "raw": "Fsus9/C",
+    "converted": "X",
+    "occurrences": 2
+  },
+  {
+    "raw": "G",
+    "converted": "G:maj",
+    "occurrences": 33
+  },
+  {
+    "raw": "G/B",
+    "converted": "G:maj",
+    "occurrences": 8
+  },
+  {
+    "raw": "G/D",
+    "converted": "G:maj",
+    "occurrences": 4
+  },
+  {
+    "raw": "G5",
+    "converted": "G:5",
+    "occurrences": 17
+  },
+  {
+    "raw": "G5/A",
+    "converted": "G:5",
+    "occurrences": 4
+  },
+  {
+    "raw": "G5/D",
+    "converted": "G:5",
+    "occurrences": 6
+  },
+  {
+    "raw": "G5/Gb",
+    "converted": "G:5",
+    "occurrences": 2
+  },
+  {
+    "raw": "G7",
+    "converted": "G:7",
+    "occurrences": 6
+  },
+  {
+    "raw": "G7/B",
+    "converted": "G:7",
+    "occurrences": 4
+  },
+  {
+    "raw": "G713/B",
+    "converted": "X",
+    "occurrences": 2
+  },
+  {
+    "raw": "G79",
+    "converted": "X",
+    "occurrences": 2
+  },
+  {
+    "raw": "Gb",
+    "converted": "Gb:maj",
+    "occurrences": 8
+  },
+  {
+    "raw": "Gb/Bb",
+    "converted": "Gb:maj",
+    "occurrences": 5
+  },
+  {
+    "raw": "Gb13/Db",
+    "converted": "Gb:13",
+    "occurrences": 2
+  },
+  {
+    "raw": "Gb5",
+    "converted": "Gb:5",
+    "occurrences": 2
+  },
+  {
+    "raw": "Gb7",
+    "converted": "Gb:7",
+    "occurrences": 4
+  },
+  {
+    "raw": "Gbdim",
+    "converted": "Gb:dim",
+    "occurrences": 2
+  },
+  {
+    "raw": "Gbmaj7",
+    "converted": "Gb:maj7",
+    "occurrences": 6
+  },
+  {
+    "raw": "Gbmin",
+    "converted": "Gb:min",
+    "occurrences": 2
+  },
+  {
+    "raw": "Gbmin/Db",
+    "converted": "Gb:min",
+    "occurrences": 2
+  },
+  {
+    "raw": "Gbmin75b/C",
+    "converted": "X",
+    "occurrences": 2
+  },
+  {
+    "raw": "Gbmin75b/E",
+    "converted": "X",
+    "occurrences": 2
+  },
+  {
+    "raw": "Gbsus4",
+    "converted": "Gb:sus4",
+    "occurrences": 2
+  },
+  {
+    "raw": "Gdim7",
+    "converted": "G:dim7",
+    "occurrences": 2
+  },
+  {
+    "raw": "Gmin",
+    "converted": "G:min",
+    "occurrences": 6
+  },
+  {
+    "raw": "Gmin7",
+    "converted": "G:min7",
+    "occurrences": 4
+  },
+  {
+    "raw": "NC",
+    "converted": "N",
+    "occurrences": 249
+  }
+]

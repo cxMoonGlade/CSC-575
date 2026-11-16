@@ -1,0 +1,89 @@
+{
+  "_counter": 4,
+  "root": "n0",
+  "nodes": {
+    "n0": {
+      "id": "n0",
+      "parent": null,
+      "depth": 0,
+      "status": "root",
+      "hypothesis": "Improve multi-resolution chord recognition on development recordings while identifying whether resolution, harmonic contamination, or boundary timing limits fusion.",
+      "insight": "[from n1] Increasing the short window improves its evidence, but combining it with8192adds little. Test whether low-frequency resolution of the long window is limiting.\n[from n2] The fixed local-median whitening suppresses useful spectral balance in this setup; do not stack it into later variants.\n[from n3] Boundary movement can improve timing metrics while leaving most chord-label errors unchanged; prioritize representation accuracy.\n[from n4] Development gains remain small despite varying resolution, whitening and boundary refinement; preserve the baseline and use external data to test the modest fixed-fusion candidate.\n[from n1] A fixed fusion gain on development recordings is insufficient evidence of transfer: the separate64-recording comparison favours the single long window.",
+      "metadata": {
+        "dev_score": null,
+        "test_score": null,
+        "result": "",
+        "branch_ref": null
+      },
+      "created_at": 1794074377,
+      "updated_at": 1794075772
+    },
+    "n1": {
+      "id": "n1",
+      "parent": "n0",
+      "depth": 1,
+      "status": "pruned",
+      "hypothesis": "A4096-sample short window supplies more reliable chord evidence than2048 samples and improves fixed or confidence-weighted fusion with8192 samples.",
+      "insight": "The small development fusion gain did not transfer to the external corpus. Keep8192singlewindow; investigate errors shared by both views and the no-chord rule.",
+      "metadata": {
+        "dev_score": 0.7222384154533077,
+        "test_score": null,
+        "result": "Development +0.258443pp; fixed fresh IDMT comparison loses0.173536pp (65.5581 versus65.7316percent). No candidate adopted.",
+        "branch_ref": "experiment/resolution",
+        "prune_reason": "No tested resolution variant passes the development threshold, and the best small-gain blend loses accuracy on the frozen external comparison."
+      },
+      "created_at": 1794074406,
+      "updated_at": 1794075772
+    },
+    "n2": {
+      "id": "n2",
+      "parent": "n0",
+      "depth": 1,
+      "status": "pruned",
+      "hypothesis": "Median spectral whitening reduces timbral and harmonic imbalance sufficiently to improve short/long chord-template matching.",
+      "insight": "The fixed local-median whitening suppresses useful spectral balance in this setup; do not stack it into later variants.",
+      "metadata": {
+        "dev_score": 0.715489,
+        "test_score": null,
+        "result": "Best whitened longalpha0.5 loses0.4165pp; all nonzero settings worsen pooled and near-change accuracy.",
+        "branch_ref": "experiment/spectral",
+        "prune_reason": "All nonzero whitening variants worsen development accuracy; strength0equivalence verified."
+      },
+      "created_at": 1794074406,
+      "updated_at": 1794074788
+    },
+    "n3": {
+      "id": "n3",
+      "parent": "n0",
+      "depth": 1,
+      "status": "pruned",
+      "hypothesis": "Short-window evidence is more useful for moving an existing long-window chord boundary than for replacing its chord identity near a change.",
+      "insight": "Boundary movement can improve timing metrics while leaving most chord-label errors unchanged; prioritize representation accuracy.",
+      "metadata": {
+        "dev_score": 0.72003,
+        "test_score": null,
+        "result": "Boundary-only refinement gains0.0376pp overall and0.3042ppnear; belowgate.",
+        "branch_ref": "experiment/boundary",
+        "prune_reason": "Boundary metrics improve slightly but primary duration gain is negligible in this bounded experiment."
+      },
+      "created_at": 1794074406,
+      "updated_at": 1794075772
+    },
+    "n4": {
+      "id": "n4",
+      "parent": "n1",
+      "depth": 2,
+      "status": "pruned",
+      "hypothesis": "A16384-sample window improves low-frequency pitch separation enough to outperform8192, and mixing4096/16384 recovers temporal detail.",
+      "insight": "Increasing analysis support beyond8192does not improve the measured development accuracy; longer windows are not a general remedy in this grid.",
+      "metadata": {
+        "dev_score": 0.7190730157695697,
+        "test_score": null,
+        "result": "All four new settings fail adoption gate; single16384 loses0.05810pp overall and1.13387pp near changes.",
+        "branch_ref": "experiment/long_resolution"
+      },
+      "created_at": 1794074788,
+      "updated_at": 1794075772
+    }
+  }
+}

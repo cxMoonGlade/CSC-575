@@ -1,0 +1,127 @@
+{
+  "records": 119,
+  "categories_seconds": {
+    "correct": 1577.840597253532,
+    "reference_n_error": 0.0,
+    "chord_to_n": 12.530883019874622,
+    "same_root_wrong_quality": 55.046176960069175,
+    "other_root": 547.081291072588,
+    "invalid_prediction": 0.0
+  },
+  "root_offset_seconds": {
+    "0": 55.046176960069175,
+    "1": 2.464434986115661,
+    "2": 14.101013454077036,
+    "3": 67.31818914446693,
+    "4": 153.81440799686976,
+    "5": 68.59335957695936,
+    "6": 7.730885430698183,
+    "7": 118.18597938818853,
+    "8": 7.094947998159527,
+    "9": 65.76334914780422,
+    "10": 35.12472705257225,
+    "11": 6.889996896676415
+  },
+  "largest_chord_confusions": [
+    {
+      "reference": "C:maj",
+      "prediction": "E:min",
+      "seconds": 35.08511722691813
+    },
+    {
+      "reference": "G#:maj",
+      "prediction": "G#:min",
+      "seconds": 30.010064517034877
+    },
+    {
+      "reference": "F#:maj",
+      "prediction": "A#:min",
+      "seconds": 23.624434618933954
+    },
+    {
+      "reference": "C#:maj",
+      "prediction": "F:min",
+      "seconds": 20.854167708550726
+    },
+    {
+      "reference": "D#:maj",
+      "prediction": "G:min",
+      "seconds": 20.27454024635276
+    },
+    {
+      "reference": "B:maj",
+      "prediction": "D#:min",
+      "seconds": 19.100235418117233
+    },
+    {
+      "reference": "D:maj",
+      "prediction": "F#:min",
+      "seconds": 18.63474156955581
+    },
+    {
+      "reference": "D#:min",
+      "prediction": "F#:maj",
+      "seconds": 18.562448979591835
+    },
+    {
+      "reference": "C:maj",
+      "prediction": "G:min",
+      "seconds": 18.400230800646433
+    },
+    {
+      "reference": "A#:maj",
+      "prediction": "G:min",
+      "seconds": 17.947744211402757
+    },
+    {
+      "reference": "A:maj",
+      "prediction": "D:maj",
+      "seconds": 17.202527337236617
+    },
+    {
+      "reference": "C:min",
+      "prediction": "D#:maj",
+      "seconds": 10.977916499933306
+    },
+    {
+      "reference": "B:maj",
+      "prediction": "G#:min",
+      "seconds": 10.573807135901976
+    },
+    {
+      "reference": "B:maj",
+      "prediction": "F#:maj",
+      "seconds": 10.453988935588495
+    },
+    {
+      "reference": "A#:maj",
+      "prediction": "D:min",
+      "seconds": 10.45031668481346
+    },
+    {
+      "reference": "G#:maj",
+      "prediction": "D#:maj",
+      "seconds": 10.415670546546584
+    },
+    {
+      "reference": "B:min",
+      "prediction": "D:maj",
+      "seconds": 10.384807002606731
+    },
+    {
+      "reference": "F#:maj",
+      "prediction": "D#:min",
+      "seconds": 9.562575039677899
+    },
+    {
+      "reference": "A:maj",
+      "prediction": "F#:min",
+      "seconds": 9.370586856639838
+    },
+    {
+      "reference": "C#:maj",
+      "prediction": "G#:min",
+      "seconds": 8.753999283924095
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "objective": "Improve root errors without sacrificing duration-weighted majmin accuracy",
+  "metric_direction": "max",
+  "dev_eval": "119 GuitarSet development recordings; primary majmin, diagnostic root and near-change accuracy",
+  "test_eval": "One frozen comparison on all 88 prospectively selected IDMT archive dataset1 isolated chords; new session, isolated-chord scope",
+  "material": "/tmp/chordrec_root_v1/repo",
+  "branching": 2,
+  "max_depth": 2,
+  "budget_cycles": 3,
+  "cycles_used": 3,
+  "best_node": "n0",
+  "best_test_score": 1.0,
+  "best_branch_ref": "root/baseline",
+  "created_at": 1794264192
+}

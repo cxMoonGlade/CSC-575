@@ -1,0 +1,76 @@
+{
+  "development_recordings": 119,
+  "feature_extraction_seconds": 22.690842331387103,
+  "selection_seconds": 16.962486184202135,
+  "method_settings": 52,
+  "scored_config_recording_pairs": 6188,
+  "selected_config": {
+    "sample_rate": 22050,
+    "hop_length": 512,
+    "n_fft_short": 2048,
+    "n_fft_long": 8192,
+    "midi_min": 36,
+    "n_octaves": 5,
+    "fixed_weight": 0.0,
+    "change_threshold": 1.0,
+    "change_radius_seconds": 0.2,
+    "stable_short_weight": 0.2,
+    "change_short_weight": 0.8,
+    "silence_db": -45.0,
+    "switch_penalty": 4.0,
+    "boundary_tolerance": 0.1,
+    "annotation": "performed",
+    "seed": 20261107,
+    "status": "selected_on_development",
+    "selected_single_window": "long"
+  },
+  "selected_single_window": "long",
+  "initial_baseline_long": {
+    "stage": "shared_penalty",
+    "candidate": "penalty_0.1",
+    "method": "long",
+    "duration_accuracy": 0.6240798813028925,
+    "correct_seconds": 1368.2944834155644,
+    "scoreable_seconds": 2192.498948306063,
+    "switch_penalty": 0.1,
+    "fixed_weight": 0.5,
+    "change_threshold": 0.25,
+    "change_radius_seconds": 0.2
+  },
+  "shared_penalty_scores": [
+    {
+      "penalty": 0.0,
+      "mean_duration_accuracy": 0.5198977628028583
+    },
+    {
+      "penalty": 0.1,
+      "mean_duration_accuracy": 0.5713464557720966
+    },
+    {
+      "penalty": 0.25,
+      "mean_duration_accuracy": 0.6044659240522955
+    },
+    {
+      "penalty": 0.5,
+      "mean_duration_accuracy": 0.6362064407988532
+    },
+    {
+      "penalty": 1.0,
+      "mean_duration_accuracy": 0.6622820572794506
+    },
+    {
+      "penalty": 2.0,
+      "mean_duration_accuracy": 0.6760195515076391
+    },
+    {
+      "penalty": 4.0,
+      "mean_duration_accuracy": 0.6791015911574053
+    },
+    {
+      "penalty": 8.0,
+      "mean_duration_accuracy": 0.6338321529517534
+    }
+  ],
+  "test_evaluation_performed": false,
+  "runtime_note": "Selection used cached features and therefore is not an inference runtime comparison."
+}
