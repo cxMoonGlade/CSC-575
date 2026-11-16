@@ -1,3 +1,34 @@
+# Academic language audit — Feedback refinement, 2026-11-16
+
+## 一、整体观察
+
+阅读当前报告全文、暂存修订、README 相关段落及保存的汇总/逐帧区间记录。按 nature-writing 先确定证据作用，再执行语言检查。本轮补充三项短说明，恢复原目标，并修复诊断段与 PI 表的阅读顺序。Figure 1 对应演示和 O1.4，§5 包含个人 PI 表，保留两者符合课程报告用途。未采纳模型的分数预测。
+
+文献和 Related Work 未改；三篇 overview 的支持范围沿用既有 overview_sources.md，本轮没有重新阅读全文或增加文献判断。保留用户指定的 “Our research question is:”，删除新增的 “our triad templates” 和 “lets us”。
+
+## 二、逐条定位
+
+位置以修订前原文或注明的暂存稿为准。
+
+| 具体位置及原文 | 问题类型 | 具体依据及对理解或论证的影响 | 修改优先级：高／中／低 | 是否可能属于正常学术表达及原因 | 建议：保留／核实／精简／改写 | 建议修改版本 |
+|---|---|---|---|---|---|---|
+| Introduction：“This project implements a major/minor recognizer…” | 课程目标衔接 | 原始多分辨率目标可更直接呈现；无需另加历史段 | 低 | 是，原句准确 | 改写 | “The original objective was to build a multi-resolution guitar chord recognizer and evaluate its accuracy, errors and runtime.” |
+| Introduction：“With our triad templates…”；“lets us test…” | 人称一致性 | 单人进度用 I；新增复数所有格无必要 | 低 | 学术 we 本身正常，但本报告可避免新增混用 | 改写 | “With the triad templates…”；“Varying the third's amplitude tests the effect…” |
+| §4.2：“Boundary F1 rose from 27.27% to 28.90%.” | 指标解释不足 | recall 为 27.21→30.54%，precision 为 27.33→27.44%；可解释增益来源及未匹配预测较多 | 中 | 原结果正常，但读者难判断低 F1 的含义 | 改写 | “…mainly through recall; precision stayed near 27%, leaving most predicted changes unmatched.” |
+| §4.3：“Some quality errors therefore replaced correct labels.” | 研究范围 | 根音错误总时长仍较大；需要解释研究当前退化现象的理由 | 中 | 原句准确，前文配对时长已表达该事实 | 改写 | “Root errors dominate, but this quality regression warrants examining feature scores and decoding.” |
+| §4.3，7.85/9.89 s 诊断之后 | 负分差区间缺少描述 | 保存区间确认余下 2.04 s 只在 A7/D7；不能推断是蓝调音、泛音或特征泄漏 | 中 | 原诊断边界正确，可补一个具体描述 | 改写 | “The remaining 2.04 s, favouring minor, occurred over A7 and D7 references.” |
+| 暂存 §4.3：“The overall mean margin was negative” | 统计范围模糊 | 全部有效和弦时间的均值为正；负均值只针对 9.89 s 解码质量错误 | 高 | mean margin 正常，但 overall 会扩大范围 | 改写 | “Over all 9.89 s of these errors, the mean margin was negative, so both duration and magnitude matter.” |
+| §3.2，式 (2) 后重复加入七音不变号的说明 | 重复 | 引言已给相同性质并引用式 (2)；公式和其他根音竞争仍在方法中 | 低 | 教学性重复合理，但四页报告可省 | 精简 | 删重复句，保留式 (2)、Cm7 竞争例子和引言解释。 |
+| §6，幅度、并列和校准计划 | 压缩后的范围检查 | 两套开发/评估安排、同源不跨组、并列最优记录和原始/解码对比仍在 | 低 | 必要方法条件，不能为缩页删除 | 保留 | 保留修订后的条件与未来时。 |
+
+## 三、综合建议
+
+将新增解释与旧句合并，避免逐条追加反馈。摘要、研究问题、已测结果、PI 含义及引用保持原范围；没有把模型建议当作已证实机制。诊断段独立成段，Table 2 允许就近排版，四页 PDF 经视觉检查。README 同步负分差位置、边界解释和研究范围。
+
+本轮分析只重新汇总已有 CSV，不新增模型实验。新增数值依据保存于 evidence_checks.json，精确值不全部挤入正文。发现的写作特征不能证明文本由 AI 生成。
+
+---
+
 # Academic language audit — Introduction argument, 2026-11-16
 
 ## 一、整体观察

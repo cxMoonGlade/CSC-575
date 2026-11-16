@@ -20,11 +20,11 @@ A working guitar chord recognizer converts audio into timed major/minor labels, 
 \end{abstract}
 
 \section{Introduction}
-Automatic chord recognition assigns harmonic labels to intervals of audio, usually through pitch features, chord models and temporal decoding\ \cite{mcvicar2014,pauwels2019,mueller2021fmp}. This project implements a major/minor recognizer for guitar recordings and compares spectral resolutions and note representations. Playback supports inspection of its predictions.
+Automatic chord recognition assigns harmonic labels to intervals of audio, usually through pitch features, chord models and temporal decoding\ \cite{mcvicar2014,pauwels2019,mueller2021fmp}. The original objective was to build a multi-resolution guitar chord recognizer and evaluate its accuracy, errors and runtime. The working system supports playback for inspecting predictions.
 
 The comparisons improved root recognition but exposed a difference in major/minor errors. Long-window STFT chroma (Long STFT) and note projection had nearly equal raw error durations for chords with the correct root but wrong quality: 49.58 and 49.64\,s. Shared decoding reduced these to 19.07 and 27.41\,s. The excess decoded error was concentrated in one seventh-chord recording. A shared switch penalty need not have the same effect on different feature scores.
 
-Seventh chords provide a controllable case: adding B$\flat$ to C major or C minor produces C7 or Cm7 while preserving the target label under major/minor evaluation\ \cite{humphrey2015,koops2019}. The third, E or E$\flat$, distinguishes the two qualities. With our triad templates, adding only a seventh component to ideal pitch-class inputs reduces the magnitude of a nonzero same-root score gap through L2 normalization, without reversing its sign (Eq.~\ref{eq:margin}). Varying the third's amplitude lets us test the added tone across stronger and weaker evidence for quality.
+Seventh chords provide a controllable case: adding B$\flat$ to C major or C minor produces C7 or Cm7 while preserving the target label under major/minor evaluation\ \cite{humphrey2015,koops2019}. The third, E or E$\flat$, distinguishes the two qualities. With the triad templates, adding only a seventh component to ideal pitch-class inputs reduces the magnitude of a nonzero same-root score gap through L2 normalization, without reversing its sign (Eq.~\ref{eq:margin}). Varying the third's amplitude tests the effect of the added tone across stronger and weaker evidence for quality.
 
 Our research question is: \textbf{How does an added seventh affect major/minor recognition as third strength varies?} Here, third strength is amplitude relative to fixed root and fifth components. Comparisons of ideal inputs, paired audio and calibrated decoding will trace how the added tone affects scores and final labels.
 
@@ -55,7 +55,7 @@ Each of the 24 major/minor templates assigns weight $1/\sqrt{3}$ to its root, th
  =\frac{c_E-c_{E^\flat}}{\sqrt{3}\,\|c\|_2}.
  \label{eq:margin}
 \end{equation}
-Adding B$\flat$ while holding the other components fixed shrinks a nonzero $|\Delta_C|$ without reversing its sign. Other roots can still compete: for ideal Cm7, C minor and E$\flat$ major have equal scores whenever the root and seventh activations match, regardless of third strength.
+Other roots can still compete: for ideal Cm7, C minor and E$\flat$ major have equal scores whenever the root and seventh activations match, regardless of third strength.
 
 Frames at least 45\,dB below peak root-mean-square amplitude receive the no-chord label $N$; otherwise raw predictions maximize template scores. Viterbi decoding selects
 \begin{equation}
@@ -86,7 +86,7 @@ Note representations improved development accuracy (Table~\ref{tab:root}); funda
 
 \RootResults
 
-On fast IDMT, projection gained 3.10 points in chord accuracy and 4.41 points in root accuracy over Long STFT. It improved 30 scoreable recordings, tied 13 and worsened 16; the rock/blues aggregate fell by 6.18 points. Boundary F1 rose from 27.27\% to 28.90\%. NNLS identified slightly more roots but made more quality errors and took over four times as long as projection. Projection is the current demonstration method.
+On fast IDMT, projection gained 3.10 points in chord accuracy and 4.41 points in root accuracy over Long STFT. It improved 30 scoreable recordings, tied 13 and worsened 16; the rock/blues aggregate fell by 6.18 points. Boundary F1 rose from 27.27\% to 28.90\%, mainly through recall; precision stayed near 27\%, leaving most predicted changes unmatched. NNLS identified slightly more roots but made more quality errors and took over four times as long as projection. Projection is the current demonstration method.
 
 The player supports timeline seeking and interval playback; predictions are also saved as timestamped CSV. Figure~\ref{fig:demo} shows a corrected root error in a development recording.
 
@@ -100,9 +100,11 @@ The player supports timeline seeking and interval playback; predictions are also
 
 \subsection{Where the quality errors changed}
 \label{sec:errors}
-The nearly equal raw error totals conceal different locations: 39.29\,s were shared, with 10.29\,s unique to Long STFT and 10.35\,s unique to projection. After decoding, projection introduced 10.60\,s of same-root quality errors where Long STFT was correct, and corrected 2.26\,s of Long STFT quality errors. Some quality errors therefore replaced correct labels.
+The nearly equal raw error totals conceal different locations: 39.29\,s were shared, with 10.29\,s unique to Long STFT and 10.35\,s unique to projection. After decoding, projection introduced 10.60\,s of same-root quality errors where Long STFT was correct, and corrected 2.26\,s of Long STFT quality errors. Root errors dominate, but this quality regression warrants examining feature scores and decoding.
 
-Quality errors fell on triad references but rose on references with additional tones (Fig.~\ref{fig:quality}); these groups ignore the bass field. The overall increase was 8.34\,s, with \texttt{rock\_6} contributing 9.89\,s. Its A7/D7/E7 references reduce to major. A frame-score check found that the correct major template outscored its minor counterpart during 7.85 of projection's 9.89\,s of decoded quality errors in this file. The mean margin over these errors was nevertheless negative: score magnitudes as well as durations matter. Physical third strength remains unmeasured.
+Quality errors fell on triad references but rose on references with additional tones (Fig.~\ref{fig:quality}); these groups ignore the bass field. The overall increase was 8.34\,s, with \texttt{rock\_6} contributing 9.89\,s. Its A7/D7/E7 references reduce to major.
+
+In \texttt{rock\_6}, the correct major template outscored its minor counterpart during 7.85 of projection's 9.89\,s of decoded quality errors. The remaining 2.04\,s, favouring minor, occurred over A7 and D7 references. Over all 9.89\,s of these errors, the mean margin was negative, so both duration and magnitude matter. Physical third strength remains unmeasured.
 
 \begin{figure}[t]
 \centering
@@ -121,7 +123,7 @@ I implemented the system (O1), evaluation (O2) and demonstration (Table~\ref{tab
 \label{sec:future}
 The score diagnostic makes calibration the next priority. Each representation's penalty will be selected by duration-weighted chord accuracy on the 119 GuitarSet development recordings and frozen before an exploratory fast-IDMT reassessment.
 
-The controlled study will compare ideal vectors and paired audio, holding root/fifth amplitudes at 1, varying the third over \{1, 0.5, 0.25\}, and adding a minor seventh at amplitude 0 or 1. Tied ideal maximizers will be recorded within a fixed numerical tolerance, alongside single-label errors. Synthetic development and confirmation sequences will contain root and same-root quality changes, with source variants kept in one split. Each representation's penalty will be chosen by synthetic development chord accuracy and frozen for confirmation. Major/minor conditions and root/quality errors will be separated, comparing raw, shared-penalty and calibrated predictions. Departures from ideal margins will prompt feature inspection; persistent root competition will motivate revised templates. Stimulus controls are specified in the README.
+Ideal vectors and paired audio will use root/fifth amplitudes of 1, third amplitudes of \{1, 0.5, 0.25\}, and minor-seventh amplitudes of 0 or 1. All ideal maximizers within a fixed tolerance will be recorded alongside single-label errors. Synthetic development and confirmation sequences will contain root and same-root quality changes, with source variants kept in one split. Each penalty will be chosen by synthetic development chord accuracy and frozen for confirmation. Major/minor conditions and root/quality errors will be separated, comparing raw, shared-penalty and calibrated predictions. Departures from ideal margins will prompt feature inspection; persistent root competition will motivate revised templates. The README specifies stimulus controls.
 
 \textbf{Basic final goals} are the reproducible comparisons and playback demonstration. \textbf{Expected goals} add the paired margin/error curves and calibrated decoding. \textbf{Advanced goals} add seventh-aware templates or a frozen recent model, guided by the results; confirmation on real guitar requires new pieces.
 

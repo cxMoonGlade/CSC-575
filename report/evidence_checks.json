@@ -239,16 +239,16 @@
     "figures/quality_diagnostic.png": "41677ba959332a3abe8604f0aaee87b8befb342167b8997d9b1aafd6d4459294",
     "figures/root_fast_cases.pdf": "b25a84ebe83d04ce067bb2a9c920feb2bb3d341312e04593a2a21097b908abf8",
     "ismir.sty": "9c3c9da88cdac11ecb8fcfcb4bccc6ef5a6e5c759b74d71e9e38167b8124fe7f",
-    "language_audit.md": "23e64d2406e4dca5edb71b184d4380cf021b6488cdc992d0d490bb5a6781af44",
+    "language_audit.md": "978788572c85ef11230c28b7be9e18336a23b4f681bc48fa8f80575cb5fec867",
     "overview_sources.md": "6ff4c17eaa2d5b30d29be84e35f0913fdd3792008450af34d1a9ede37557b478",
-    "progress_report.pdf": "e663fca4dc859918bb687826847b53a02307e5327d774a76591bf996f07b974b",
-    "progress_report.tex": "e0ee190382339caaeb4ea137d94fb945bdb031c3c5a042eb71cfcaa5fe1b8825",
+    "progress_report.pdf": "e4149bc5e1104955b3ddd3c3b5960344a4fe82dffd3155ecd51605ab66cbaa7a",
+    "progress_report.tex": "c31a8e38a4fdd91ccbf1b476dea77b13cf8a33e990f3084b0a2c125e05453456",
     "readme_language_audit.md": "59f0fc6c309270625422ca4fc86bd70eb41825dd33348cd10a909fde5c91b169",
     "references.bib": "2ebc21d6e6bbd6d5d825d4520db0edb063bccff642cdb53203ec560b09f50a05",
-    "results.tex": "254a2237b8be7907b017737b96eb941ca31b4fcc00b131604f4423288abdb07a",
-    "writing_notes.md": "64e00b9b9d59b866d18283d5a45191a582d051d0c0b51d03c4768241a5183569"
+    "results.tex": "d9b43a6fa71d5b1686749e26e7556ddb052763e12162362ebe0c94532a2dac4b",
+    "writing_notes.md": "b9252edab80468b4c678ad96d29cfbbf44e62527519074759a5b2b230561c660"
   },
-  "readme_sha256": "67c94a229ca142e2946ea097f19af53a0dc4211c8a4752a34c5ea7bbf7355290",
+  "readme_sha256": "7316d49b46cd4a625501a5352af13022d37a554c734db784eaef4817103ae5d8",
   "section_word_counts": {
     "before": {
       "Abstract": 98,
@@ -309,5 +309,72 @@
       "rule": "Introduction only; citations and references removed; LaTeX command names stripped; alphanumeric tokens counted with internal hyphens, apostrophes and slashes. Earlier section_word_counts describe the prior rubric revision."
     },
     "backup": "/home/cx/Documents/csc475/report-backups/2026-11-16-before-introduction-flow-211904"
+  },
+  "feedback_refinement": {
+    "checked_at_utc": "2026-11-16T21:47:54.919720+00:00",
+    "previous_commit": "2482ff91af746b78f9b422be8111a01bb79c64bc",
+    "scope": "Restore original objective, clarify negative-margin intervals and boundary metrics, explain quality focus, and repair float placement.",
+    "writing_skills": [
+      "nature-writing",
+      "academic-language-audit"
+    ],
+    "audit": "language_audit.md",
+    "rationale": "writing_notes.md",
+    "checks": {
+      "negative_quality_margin_seconds_by_reference": {
+        "A:7": 1.2064399092108786,
+        "D:7": 0.8359183673469275
+      },
+      "negative_quality_margin_seconds": 2.042358276557806,
+      "root_scoring_error_seconds": 203.12820850797732,
+      "other_root_seconds": 200.027641616161,
+      "chord_to_n_seconds": 3.100566891816337,
+      "same_root_wrong_quality_seconds": 27.41478458587755,
+      "boundary_precision": {
+        "long": 0.27325581395348836,
+        "projection": 0.2743823146944083
+      },
+      "boundary_recall": {
+        "long": 0.27206946454413894,
+        "projection": 0.3053545586107091
+      },
+      "projection_boundary_counts": {
+        "boundary_matches": 211,
+        "reference_boundaries": 691,
+        "predicted_boundaries": 769
+      }
+    },
+    "word_counts": {
+      "4.2": {
+        "before": 123,
+        "after": 135
+      },
+      "4.3": {
+        "before": 151,
+        "after": 168
+      },
+      "6": {
+        "before": 217,
+        "after": 205
+      }
+    },
+    "source_files": {
+      "docs/research/rock6_third_diagnostic_2026-11-16/run/projection_quality_error_cells.csv": "061670e4942de1e18cc76b2bd9882927f8efd246c854ce55953dc6c6de80857e",
+      "results/root_optimization/fast/summary.csv": "bf96a252da97353d1952981c27b5d4e1743f5fe1b448c3a07cb7804df79ee669"
+    },
+    "new_model_experiments": false,
+    "bibliography_and_related_work_unchanged": true,
+    "research_question_unchanged": true,
+    "original_pi_meaning_preserved": true,
+    "pages": 4,
+    "page_size": "A4",
+    "bibliography_entries": 19,
+    "figures": 2,
+    "tables": 2,
+    "equations": 3,
+    "overfull_boxes": 0,
+    "unresolved_references": 0,
+    "visual_review": "All four pages checked. Score diagnostic remains a complete paragraph on page 3; the PI table follows its individual-progress text in reading order. Template fonts and margins unchanged. Underfull spacing warnings inspected.",
+    "backup": "/home/cx/Documents/csc475/report-backups/2026-11-16-before-feedback-refinement-214754"
   }
 }

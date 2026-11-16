@@ -1,3 +1,33 @@
+# Feedback refinement — 2026-11-16
+
+Applied nature-writing (manuscript / research / introduction, experiments and discussion / zh-to-en / generic ISMIR course report), then academic-language-audit. The feedback was checked against saved measurements and the course requirements; the numerical grade forecast was not used.
+
+The revision restores the original multi-resolution objective, removes incidental plural self-reference, explains the remaining negative-margin intervals and boundary metrics, and states why the quality regression is being studied while root errors remain larger. The user-requested phrase “Our research question is:” is retained. Figure 1 remains evidence of playback and example output; Figure 2 carries the quality-error analysis. The individual section includes the PI table and remains before remaining work.
+
+| Evidence or text | Function and placement |
+|---|---|
+| A7/D7 location of the 2.04 s negative margin | Clarifies the existing diagnostic in §4.3; detailed durations remain in evidence_checks.json and source CSV. It does not identify played notes or feature leakage. |
+| Negative mean over the 9.89 s error subset | Necessary scope retained in §4.3. The full recording's mean is not negative; the compressed phrase “overall mean” was rejected. |
+| Dominant root errors, increased quality errors | One scope sentence in §4.3 explains the selected question. Exact root-error partition remains in the evidence record; predicted N is not called an other-root error. |
+| Boundary precision and recall | §4.2 states that recall accounts for most of the gain and precision stays near 27%; full percentages and counts are in README. No acoustic cause is assigned. |
+| Ideal seventh score property | Retained in Introduction with Eq. 2; the duplicate sentence following that equation was removed. Cm7 root competition remains in Methods. |
+| Planned controls | §6 compressed without removing amplitudes, tie recording, separate development/confirmation, frozen penalties or separate root/quality reporting. Full stimulus construction remains in README. |
+| Figure 1 and individual PI table | Retained for the course deliverable. Table 2 permits placement after its explanation; the score diagnostic is now a separate paragraph. |
+
+The existing 19 references and Related Work are unchanged. The three background overviews retain their previous documented reading scope. This revision adds no benchmark run, parameter selection or new literature claims.
+
+All four final pages were inspected. The diagnostic paragraph is no longer split around floats; Table 2 follows the individual-progress text in reading order. Template fonts and margins are unchanged. There are no overfull boxes or unresolved references; underfull spacing warnings were checked visually.
+
+Approximate body-word counts (display equations, figures, tables, inline math, citations and command names excluded):
+
+| Section | Before | After |
+|---|---:|---:|
+| 4.2 | 123 | 135 |
+| 4.3 | 151 | 168 |
+| 6 | 217 | 205 |
+
+---
+
 # Introduction argument revision — 2026-11-16
 
 Applied nature-writing (manuscript / research / introduction / zh-to-en / generic ISMIR course report), followed by academic-language-audit. The general-to-specific structure now moves from the working recognizer to the observed quality-error contrast, then explains the controlled study. The research question is unchanged.
