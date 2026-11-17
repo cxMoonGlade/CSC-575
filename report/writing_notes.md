@@ -1,3 +1,13 @@
+# Impersonal phrasing — 2026-11-17
+
+Applied nature-writing and academic-language-audit to the report and README. This follow-up retains the established manuscript / research / generic ISMIR scope and changes only author-reference wording. The current preference supersedes the earlier instruction to retain “Our research question is:”. The question itself, results and objectives are unchanged.
+
+The report and README now use “The research question is:”. The individual-progress description names the completed recognizer, evaluation and playback demonstration; the README describes the solo project scope. Christopher Xu remains named in the author and individual-progress headings. The dangling “still” after Eq. 2 was removed from the report; the README retains it where the preceding sentence explicitly states the same-root property.
+
+The four-page build passed. Pages 1–3 were visually inspected; page 4 is pixel-identical to the previous reviewed rendering. The bibliography is byte-identical. A scan found no author-reference I/we/our/us/my/me/mine/ours in the current report source, table source or README. Historical audit quotations are preserved. No experiment or external literature review was needed for this wording change.
+
+---
+
 # Feedback refinement — 2026-11-16
 
 Applied nature-writing (manuscript / research / introduction, experiments and discussion / zh-to-en / generic ISMIR course report), then academic-language-audit. The feedback was checked against saved measurements and the course requirements; the numerical grade forecast was not used.

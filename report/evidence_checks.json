@@ -239,16 +239,16 @@
     "figures/quality_diagnostic.png": "41677ba959332a3abe8604f0aaee87b8befb342167b8997d9b1aafd6d4459294",
     "figures/root_fast_cases.pdf": "b25a84ebe83d04ce067bb2a9c920feb2bb3d341312e04593a2a21097b908abf8",
     "ismir.sty": "9c3c9da88cdac11ecb8fcfcb4bccc6ef5a6e5c759b74d71e9e38167b8124fe7f",
-    "language_audit.md": "978788572c85ef11230c28b7be9e18336a23b4f681bc48fa8f80575cb5fec867",
+    "language_audit.md": "cc5bf5dbb123a9046c7c36e0ca291aa8479c70e51ee11782b80cb300ae374c5d",
     "overview_sources.md": "6ff4c17eaa2d5b30d29be84e35f0913fdd3792008450af34d1a9ede37557b478",
-    "progress_report.pdf": "e4149bc5e1104955b3ddd3c3b5960344a4fe82dffd3155ecd51605ab66cbaa7a",
-    "progress_report.tex": "c31a8e38a4fdd91ccbf1b476dea77b13cf8a33e990f3084b0a2c125e05453456",
+    "progress_report.pdf": "40c54538f0383635403697596e695aa120e204f21e20f4e7e2d410c21db9a338",
+    "progress_report.tex": "bbb3e4e9dd685705d67c4917310d31b14fc19a1292c52bb982ce4a752cf38fb8",
     "readme_language_audit.md": "59f0fc6c309270625422ca4fc86bd70eb41825dd33348cd10a909fde5c91b169",
     "references.bib": "2ebc21d6e6bbd6d5d825d4520db0edb063bccff642cdb53203ec560b09f50a05",
     "results.tex": "d9b43a6fa71d5b1686749e26e7556ddb052763e12162362ebe0c94532a2dac4b",
-    "writing_notes.md": "b9252edab80468b4c678ad96d29cfbbf44e62527519074759a5b2b230561c660"
+    "writing_notes.md": "c3c7a281be4904e012241fc92f4a1d55f1769f4c10ea06e219b489cafb8e5a5b"
   },
-  "readme_sha256": "7316d49b46cd4a625501a5352af13022d37a554c734db784eaef4817103ae5d8",
+  "readme_sha256": "a3b1985002e992cc14054737b9747cfd1662fb8595cc8e9515eb81ecf1c91fb6",
   "section_word_counts": {
     "before": {
       "Abstract": 98,
@@ -376,5 +376,24 @@
     "unresolved_references": 0,
     "visual_review": "All four pages checked. Score diagnostic remains a complete paragraph on page 3; the PI table follows its individual-progress text in reading order. Template fonts and margins unchanged. Underfull spacing warnings inspected.",
     "backup": "/home/cx/Documents/csc475/report-backups/2026-11-16-before-feedback-refinement-214754"
+  },
+  "impersonal_revision": {
+    "checked_at_utc": "2026-11-17T01:21:55.261800+00:00",
+    "previous_commit": "36e24eb0fde5bc98f552c9499146c941ab3f25ca",
+    "scope": "Four author-reference phrases changed to impersonal wording; dangling still removed after Eq. 2.",
+    "writing_skills": [
+      "nature-writing",
+      "academic-language-audit"
+    ],
+    "author_pronoun_scan_passed": true,
+    "research_question_content_unchanged": true,
+    "results_and_objectives_unchanged": true,
+    "pages": 4,
+    "bibliography_entries": 19,
+    "bibliography_byte_identical": true,
+    "visual_review": "Pages 1–3 inspected; page 4 pixel-identical to previous reviewed rendering.",
+    "overfull_boxes": 0,
+    "unresolved_references": 0,
+    "backup": "/home/cx/Documents/csc475/report-backups/2026-11-17-before-impersonal-012155"
   }
 }

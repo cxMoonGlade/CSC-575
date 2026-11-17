@@ -1,3 +1,24 @@
+# Academic language audit — Impersonal phrasing, 2026-11-17
+
+## 一、整体观察
+
+审阅当前报告和 README 中的作者自称及上下文，按 nature-writing 调整后执行本审查。修改仅涉及四处自称和式 (2) 后的衔接词；个人归属仍由作者栏和 Christopher Xu 小节说明。旧记录中的原文引语不追溯改写。
+
+## 二、逐条定位
+
+| 具体位置及原文 | 问题类型 | 具体依据及对理解或论证的影响 | 修改优先级：高／中／低 | 是否可能属于正常学术表达及原因 | 建议：保留／核实／精简／改写 | 建议修改版本 |
+|---|---|---|---|---|---|---|
+| Introduction、README：“Our research question is:” | 人称一致性 | 用户已选择非人称叙述 | 低 | 是，学术 our 正常，此处按作者偏好统一 | 改写 | “The research question is:” |
+| §5：“I implemented the system (O1), evaluation (O2) and demonstration…” | 人称一致性 | 无需用执行者作主语；完成状态应保留 | 低 | 是，I 在个人报告中正常 | 改写 | “The completed work includes the recognizer (O1), evaluation (O2) and playback demonstration…” |
+| README，Christopher Xu：“I handle the audio pipeline…” | 人称一致性 | 此句描述工作范围，不应改为所有最终目标均已完成 | 低 | 是，原句自然 | 改写 | “The solo project covers the audio pipeline, fusion and note representations, evaluation, and report.” |
+| §3.2：“Other roots can still compete” | 衔接 | 前一句文字解释已删，still 无需保留 | 低 | 是，有明确前文时成立；README 仍有该前文 | 精简 | “Other roots can compete” |
+
+## 三、综合建议
+
+保留主动表达，以研究问题、完成工作和项目范围作主语；未改研究结论、公式、数值、PI 或引用。三篇 overview 的既有支持范围不变，本轮未重复文献核验。两项技能和独立措辞复核均未发现含义变化，四页 PDF 已编译检查。上述语言特征不能证明文本由 AI 生成。
+
+---
+
 # Academic language audit — Feedback refinement, 2026-11-16
 
 ## 一、整体观察

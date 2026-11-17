@@ -11,7 +11,7 @@ The original objective was to build a multi-resolution guitar chord recognizer a
 
 Seventh chords provide a controllable case. Adding B♭ to C major or C minor produces C7 or Cm7 while preserving the major/minor target. The third, E or E♭, distinguishes the two qualities. With the triad templates, adding only a seventh component to ideal pitch-class inputs reduces the magnitude of a nonzero same-root score gap through L2 normalization, without reversing its sign. Varying third amplitude tests the effect of the added tone across stronger and weaker evidence for quality.
 
-Our research question is: **How does an added seventh affect major/minor recognition as third strength varies?** Here, *third strength* means amplitude relative to fixed root and fifth components. Comparisons of ideal inputs, paired audio and calibrated decoding will trace how the added tone affects scores and final labels.
+The research question is: **How does an added seventh affect major/minor recognition as third strength varies?** Here, *third strength* means amplitude relative to fixed root and fifth components. Comparisons of ideal inputs, paired audio and calibrated decoding will trace how the added tone affects scores and final labels.
 
 ## Data and tools
 
@@ -125,7 +125,7 @@ Suitable switching penalties depend on the acoustic model [12]. Duration modelli
 
 ## Christopher Xu
 
-I handle the audio pipeline, fusion and note representations, evaluation, and report. The following objectives and indicators are retained from the original proposal.
+The solo project covers the audio pipeline, fusion and note representations, evaluation, and report. The following objectives and indicators are retained from the original proposal.
 
 - Objective 1: Build a functional multi-resolution chord recognizer.
   - PI1 (basic): Load aligned audio and annotations and produce single-window chord predictions.

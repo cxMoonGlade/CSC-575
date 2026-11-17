@@ -26,7 +26,7 @@ The comparisons improved root recognition but exposed a difference in major/mino
 
 Seventh chords provide a controllable case: adding B$\flat$ to C major or C minor produces C7 or Cm7 while preserving the target label under major/minor evaluation\ \cite{humphrey2015,koops2019}. The third, E or E$\flat$, distinguishes the two qualities. With the triad templates, adding only a seventh component to ideal pitch-class inputs reduces the magnitude of a nonzero same-root score gap through L2 normalization, without reversing its sign (Eq.~\ref{eq:margin}). Varying the third's amplitude tests the effect of the added tone across stronger and weaker evidence for quality.
 
-Our research question is: \textbf{How does an added seventh affect major/minor recognition as third strength varies?} Here, third strength is amplitude relative to fixed root and fifth components. Comparisons of ideal inputs, paired audio and calibrated decoding will trace how the added tone affects scores and final labels.
+The research question is: \textbf{How does an added seventh affect major/minor recognition as third strength varies?} Here, third strength is amplitude relative to fixed root and fifth components. Comparisons of ideal inputs, paired audio and calibrated decoding will trace how the added tone affects scores and final labels.
 
 \section{Related Work}
 Ding et al.\ \cite{ding2026} compare estimated pitches with score-derived inputs in a learned two-stage recognizer. ChordFormer\ \cite{akram2026} predicts chord components and examines quality confusions with correct roots. Poltronieri et al.\ \cite{poltronieri2025} use component predictions and consonance-based training-label smoothing; one ablation improves root accuracy while reducing major/minor accuracy. These studies motivate separating acoustic evidence, root errors and quality errors.
@@ -55,7 +55,7 @@ Each of the 24 major/minor templates assigns weight $1/\sqrt{3}$ to its root, th
  =\frac{c_E-c_{E^\flat}}{\sqrt{3}\,\|c\|_2}.
  \label{eq:margin}
 \end{equation}
-Other roots can still compete: for ideal Cm7, C minor and E$\flat$ major have equal scores whenever the root and seventh activations match, regardless of third strength.
+Other roots can compete: for ideal Cm7, C minor and E$\flat$ major have equal scores whenever the root and seventh activations match, regardless of third strength.
 
 Frames at least 45\,dB below peak root-mean-square amplitude receive the no-chord label $N$; otherwise raw predictions maximize template scores. Viterbi decoding selects
 \begin{equation}
@@ -115,7 +115,7 @@ In \texttt{rock\_6}, the correct major template outscored its minor counterpart 
 
 \section{Individual Progress: Christopher Xu}
 \label{sec:individual}
-I implemented the system (O1), evaluation (O2) and demonstration (Table~\ref{tab:progress}). The split and settings are saved in \texttt{configs/}; the requirements lockfile and run records preserve software versions.
+The completed work includes the recognizer (O1), evaluation (O2) and playback demonstration (Table~\ref{tab:progress}). The split and settings are saved in \texttt{configs/}; the requirements lockfile and run records preserve software versions.
 
 \ProgressTable
 
